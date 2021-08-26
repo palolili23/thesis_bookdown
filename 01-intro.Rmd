@@ -1,0 +1,71 @@
+# Introduction {#intro}
+
+
+## The burden of Alzheimer's disease and dementia
+
+With extension of life expectancy over the last few decades, Dementia has become a major burden that affects the elderly. In 2016, the global number of individuals who lived with dementia was over 40 [@gbd2016] million and by 2050 this number is expected to triplicate [@worldreport2018]. In 2020, deaths due to Alzheimer’s disease and other dementias have increased, becoming the 7th leading cause of death globally and overtaking stroke to become the second leading cause in high-income countries[@who2020]. Women are disproportionately affected, accounting for 65% of deaths from dementia. Furthermore, the risk of dementia among populations from Low-middle income countries is increasing steeply, and it affects Latino, Black and other minorities disproportionately, worldwide. The burden of dementia does not only affect those who have the disease, it largely affect the lives of those who act as caregivers, families, and health-care systems. It may have sever repercussions, specially in poor and marginalized areas, given that the burden of caregiving  disproportionately affects women. Unequal distribution of opportunities and responsibilities and societal roles may push women into the caregiver role more than men, which hampers even more their access to paid work and health, creating negative feedback loops that increases all kinds of disparities [@swinkels2019, @brodaty2009, @etters2008].
+
+Given that dementia is a complex and heterogeneous disease, with multiple etiologic and neuropathologic processes related, there is an urge to identify modifiable risk factors and therapies that both prevent and delay the onset of dementia, as well as slow progression and reduce symptoms of disease. To this purpose, in 2020, the Lancet Commision released an updated guideline with evidence on twelve modifiable risks factors, which would account for 40% of worldwide dementias that could have been prevented or delayed [@dementia_lancet]. These modifiable risk factors include: less education, hypertension, hearing impairment, smoking, obesity, depression, physical inactivity, diabetes, low social contact, alcohol consumption, traumatic brain injury (TBI), and air pollution. 
+
+A growth for biomarker/ biological mechanisms research, which serves as proxy for dementia, but that could act as targets for intervention.
+
+
+In respect to therapies, there are few specific drugs that target amyloid and thau production, though with small evidence. Thus, new studies for drugs that target other mechanismis are in study. There is a call for drug repositioning and repurposing, which may offer a valuable alternative route for the identification of effective disease-modifying treatments for dementia. Drug repurposing, meaning the application of established drug compounds to new therapeutic indications [@ballard2020, @langedijk2015]. In 2020, Cummiengs et al. identified 121 agents in clinical trials for the treatment of Alzheimer's disease, out of which 43% (57) represented repurposed agents across all phases of the pipeline [@cummings2020]. Furthermore, approaches to identify potential drugs are often based on observational studies, as the use of large datasets to detect drug-associated patient outcomes becomes more available.
+
+## Giving causal inference a second chance
+
+Observational studies have been essential to move forward in the understanding of the disease and current availability of multiple sources of large data give us the opportunity to expand the field. Nevertheless, the availability of data sources and sophisticated computational software may sometimes overshadow the process of asking clear questions and the steps to tie the causal questions to the data. But acknowledging that etiologic research in dementia research represents causal thinking, is probably the first challenge and impediment to conceptualize a clear question. In a time were we have deeply embraced that "causation is not correlation", the concept of "associations" and training towards defining questions as hypothesis testing, has deeply overshadowed the critical step in research to clearly define questions and wanted interpretations. Likewise, extensive debates among causal inference researchers, on whether exposures that cannot be intervened up or manipulated (such as sex, race or BMI) can be framed causal questions, can be overwhelming and confusing to novice students who are trying to embrace causal thinking. At least, this was the case for me on the early years of my PhD trajectory.
+
+Without falling into one side of the polarized debate of what is causal or not, this dissertation provides an optic to dementia etiologic research from a causal inference lens. Throughout the next chapters I will conceive all kinds of time-varying exposures such as medication treatments as in Chapter \@ref(chapter2) or molecular pathways that are yet unobserved as in Chapter \@ref(chapter4), as potential targets of intervention. I will develop how the creative process of thinking and imagining what is what we truly want to ask helps to formulate clear questions, identify potential sources of bias, and articulate the analytic methods to match the question. Furthermore, I will show how this process will enhance the transparency of the research intentions, and discuss the challenges that rise regarding _consistency_, one of the identifiability assumptions on causal inference. To this matter, throughout this dissertation I will embrace and implement the target trial emulation framework[@labrecque2018]. 
+
+## Target trial emulation and well-defined interventions
+
+Since observational studies are often performed using data that was not collected specifically to answer one but rather several questions of interest, we must be cautious on the study design and analytic decisions to answear each question. The target trial emulation is the application of design principles from randomized trials to the analysis of observational data, explicitly tying the analysis to the trial it is emulating. This includes specifying the eligibility criteria, treatment strategies, treatment assignment, follow-up period, outcome, causal contrasts and statistical analysis[@labrecque2018]. Describing each of these elements can be a challenging process, since there is no right or wrong. The refinement of the causal question will often be a back and forward process between the question we truly aim to answer and the availability of data to answer that question. 
+
+To illustrate how the target trial improves observational studies, in \@(chapter 2) I conceptualize a target trial to study the effect of statins treatment in the 10-year risk of dementia and death. This work brings clarity to the idea that even in observational studies we can formulate causal contrasts like the intention-to-treat effect (ITT) and to the per-protocol effect (PP), as in pragmatic trials. In this setting, the intention-to-treat effect refers to a combination of the effect of the treatment under study and of any other patient and physician's behavioral changes triggered by the assignment itself, and is agnostic of any treatment decisions made after baseline, which makes it difficult to interpret to patients, clinicians and other decision-makers (@murray2019). Thought this is what makes it appealing from an analytic perspective, since it can be conceptualized as a point treatment strategy. Instead, the per-protocol effect represents the effect of being assigned and adhere to the assigned treatment strategy through-out follow-up, as specified in the study protocol. 
+
+Furthermore, the per-protocol effect can be conceptualized as a dynamic treatment strategy, since adherence to a treatment strategy over follow-up will depend on the evolution of an individual's time-varying covariates. For example, in the case of statins, an individual can be assigned to not take statin therapy during the study, unless LDL-cholesterol is high or coronary heart disease is diagnosed. Likewise, an individual should be allowed to stop statin therapy if side effects arise. Being explicit about the treatment strategy emphasizes on the necessity to collect data on the treatment adherence over follow-up, as well as time-varying confounders and predictors of adherence. It also introduces the major challenge with time-varying treatments, the time-varying confounding feedback. 
+
+Time-varying confounding feedback refers to the setting where, time-varying covariates at time $t$ affect treatment at time $t$, but additionally, time-varying covariates at time $t$ are affected themselves by treatment at time $t - 1$. 
+
+(ref:fig1) DAGs representing an MR study with one genetic variant *Z*, proposed as an instrument for the effect of *X* on *Y*. In **A**, *Z* is a valid instrument. In **B**, the MR assumptions are violated by a direct effect of *Z* on *Y*.
+
+
+```{tikz fig1, echo = FALSE,  fig.align='center',  fig.cap = '(ref:fig1)'}
+\usetikzlibrary{arrows}
+\begin{tikzpicture}[node distance=2cm]
+\node (a0) {$A_0$};
+\node [right of = a0] (l1) {$L_{1}$};
+\node [right of = l1] (a1) {$A_{1}$};
+\node [below of = l1] (u1) {$U_{1}$};
+\node [right of = a1] (y) {$Y$};
+\draw[->] (a0) to (l1);
+\draw[->] (l1) to (a1);
+\draw[->] (u1) -- (l1);
+\draw[->] (u1) to [out=0,in=-90, looseness=0.5] (y);
+\end{tikzpicture}
+```
+
+Just as we are interested in the time-varying effect of medication strategies in the risk of dementia, most of the "risk factors" proposed by the Lancet Comission, can be conceptualized within a target trial framework. This step would help us clarify what are the underlying interventions to be framed around these modifiable risks factors. In Chapter 3 
+
+## Study setting
+
+For this reason, in chapter 2. we begin by conceptualizing questions around the competing event of death. We
+In chapter 3. we study the effect of statins in the risk of dementia. In chapter 4 we study the potential effect of interventions that reduce systolic blood pressure over time. In chapter 5 I unveil the issues around a cancer onset as an exposure, and outline the causal question behind the inverse association between cancer and dementia.
+
+## Aims
+
+"to search for all the refutable consequences of a hypothesis demands highly imaginative thinking. Imagination is needed to arrive at the hypothesis in the first place, let alone to suggest rigorious tests for it. Although imaginative thinking is commonly regarded as an inborn ability which cannot be taught, de Bono suggests many techniques for enhancing whatever abilities a person has received from nature. (de Bono, Lateral Thinking)"
+
+## Dementia diagnosis and death
+
+- Talk a bit about competing events, the fuzzyness around questions and unclear interpretations.
+
+
+
+
+"Productive habits of thought might be acquired if thought were given more emphasis and action less" [@buck2017]
+
+
+\newpage
+ 

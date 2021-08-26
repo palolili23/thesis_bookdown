@@ -1,0 +1,47 @@
+# Discussion
+
+
+## Discussion
+
+- Main findings
+
+Methodological considerations
+
+ * Identifiability challenges
+ 
+- Unmeasured confounding: For the statins paper is confounding by indication. For systolic blood pressure, comorbidities, frailty, hypertension medication. For pin1 it's just crazy
+
+- Unmeasured confounding related to the controlled direct effect in competing events
+
+- Consistency: 
+
+- The tabu behind the well-defined intervention. Talk a bit about does water kill and maybe some prior concepts about consistency. In statins we assume that the effect of statins is consistent across statin types, and historically too.
+In the case of blood pressure, although we mimiqued the sprint trial, we are not clear about how... problems with defining.
+Mention that it is very hard to define time zero in settings of biomarkers, worse when a disease diagnosis is considered the exposure. Sometimes yes, a measurement of a biomarker may lead to an action, but in settings where the biomarker is measured in a different setting, this becomes more challenging.
+
+
+Consistency has to do also with how we frame our questions, is it the ITT effect or the sustained effect?
+To do this, the common challenge observed in statins and in cancer is defining the time zero
+.
+
+In statins we used a sophisticated method, but which's replicability and flexibility is not yet accessible. for example, we only addressed the cde and the combined outcome.
+For the cancer, since you can only transition from one arm to the other, there is no clear time-window at best we fit IPW up to x.
+
+Positivity. The RS included participants from x to y age and followed them throught time. Ideally, in a target trial setting we would have selected younger participants. If restrict to the first cohort, and with 
+
+- combining sources o
+
+Future directions
+
+- Social determinants of health
+
+- there are many related to dementia. a frequent one is education
+
+- Alternative estimands for incident outcomes and competing events
+
+* Separable effects
+
+* Life-expectancy issues
+
+
+Epilogue
