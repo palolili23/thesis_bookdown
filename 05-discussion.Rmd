@@ -1,9 +1,21 @@
 # Discussion
 
+## Main findings / Principal findings
 
-## Discussion
+## General synthesis
 
-- Main findings
+### Broader implications
+
+### Future directions
+
+#### Applied dementia research
+
+#### Methods develompment
+
+#### Software and educational resources
+
+## Conclusion
+
 
 Methodological considerations
 
@@ -43,5 +55,7 @@ Future directions
 
 * Life-expectancy issues
 
+
+By representing each step that goes from the imaginary hypothesis to the data-generation mechanisns, through causal diagrams, we were able to dissect several sources of bias, some of which we can prevent by design or within the analysis, but some leave room to bigger discussions in respect to how to continue 
 
 Epilogue

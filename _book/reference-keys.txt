@@ -21,3 +21,11 @@ discussion
 discussion-1
 chapter5
 chapter6
+main-findings-principal-findings
+general-synthesis
+broader-implications
+future-directions
+applied-dementia-research
+methods-develompment
+software-and-educational-resources
+conclusion
