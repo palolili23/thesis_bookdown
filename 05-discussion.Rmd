@@ -1,103 +1,20 @@
 # Discussion
-
-## Main findings / Principal findings
-
-The aim in Chapter 2 was to emulate a hypothethical randomized trial - a target trial - for estimating observational analogues to intention-to-treat and per-protocol effects of statins in the risk of dementia. In this study we found that individuals with sustained statin use, but not statin initiation alone had reduced 10-year risks of dementia and dementia or death. 
-To anwer this question we preventing one of the most important bias in pharmaco-epidemiology studies, the prevalent user bias. To overcome this situation, a clear definition of the eligibility criteria which includes participants with no statin prescription in the previous two years, and no previous diagnosis of dementia prevents potential reverse causation. Given that only few participants would be included in the treatment arm, this study is the first one to apply the methodology of "sequence of trials". This means that, rather than conceptualizing on point in time as the time zero, eligibility criteria is assessed every month between February 1993 and December 2007. That represented 180 trials, each of them with a 1-month enrollment period. As described in Chapter 2, baseline variables are updated at the start of each trial. Data is pooled from all 180 trials into a single model. 
-This allows us to go from 6373 eligible participants in the study, to 1578655 potential person trials.
-
-Though results should be interpreted with caution, due to the yet small number of initiators and events, and potential residual confunding. This design brings an opportunity to increase sample size in respect to new users, one of the concerns when considering a new-user design target trial. However, since the publication of this study, new studies have continuously per
-It is unfortunate that more recent work, such as Zhou 2021, contrasts current-users vs. non-users at baseline, when the had over 1700 new users in this trial.
-
-This issue, the gap between the theory developed in epidemiologic methods and applications is should be more of a concern for the field....
-
-
-The same gap is found in the research specifically focused in understanding the effect of hypertension, or better yet, the effect of reducing blood pressure under clinical thresholds in the risk of dementia. In one hand, we have randomized controlled trials that looked at the effect of specific antihypertensives, or alternatively, the effect of keeping blood pressure under clinical thresholds, such as the iconic SPRINT-Mind trial. In the other hand, we have observational studies that are either looking at the effect of antihypertensives with the design issues we described above (such as the prevalent user desing), or look at systolic blood pressure, categorizing participants under different cutt-offs, mostly specified at baseline or over follow-up. (Maybe say something about Ding).
-We attempt to bridge these two sides of research in Chapter 3. The aim of this study was to emulate a target trial to estimate the sustained effect of several hypothetical interventions on systolic blood pressure control, including in combination with an intervention on smoking over follow-up, on the risk of first-ever stroke and dementia using data from 15 years of follow-up in the Rotterdam Study.
-
-All interventions that involved reducing SBP were associated with a stroke risk reduction of about 10%, and joint interventions on SBP and smoking status further decreased the risk of stroke in over 15% (e.g. reducing SBP by 20% if above 140mmHg and quit smoking risk ratio: 0.83; 95% CI 0.71 - 0.94). In contrast, we did not observe a change in the risk of dementia. 
-
-**About competing events.**
-
-Competing events is probably the most exciting methodologic problem I faced in my career. Specially because it is often taught as an advanced method in survival analysis and not frequently used or well understood. But, as opposed to the believe that research questions with competing events are the exception, I believe that they happen very frequently. The field of dementia and other aging-related diseases is specially affected to competing events, given that participants may die from other conditions before developing dementia.
-
-In Chapter 5 I reviewed over fifty papers published in top journals. Our aim was to understand what are the current practices and.
-Although about 80% of papers had follow-up longer than 5 years, almost half of the papers did not even mention how many participants had died over follow-up, and only few had described the number of deaths on each exposure group. In some cases, death was not even mention when the lenght of follow-up for each participant was described.
-
-My take aways
-
-The idea that when competing events are present, there is more than one "risk" estimand, is very old. In fact, prior to the development of Cox-regression models, in the 70's Tsiatsis had already outline at least two types of risks: the "net risk" and the "crude risk". The net risk was defined as the risk of the main outcome in settings where the competing event could have been eliminated. As opposed, the crude risk represented the risk of the main outcome when the competing event is also present. This lead to many discussions in that time already, and there was a big emphasis on the problems of relying on the independent censoring assumption when it is not verifiable in the observed data. But they raised one key point that is often forgotten, relying on this assumption requires deep knowledge on the biological process and expertise knowledge on the topic.
-
-Many researchers question what is the clinical meaning or the usefulness of question where the competing event could have been prevented/eliminatated. For example Thernau, author of the R "survival" package, formulated that "_in this hypothetical world it is indeed true that many more subjects would progress to PMC, but it is also not a world that any of us will ever inhabit. This author views the result in much the same light as discussions of survival after the zombie apocalypse_". Likewise Andersen et al. adviced strongly to "stick to this world" in their paper on xx.
-
-These cautionary recommendations make sense, up to the point that some may ask, why did we ever consider this as a useful estimand? To understand this, it is key to go back to the origins of the study of competing events, which goes back to the 18th century. Back in those days, there was a smallpox pandemic, and as such, several attempts to develop treatments where under study. One of them was innoculation of smallpox. In different countries, several physicians tested if smallpox innoculation could prevent the disease, though in extremely unethical and violent circumstances (such as testing in slave's children). 
-Bernoulli created life tables to count how many people died from smallpox and from other causes of disease and described a counterfactual scenario where death due to smallpox could have been eliminated. His underlying question was, how many deaths could be prevented with inoculation? 
-This counterfactual scenario makes sense for smallpox and any other infectious disease, currently the WHO is still trying to erradicate infectious disease that are present in low-middle income countries and low income countries, so imagining a world where death from ID are prevented, looks more like looking at the WHO charts from high income countries than considering survival after a zombie apocalipse. In fact, in the current state of the world, we could even ask what would be the risk of dementia if we could have prevented all deaths caused by Covid-19?
-
-At that time, Bernoulli's theory and calculations caused some negative reactions by others, such as D'Alembert. He believed that mathematics and probability should be applied to real-world scenarios, and labeled Bernoulli's assumptions as the "_art of conjecture_", where _conjecture_ means . I was fascinated with this story, because I feel that the most trascending debates in causal inference are related to the assumptions - or conjectures - we dare to believe or imagine, where in reality _data_ is not necessary equivalent to _information_.
-
-The debate on what estimands we have available has lost attention, as the attention turned to the 
-
-
-
-
-
-## General synthesis
-
-### Broader implications
-
-### Future directions
-
-#### Applied dementia research
-
-#### Methods develompment
-
-#### Software and educational resources
-
-## Conclusion
-
-
-
-
-Methodological considerations
-
- * Identifiability challenges
+ In this thesis, I aimed to study the effect of several potential targets of intervention related to dementia prevention that have had controversial results in previous observational studies, by applying causal inference theory and corresponding methods. In this section I will outline the principal findings of each project while laying the methodological challenges and the implemented solutions. Next, I will describe the potential future directions and briefly summarize the central points of this dissertation.
  
-- Unmeasured confounding: For the statins paper is confounding by indication. For systolic blood pressure, comorbidities, frailty, hypertension medication. For pin1 it's just crazy
-
-- Unmeasured confounding related to the controlled direct effect in competing events
-
-- Consistency: 
-
-- The tabu behind the well-defined intervention. Talk a bit about does water kill and maybe some prior concepts about consistency. In statins we assume that the effect of statins is consistent across statin types, and historically too.
-In the case of blood pressure, although we mimiqued the sprint trial, we are not clear about how... problems with defining.
-Mention that it is very hard to define time zero in settings of biomarkers, worse when a disease diagnosis is considered the exposure. Sometimes yes, a measurement of a biomarker may lead to an action, but in settings where the biomarker is measured in a different setting, this becomes more challenging.
-
-
-Consistency has to do also with how we frame our questions, is it the ITT effect or the sustained effect?
-To do this, the common challenge observed in statins and in cancer is defining the time zero
-.
-
-In statins we used a sophisticated method, but which's replicability and flexibility is not yet accessible. for example, we only addressed the cde and the combined outcome.
-For the cancer, since you can only transition from one arm to the other, there is no clear time-window at best we fit IPW up to x.
-
-Positivity. The RS included participants from x to y age and followed them throught time. Ideally, in a target trial setting we would have selected younger participants. If restrict to the first cohort, and with 
-
-- combining sources o
-
-Future directions
-
-- Social determinants of health
-
-- there are many related to dementia. a frequent one is education
-
-- Alternative estimands for incident outcomes and competing events
-
-* Separable effects
-
-* Life-expectancy issues
-
-
-By representing each step that goes from the imaginary hypothesis to the data-generation mechanisns, through causal diagrams, we were able to dissect several sources of bias, some of which we can prevent by design or within the analysis, but some leave room to bigger discussions in respect to how to continue 
-
-Epilogue
+ 
+## Principal findings and methodologic considerations
+The aim in Chapter 2 was to emulate a hypothetical randomized trial - a target trial - for estimating observational analogues to intention-to-treat and per-protocol effects of statins in the risk of dementia. In this study we found that individuals with sustained statin use, but not statin initiation alone had reduced 10-year risks of dementia and dementia or death. Although results should be interpreted with caution, due to the yet small number of statin initiators and number of dementia events, plus potential residual confounding, these findings show how important it is to define and estimate per-protocol effects using observational data. 
+One of the major and most frequent methodologic flaws in previous observational studies has been the prevalent user bias(cite). This bias refers to the comparison between prevalent users of statins with nonusers, which is subject to selection bias because prevalent users have, by definition, survived under treatment[@danaei2012]. Randomized controlled trials are protected from this bias given that they recruit participants who have not taken statins prior to the study. In contrast, many observational studies do not follow the same eligibility criteria and classify participants by their history or current status of statin use. By emulating the target trial we prevent this bias in two ways: first, by having a clear definition of who would be eligible, which results in excluding prevalent users and second, by having clear definitions of the causal contrast such as “initiating stating treatment” vs. “not initiating statin treatment” or “initiating and sustained statin use” vs “not initiating ever”. Although this has been remarkably emphasized in pharmaco-epidemiology guidelines(cite) and previous methodologic papers (cite) specifically on statins, it is surprising that only few studies have considered this design (cite). 
+One of the frequent arguments against considering “new users” design is that it may lead to a small sample problems. For example, if we only include participants based on information that was only collected once and we have measured at baseline statin use (such as current indication, length of duration with medication), we may restrict to only those participants who have initiated statin at the time of the measurement and those who have not used it ever (or in a long period before). However, when longitudinal information on statin use is available, we can overcome this situation. In our work, the eligibility criteria was clearly defined to include participants with no statin prescription in the previous two years, and no previous diagnosis of dementia. Since only few participants would be included in the treatment arm at the study baseline, we conceptualized a "sequence of trials". This means that, rather than defining one point in time as the time zero, eligibility criteria was assessed every month between February 1993 and December 2007. This represents 180 trials, each of them with a 1-month enrollment period. As described in Chapter 2, baseline variables are updated at the start of each trial. Data is pooled from all 180 trials into a single model. This design allows us to go from 6373 eligible participants in the study, to 1578655 potential person-trials.
+In respect to the per-protocol effect we faced a few limitations. In an RCT participants would take statins over follow-up, and there would be a strict control over adverse-effects over time or contraindications that arise over follow-up. All these would be recorded as standard practice related to safety and quality control. Thus we would be interested in the effect of the sustained use of statins until the outcome of interest or any contradiction over follow-up. In contrast, in this study we faced some limitations: 1) we used data on prescriptions rather than on information on actual intake, 2) we had no information on lack of 
+Up to the time this dissertation was written (October, 2021), no other research paper has been published answering this or an analogous question considering the time-varying nature of statins intake in a different population. Even worse, new studies such [@Zhou2021], continued to contrasts current-users vs. non-users at baseline, when this trial had over 1700 new statin users over follow-up. 
+I acknowledge that the “sequence of trial” design has limitations in respect to computational challenges and reproducibility. To performed this analysis we used a SAS macro, developed and accessible at the Causal Inference Lab at Harvard [@]. So far, few applications using this tool have been published and no open source package (such as in R or Python) has been published. Not having open source tools means that not all the research community has access to them. However simpler techniques have proven to show similar results (goodarz), though with less precision. I hope that more network and more educational resources, developed by collaborative work between applied researchers, methodologists and biostatisticians, helps narrow the gap between methods development and applications in a shorter spam of time. 
+We highlight the importance of phrasing a per-protocol effect question in Chapter 3. 
+I found a similar gap between methods development and applied research when it comes to studying the effect of hypertension, or better yet, the effect of reducing blood pressure under clinical thresholds and the risk of dementia. In one hand, few randomized controlled trials have looked at the effect of specific antihypertensives, or alternatively, the effect of keeping blood pressure under clinical thresholds, such as the iconic SPRINT-Mind trial. Most trials where originally performed to answer questions around cardiovascular diseases and as such, they had very specific criteria (such as participants with history of stroke or with risk of cardiovascular disease [@sprint]) and small length of follow-up. 
+In the other hand, we have observational studies that have either looked at the effect of antihypertensives with the design issues we described above (such as the prevalent user design and defined at only one time-point) [@ding2020], described the longitudinal systolic blood pressure patterns across blood pressure categories and outcome level [@rajan2018] or they categorize participants under different cutt-offs of systolic blood pressure, either at baseline or collapsing time-varying information over follow-up as unique categories  [@walker2019]. 
+We attempt to bridge these two sides of research in Chapter 3. The aim of this study was to emulate a target trial to estimate the sustained effect of several hypothetical interventions on systolic blood pressure control, including in combination with an intervention on smoking over follow-up, on the risk of first-ever stroke and dementia using data from 15 years of follow-up in the Rotterdam Study. All interventions that involved reducing SBP were associated with a stroke risk reduction of about 10%, and joint interventions on SBP and smoking status further decreased the risk of stroke in over 15% (e.g. reducing SBP by 20% if above 140mmHg and quit smoking risk ratio: 0.83; 95% CI 0.71 - 0.94). In contrast, we did not observe a change in the risk of dementia. As opposed, all point estimates were above one. These results need to be interpreted in the context of death as a competing event. Given that we have targeted at a total effect, part of the effect in the risk of dementia is mediated by how interventions affect the risk of death.
+Like in the previous study, our interest was in the sustained effect of these strategies, over 20 years of follow-up – that is, we were interested in the per-protocol effect. Rather than answering this question with inverse-probability weighting (or IPW), we used the parametric g-formula. The parametric g-formula is a method that allows us to fit regression models to estimate the complete joint distribution of the outcome given the time-varying exposures and time-varying confounding. Under the assumption of no unmeasured confounding and no model-misspecification, we can use high-dimensional data to simulate the risk of an outcome as if everybody would receive a certain intervention. Each simulation represents a different “treatment arm” and randomization is mimicked because every simulation recreates the same pseudopopulation and only the value of systolic blood pressure is modified according to the defined strategy. This method allows us to define as many useful interventions we want, so it can be a powerful tool.
+But, as they say, with great power comes great responsibility. The parametric g-formula is very sensitive to model misspecifications. Since all variables are modeled (the intervention, outcome, competing events, and all included confounders), this method pushes the researcher to understand the nature of each variable, how it was collected and even how it is coded or treated in the dataset. This introduced some challenges during the analysis and fitting of the g-formula. In this study we gathered information of systolic blood pressure, that was measured at every visit in the Ergo-Center. Thus, each participant had up to 5 measurements of this variable, and the date of the measurement. We also collected other time-varying covariates that were measured during these visits, such as smoking, body mass index, alcohol intake, cholesterol and hypertension treatment. We also included time-varying covariates that represented an incident diagnosis of diabetes, heart disease, cancer. These variables, as well as the outcome of stroke, dementia and death, were collected from several sources such as integration of the electronical medical records, and we had specific dates for each variable that were unrelated to the dates of the visit process. 
+When we transformed data to a long format, to have person-time as rows, using years as the time scale. When we fit models for each covariate, predictions were very off including the predictions of systolic blood pressure. Fortunately, the reason of this problem was visually represented when plotting the predicted values of the systolic blood pressure vs. the observed values over time, represented in Figure 2A. In this plot we observed, in red line the observed mean values of SPB at each year, vs. the predicted values of SPB in dotted blue lines. The shape of observed trajectory looks like irregular steps, while the predicted values look linear. These irregular steps represent the years in which values changed for each individual, and those values are specific to the visit process. However, they are not entirely regular because intervals between visits were not symmetric, and intervals between two consecutive visits were not symmetric across individuals. That means that participant X could have their SBP measured with one year of distance, while participant Y may have a gap up to six years between SBP measurements.
+To solve this challenge, we had to create variables that indicated the year in which each participant attended each visit.  Then, we set the g-formula parameters to simulate the visit process and to simulate each covariate that was measured at the visits only after each visit was first simulated. As opposed, the variables that are independent of the visit process did not require this specification. This setup lead to better predictions, as we observe in Figure 2B. This experience increased my awareness of the additional challenges that remain underexplored in longitudinal studies, and that is not restricted to the use of the parametric g-formula, but in general everytime we use this kind of data. This highlights how important it is to be familiarized with the data collection process and the data in general. And that the application of the g-formula will be molded to the cohort characteristics and unique features.
+Now that we have discussed the technical challenges, I can focus on the broader discussion related to having a well-defined intervention. In this hypothetical trial we did not specify how we would reduce the blood pressure, that is it could be with changing life style habits, medication (any), etc. This could lead to criticism  
