@@ -1,11 +1,6 @@
-fig:fig1
 intro
-the-burden-of-alzheimers-disease-and-dementia
-giving-causal-inference-a-second-chance
-target-trial-emulation-and-well-defined-interventions
 study-setting
-aims
-dementia-diagnosis-and-death
+references
 chapter2
 abstract
 introduction
@@ -18,9 +13,6 @@ chapter4
 example-one
 example-two
 discussion
-discussion-1
-chapter5
-chapter6
 main-findings-principal-findings
 general-synthesis
 broader-implications
@@ -29,3 +21,5 @@ applied-dementia-research
 methods-develompment
 software-and-educational-resources
 conclusion
+chapter5
+chapter6
