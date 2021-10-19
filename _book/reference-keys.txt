@@ -13,13 +13,7 @@ chapter4
 example-one
 example-two
 discussion
-main-findings-principal-findings
-general-synthesis
-broader-implications
-future-directions
-applied-dementia-research
-methods-develompment
-software-and-educational-resources
-conclusion
+principal-findings-and-broader-implications
+directions-for-future-research
 chapter5
 chapter6
