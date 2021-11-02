@@ -19,3 +19,34 @@ knitr::kable(
 ```
 
 You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+### Structure
+
+- title page
+- 2 empty
+- 3 title, rector... logos
+- 4 doctoral committee and paranymphs
+- 5 Manuscripts that form the basis of this thesis
+- 6 Empty
+- 7 Contents
+- x empty
+
+01-intro
+02-statins
+03-sbp
+04-cancer
+05-systematic review
+06-competing events
+07-discussion
+08-epilogue
+09-references
+10-summary
+11-Appendix
+- CV
+- PhD Portfolio
+- Acknowledgements
+
+- Each chapter includes Appendix with supplementary material, then References
+- Each chapter has embeded figures and tables
+
+

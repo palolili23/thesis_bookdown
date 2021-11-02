@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.22)  28 OCT 2021 15:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.22)  2 NOV 2021 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,8 +1213,7 @@ LaTeX Warning: Citation 'etters2008' on page 5 undefined on input line 95.
 LaTeX Warning: Citation 'carrillo2013' on page 5 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'dementia_lancet' on page 5 undefined on input line 97.
-
+LaTeX Warning: Citation 'lancet2020' on page 5 undefined on input line 97.
 
 
 LaTeX Warning: Citation 'ballard2020' on page 5 undefined on input line 97.
@@ -1297,7 +1296,7 @@ LaTeX Warning: Citation 'richardson2014' on page 7 undefined on input line 107.
 LaTeX Warning: Citation 'pearl1994' on page 8 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'robins' on page 8 undefined on input line 109.
+LaTeX Warning: Citation 'robins1986' on page 8 undefined on input line 109.
 
 
 LaTeX Warning: Reference `(' on page 8 undefined on input line 109.
@@ -1314,17 +1313,7 @@ LaTeX Warning: Citation 'lau2009' on page 8 undefined on input line 113.
 
 LaTeX Warning: Citation 'young2020' on page 8 undefined on input line 113.
 
-
-LaTeX Warning: Reference `chapter6' on page 8 undefined on input line 113.
-
-[8]
-
-LaTeX Warning: Reference `chapter7' on page 9 undefined on input line 115.
-
-
-LaTeX Warning: Reference `chapter8' on page 9 undefined on input line 115.
-
-[9]
+[8] [9]
 
 LaTeX Warning: Citation 'hofman1991' on page 10 undefined on input line 122.
 
@@ -1812,439 +1801,312 @@ LaTeX Warning: Citation 'who_dementia2019' on page 38 undefined on input line 4
 Chapter 4.
 [39
 
-] [40
-
 ]
-Chapter 5.
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 40 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
-LaTeX Warning: Citation 'luijken2021' on page 41 undefined on input line 489.
+[40]
 
-
-LaTeX Warning: Citation 'power2015' on page 41 undefined on input line 489.
-
-
-LaTeX Warning: Citation 'hernan2008' on page 41 undefined on input line 489.
-
-
-LaTeX Warning: Citation 'danaei2012' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'ma2014' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'hernan2016' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'hanson2016' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'hernan_robins_2016' on page 41 undefined on input line
- 489.
+LaTeX Warning: Citation 'vanderwillik2018' on page 41 undefined on input line 4
+87.
 
 
-LaTeX Warning: Citation 'ray2003' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'ospina2020' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'lund2015' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'behrens2009' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'johnson2013' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'harris2014' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'danaei2012' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'nudelman2019' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'power2015' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'Papin2020' on page 41 undefined on input line 487.
 
 
-LaTeX Warning: Citation 'emilsson2018' on page 41 undefined on input line 489.
+LaTeX Warning: Citation 'driverbiogeront2014' on page 41 undefined on input lin
+e 487.
+
+
+LaTeX Warning: Citation 'olson2019' on page 41 undefined on input line 487.
+
+
+LaTeX Warning: Citation 'li2021' on page 41 undefined on input line 487.
+
+
+LaTeX Warning: Citation 'driverpin12015' on page 41 undefined on input line 487
+.
+
+
+LaTeX Warning: Citation 'Snyder2017' on page 41 undefined on input line 487.
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 487--488
+\TU/lmr/m/n/10 These findings have motivated substantial research toward mechan
+istic
+ []
+
+
+LaTeX Warning: Citation 'driverbiogeront2014' on page 41 undefined on input lin
+e 489.
+
+
+LaTeX Warning: Citation 'ganguli2015' on page 41 undefined on input line 489.
+
+
+LaTeX Warning: Citation 'didelez2016' on page 41 undefined on input line 489.
+
+
+LaTeX Warning: Citation 'labrecque2017' on page 41 undefined on input line 489.
+
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 489--490
+\TU/lmr/m/n/10 served cancer-dementia inverse association is not straightforwar
+d. Re-
+ []
+
+
+LaTeX Warning: Citation 'driverpin12015' on page 41 undefined on input line 491
+.
+
+
+LaTeX Warning: Citation 'angelucci2017' on page 41 undefined on input line 491.
+
+
+
+LaTeX Warning: Citation 'li2021' on page 41 undefined on input line 491.
+
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+
+Overfull \hbox (250.27792pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 4.2.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIAT
+ION BETWEEN CANCER AND DEMENTIA \TU/lmr/m/n/10 41
+ []
 
 [41]
 
-LaTeX Warning: Citation 'danaei2013' on page 42 undefined on input line 491.
+LaTeX Warning: Citation 'whatif2020' on page 42 undefined on input line 503.
 
 
-LaTeX Warning: Citation 'garcia_albeniz2016' on page 42 undefined on input line
- 491.
+LaTeX Warning: Citation 'ospina2020' on page 42 undefined on input line 503.
 
 
-LaTeX Warning: Citation 'zhou2021' on page 42 undefined on input line 493.
+LaTeX Warning: Citation 'tan2010' on page 42 undefined on input line 503.
 
 
-LaTeX Warning: Citation 'danaei2013' on page 42 undefined on input line 493.
+LaTeX Warning: Citation 'dementia_lancet' on page 42 undefined on input line 50
+3.
 
 
-LaTeX Warning: Citation 'garcia_albeniz_2017' on page 42 undefined on input lin
-e 493.
+LaTeX Warning: Citation 'driver2012' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'emilsson2018' on page 42 undefined on input line 493.
+LaTeX Warning: Citation 'musicco2013' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'williamson2019' on page 42 undefined on input line 496
-.
+LaTeX Warning: Citation 'freedman2016' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'forette1998' on page 42 undefined on input line 496.
+LaTeX Warning: Citation 'bowles2017' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'tzourio2003' on page 42 undefined on input line 496.
+LaTeX Warning: Citation 'frain2017' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'lithell2003' on page 42 undefined on input line 496.
+LaTeX Warning: Citation 'schmidt2017' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'diener2008' on page 42 undefined on input line 496.
+LaTeX Warning: Citation 'sun2020' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'anderson2011' on page 42 undefined on input line 496.
+LaTeX Warning: Citation 'ording2020' on page 42 undefined on input line 507.
 
 
-LaTeX Warning: Citation 'williamson2019' on page 42 undefined on input line 496
-.
+Underfull \hbox (badness 1194) in paragraph at lines 507--508
+\TU/lmr/m/n/10 explains the inverse association between cancer diagnosis and de
+mentia,
+ []
 
 
-LaTeX Warning: Citation 'ding2020' on page 42 undefined on input line 496.
-
-
-LaTeX Warning: Citation 'rajan2018' on page 42 undefined on input line 496.
-
-
-LaTeX Warning: Citation 'walker2019' on page 42 undefined on input line 496.
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
 [42]
 
-LaTeX Warning: Citation 'young2020' on page 43 undefined on input line 498.
+LaTeX Warning: Citation 'hernanInmortal2016' on page 43 undefined on input line
+ 513.
 
 
-LaTeX Warning: Citation 'robins1086' on page 43 undefined on input line 500.
+LaTeX Warning: Citation 'hernanInmortal2016' on page 43 undefined on input line
+ 513.
 
 
-LaTeX Warning: Citation 'whatif' on page 43 undefined on input line 500.
+LaTeX Warning: Citation 'driver2012' on page 43 undefined on input line 513.
 
 
-LaTeX Warning: Citation 'taubman2009' on page 43 undefined on input line 500.
+LaTeX Warning: Citation 'hanson2016' on page 43 undefined on input line 513.
 
 
-LaTeX Warning: Citation 'young2011' on page 43 undefined on input line 500.
+LaTeX Warning: Citation 'anderson1983' on page 43 undefined on input line 513.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 513--514
+\TU/lmr/m/n/10 for Pin1 is defining the time zero, i.e. the time when eligibili
+ty crite-
+ []
+
+
+LaTeX Warning: Citation 'white2013' on page 43 undefined on input line 515.
+
+
+LaTeX Warning: Citation 'hanson2016' on page 43 undefined on input line 515.
+
+
+LaTeX Warning: Citation 'bowles2017' on page 43 undefined on input line 515.
+
+
+LaTeX Warning: Citation 'nadler2013' on page 43 undefined on input line 515.
 
 [43]
 
-LaTeX Warning: Citation 'hernan2009' on page 44 undefined on input line 505.
+LaTeX Warning: Citation 'young2020' on page 44 undefined on input line 523.
 
 
-LaTeX Warning: Citation 'zhang2011' on page 44 undefined on input line 505.
+LaTeX Warning: Citation 'young2020' on page 44 undefined on input line 523.
 
 
-LaTeX Warning: Citation 'young2019' on page 44 undefined on input line 505.
+LaTeX Warning: Citation 'stensrud2020' on page 44 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'frain2017' on page 44 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'whatif2020' on page 44 undefined on input line 527.
+
+
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 44 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
 [44]
 
-LaTeX Warning: Citation 'waterkills' on page 45 undefined on input line 509.
+LaTeX Warning: Citation 'ikram2020' on page 45 undefined on input line 536.
 
 
-LaTeX Warning: Citation 'hernan2011' on page 45 undefined on input line 509.
+LaTeX Warning: Citation 'driver2012' on page 45 undefined on input line 543.
+
+
+LaTeX Warning: Citation 'hernan2000' on page 45 undefined on input line 543.
 
 [45]
 
-LaTeX Warning: Citation 'yamada1999' on page 46 undefined on input line 515.
+LaTeX Warning: Citation 'whatif2020' on page 46 undefined on input line 545.
 
 
-LaTeX Warning: Citation 'ospina2020' on page 46 undefined on input line 515.
+LaTeX Warning: Citation 'young2020' on page 46 undefined on input line 545.
 
 
-LaTeX Warning: Citation 'vanderwillik2018' on page 46 undefined on input line 5
-15.
+LaTeX Warning: Citation 'young2020' on page 46 undefined on input line 549.
 
 
-LaTeX Warning: Citation 'banegas2000' on page 46 undefined on input line 515.
+LaTeX Warning: Citation 'peterson1976' on page 46 undefined on input line 551.
 
 
-LaTeX Warning: Citation 'westreich2012' on page 46 undefined on input line 515.
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 46 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
+[46] [47]
 
+LaTeX Warning: Citation 'hernanInmortal2016' on page 48 undefined on input line
+ 567.
 
-LaTeX Warning: Citation 'ganguli2015' on page 46 undefined on input line 517.
 
+LaTeX Warning: Citation 'young2020' on page 48 undefined on input line 569.
 
-LaTeX Warning: Citation 'driverbiogeront2014' on page 46 undefined on input lin
-e 517.
 
+LaTeX Warning: Citation 'frain2017' on page 48 undefined on input line 569.
 
-LaTeX Warning: Citation 'frain2017' on page 46 undefined on input line 517.
 
+LaTeX Warning: Citation 'weave2012' on page 48 undefined on input line 569.
 
-LaTeX Warning: Citation 'ospina2020' on page 46 undefined on input line 517.
 
+LaTeX Warning: Citation 'peterson1976' on page 48 undefined on input line 569.
 
-LaTeX Warning: Citation 'snyder2016' on page 46 undefined on input line 517.
 
-[46]
+LaTeX Warning: Citation 'huitfeldt2016' on page 48 undefined on input line 571.
 
-LaTeX Warning: Citation 'lin2020' on page 47 undefined on input line 519.
 
 
-LaTeX Warning: Citation 'drivepin2015' on page 47 undefined on input line 519.
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 48 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
+[48] [49]
+Overfull \hbox (295.13792pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 50 \TU/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION
+ UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
+ []
 
-LaTeX Warning: Citation 'driverbiogeront2014' on page 47 undefined on input lin
-e 519.
+[50
 
-
-LaTeX Warning: Citation 'liou2003' on page 47 undefined on input line 519.
-
-[47]
-
-LaTeX Warning: Citation 'zurbenko2012' on page 48 undefined on input line 526.
-
-
-LaTeX Warning: Citation 'cite' on page 48 undefined on input line 528.
-
-
-LaTeX Warning: Citation 'young2020' on page 48 undefined on input line 532.
-
-
-LaTeX Warning: Citation 'stenruds2020' on page 48 undefined on input line 532.
-
-
-LaTeX Warning: Citation 'ospina2020' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'hayes_larson2020' on page 48 undefined on input line 5
-34.
-
-
-LaTeX Warning: Citation 'hanson2016' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'roe2010' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'driver2012' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'nudelmann2014' on page 48 undefined on input line 534.
-
-
-
-LaTeX Warning: Citation 'freedman2016' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'frain2017' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'bowles2017' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'prinelli2018' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'frain2017' on page 48 undefined on input line 534.
-
-
-LaTeX Warning: Citation 'hanson2016' on page 48 undefined on input line 534.
-
-[48]
-
-LaTeX Warning: Citation 'weave2012' on page 49 undefined on input line 536.
-
-
-LaTeX Warning: Citation 'vangeloven2014' on page 49 undefined on input line 536
-.
-
-[49]
-
-LaTeX Warning: Citation 'hernan_cword2018' on page 50 undefined on input line 5
-45.
-
-
-LaTeX Warning: Citation 'hernan2019' on page 50 undefined on input line 545.
-
-
-LaTeX Warning: Citation 'goetghebeur' on page 50 undefined on input line 545.
-
-
-LaTeX Warning: Citation 'olarte2021' on page 50 undefined on input line 545.
-
-
-LaTeX Warning: Citation 'tsiatsis1975' on page 50 undefined on input line 547.
-
-
-LaTeX Warning: Citation 'peterson1976' on page 50 undefined on input line 547.
-
-
-LaTeX Warning: Citation 'young2020' on page 50 undefined on input line 547.
-
-
-LaTeX Warning: Citation 'lau2009' on page 50 undefined on input line 549.
-
-
-LaTeX Warning: Citation 'austin2016' on page 50 undefined on input line 549.
-
-
-LaTeX Warning: Citation 'young2020' on page 50 undefined on input line 549.
-
-
-LaTeX Warning: Citation 'geloven2020' on page 50 undefined on input line 549.
-
-
-Underfull \vbox (badness 2698) has occurred while \output is active []
-
-[50]
-
-LaTeX Warning: Citation 'frangakis2002' on page 51 undefined on input line 551.
-
-
-
-LaTeX Warning: Citation 'stensrud2019' on page 51 undefined on input line 551.
-
-
-LaTeX Warning: Citation 'therneau2021' on page 51 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'andersen2012' on page 51 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'weuve2012' on page 51 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'chaix2012' on page 51 undefined on input line 553.
-
+]
+Chapter 5.
 [51]
-
-LaTeX Warning: Citation 'karn1932' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'karn1932' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'colombo2015' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'seth2014' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'colombo2015' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'karn1933' on page 52 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'tsiatsis1975' on page 52 undefined on input line 555.
-
-[52]
-
-LaTeX Warning: Citation 'kaufman2003' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'vanderweele2014' on page 53 undefined on input line 56
-2.
-
-
-LaTeX Warning: Citation 'glymour2014' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'kaufman2014' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'glymour2016' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'vandenbroucke2016' on page 53 undefined on input line 
-562.
-
-
-LaTeX Warning: Citation 'krieger2016' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'robinson2020' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'jackson2020' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'schwartz2016' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'epidemicIllusions' on page 53 undefined on input line 
-562.
-
-
-LaTeX Warning: Citation 'kaufman2019' on page 53 undefined on input line 562.
-
-
-LaTeX Warning: Citation 'ruhm2018' on page 53 undefined on input line 562.
-
-
-Overfull \hbox (25.18001pt too wide) in paragraph at lines 562--563
-\TU/lmr/m/n/10 defined interventions” were held in the context of social epidem
-iology[“[];
+Overfull \hbox (36.79121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 52 \TU/lmr/m/sl/10 CHAPTER 5.  HOW ARE WE COUNTING THE DEAD IN D
+EMENTIA STUDIES?
  []
 
+[52
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
-[]\TU/lmr/m/n/10 ; []; []; [];
- []
-
-
-LaTeX Warning: Citation 'bailey2021' on page 53 undefined on input line 564.
-
-
-LaTeX Warning: Citation 'krieger2021' on page 53 undefined on input line 564.
-
-
-LaTeX Warning: Citation 'abimbola2021' on page 53 undefined on input line 564.
-
-
-LaTeX Warning: Citation 'bayingana2021' on page 53 undefined on input line 564.
-
-
-
-LaTeX Warning: Citation 'mayeda2016' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'nebel2018' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'weave2018' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'glymour_manley2008' on page 53 undefined on input line
- 566.
-
-
-LaTeX Warning: Citation 'manley2021' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'gilmore2021' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'manley2021' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'raman2021' on page 53 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'howe2018' on page 53 undefined on input line 566.
-
-[53]
-
-LaTeX Warning: Citation 'vanderweele2014' on page 54 undefined on input line 56
-8.
-
-
-LaTeX Warning: Citation 'howe2018' on page 54 undefined on input line 568.
-
-
-LaTeX Warning: Citation 'jackson2020' on page 54 undefined on input line 568.
-
-[54]
+]
 Chapter 6.
+[53]
+Overfull \hbox (321.96686pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 54 \TU/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS
+ IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
 
-LaTeX Warning: Empty bibliography on input line 577.
+[54
 
-[55
+]
+Chapter 7.
+[55] [56
 
-] (./thesis_bookdown.aux)
+]
+Chapter 8.
+[57] [58
+
+]
+Chapter 9.
+
+LaTeX Warning: Empty bibliography on input line 617.
+
+[59] (./thesis_bookdown.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis_bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: DF4793F377999D0313455D35F9DEA735;3413.
+(rerunfilecheck)             Checksum: E69264102898670658A899B3B5603B3A;5966.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                thesis_bookdown
@@ -2255,12 +2117,12 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23684 strings out of 478472
- 441588 string characters out of 5859708
- 1416781 words of memory out of 5000000
- 43716 multiletter control sequences out of 15000+600000
+ 23696 strings out of 478472
+ 441804 string characters out of 5859708
+ 1419036 words of memory out of 5000000
+ 43728 multiletter control sequences out of 15000+600000
  409889 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,120p,2894b,4823s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis_bookdown.pdf (55 pages).
+Output written on thesis_bookdown.pdf (59 pages).

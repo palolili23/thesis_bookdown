@@ -1,6 +1,8 @@
 # Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia {#chapter3}
 
-\chaptermark{ Hypothethical }
+
+
+\chaptermark{Systolic blood pressure lowering interventions }
 
 \newpage
 
