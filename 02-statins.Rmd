@@ -1,6 +1,18 @@
 # Emulating a target trial of statin use and risk of dementia using cohort data {#chapter2}
 
-\chaptermark{Statins use and dementia risk}
+\small
+\noindent
+_This chapter has been published as_: 
+
+Caniglia, E.C., Rojas-Saunero L.P., Hilal S., Licher S., Logan R., Stricker B., Ikram M. A., Swanson S.A. Emulating a target trial of statin use and risk of dementia using cohort data. _Neurology_.2020; 95 (10): e1322-e1332; 
+<https://doi.org/10.1212/WNL.0000000000010433>
+
+\newpage
+\normalsize
+
+
+
+\chaptermark{Statins and dementia}
 
 \newpage
 

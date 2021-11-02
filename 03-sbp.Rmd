@@ -1,8 +1,21 @@
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(results = 'hide', echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
 # Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia {#chapter3}
 
+\small
+\noindent
+_This chapter has been published as_:
+
+Rojas-Saunero, L.P., Hilal, S., Murray, E.J. et al. Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia. _Eur J Epidemiol_.2021; 36: 69–79. <https://doi.org/10.1007/s10654-020-00694-5>
+\newpage
+\normalsize
 
 
-\chaptermark{Systolic blood pressure lowering interventions }
+
+\chaptermark{Systolic blood pressure, stroke and dementia}
 
 \newpage
 
@@ -75,6 +88,14 @@ Vital status was obtained on a weekly basis via municipal population registries 
 
 **Start and end of follow-up:_** We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure 1).
 
+
+```{r 03_fig1, fig.cap='(ref:Flowchart)', results='show'}
+knitr::include_graphics("figs/03_fig1.JPG", auto_pdf = TRUE)
+```
+
+
+(ref:Flowchart) __Flowchart__. After a baseline block without stimulation, participants performed the attentional blink task during 20 minutes of anodal.
+
 ### Statistical Analysis:
 
 To estimate the risk of stroke and dementia under the described hypothetical interventions, we used the parametric g-formula, an extension of standardization to time-varying exposures and confounders. Under the assumptions of no unmeasured confounding and no model misspecification, this method provides an estimate of the risk of outcomes under full adherence to different hypothetical sustained interventions [@taubman2009; @garcia-aymerich2014; @danaei_epid2013; @vangenlonne2018; @dickerman2019].
@@ -131,11 +152,22 @@ Table 1 shows the baseline characteristics of the study participants. The mean a
 
 **_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table 2. Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure 2A.
 
-
 **_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table 3. Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure 3A.
 
 
 Alternative analyses for competing event: Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the online resource, Table e-4, e-5, e-11, e-12.
+
+
+<!-- ```{r 03_fig2, fig.cap='(ref:Figure 2)', results='show'} -->
+<!-- knitr::include_graphics("figs/03_fig2.jpg", auto_pdf = TRUE) -->
+<!-- ``` -->
+
+<!-- (ref:Figure 2) _Figure 2._ Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. -->
+
+<!-- ```{r 03_fig3, fig.cap='(ref:Figure 3)', results='show'} -->
+<!-- knitr::include_graphics("figs/03_fig3.jpg", auto_pdf = TRUE) -->
+<!-- ``` -->
+<!-- (ref: Figure 3) _Figure 3._ Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. -->
 
 
 **_Subgroup analyses:_** Table 4 provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the online resource, Table e-6 to e- 11, e-14 to e-19.
