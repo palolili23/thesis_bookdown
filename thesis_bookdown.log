@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.22)  2 NOV 2021 11:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.22)  4 NOV 2021 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2071,7 +2071,7 @@ LaTeX Warning: Citation 'young2020' on page 50 undefined on input line 601.
 LaTeX Warning: Citation 'frain2017' on page 50 undefined on input line 601.
 
 
-LaTeX Warning: Citation 'weave2012' on page 50 undefined on input line 601.
+LaTeX Warning: Citation 'weuve2012' on page 50 undefined on input line 601.
 
 
 LaTeX Warning: Citation 'peterson1976' on page 50 undefined on input line 601.
@@ -2104,23 +2104,460 @@ Overfull \hbox (321.96686pt too wide) has occurred while \output is active
 
 ]
 Chapter 7.
-[57] [58
+[57]
 
-]
+LaTeX Warning: Citation 'luijken2021' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'power2015' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'hernan2008' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'danaei2012' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'hernan2016' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'hernan_robins_2016' on page 58 undefined on input line
+ 643.
+
+
+LaTeX Warning: Citation 'ray2003' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'lund2015' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'johnson2013' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'danaei2012' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'power2015' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'emilsson2018' on page 58 undefined on input line 643.
+
+
+LaTeX Warning: Citation 'danaei2013' on page 58 undefined on input line 645.
+
+
+LaTeX Warning: Citation 'garcia_albeniz2017' on page 58 undefined on input line
+ 645.
+
+[58]
+
+LaTeX Warning: Citation 'zhou2021' on page 59 undefined on input line 647.
+
+
+LaTeX Warning: Citation 'danaei2013' on page 59 undefined on input line 647.
+
+
+LaTeX Warning: Citation 'garcia_albeniz_eje2017' on page 59 undefined on input 
+line 647.
+
+
+LaTeX Warning: Citation 'emilsson2018' on page 59 undefined on input line 647.
+
+
+LaTeX Warning: Citation 'williamson2019' on page 59 undefined on input line 651
+.
+
+
+LaTeX Warning: Citation 'ace_inhibitors2000' on page 59 undefined on input line
+ 651.
+
+
+LaTeX Warning: Citation 'forette2002' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'progress2003' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'lithell2003' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'diener2008' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'anderson2011' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'williamson2019' on page 59 undefined on input line 651
+.
+
+
+LaTeX Warning: Citation 'ding2020' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'rajan2018' on page 59 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'walker2019' on page 59 undefined on input line 651.
+
+[59]
+
+LaTeX Warning: Citation 'young2020' on page 60 undefined on input line 653.
+
+
+LaTeX Warning: Citation 'robins1986' on page 60 undefined on input line 655.
+
+
+LaTeX Warning: Citation 'whatif' on page 60 undefined on input line 655.
+
+
+LaTeX Warning: Citation 'taubman2009' on page 60 undefined on input line 655.
+
+
+LaTeX Warning: Citation 'young2011' on page 60 undefined on input line 655.
+
+[60]
+
+LaTeX Warning: Citation 'hernan2009' on page 61 undefined on input line 661.
+
+
+LaTeX Warning: Citation 'zhang2011' on page 61 undefined on input line 661.
+
+
+LaTeX Warning: Citation 'young2019' on page 61 undefined on input line 661.
+
+
+LaTeX Warning: Citation 'waterkills' on page 61 undefined on input line 665.
+
+
+LaTeX Warning: Citation 'hernan2011' on page 61 undefined on input line 665.
+
+[61]
+
+LaTeX Warning: Citation 'yamada1999' on page 62 undefined on input line 671.
+
+
+LaTeX Warning: Citation 'ospina2020' on page 62 undefined on input line 671.
+
+
+LaTeX Warning: Citation 'vanderwillik2018' on page 62 undefined on input line 6
+71.
+
+
+LaTeX Warning: Citation 'snyder2017' on page 62 undefined on input line 671.
+
+
+LaTeX Warning: Citation 'banegas2000' on page 62 undefined on input line 671.
+
+
+LaTeX Warning: Citation 'westreich2013' on page 62 undefined on input line 671.
+
+
+[62]
+
+LaTeX Warning: Citation 'ganguli2015' on page 63 undefined on input line 673.
+
+
+LaTeX Warning: Citation 'driverbiogeront2014' on page 63 undefined on input lin
+e 673.
+
+
+LaTeX Warning: Citation 'frain2017' on page 63 undefined on input line 673.
+
+
+LaTeX Warning: Citation 'ospina2020' on page 63 undefined on input line 673.
+
+
+LaTeX Warning: Citation 'snyder2016' on page 63 undefined on input line 673.
+
+
+LaTeX Warning: Citation 'li2021' on page 63 undefined on input line 675.
+
+
+LaTeX Warning: Citation 'drivepin2015' on page 63 undefined on input line 675.
+
+
+LaTeX Warning: Citation 'driverbiogeront2014' on page 63 undefined on input lin
+e 675.
+
+[63]
+
+LaTeX Warning: Citation 'nadler2013' on page 64 undefined on input line 682.
+
+[64]
+
+LaTeX Warning: Citation 'young2020' on page 65 undefined on input line 688.
+
+
+LaTeX Warning: Citation 'stenruds2020' on page 65 undefined on input line 688.
+
+
+LaTeX Warning: Citation 'ospina2020' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'hayes_larson2020' on page 65 undefined on input line 6
+90.
+
+
+LaTeX Warning: Citation 'hanson2016' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'roe2010' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'driver2012' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'nudelmann2014' on page 65 undefined on input line 690.
+
+
+
+LaTeX Warning: Citation 'freedman2016' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'frain2017' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'bowles2017' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'prinelli2018' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'frain2017' on page 65 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'hanson2016' on page 65 undefined on input line 690.
+
+[65]
+
+LaTeX Warning: Citation 'weuve2012' on page 66 undefined on input line 692.
+
+
+LaTeX Warning: Citation 'vangeloven2014' on page 66 undefined on input line 692
+.
+
+
+LaTeX Warning: Citation 'hernan_cword2018' on page 66 undefined on input line 7
+00.
+
+
+LaTeX Warning: Citation 'hernan2019' on page 66 undefined on input line 700.
+
+
+LaTeX Warning: Citation 'goetghebeur2020' on page 66 undefined on input line 70
+0.
+
+
+LaTeX Warning: Citation 'olarte2021' on page 66 undefined on input line 700.
+
+[66]
+
+LaTeX Warning: Citation 'tsiatis1975' on page 67 undefined on input line 702.
+
+
+LaTeX Warning: Citation 'peterson1976' on page 67 undefined on input line 702.
+
+
+LaTeX Warning: Citation 'young2020' on page 67 undefined on input line 702.
+
+
+LaTeX Warning: Citation 'lau2009' on page 67 undefined on input line 704.
+
+
+LaTeX Warning: Citation 'austin2016' on page 67 undefined on input line 704.
+
+
+LaTeX Warning: Citation 'young2020' on page 67 undefined on input line 704.
+
+
+LaTeX Warning: Citation 'vangeloven2020' on page 67 undefined on input line 704
+.
+
+[67]
+
+LaTeX Warning: Citation 'therneau2021' on page 68 undefined on input line 706.
+
+
+LaTeX Warning: Citation 'andersen2012' on page 68 undefined on input line 706.
+
+
+LaTeX Warning: Citation 'weuve2012' on page 68 undefined on input line 706.
+
+
+LaTeX Warning: Citation 'chaix2012' on page 68 undefined on input line 706.
+
+
+LaTeX Warning: Citation 'karn1932' on page 68 undefined on input line 708.
+
+
+LaTeX Warning: Citation 'karn1932' on page 68 undefined on input line 708.
+
+
+LaTeX Warning: Citation 'colombo2015' on page 68 undefined on input line 708.
+
+
+LaTeX Warning: Citation 'seth2014' on page 68 undefined on input line 708.
+
+
+LaTeX Warning: Citation 'karn1933' on page 68 undefined on input line 708.
+
+
+LaTeX Warning: Citation 'tsiatis1975' on page 68 undefined on input line 708.
+
+[68]
+
+LaTeX Warning: Citation 'frangakis2002' on page 69 undefined on input line 710.
+
+
+
+LaTeX Warning: Citation 'stensrud2020' on page 69 undefined on input line 710.
+
+[69]
+
+LaTeX Warning: Citation 'vanderweele2014' on page 70 undefined on input line 71
+9.
+
+
+LaTeX Warning: Citation 'glymour2014' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'kaufman2014' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'glymour2017' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'vandenbroucke2016' on page 70 undefined on input line 
+719.
+
+
+LaTeX Warning: Citation 'krieger2016' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'robinson2019' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'jackson2020' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'schwartz2016' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'epidemicIllusions' on page 70 undefined on input line 
+719.
+
+
+LaTeX Warning: Citation 'krieger2008' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'ruhm2018' on page 70 undefined on input line 719.
+
+
+LaTeX Warning: Citation 'bailey2021' on page 70 undefined on input line 720.
+
+
+LaTeX Warning: Citation 'krieger2021' on page 70 undefined on input line 720.
+
+
+LaTeX Warning: Citation 'abimbola2021' on page 70 undefined on input line 720.
+
+
+LaTeX Warning: Citation 'bayingana2021' on page 70 undefined on input line 720.
+
+
+
+Overfull \hbox (42.86pt too wide) in paragraph at lines 719--721
+\TU/lmr/m/n/10 defined interventions” were held in the context of social epidem
+iology[“[];
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 719--721
+[]\TU/lmr/m/n/10 ; []; []; [];
+ []
+
+
+LaTeX Warning: Citation 'mayeda2016' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'nebel2018' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'weuve2018' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'glymour_manly2008' on page 70 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation 'manly_glymour2021' on page 70 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation 'gilmore2021' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'manly_gilmore2021' on page 70 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation 'raman2021' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'howe2018' on page 70 undefined on input line 722.
+
+
+LaTeX Warning: Citation 'jackson2021' on page 70 undefined on input line 722.
+
+[70]
+
+LaTeX Warning: Citation 'vanderweele2014' on page 71 undefined on input line 72
+4.
+
+
+LaTeX Warning: Citation 'howe2018' on page 71 undefined on input line 724.
+
+
+LaTeX Warning: Citation 'jackson2018' on page 71 undefined on input line 724.
+
+
+LaTeX Warning: Citation 'jackson2020' on page 71 undefined on input line 724.
+
+
+LaTeX Warning: Citation 'mehrotra2019' on page 71 undefined on input line 724.
+
+
+LaTeX Warning: Citation 'rudolph2018' on page 71 undefined on input line 724.
+
+
+LaTeX Warning: Citation 'stenruds2020' on page 71 undefined on input line 726.
+
+
+LaTeX Warning: Citation 'stenruds2021' on page 71 undefined on input line 726.
+
+
+LaTeX Warning: Citation 'mayeda2018' on page 71 undefined on input line 726.
+
+
+LaTeX Warning: Citation 'shaw2020' on page 71 undefined on input line 726.
+
+[71] [72]
 Chapter 8.
-[59] [60
+[73
+
+] [74
 
 ]
 Chapter 9.
 
-LaTeX Warning: Empty bibliography on input line 649.
+LaTeX Warning: Empty bibliography on input line 750.
 
-[61] (./thesis_bookdown.aux)
+[75] (./thesis_bookdown.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis_bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: E69264102898670658A899B3B5603B3A;5966.
+(rerunfilecheck)             Checksum: D3F48D52989B5CB5C1882199E8F27F39;6567.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                thesis_bookdown
@@ -2131,12 +2568,12 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23720 strings out of 478472
- 442436 string characters out of 5859708
- 1419171 words of memory out of 5000000
- 43741 multiletter control sequences out of 15000+600000
+ 23724 strings out of 478472
+ 442536 string characters out of 5859708
+ 1421785 words of memory out of 5000000
+ 43745 multiletter control sequences out of 15000+600000
  410866 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,120p,2894b,4823s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis_bookdown.pdf (61 pages).
+Output written on thesis_bookdown.pdf (75 pages).

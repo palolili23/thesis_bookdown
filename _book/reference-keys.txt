@@ -34,6 +34,9 @@ chapter6
 example-one-1
 example-two-1
 chapter7
+principal-findings-and-broader-implications
+directions-for-future-research
+conclusion
 chapter8
 example-one-2
 example-two-2
