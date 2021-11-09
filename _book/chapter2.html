@@ -24,7 +24,7 @@
 <meta name="author" content="Liliana Paloma Rojas Saunero" />
 
 
-<meta name="date" content="2021-11-04" />
+<meta name="date" content="2021-11-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,8 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -82,9 +84,10 @@
 <li class="chapter" data-level="2.3" data-path="chapter2.html"><a href="chapter2.html#methods"><i class="fa fa-check"></i><b>2.3</b> Methods</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="chapter2.html"><a href="chapter2.html#the-protocol-of-the-target-trial"><i class="fa fa-check"></i><b>2.3.1</b> The protocol of the target trial</a></li>
+<li class="chapter" data-level="2.3.2" data-path="chapter2.html"><a href="chapter2.html#emulation-of-the-target-trial-using-observational-data"><i class="fa fa-check"></i><b>2.3.2</b> Emulation of the target trial using observational data</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="chapter2.html"><a href="chapter2.html#emulation-of-the-target-trial-using-observational-data"><i class="fa fa-check"></i><b>2.4</b> Emulation of the target trial using observational data</a></li>
-<li class="chapter" data-level="2.5" data-path="chapter2.html"><a href="chapter2.html#results"><i class="fa fa-check"></i><b>2.5</b> Results</a></li>
+<li class="chapter" data-level="2.4" data-path="chapter2.html"><a href="chapter2.html#results"><i class="fa fa-check"></i><b>2.4</b> Results</a></li>
+<li class="chapter" data-level="2.5" data-path="chapter2.html"><a href="chapter2.html#discussion"><i class="fa fa-check"></i><b>2.5</b> Discussion</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="chapter3.html"><a href="chapter3.html"><i class="fa fa-check"></i><b>3</b> Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia</a>
 <ul>
@@ -97,7 +100,7 @@
 <li class="chapter" data-level="3.3.3" data-path="chapter3.html"><a href="chapter3.html#statistical-analysis"><i class="fa fa-check"></i><b>3.3.3</b> Statistical Analysis:</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="chapter3.html"><a href="chapter3.html#results-1"><i class="fa fa-check"></i><b>3.4</b> Results</a></li>
-<li class="chapter" data-level="3.5" data-path="chapter3.html"><a href="chapter3.html#discussion"><i class="fa fa-check"></i><b>3.5</b> Discussion</a></li>
+<li class="chapter" data-level="3.5" data-path="chapter3.html"><a href="chapter3.html#discussion-1"><i class="fa fa-check"></i><b>3.5</b> Discussion</a></li>
 <li class="chapter" data-level="3.6" data-path="chapter3.html"><a href="chapter3.html#references-1"><i class="fa fa-check"></i><b>3.6</b> References</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="chapter4.html"><a href="chapter4.html"><i class="fa fa-check"></i><b>4</b> Towards a clearer causal question underlying the association between cancer and dementia</a>
@@ -111,7 +114,7 @@
 <li class="chapter" data-level="4.3.3" data-path="chapter4.html"><a href="chapter4.html#statistical-methods"><i class="fa fa-check"></i><b>4.3.3</b> Statistical Methods</a></li>
 </ul></li>
 <li class="chapter" data-level="4.4" data-path="chapter4.html"><a href="chapter4.html#results-2"><i class="fa fa-check"></i><b>4.4</b> Results</a></li>
-<li class="chapter" data-level="4.5" data-path="chapter4.html"><a href="chapter4.html#discussion-1"><i class="fa fa-check"></i><b>4.5</b> Discussion</a></li>
+<li class="chapter" data-level="4.5" data-path="chapter4.html"><a href="chapter4.html#discussion-2"><i class="fa fa-check"></i><b>4.5</b> Discussion</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="chapter5.html"><a href="chapter5.html"><i class="fa fa-check"></i><b>5</b> How are we counting the dead in dementia studies?</a>
 <ul>
@@ -134,8 +137,7 @@
 <li class="chapter" data-level="8.1" data-path="chapter8.html"><a href="chapter8.html#example-one-2"><i class="fa fa-check"></i><b>8.1</b> Example one</a></li>
 <li class="chapter" data-level="8.2" data-path="chapter8.html"><a href="chapter8.html#example-two-2"><i class="fa fa-check"></i><b>8.2</b> Example two</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="chapter9.html"><a href="chapter9.html"><i class="fa fa-check"></i><b>9</b> References {-}</a></li>
-<li class="chapter" data-level="10" data-path="chapter10.html"><a href="chapter10.html"><i class="fa fa-check"></i><b>10</b> Final Words</a></li>
+<li class="chapter" data-level="9" data-path="chapter10.html"><a href="chapter10.html"><i class="fa fa-check"></i><b>9</b> Final Words</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -174,9 +176,9 @@
 <div id="introduction" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Introduction</h2>
 <p>The effect of a commonly prescribed medication on reducing the long-term risk of chronic
-diseases is often of interest in public health research. However, estimating the effect of a medication for primary prevention can be challenging because it typically requires enrolling disease-free asymptomatic adults and following them for several years. Moreover, the effect of sustained medication use may be of great value for informing personal, clinical, or public health decision-making, even though randomized clinical trials often emphasize or solely estimate an intention-to-treat effect regardless of sustained use<span class="citation">(<a href="chapter10.html#ref-hernan_itt2012" role="doc-biblioref">Miguel A. Hernán and Hernández-Díaz 2012</a>)</span>.</p>
+diseases is often of interest in public health research. However, estimating the effect of a medication for primary prevention can be challenging because it typically requires enrolling disease-free asymptomatic adults and following them for several years. Moreover, the effect of sustained medication use may be of great value for informing personal, clinical, or public health decision-making, even though randomized clinical trials often emphasize or solely estimate an intention-to-treat effect regardless of sustained use<span class="citation">(<a href="chapter10.html#ref-hernan_itt2012" role="doc-biblioref">Hernán and Hernández-Díaz 2012</a>)</span>.</p>
 <p>For example, use of statin therapy in adults without cognitive impairment could change dementia risk later in life. The effects of statin use for primary and secondary prevention of cardiovascular disease in a general population are well established<span class="citation">(<a href="chapter10.html#ref-naci2013" role="doc-biblioref">Naci et al. 2013</a>; <a href="chapter10.html#ref-taylor2013" role="doc-biblioref">Taylor et al. 2013</a>; <a href="chapter10.html#ref-udell2006" role="doc-biblioref">Udell and Ray 2006</a>)</span>. However, randomized trials<span class="citation">(<a href="chapter10.html#ref-mrc2002" role="doc-biblioref"><span>“<span>MRC</span>/<span>BHF Heart Protection Study</span> of Cholesterol Lowering with Simvastatin in 20 536 High-Risk Individuals: A Randomised Placebocontrolled Trial”</span> 2002</a>; <a href="chapter10.html#ref-trompet2010" role="doc-biblioref">Trompet et al. 2010</a>)</span> and several observational studies assessing the association between statin use and Alzheimer’s disease or dementia have had conflicting results ranging from statins potentially increasing, decreasing, or having a negligible effect on these outcomes. Overall, the randomized trials have included individuals at high risk of vascular disease, have had relatively short follow-up times (5 years or less), and have reported the intention-to-treat effect only<span class="citation">(<a href="chapter10.html#ref-mrc2002" role="doc-biblioref"><span>“<span>MRC</span>/<span>BHF Heart Protection Study</span> of Cholesterol Lowering with Simvastatin in 20 536 High-Risk Individuals: A Randomised Placebocontrolled Trial”</span> 2002</a>; <a href="chapter10.html#ref-trompet2010" role="doc-biblioref">Trompet et al. 2010</a>)</span>. Meanwhile, comparable observational studies have notable limitations<span class="citation">(<a href="chapter10.html#ref-power2015" role="doc-biblioref">Power et al. 2015</a>)</span>. For example, studies that only assess statin use at baseline are by definition limited by the number of individuals who are statin users at baseline<span class="citation">(<a href="chapter10.html#ref-arvanitakis2008" role="doc-biblioref">Arvanitakis et al. 2008</a>; <a href="chapter10.html#ref-szwast2007" role="doc-biblioref">Szwast et al. 2007</a>; <a href="chapter10.html#ref-zandi2005" role="doc-biblioref">Zandi 2005</a>; <a href="chapter10.html#ref-ancelin2012" role="doc-biblioref">Ancelin et al. 2012</a>; <a href="chapter10.html#ref-smeeth2009" role="doc-biblioref">Smeeth et al. 2009</a>; <a href="chapter10.html#ref-wolozin2007" role="doc-biblioref">Wolozin et al. 2007</a>)</span>, studies that assess statin use at the time of incident dementia (or with a 1-year or 2-year lag) could be particularly susceptible to reverse causation<span class="citation">(<a href="chapter10.html#ref-haag2009" role="doc-biblioref">Haag et al. 2009</a>; <a href="chapter10.html#ref-cramer2008" role="doc-biblioref">Cramer et al. 2008</a>; <a href="chapter10.html#ref-bettermann2012" role="doc-biblioref">Bettermann et al. 2012</a>; <a href="chapter10.html#ref-beydoun2011" role="doc-biblioref">Beydoun et al. 2011</a>; <a href="chapter10.html#ref-li2004" role="doc-biblioref">G. Li et al. 2004</a>; <a href="chapter10.html#ref-li2010" role="doc-biblioref">Ge Li et al. 2010</a>; <a href="chapter10.html#ref-rea2005" role="doc-biblioref">Rea et al. 2005</a>)</span>, studies that assess statin use as a time-varying variable using stratification-based techniques could be susceptible to bias due to inappropriate adjustment for time-varying confounding<span class="citation">(<a href="chapter10.html#ref-bettermann2012" role="doc-biblioref">Bettermann et al. 2012</a>; <a href="chapter10.html#ref-beydoun2011" role="doc-biblioref">Beydoun et al. 2011</a>; <a href="chapter10.html#ref-bernick2005" role="doc-biblioref">Bernick et al. 2005</a>; <a href="chapter10.html#ref-sparks2008" role="doc-biblioref">Sparks et al. 2008</a>; <a href="chapter10.html#ref-steenland2013" role="doc-biblioref">Steenland et al. 2013</a>; <a href="chapter10.html#ref-starr2004" role="doc-biblioref">Starr et al. 2004</a>; <a href="chapter10.html#ref-cox2010" role="doc-biblioref">Hippisley-Cox and Coupland 2010</a>)</span>, and studies that include prevalent statin users could be susceptible to selection bias<span class="citation">(<a href="chapter10.html#ref-arvanitakis2008" role="doc-biblioref">Arvanitakis et al. 2008</a>; <a href="chapter10.html#ref-szwast2007" role="doc-biblioref">Szwast et al. 2007</a>; <a href="chapter10.html#ref-zandi2005" role="doc-biblioref">Zandi 2005</a>; <a href="chapter10.html#ref-ancelin2012" role="doc-biblioref">Ancelin et al. 2012</a>; <a href="chapter10.html#ref-wolozin2007" role="doc-biblioref">Wolozin et al. 2007</a>; <a href="chapter10.html#ref-haag2009" role="doc-biblioref">Haag et al. 2009</a>; <a href="chapter10.html#ref-cramer2008" role="doc-biblioref">Cramer et al. 2008</a>; <a href="chapter10.html#ref-beydoun2011" role="doc-biblioref">Beydoun et al. 2011</a>; <a href="chapter10.html#ref-li2004" role="doc-biblioref">G. Li et al. 2004</a>; <a href="chapter10.html#ref-li2010" role="doc-biblioref">Ge Li et al. 2010</a>; <a href="chapter10.html#ref-rea2005" role="doc-biblioref">Rea et al. 2005</a>; <a href="chapter10.html#ref-bernick2005" role="doc-biblioref">Bernick et al. 2005</a>; <a href="chapter10.html#ref-steenland2013" role="doc-biblioref">Steenland et al. 2013</a>; <a href="chapter10.html#ref-starr2004" role="doc-biblioref">Starr et al. 2004</a>)</span>. Finally, methods to estimate the effect of sustained statin treatment over follow-up time in addition to the effect of initiating statin treatment are underutilized in analyses of randomized trials and observational studies alike<span class="citation">(<a href="chapter10.html#ref-ray2003" role="doc-biblioref">Ray 2003</a>)</span>.</p>
-<p>To overcome some of the challenges of randomized clinical trials, we emulate a hypothetical randomized trial – a target trial – for estimating observational analogues to intention-to-treat and per-protocol effects of statin on dementia[28]. Through explicitly describing and emulating the target trial, we can leverage the richness of observational data while avoiding selection and residual confounding biases that are consequences of common flaws in observational studies’ design and analyses. The advantages of the target trial framework may be particularly pertinent in pharmacoepidemiologic research where time-varying variables can be both causes and consequences of treatment. Here, we describe the protocol of the target trial and then how to emulate it using observational data from the Rotterdam Study. Since few individuals initiate statins in a given calendar month, we emulate a sequence of target trials where, at each calendar month, eligibility criteria are applied anew and eligible individuals are then assigned to statin initiation or non-initiation <span class="citation">(<a href="chapter10.html#ref-danaei2013" role="doc-biblioref">Danaei, Rodríguez, et al. 2013</a>; <a href="chapter10.html#ref-danaei2018" role="doc-biblioref">Danaei et al. 2018</a>)</span>.</p>
+<p>To overcome some of the challenges of randomized clinical trials, we emulate a hypothetical randomized trial – a target trial – for estimating observational analogues to intention-to-treat and per-protocol effects of statin on dementia[28]. Through explicitly describing and emulating the target trial, we can leverage the richness of observational data while avoiding selection and residual confounding biases that are consequences of common flaws in observational studies’ design and analyses. The advantages of the target trial framework may be particularly pertinent in pharmacoepidemiologic research where time-varying variables can be both causes and consequences of treatment. Here, we describe the protocol of the target trial and then how to emulate it using observational data from the Rotterdam Study. Since few individuals initiate statins in a given calendar month, we emulate a sequence of target trials where, at each calendar month, eligibility criteria are applied anew and eligible individuals are then assigned to statin initiation or non-initiation <span class="citation">(<a href="chapter10.html#ref-danaei2013" role="doc-biblioref">Danaei et al. 2013</a>, <a href="chapter10.html#ref-danaei2018" role="doc-biblioref">2018</a>)</span>.</p>
 </div>
 <div id="methods" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> Methods</h2>
@@ -218,9 +220,8 @@ sustained statin use versus no statin initiation and never initiating statin med
 <p><em>Loss to follow-up</em></p>
 <p>To adjust for potential selection bias due to non-differential loss to follow-up between the treatment arms, we compute inverse probability of censoring weights in a sensitivity analysis. Each individual receives a time-varying weight inversely proportional to the probability of not being loss to follow-up.</p>
 </div>
-</div>
-<div id="emulation-of-the-target-trial-using-observational-data" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Emulation of the target trial using observational data</h2>
+<div id="emulation-of-the-target-trial-using-observational-data" class="section level3" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Emulation of the target trial using observational data</h3>
 <p>We emulated the target trial by using Rotterdam Study data from the initial and first extended cohort. We will first describe emulating a target trial with baseline in January 1993, and then describe how we can emulate a series of target trials with baseline months ranging from January 1993 to December 2007.</p>
 <p><em>Eligibility criteria</em></p>
 <p>We identified individuals aged 55-80 years with no statin prescription (operationalized as at least 2 years enrolled in the Rotterdam Study with no recorded statin prescription) and no previous diagnosis of dementia. Individuals were excluded if they did not have a recent cholesterol measurement (within the previous 3 years) if they did not have a recent MMSE score ≥26 (within the previous 3 years), or if they did not have any BMI or SBP measurement.</p>
@@ -242,15 +243,141 @@ sustained statin use versus no statin initiation and never initiating statin med
 <p>All analysis where performed in SAS using publicly available macros (<a href="https://www.hsph.harvard.edu/causal/software/" class="uri">https://www.hsph.harvard.edu/causal/software/</a>). 95% confidence intervals were obtained using bootstrapping with 200 samples.</p>
 <p><em>Data Availability</em></p>
 <p>Data can be obtained on request. Requests should be directed toward the management team of the Rotterdam Study (<a href="mailto:secretariat.epi@erasmusmc.nl" class="email">secretariat.epi@erasmusmc.nl</a>), which has a protocol for approving data requests. Because of restrictions based on privacy regulations and informed consent of the participants, data cannot be made freely available in a public repository.</p>
+<p>/newpage</p>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.0     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter()     masks stats::filter()
+## x dplyr::group_rows() masks kableExtra::group_rows()
+## x dplyr::lag()        masks stats::lag()</code></pre>
+<pre><code>## 
+## Attaching package: &#39;huxtable&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     add_rownames</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     theme_grey</code></pre>
+<pre><code>## The following object is masked from &#39;package:kableExtra&#39;:
+## 
+##     add_footnote</code></pre>
+<table class="table" style="font-size: 6.5px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Section
+</th>
+<th style="text-align:left;">
+Target trial protocol
+</th>
+<th style="text-align:left;">
+Emulation using observational data
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Eligibility criteria
+</td>
+<td style="text-align:left;">
+Age 55 - 80 years at enrollment, no statin prescription in the previous 2 years, known to be dementia free, MMSE &gt;=26 at enrollmen; cholesterol, BMI and SBP measurement at enrollment
+</td>
+<td style="text-align:left;">
+Same, except MMSE which is measured within the previous 3 years
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treatment strategies
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Initiate statin therapy at baseline and remain on it during the follow-up unless serious illnes occurs &lt;br&gt;
+<ol start="2" style="list-style-type: decimal">
+<li>Refrain from taking statin therapy during the follow-up unless serious illness occurs
+</td>
+<td style="text-align:left;">
+Same
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Randomized assignment
+</td>
+<td style="text-align:left;">
+Random assignment to either strategy at baseline
+</td>
+<td style="text-align:left;">
+Random assignment at baseline within levels of sex, educational attainment, age, calendar year, smoking status, MMSE, BMI, APOE4 status, cholesterol, SBP, stroke, diabetes, cancer, heart disease, other medication
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Start/End of follow-up
+</td>
+<td style="text-align:left;">
+From baseline until dementia dx, death, or loss to follow-up (10 years without an MMSE measurement), or January 1st, 2015, which ever happened first
+</td>
+<td style="text-align:left;">
+Same
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Outcome
+</td>
+<td style="text-align:left;">
+Dementia (Death as a censoring event),
+Composite outcome: dementia or death
+</td>
+<td style="text-align:left;">
+Same
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Causal contrast
+</td>
+<td style="text-align:left;">
+Modified intention-to-treat.
+Per-protocol effect
+</td>
+<td style="text-align:left;">
+Same
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Analysis plan
+</td>
+<td style="text-align:left;">
+Modified intention-to-treat analysis
+Per-protocol analysis
+</td>
+<td style="text-align:left;">
+Same modified intention-to-treat analysis, except that estimates are adjusted for baseline variables
+</td>
+</tr>
+</tbody>
+</table></li>
+</ol></li>
+</ol>
 </div>
-<div id="results" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Results</h2>
+</div>
+<div id="results" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Results</h2>
 <p>180 trials were conducted from January 1993 to December 2007. Of 1,578,655 potential persontrials (10,942 individuals), 233,526 person-trials (6,373 individuals) met the eligibility criteria. There were 622 initiators and 232,904 non-initiators (Figure 1). Across the 180 months of trials, the mean number of participants in a given month was 1,297 with a mean number of 3.5 initiators. The trial beginning in March 2006 had the most initiators (15 initiators, 1,915 noninitiators) (Appendix Table 1, available from Dryad <a href="doi:10.5061/dryad.kprr4xh19" class="uri">doi:10.5061/dryad.kprr4xh19</a>). Initiators and non-initiators were similar in age, MMSE, educational attainment. Compared with non-initiators, initiators had higher baseline total cholesterol measurements and systolic blood pressure measurements and were more likely to be current or former smokers, have a history of heart disease, stroke, and diabetes, and use other prescription medications (Table 2).</p>
 <p>Of the 622 initiators, 63 developed dementia and 225 died or developed dementia over the follow-up. Of the 232,904 non-initiators, 23,885 developed dementia and 82,896 died or developed dementia over the follow-up. The median (IQR) follow-up time was 9.3 (7.8, 11.9) years for initiators and 9.9 (7.8, 13.5) years for non-initiators in the dementia analysis. The median (IQR) time to dementia was 7.5 (5.4, 11.4) years for initiators and 8.3 (4.9, 11.4) years for non-initiators.</p>
 <p>Figure 2 shows the modified intention-to-treat 10-year dementia-free and dementia-free survival curves by statin initiation. Comparing statin initiation with no initiation, the 10-year risk differences (95% CI) were -0.1% (-2.3%, 1.8%) for dementia and 0.3% (-2.7%, 3.3%) for dementia or death (Table 3). Unadjusted estimates were similar for dementia but larger for dementia or death (data not shown).</p>
 <p>After one-year of follow-up, 459 of the initiators remained on statin therapy. This number was 385, 274, and 100 after 2 years, 5 years, and 10 years, respectively. Compared with individuals who did not stop statin use over follow-up, individuals who stopped statin use over follow-up were more likely to be female, have lower baseline MMSE scores, and be smokers and were less likely to be on other prescription medications. In the per-protocol analysis, 27 of the 622 initiators developed dementia and 122 died or developed dementia over the follow-up. Of the 232,904 non-initiators, 20,379 developed dementia and 72,207 died or developed dementia over the follow-up. The median (IQR) time of follow-up was 3.8 (0.9, 8.7) years for initiators and 9.0 (5.9, 12.2) years for non-initiators. Figure 3 shows the per-protocol 10-year dementia-free and dementia-free survival curves by statin initiation. Comparing sustained statin use with no use, the 10-year risk difference (95% CI) was -2.2% (-5.2%, 1.6%) for dementia and -5.1% (-10.5%, -1.1%) for dementia or death (Table 3).</p>
 <p>Inverse-probability weighting to adjust for censoring due to infrequent follow-up or censoring due to death did not materially change estimates. The 10-year per-protocol risk difference estimates for dementia or death were attenuated when excluding individuals age 70 years or older (-1.5%, 95% CI: -7.4%, 3.5%) and when excluding individuals with high cholesterol at baseline (-1.3%, 95% CI: -7.2%, 6.3%), but were larger when excluding individuals with a history of heart disease or stroke at baseline (-7.1%, 95% CI: -12.9%, -0.1%). The 10-year per-protocol risk difference estimates for dementia where also attenuated when excluding individuals age 70 years or older and larger when excluding individuals with a history of heart disease or stroke at baseline (data not shown). None of the other subgroup and sensitivity analyses yielded appreciably different results (Appendix Table 2, available from Dryad <a href="doi:10.5061/dryad.kprr4xh19" class="uri">doi:10.5061/dryad.kprr4xh19</a>).</p>
-<p><em>Discussion</em></p>
+</div>
+<div id="discussion" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Discussion</h2>
 <p>Our study is the first to explicitly emulate a hypothetical randomized trial of statin use in older adults and incident dementia. We leveraged the rich data of the Rotterdam Study while mitigating some common limitations often associated with observational studies. While the protective effect of statin use on cardiovascular disease prevention is well established, we found little evidence for a difference in the risk of dementia or dementia or death after initiating statins compared with not initiating statins in an analysis that was agnostic about statin discontinuation (the modified intention-to-treat analysis analogue). This finding was consistent with two previous randomized trials that found no difference in cognitive decline or dementia in intention-to-treat analyses[5, 6]. Our findings suggest a potential decreased risk of dementia and dementia or death after sustained statin use compared with no statin use (the per-protocol analysis analogue), but residual confounding could not be ruled out and our confidence intervals were wide. The attenuation of the 10-year per-protocol risk-difference estimates when excluding individuals age 70 years or older suggests statins likely have less absolute benefit (within 10 years) when initiated during mid-life. In addition, the attenuation of the 10-year per-protocol estimate for the combined endpoint of dementia or death when excluding individuals with high baseline total cholesterol (and variability of the per-protocol 10-year dementia or death risk difference in general) suggests our analyses may not have successfully adjusted for confounding by cardiovascular disease risk. Finally, since statin use may delay death due to cardiovascular disease, estimates of the effect of statin initiation and statin use on dementia could be biased due to the competing event death.</p>
 <p>A causal interpretation of all of our estimates relies on the untestable assumption that the measured baseline covariates were sufficient to adjust for confounding (i.e., to emulate randomization). Confounding by indication might partly explain our estimates, given that individuals who initiated statins were more likely to have other risk factors for dementia, including high blood pressure and APOE-ε4 carrier status. We were nevertheless able to adjust for several vascular risk factors (e.g., total cholesterol and systolic blood pressure and history of heart disease, stroke, and diabetes) in addition to demographic factors (e.g., smoking) and prescription medication use that could be key confounding variables in estimating effects of statin use on dementia. Unmeasured confounding by a prodromal dementia stage (which may affect likelihood of initiating or maintaining medication use) could remain despite adjustment for a recent MMSE score. In addition, data on LDL-cholesterol was not available, a strong indication for statin initiation and strongly associated with death due to cardiovascular disease (but perhaps not with dementia). In general, confounding by indication is a more substantial issue when evaluating primary outcomes for the treatment indication (in this case, cardiovascular disease) compared with secondary outcomes (in this case, dementia)[40].</p>
 <p>In addition to unmeasured or residual confounding, all of our estimates could also be biased if there are diagnostic delays for dementia that are differential with respect to statin use. For example, perhaps individuals taking statins are more likely to visit the doctor and receive a dementia diagnosis more quickly after onset of symptoms compared with someone not taking statins who does not visit a doctor as frequently. This differential outcome diagnosis would yield an underestimate of a protective effect of statins on dementia. While adjudication of dementia diagnoses in our study is based on continuous linkage to medical records in addition to information systematically gathered during the study, diagnostic delays will still occur for individuals who stop attending study visits and do not regularly see a doctor. We are interested in the effects of statins on dementia; however, estimates of the effects of statins on dementia diagnoses are not susceptible to this bias.</p>
@@ -314,7 +441,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["thesis_bookdown.pdf", "thesis_bookdown.epub"],
+"download": ["thesis_bookdown.pdf"],
 "toc": {
 "collapse": "subsection"
 }

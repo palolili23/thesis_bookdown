@@ -1,3 +1,4 @@
+tab:unnamed-chunk-1
 intro
 study-setting
 references
@@ -8,6 +9,7 @@ methods
 the-protocol-of-the-target-trial
 emulation-of-the-target-trial-using-observational-data
 results
+discussion
 chapter3
 abstract-1
 introduction-1
@@ -16,7 +18,7 @@ target-trial-specification
 target-trial-emulation
 statistical-analysis
 results-1
-discussion
+discussion-1
 references-1
 chapter4
 abstract-2
@@ -26,7 +28,7 @@ overview-of-the-causal-structure
 the-rotterdam-study
 statistical-methods
 results-2
-discussion-1
+discussion-2
 chapter5
 example-one
 example-two
@@ -40,5 +42,4 @@ conclusion
 chapter8
 example-one-2
 example-two-2
-chapter9
 chapter10
