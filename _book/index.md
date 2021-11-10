@@ -1,7 +1,7 @@
 --- 
 title: "Dementia research under a causal inference lens"
 author: "Liliana Paloma Rojas Saunero"
-date: "2021-11-09"
+date: "2021-11-10"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

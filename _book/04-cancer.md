@@ -1,6 +1,14 @@
 # Towards a clearer causal question underlying the association between cancer and dementia {#chapter4}
-
 \chaptermark{Pin 1 and risk of dementia}
+
+\small
+\noindent
+_This chapter is under revision_: 
+
+Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A. Towards a clearer causal question underlying the association between cancer and dementia.
+
+\newpage
+\normalsize
 
 \newpage
 
@@ -126,5 +134,116 @@ Each question requires thinking about bias anew and each question brings its own
 
 We underscore that our study is just one case study for how observed associations between two diseases or health states may be disentangled to more transparently unveil possible mechanisms (and sources of bias) behind them, and how to maximize what we can learn about the potential mechanisms given available or readily-collected data. We hope to stimulate researchers first have a discussion about the exact research question, rather than trying to replicate the cancer and dementia relation in their dataset. Such discussion is needed to obtain meaningful conclusions.
 
+\newpage
 
 
+## Supplementary Information
+
+### Modeling description
+
+#### Scenario A: Cancer diagnosis as “ever vs. never” proxy for Pin1
+
+**Inverse probability of treatment weights**: 
+<br>
+
+$$SW^A = \frac{f(A_{t+k})}{f(A_{t+k}|V)}$$
+
+<br>
+
+- **Numerator:** $Pr[A_{t+k}  = 1|1]$
+<br>
+
+_Where_:
+
+A = cancer diagnosis (0 = never, 1 = ever)
+
+- **Denominator:** $Pr[A_{t+k} = 1|V]$
+<br>
+
+_Where_:
+
+A = cancer diagnosis (0 = never, 1 = ever); V = age at study entry with natural cubic splines, sex (women vs. men), education (three categories), apoe4 (three categories), smoking status at study entry(three categories), cohort (two categories); product terms between covariates
+
+**Inverse probability of censoring weights for death**: 
+<br>
+
+$$SW^C = \frac{f(D_{t+k})}{f(D_{t+k}|A_{t+k},V)}$$
+<br>
+
+- **Numerator:** $Pr[D_{t+k} = 0|Y_{t+k} = 0, 1]$
+<br>
+
+_Where_:
+
+D = died prior to dementia diagnosis over follow-up (0 = no, 1 = yes); Y = dementia diagnosis
+
+- **Denominator:** $Pr[D{t+k} = 0|Y_{t+k} = 0, A_{t+k},L]$
+<br>
+
+_Where_:
+
+D = died prior to dementia diagnosis over follow-up (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); A = cancer diagnosis (0 = never, 1 = ever); V = age at study entry with natural cubic splines, sex (women vs. men), education (three categories), apoe4 (three categories), cohort (two categories), smoking status at study entry(three categories), hypertension status at study entry (two categories), history of diabetes at study entry (three categories), systolic blood pressure and body mass index at study entry (continuous variables); product terms between covariates
+
+#### Scenario B: Cancer diagnosis as a time-varying proxy for Pin1
+
+**Inverse probability of treatment weights**: 
+<br>
+
+$$SW^A = \frac{f(A_{t+1}|A_t, D_t, Y_t, T)}{f(A_{t+1}|A_t, D_t, Y_t, T, V, L_t)}$$
+
+<br>
+
+- **Numerator:** $Pr[A_{t+1} = 1| A_t = 0, D_k = 0, Y_k = 0, T]$
+<br>
+
+_Where:_
+
+A= cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines
+
+- **Denominator:** $Pr[A_{t+1} = 1| A_t = 0, D_t = 0, Y_t = 0, T, V, L_t]$
+<br>
+
+_Where:_
+
+A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (three categories), apoe (three categories), cohort (two categories); L= time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), systolic blood pressure and body mass (continuous variables); no product terms between covariates
+
+**Inverse probability of censoring weights for death**: 
+<br>
+
+$$SW^C = \frac{f(D_{t+1}|D_t, Y_t, A_t, T)}{f(D_{t+1}|D_t, Y_t, A_t, T, V, L_t)}$$
+
+<br>
+
+- **Numerator:** $Pr[D_{t+1} = 0|D_t = 0, Y_t = 0, A_t, T, V]$
+<br>
+
+_Where:_
+
+D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes);  A = cancer diagnosis (0 = no, 1 = yes), Y = year with natural cubic splines; V = cohort (two categories); no product terms between covariates
+
+- **Denominator:** $Pr[D_{t+1} = 0|D_t = 0, Y_t = 0, A_t, T, V, L_t]$
+<br>
+
+_Where:_
+
+Where D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (three categories), cohort (two categories); Lt = time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), heart disease condition (yes, no), incident stroke (yes, no), systolic blood pressure and body mass (continuous variables) and no product terms between covariates
+
+\newpage
+
+
+### eFigure 1. Distribution of participants under each health status, by age over follow-up
+
+\begin{figure}
+\includegraphics[width=35.56in]{V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/figs/04_fig7} \caption{(ref:04_fig6)}(\#fig:unnamed-chunk-7)
+\end{figure}
+
+\newpage
+
+
+### eFigure 2. Causes of death defined by ICD10 codes for participants who died prior to dementia diagnosis
+
+\begin{figure}
+\includegraphics[width=35.56in]{V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/figs/04_fig8} \caption{(ref:04_fig6)}(\#fig:unnamed-chunk-8)
+\end{figure}
+
+Information on vital status and cause – specific mortality is obtained continuously from the municipal authorities in Rotterdam. General practitioners in the research area report incident events by means of a computerized system, covering 78.8 % of the cohort. General practitioners without the computerized system are requested to notify new events annually. Trained research assistants subsequently collect information from medical records of the general practitioners, hospitals, and nursing homes. Two research physicians independently classify the events according to the ICPC and ICD-10 coding systems. Thereafter, a medical expert in the field reviews all coded events.

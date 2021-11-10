@@ -1,5 +1,7 @@
 # Emulating a target trial of statin use and risk of dementia using cohort data {#chapter2}
 
+\chaptermark{Statins and dementia}
+
 \small
 \noindent
 _This chapter has been published as_: 
@@ -9,12 +11,6 @@ Caniglia, E.C., Rojas-Saunero L.P., Hilal S., Licher S., Logan R., Stricker B., 
 
 \newpage
 \normalsize
-
-
-
-\chaptermark{Statins and dementia}
-
-\newpage
 
 ## Abstract
 
@@ -154,98 +150,20 @@ Data can be obtained on request. Requests should be directed toward the manageme
 
 /newpage
 
+<!-- ```{r, warning=FALSE, echo=FALSE, eval=TRUE} -->
+<!-- library(readxl) -->
+<!-- library(kableExtra) -->
+<!-- library(tidyverse) -->
+<!-- # library(huxtable) -->
 
-```
-## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
-```
-
-```
-## v ggplot2 3.3.3     v purrr   0.3.4
-## v tibble  3.1.0     v dplyr   1.0.5
-## v tidyr   1.1.3     v stringr 1.4.0
-## v readr   1.4.0     v forcats 0.5.1
-```
-
-```
-## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-## x dplyr::filter()     masks stats::filter()
-## x dplyr::group_rows() masks kableExtra::group_rows()
-## x dplyr::lag()        masks stats::lag()
-```
-
-```
-## 
-## Attaching package: 'huxtable'
-```
-
-```
-## The following object is masked from 'package:dplyr':
-## 
-##     add_rownames
-```
-
-```
-## The following object is masked from 'package:ggplot2':
-## 
-##     theme_grey
-```
-
-```
-## The following object is masked from 'package:kableExtra':
-## 
-##     add_footnote
-```
-
-<table class="table" style="font-size: 6.5px; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> Section </th>
-   <th style="text-align:left;"> Target trial protocol </th>
-   <th style="text-align:left;"> Emulation using observational data </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Eligibility criteria </td>
-   <td style="text-align:left;"> Age 55 - 80 years at enrollment, no statin prescription in the previous 2 years, known to be dementia free, MMSE &gt;=26 at enrollmen; cholesterol, BMI and SBP measurement at enrollment </td>
-   <td style="text-align:left;"> Same, except MMSE which is measured within the previous 3 years </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Treatment strategies </td>
-   <td style="text-align:left;"> 1. Initiate statin therapy at baseline and remain on it during the follow-up unless serious illnes occurs &lt;br&gt;
-     2. Refrain from taking statin therapy during the follow-up unless serious illness occurs </td>
-   <td style="text-align:left;"> Same </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Randomized assignment </td>
-   <td style="text-align:left;"> Random assignment to either strategy at baseline </td>
-   <td style="text-align:left;"> Random assignment at baseline within levels of sex, educational attainment, age, calendar year, smoking status, MMSE, BMI, APOE4 status, cholesterol, SBP, stroke, diabetes, cancer, heart disease, other medication </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Start/End of follow-up </td>
-   <td style="text-align:left;"> From baseline until dementia dx, death, or loss to follow-up (10 years without an MMSE measurement), or January 1st, 2015, which ever happened first </td>
-   <td style="text-align:left;"> Same </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Outcome </td>
-   <td style="text-align:left;"> Dementia (Death as a censoring event),
-     Composite outcome: dementia or death </td>
-   <td style="text-align:left;"> Same </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Causal contrast </td>
-   <td style="text-align:left;"> Modified intention-to-treat. 
-    Per-protocol effect </td>
-   <td style="text-align:left;"> Same </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Analysis plan </td>
-   <td style="text-align:left;"> Modified intention-to-treat analysis
-    Per-protocol analysis </td>
-   <td style="text-align:left;"> Same modified intention-to-treat analysis, except that estimates are adjusted for baseline variables </td>
-  </tr>
-</tbody>
-</table>
+<!-- options(knitr.kable.NA = ' ') -->
+<!-- target_statins <- rio::import(here::here("tables","02_tab1.RData" )) -->
+<!-- knitr::kable(target_statins, booktabs = T, longtable = T) %>%  -->
+<!--   # add_indent(c(4:5, 7:10, 13, 15:20)) %>%  -->
+<!--   # column_spec(1, width = "10em") %>%  -->
+<!--   # column_spec(2:7, width = "8em") %>% -->
+<!--   kable_styling(font_size = 6.5) -->
+<!-- ```   -->
 
 ## Results
 

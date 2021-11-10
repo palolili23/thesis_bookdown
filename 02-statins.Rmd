@@ -1,5 +1,7 @@
 # Emulating a target trial of statin use and risk of dementia using cohort data {#chapter2}
 
+\chaptermark{Statins and dementia}
+
 \small
 \noindent
 _This chapter has been published as_: 
@@ -9,12 +11,6 @@ Caniglia, E.C., Rojas-Saunero L.P., Hilal S., Licher S., Logan R., Stricker B., 
 
 \newpage
 \normalsize
-
-
-
-\chaptermark{Statins and dementia}
-
-\newpage
 
 ## Abstract
 
@@ -154,20 +150,20 @@ Data can be obtained on request. Requests should be directed toward the manageme
 
 /newpage
 
-```{r, warning=FALSE, echo=FALSE, eval=TRUE}
-library(readxl)
-library(kableExtra)
-library(tidyverse)
-# library(huxtable)
+<!-- ```{r, warning=FALSE, echo=FALSE, eval=TRUE} -->
+<!-- library(readxl) -->
+<!-- library(kableExtra) -->
+<!-- library(tidyverse) -->
+<!-- # library(huxtable) -->
 
-options(knitr.kable.NA = ' ')
-target_statins <- rio::import(here::here("tables","02_tab1.RData" ))
-knitr::kable(target_statins, booktabs = T, longtable = T) %>% 
-  # add_indent(c(4:5, 7:10, 13, 15:20)) %>% 
-  # column_spec(1, width = "10em") %>% 
-  # column_spec(2:7, width = "8em") %>%
-  kable_styling(font_size = 6.5)
-```  
+<!-- options(knitr.kable.NA = ' ') -->
+<!-- target_statins <- rio::import(here::here("tables","02_tab1.RData" )) -->
+<!-- knitr::kable(target_statins, booktabs = T, longtable = T) %>%  -->
+<!--   # add_indent(c(4:5, 7:10, 13, 15:20)) %>%  -->
+<!--   # column_spec(1, width = "10em") %>%  -->
+<!--   # column_spec(2:7, width = "8em") %>% -->
+<!--   kable_styling(font_size = 6.5) -->
+<!-- ```   -->
 
 ## Results
 
