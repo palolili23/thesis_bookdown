@@ -201,3 +201,6 @@ We thank Miguel Hernán for helpful comments on an earlier version of this manus
 
 This study was partly funded by ZonMW Memorabel (projectnr 73305095005) and Alzheimer Nederland through the Netherlands Consortium of Dementia Cohorts (NCDC) in the context of Deltaplan Dementie. Further funding was obtained from the Netherlands CardioVascular Research Initiative: the Dutch Heart Foundation (CVON 2018-28 Heart Brain Connection Cross-roads), Dutch Federation of University Medical Centres , the Netherlands Organisation for Health Research and Development and the Royal Netherlands Academy of Sciences.
 
+## Supplementary information
+
+

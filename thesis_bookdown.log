@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.9)  10 NOV 2021 17:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.9)  11 NOV 2021 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -547,117 +547,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box63
 )
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow
-.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip67
-\multirow@cntb=\count321
-\multirow@dima=\skip68
-\bigstrutjot=\dimen184
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.s
-ty
-\wrapoverhang=\dimen185
-\WF@size=\dimen186
-\c@WF@wrappedlines=\count322
-\WF@box=\box64
-\WF@everypar=\toks26
-Package: wrapfig 2003/01/31  v 3.6
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl
-.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks27
-\minrowclearance=\skip69
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflsca
-pe.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.s
-ty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
-
-) (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
-Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
-
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth
-.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box65
-\sift@deathcycles=\count323
-\@vwid@loff=\dimen187
-\@vwid@roff=\dimen188
-)
-\c@taburow=\count324
-\tabu@nbcols=\count325
-\tabu@cnt=\count326
-\tabu@Xcol=\count327
-\tabu@alloc=\count328
-\tabu@nested=\count329
-\tabu@target=\dimen189
-\tabu@spreadtarget=\dimen190
-\tabu@naturalX=\dimen191
-\tabucolX=\dimen192
-\tabu@Xsum=\dimen193
-\extrarowdepth=\dimen194
-\abovetabulinesep=\dimen195
-\belowtabulinesep=\dimen196
-\tabustrutrule=\dimen197
-\tabu@thebody=\toks28
-\tabu@footnotes=\toks29
-\tabu@box=\box66
-\tabu@arstrutbox=\box67
-\tabu@hleads=\box68
-\tabu@vleads=\box69
-\tabu@cellskip=\skip70
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/th
-reeparttable.sty
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box70
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/t
-hreeparttablex.sty
-Package: threeparttablex 2013/07/23 v0.3 by daleif
-
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.s
-ty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimsp
-aces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\TPTL@width=\skip71
-) (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box71
-\UL@hyphenbox=\box72
-\UL@skip=\skip72
-\UL@hook=\toks30
-\UL@height=\dimen198
-\UL@pe=\count330
-\UL@pixel=\dimen199
-\ULC@box=\box73
-Package: ulem 2019/11/18
-\ULdepth=\dimen256
-)
-(c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell
-.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen257
-\c@nlinenum=\count331
-\TeXr@lab=\toks31
-)
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex
 .sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count332
+\lrq@indent=\count321
 
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -665,62 +561,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 y
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count333
-\c@listtotal=\count334
-\c@listcount=\count335
-\c@liststart=\count336
-\c@liststop=\count337
-\c@citecount=\count338
-\c@citetotal=\count339
-\c@multicitecount=\count340
-\c@multicitetotal=\count341
-\c@instcount=\count342
-\c@maxnames=\count343
-\c@minnames=\count344
-\c@maxitems=\count345
-\c@minitems=\count346
-\c@citecounter=\count347
-\c@maxcitecounter=\count348
-\c@savedcitecounter=\count349
-\c@uniquelist=\count350
-\c@uniquename=\count351
-\c@refsection=\count352
-\c@refsegment=\count353
-\c@maxextratitle=\count354
-\c@maxextratitleyear=\count355
-\c@maxextraname=\count356
-\c@maxextradate=\count357
-\c@maxextraalpha=\count358
-\c@abbrvpenalty=\count359
-\c@highnamepenalty=\count360
-\c@lownamepenalty=\count361
-\c@maxparens=\count362
-\c@parenlevel=\count363
-\blx@tempcnta=\count364
-\blx@tempcntb=\count365
-\blx@tempcntc=\count366
-\blx@maxsection=\count367
-\blx@maxsegment@0=\count368
-\blx@notetype=\count369
-\blx@parenlevel@text=\count370
-\blx@parenlevel@foot=\count371
-\blx@sectionciteorder@0=\count372
-\blx@entrysetcounter=\count373
-\blx@biblioinstance=\count374
-\labelnumberwidth=\skip73
-\labelalphawidth=\skip74
-\biblabelsep=\skip75
-\bibitemsep=\skip76
-\bibnamesep=\skip77
-\bibinitsep=\skip78
-\bibparsep=\skip79
-\bibhang=\skip80
+\c@tabx@nest=\count322
+\c@listtotal=\count323
+\c@listcount=\count324
+\c@liststart=\count325
+\c@liststop=\count326
+\c@citecount=\count327
+\c@citetotal=\count328
+\c@multicitecount=\count329
+\c@multicitetotal=\count330
+\c@instcount=\count331
+\c@maxnames=\count332
+\c@minnames=\count333
+\c@maxitems=\count334
+\c@minitems=\count335
+\c@citecounter=\count336
+\c@maxcitecounter=\count337
+\c@savedcitecounter=\count338
+\c@uniquelist=\count339
+\c@uniquename=\count340
+\c@refsection=\count341
+\c@refsegment=\count342
+\c@maxextratitle=\count343
+\c@maxextratitleyear=\count344
+\c@maxextraname=\count345
+\c@maxextradate=\count346
+\c@maxextraalpha=\count347
+\c@abbrvpenalty=\count348
+\c@highnamepenalty=\count349
+\c@lownamepenalty=\count350
+\c@maxparens=\count351
+\c@parenlevel=\count352
+\blx@tempcnta=\count353
+\blx@tempcntb=\count354
+\blx@tempcntc=\count355
+\blx@maxsection=\count356
+\blx@maxsegment@0=\count357
+\blx@notetype=\count358
+\blx@parenlevel@text=\count359
+\blx@parenlevel@foot=\count360
+\blx@sectionciteorder@0=\count361
+\blx@entrysetcounter=\count362
+\blx@biblioinstance=\count363
+\labelnumberwidth=\skip67
+\labelalphawidth=\skip68
+\biblabelsep=\skip69
+\bibitemsep=\skip70
+\bibnamesep=\skip71
+\bibinitsep=\skip72
+\bibparsep=\skip73
+\bibhang=\skip74
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language3
-\c@mincomprange=\count375
-\c@maxcomprange=\count376
-\c@mincompwidth=\count377
+\c@mincomprange=\count364
+\c@maxcomprange=\count365
+\c@mincompwidth=\count366
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -737,100 +633,100 @@ File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count378
-\c@savedafterword=\count379
-\c@annotator=\count380
-\c@savedannotator=\count381
-\c@author=\count382
-\c@savedauthor=\count383
-\c@bookauthor=\count384
-\c@savedbookauthor=\count385
-\c@commentator=\count386
-\c@savedcommentator=\count387
-\c@editor=\count388
-\c@savededitor=\count389
-\c@editora=\count390
-\c@savededitora=\count391
-\c@editorb=\count392
-\c@savededitorb=\count393
-\c@editorc=\count394
-\c@savededitorc=\count395
-\c@foreword=\count396
-\c@savedforeword=\count397
-\c@holder=\count398
-\c@savedholder=\count399
-\c@introduction=\count400
-\c@savedintroduction=\count401
-\c@namea=\count402
-\c@savednamea=\count403
-\c@nameb=\count404
-\c@savednameb=\count405
-\c@namec=\count406
-\c@savednamec=\count407
-\c@translator=\count408
-\c@savedtranslator=\count409
-\c@shortauthor=\count410
-\c@savedshortauthor=\count411
-\c@shorteditor=\count412
-\c@savedshorteditor=\count413
-\c@groupauthor=\count414
-\c@savedgroupauthor=\count415
-\c@narrator=\count416
-\c@savednarrator=\count417
-\c@execproducer=\count418
-\c@savedexecproducer=\count419
-\c@execdirector=\count420
-\c@savedexecdirector=\count421
-\c@with=\count422
-\c@savedwith=\count423
-\c@labelname=\count424
-\c@savedlabelname=\count425
-\c@institution=\count426
-\c@savedinstitution=\count427
-\c@lista=\count428
-\c@savedlista=\count429
-\c@listb=\count430
-\c@savedlistb=\count431
-\c@listc=\count432
-\c@savedlistc=\count433
-\c@listd=\count434
-\c@savedlistd=\count435
-\c@liste=\count436
-\c@savedliste=\count437
-\c@listf=\count438
-\c@savedlistf=\count439
-\c@location=\count440
-\c@savedlocation=\count441
-\c@organization=\count442
-\c@savedorganization=\count443
-\c@origlocation=\count444
-\c@savedoriglocation=\count445
-\c@origpublisher=\count446
-\c@savedorigpublisher=\count447
-\c@publisher=\count448
-\c@savedpublisher=\count449
-\c@language=\count450
-\c@savedlanguage=\count451
-\c@origlanguage=\count452
-\c@savedoriglanguage=\count453
-\c@citation=\count454
-\c@savedcitation=\count455
-\c@pageref=\count456
-\c@savedpageref=\count457
-\shorthandwidth=\skip81
-\shortjournalwidth=\skip82
-\shortserieswidth=\skip83
-\shorttitlewidth=\skip84
-\shortauthorwidth=\skip85
-\shorteditorwidth=\skip86
-\locallabelnumberwidth=\skip87
-\locallabelalphawidth=\skip88
-\localshorthandwidth=\skip89
-\localshortjournalwidth=\skip90
-\localshortserieswidth=\skip91
-\localshorttitlewidth=\skip92
-\localshortauthorwidth=\skip93
-\localshorteditorwidth=\skip94
+\c@afterword=\count367
+\c@savedafterword=\count368
+\c@annotator=\count369
+\c@savedannotator=\count370
+\c@author=\count371
+\c@savedauthor=\count372
+\c@bookauthor=\count373
+\c@savedbookauthor=\count374
+\c@commentator=\count375
+\c@savedcommentator=\count376
+\c@editor=\count377
+\c@savededitor=\count378
+\c@editora=\count379
+\c@savededitora=\count380
+\c@editorb=\count381
+\c@savededitorb=\count382
+\c@editorc=\count383
+\c@savededitorc=\count384
+\c@foreword=\count385
+\c@savedforeword=\count386
+\c@holder=\count387
+\c@savedholder=\count388
+\c@introduction=\count389
+\c@savedintroduction=\count390
+\c@namea=\count391
+\c@savednamea=\count392
+\c@nameb=\count393
+\c@savednameb=\count394
+\c@namec=\count395
+\c@savednamec=\count396
+\c@translator=\count397
+\c@savedtranslator=\count398
+\c@shortauthor=\count399
+\c@savedshortauthor=\count400
+\c@shorteditor=\count401
+\c@savedshorteditor=\count402
+\c@groupauthor=\count403
+\c@savedgroupauthor=\count404
+\c@narrator=\count405
+\c@savednarrator=\count406
+\c@execproducer=\count407
+\c@savedexecproducer=\count408
+\c@execdirector=\count409
+\c@savedexecdirector=\count410
+\c@with=\count411
+\c@savedwith=\count412
+\c@labelname=\count413
+\c@savedlabelname=\count414
+\c@institution=\count415
+\c@savedinstitution=\count416
+\c@lista=\count417
+\c@savedlista=\count418
+\c@listb=\count419
+\c@savedlistb=\count420
+\c@listc=\count421
+\c@savedlistc=\count422
+\c@listd=\count423
+\c@savedlistd=\count424
+\c@liste=\count425
+\c@savedliste=\count426
+\c@listf=\count427
+\c@savedlistf=\count428
+\c@location=\count429
+\c@savedlocation=\count430
+\c@organization=\count431
+\c@savedorganization=\count432
+\c@origlocation=\count433
+\c@savedoriglocation=\count434
+\c@origpublisher=\count435
+\c@savedorigpublisher=\count436
+\c@publisher=\count437
+\c@savedpublisher=\count438
+\c@language=\count439
+\c@savedlanguage=\count440
+\c@origlanguage=\count441
+\c@savedoriglanguage=\count442
+\c@citation=\count443
+\c@savedcitation=\count444
+\c@pageref=\count445
+\c@savedpageref=\count446
+\shorthandwidth=\skip75
+\shortjournalwidth=\skip76
+\shortserieswidth=\skip77
+\shorttitlewidth=\skip78
+\shortauthorwidth=\skip79
+\shorteditorwidth=\skip80
+\locallabelnumberwidth=\skip81
+\locallabelalphawidth=\skip82
+\localshorthandwidth=\skip83
+\localshortjournalwidth=\skip84
+\localshortserieswidth=\skip85
+\localshorttitlewidth=\skip86
+\localshortauthorwidth=\skip87
+\localshorteditorwidth=\skip88
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -849,19 +745,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex
 .def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count458
-\c@textcitetotal=\count459
-\c@textcitemaxnames=\count460
-\c@biburlbigbreakpenalty=\count461
-\c@biburlbreakpenalty=\count462
-\c@biburlnumpenalty=\count463
-\c@biburlucpenalty=\count464
-\c@biburllcpenalty=\count465
+\c@textcitecount=\count447
+\c@textcitetotal=\count448
+\c@textcitemaxnames=\count449
+\c@biburlbigbreakpenalty=\count450
+\c@biburlbreakpenalty=\count451
+\c@biburlnumpenalty=\count452
+\c@biburlucpenalty=\count453
+\c@biburllcpenalty=\count454
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count466
+\c@smartand=\count455
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -875,8 +771,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/stan
 dard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count467
-\c@bbx:relatedtotal=\count468
+\c@bbx:relatedcount=\count456
+\c@bbx:relatedtotal=\count457
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -913,45 +809,45 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 .cfg
 File: biblatex.cfg 
 ))
-\@quotelevel=\count469
-\@quotereset=\count470
+\@quotelevel=\count458
+\@quotereset=\count459
 (./thesis_bookdown.aux)
 \openout1 = `thesis_bookdown.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 98.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 98.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 98.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 98.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 98.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 98.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 98.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 85.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -980,7 +876,7 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 98.
+(Font)              scaled to size 10.0pt on input line 85.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1019,17 +915,17 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 98.
+(Font)              scaled to size 10.0pt on input line 85.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 98.
+(Font)              `operators' in the math version `normal' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 98.
+ line 85.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 98.
+(Font)              `operators' in the math version `bold' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 98.
+t line 85.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1116,15 +1012,15 @@ t=math;language=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 98.
+(Font)              `symbols' in the math version `normal' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 98.
+t line 85.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 98.
+(Font)              `symbols' in the math version `bold' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 98.
+t line 85.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1193,18 +1089,18 @@ pt=math;language=dflt;"
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 9
-8.
+(Font)              `largesymbols' in the math version `normal' on input line 8
+5.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 98.
+t line 85.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 98.
+(Font)              `largesymbols' in the math version `bold' on input line 85.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 98.
-Package hyperref Info: Link coloring OFF on input line 98.
+t line 85.
+Package hyperref Info: Link coloring OFF on input line 85.
 
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -1218,11 +1114,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count471
+\c@section@level=\count460
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 (./thesis_bookdown.out) (./thesis_bookdown.out)
 \@outlinefile=\write4
 \openout4 = `thesis_bookdown.out'.
@@ -1230,8 +1126,6 @@ LaTeX Info: Redefining \nameref on input line 98.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
-Package caption Info: threeparttable package is loaded.
-Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
@@ -1284,38 +1178,38 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis_bookdown.bbl' not found.
 No file thesis_bookdown.bbl.
-Package biblatex Info: Reference section=0 on input line 98.
-Package biblatex Info: Reference segment=0 on input line 98.
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 100.
+(Font)              scaled to size 12.0pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 100.
+(Font)              scaled to size 8.0pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 100.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-00.
+(Font)              scaled to size 6.0pt on input line 87.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+7.
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 100.
+(Font)              scaled to size 12.0011pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 100.
+(Font)              scaled to size 8.00073pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 100.
+(Font)              scaled to size 6.00055pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 100.
+(Font)              scaled to size 11.99872pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 100.
+(Font)              scaled to size 7.99915pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 100.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100
-.
+(Font)              scaled to size 5.99936pt on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+
 (c:/Users/040609/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1324,8 +1218,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [2
 
 ]
-Package biblatex Info: Reference segment=1 on input line 103.
-Package biblatex Info: Setting label 'refsegment:01' on input line 103.
+Package biblatex Info: Reference segment=1 on input line 90.
+Package biblatex Info: Setting label 'refsegment:01' on input line 90.
 (./thesis_bookdown.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 5.
@@ -1351,335 +1245,335 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 ]
 Chapter 1.
-Package biblatex Info: Reference segment=2 on input line 106.
-Package biblatex Info: Setting label 'refsegment:02' on input line 106.
+Package biblatex Info: Reference segment=2 on input line 93.
+Package biblatex Info: Setting label 'refsegment:02' on input line 93.
 
-LaTeX Warning: Citation 'gbd2016' on page 7 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'worldreport2018' on page 7 undefined on input line 108
-.
+LaTeX Warning: Citation 'gbd2016' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'who2020' on page 7 undefined on input line 108.
+LaTeX Warning: Citation 'worldreport2018' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'women2015' on page 7 undefined on input line 108.
+
+LaTeX Warning: Citation 'who2020' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'swinkels2019' on page 7 undefined on input line 108.
+LaTeX Warning: Citation 'women2015' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'brodaty2009' on page 7 undefined on input line 108.
+LaTeX Warning: Citation 'swinkels2019' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'etters2008' on page 7 undefined on input line 108.
+LaTeX Warning: Citation 'brodaty2009' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'carrillo2013' on page 7 undefined on input line 108.
+LaTeX Warning: Citation 'etters2008' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'lancet2020' on page 7 undefined on input line 110.
+LaTeX Warning: Citation 'carrillo2013' on page 7 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'ballard2020' on page 7 undefined on input line 110.
+LaTeX Warning: Citation 'lancet2020' on page 7 undefined on input line 97.
 
 
-LaTeX Warning: Citation 'langedijk2015' on page 7 undefined on input line 110.
+LaTeX Warning: Citation 'ballard2020' on page 7 undefined on input line 97.
 
 
-LaTeX Warning: Citation 'cummings2020' on page 7 undefined on input line 110.
+LaTeX Warning: Citation 'langedijk2015' on page 7 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'cummings2020' on page 7 undefined on input line 97.
 
 [7]
 
-LaTeX Warning: Citation 'jama' on page 8 undefined on input line 112.
+LaTeX Warning: Citation 'jama' on page 8 undefined on input line 99.
 
 
-LaTeX Warning: Citation 'waterkills' on page 8 undefined on input line 112.
+LaTeX Warning: Citation 'waterkills' on page 8 undefined on input line 99.
 
 
-LaTeX Warning: Citation 'schwartz2016' on page 8 undefined on input line 112.
-
-
-LaTeX Warning: Citation 'hernan_robins_2016' on page 8 undefined on input line 
-114.
-
-
-LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 114.
-
-
-LaTeX Warning: Citation 'ikram2020' on page 8 undefined on input line 114.
-
-
-LaTeX Warning: Citation 'cochran1965' on page 8 undefined on input line 116.
+LaTeX Warning: Citation 'schwartz2016' on page 8 undefined on input line 99.
 
 
 LaTeX Warning: Citation 'hernan_robins_2016' on page 8 undefined on input line 
-116.
+101.
 
 
-LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 116.
+LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 116.
+LaTeX Warning: Citation 'ikram2020' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'whatif2020' on page 8 undefined on input line 116.
+LaTeX Warning: Citation 'cochran1965' on page 8 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'hernan_robins_2016' on page 8 undefined on input line 
+103.
+
+
+LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'labrecque2018' on page 8 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'whatif2020' on page 8 undefined on input line 103.
 
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 [8]
 
-LaTeX Warning: Citation 'murray2019' on page 9 undefined on input line 118.
+LaTeX Warning: Citation 'murray2019' on page 9 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'murray2018' on page 9 undefined on input line 118.
+LaTeX Warning: Citation 'murray2018' on page 9 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 118.
+LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'robins1986' on page 9 undefined on input line 120.
+LaTeX Warning: Citation 'robins1986' on page 9 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 120.
+LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'robins1986' on page 9 undefined on input line 120.
+LaTeX Warning: Citation 'robins1986' on page 9 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 120.
+LaTeX Warning: Citation 'whatif2020' on page 9 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'richardson2014' on page 9 undefined on input line 120.
+LaTeX Warning: Citation 'richardson2014' on page 9 undefined on input line 107.
 
 
 [9]
 
-LaTeX Warning: Citation 'pearl1994' on page 10 undefined on input line 122.
+LaTeX Warning: Citation 'pearl1994' on page 10 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'robins1986' on page 10 undefined on input line 122.
+LaTeX Warning: Citation 'robins1986' on page 10 undefined on input line 109.
 
 
-LaTeX Warning: Reference `(' on page 10 undefined on input line 122.
+LaTeX Warning: Reference `(' on page 10 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'young2020' on page 10 undefined on input line 124.
+LaTeX Warning: Citation 'young2020' on page 10 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'ich9' on page 10 undefined on input line 124.
+LaTeX Warning: Citation 'ich9' on page 10 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'lau2009' on page 10 undefined on input line 126.
+LaTeX Warning: Citation 'lau2009' on page 10 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'young2020' on page 10 undefined on input line 126.
+LaTeX Warning: Citation 'young2020' on page 10 undefined on input line 113.
 
 [10] [11]
 
-LaTeX Warning: Citation 'hofman1991' on page 12 undefined on input line 135.
+LaTeX Warning: Citation 'hofman1991' on page 12 undefined on input line 122.
 
 
-LaTeX Warning: Citation 'hofman2007' on page 12 undefined on input line 137.
+LaTeX Warning: Citation 'hofman2007' on page 12 undefined on input line 124.
 
 
-LaTeX Warning: Citation 'hofman1991' on page 12 undefined on input line 139.
+LaTeX Warning: Citation 'hofman1991' on page 12 undefined on input line 126.
 
 
-LaTeX Warning: Citation 'ikram2020' on page 12 undefined on input line 139.
+LaTeX Warning: Citation 'ikram2020' on page 12 undefined on input line 126.
 
 [12] [13] [14]
 Chapter 2.
-Package biblatex Info: Reference segment=3 on input line 147.
-Package biblatex Info: Setting label 'refsegment:03' on input line 147.
+Package biblatex Info: Reference segment=3 on input line 134.
+Package biblatex Info: Setting label 'refsegment:03' on input line 134.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 157.
+(Font)              scaled to size 9.0pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 157.
+(Font)              scaled to size 9.00082pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 157.
+(Font)              scaled to size 8.99904pt on input line 144.
 [15
 
 ] [16]
 
-LaTeX Warning: Citation 'hernan_itt2012' on page 17 undefined on input line 179
+LaTeX Warning: Citation 'hernan_itt2012' on page 17 undefined on input line 166
 .
 
 
-LaTeX Warning: Citation 'naci2013' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'naci2013' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'taylor2013' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'taylor2013' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'udell2006' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'udell2006' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'mrc2002' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'mrc2002' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'trompet2010' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'trompet2010' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'mrc2002' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'mrc2002' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'trompet2010' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'trompet2010' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'power2015' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'power2015' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'arvanitakis2008' on page 17 undefined on input line 18
-1.
+LaTeX Warning: Citation 'arvanitakis2008' on page 17 undefined on input line 16
+8.
 
 
-LaTeX Warning: Citation 'szwast2007' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'szwast2007' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'zandi2005' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'zandi2005' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'ancelin2012' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'ancelin2012' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'smeeth2009' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'smeeth2009' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'wolozin2007' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'wolozin2007' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'haag2009' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'haag2009' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'cramer2008' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'cramer2008' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'bettermann2012' on page 17 undefined on input line 181
+LaTeX Warning: Citation 'bettermann2012' on page 17 undefined on input line 168
 .
 
 
-LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'li2004' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'li2004' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'li2010' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'li2010' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'rea2005' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'rea2005' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'bettermann2012' on page 17 undefined on input line 181
+LaTeX Warning: Citation 'bettermann2012' on page 17 undefined on input line 168
 .
 
 
-LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'bernick2005' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'bernick2005' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'sparks2008' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'sparks2008' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'steenland2013' on page 17 undefined on input line 181.
-
-
-
-LaTeX Warning: Citation 'starr2004' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'cox2010' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'arvanitakis2008' on page 17 undefined on input line 18
-1.
-
-
-LaTeX Warning: Citation 'szwast2007' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'zandi2005' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'ancelin2012' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'wolozin2007' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'haag2009' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'cramer2008' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'li2004' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'li2010' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'rea2005' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'bernick2005' on page 17 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'steenland2013' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'steenland2013' on page 17 undefined on input line 168.
 
 
 
-LaTeX Warning: Citation 'starr2004' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'starr2004' on page 17 undefined on input line 168.
 
 
-LaTeX Warning: Citation 'ray2003' on page 17 undefined on input line 181.
+LaTeX Warning: Citation 'cox2010' on page 17 undefined on input line 168.
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 181--182
+LaTeX Warning: Citation 'arvanitakis2008' on page 17 undefined on input line 16
+8.
+
+
+LaTeX Warning: Citation 'szwast2007' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'zandi2005' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'ancelin2012' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'wolozin2007' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'haag2009' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'cramer2008' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'beydoun2011' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'li2004' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'li2010' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'rea2005' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'bernick2005' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'steenland2013' on page 17 undefined on input line 168.
+
+
+
+LaTeX Warning: Citation 'starr2004' on page 17 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'ray2003' on page 17 undefined on input line 168.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 168--169
 \TU/lmr/m/n/10 based techniques could be susceptible to bias due to inappropria
 te ad-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 181--182
+Underfull \hbox (badness 1803) in paragraph at lines 168--169
 \TU/lmr/m/n/10 studies that include prevalent statin users could be susceptible
  to se-
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 181--182
+Underfull \hbox (badness 3396) in paragraph at lines 168--169
 \TU/lmr/m/n/10 lection bias([]; []; []; [];
  []
 
 
-LaTeX Warning: Citation 'danaei2013' on page 17 undefined on input line 183.
+LaTeX Warning: Citation 'danaei2013' on page 17 undefined on input line 170.
 
 
-LaTeX Warning: Citation 'danaei2018' on page 17 undefined on input line 183.
+LaTeX Warning: Citation 'danaei2018' on page 17 undefined on input line 170.
 
 [17]
 
-LaTeX Warning: Citation 'hofman2015' on page 18 undefined on input line 195.
+LaTeX Warning: Citation 'hofman2015' on page 18 undefined on input line 182.
 
 
-LaTeX Warning: Citation 'hofman2015' on page 18 undefined on input line 199.
+LaTeX Warning: Citation 'hofman2015' on page 18 undefined on input line 186.
 
 
-LaTeX Warning: Citation 'mantel2002' on page 18 undefined on input line 199.
+LaTeX Warning: Citation 'mantel2002' on page 18 undefined on input line 186.
 
 
-LaTeX Warning: Citation 'debruijn2015' on page 18 undefined on input line 204.
+LaTeX Warning: Citation 'debruijn2015' on page 18 undefined on input line 191.
 
 [18] [19]
-Underfull \hbox (badness 2035) in paragraph at lines 242--242
+Underfull \hbox (badness 2035) in paragraph at lines 229--229
 []\TU/lmr/m/n/10 For each outcome we fit a weighted pooled logistic regression 
 model:
  []
@@ -1698,8 +1592,8 @@ Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
 ex-text;!
 [26] [27] [28]
 Chapter 3.
-Package biblatex Info: Reference segment=4 on input line 344.
-Package biblatex Info: Setting label 'refsegment:04' on input line 344.
+Package biblatex Info: Reference segment=4 on input line 334.
+Package biblatex Info: Setting label 'refsegment:04' on input line 334.
 [29
 
 ]
@@ -1710,132 +1604,132 @@ ND DEMENTIA
 
 [30]
 
-LaTeX Warning: Citation 'larson2008' on page 31 undefined on input line 377.
+LaTeX Warning: Citation 'larson2008' on page 31 undefined on input line 367.
 
 
-LaTeX Warning: Citation 'bauer2014' on page 31 undefined on input line 377.
+LaTeX Warning: Citation 'bauer2014' on page 31 undefined on input line 367.
 
 
-LaTeX Warning: Citation 'johnson2019' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'johnson2019' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'lancet2020' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'lancet2020' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'hughes2020' on page 31 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'ace_inhibitors2000' on page 31 undefined on input line
- 379.
-
-
-LaTeX Warning: Citation 'chobanian2003' on page 31 undefined on input line 379.
-
-
-
-LaTeX Warning: Citation 'braillon2015' on page 31 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'zhang2012' on page 31 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'prince1996' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'hughes2020' on page 31 undefined on input line 369.
 
 
 LaTeX Warning: Citation 'ace_inhibitors2000' on page 31 undefined on input line
- 379.
+ 369.
 
 
-LaTeX Warning: Citation 'prince1996' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'chobanian2003' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'forette2002' on page 31 undefined on input line 379.
+
+LaTeX Warning: Citation 'braillon2015' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'progress2003' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'zhang2012' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'lithell2003' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'prince1996' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'diener2008' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'ace_inhibitors2000' on page 31 undefined on input line
+ 369.
 
 
-LaTeX Warning: Citation 'anderson2011' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'prince1996' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'williamson2019' on page 31 undefined on input line 379
+LaTeX Warning: Citation 'forette2002' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'progress2003' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'lithell2003' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'diener2008' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'anderson2011' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'williamson2019' on page 31 undefined on input line 369
 .
 
 
-LaTeX Warning: Citation 'ding2020' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'ding2020' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'ding2020' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'ding2020' on page 31 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'liang2018' on page 31 undefined on input line 379.
+LaTeX Warning: Citation 'liang2018' on page 31 undefined on input line 369.
 
 
-Overfull \hbox (12.74002pt too wide) in paragraph at lines 379--380
+Overfull \hbox (12.74002pt too wide) in paragraph at lines 369--370
 []\TU/lmr/m/n/10 High blood pressure is a well-known modifiable risk factor for
  stroke([])
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 379--380
+Underfull \hbox (badness 1448) in paragraph at lines 369--370
 \TU/lmr/m/n/10 specific biological mechanisms are heterogenous and less clear, 
 such as
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 379--380
+Underfull \hbox (badness 2865) in paragraph at lines 369--370
 \TU/lmr/m/n/10 among elderly patients with systolic hypertension([];
  []
 
 
-LaTeX Warning: Citation 'zhang2018' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'zhang2018' on page 31 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'taubman2009' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'taubman2009' on page 31 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'jain2016' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'jain2016' on page 31 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'danaei2018' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'danaei2018' on page 31 undefined on input line 371.
 
 
 LaTeX Warning: Citation 'garcia_aymerich2014' on page 31 undefined on input lin
-e 381.
+e 371.
 
 
-LaTeX Warning: Citation 'whatif2020' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'whatif2020' on page 31 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'lodi2019' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'lodi2019' on page 31 undefined on input line 371.
 
 
-LaTeX Warning: Citation 'hernan2008' on page 31 undefined on input line 381.
+LaTeX Warning: Citation 'hernan2008' on page 31 undefined on input line 371.
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 381--382
+Underfull \hbox (badness 1072) in paragraph at lines 371--372
 \TU/lmr/m/n/10 smoking) can be empirically informed using observational data to
  emu-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 381--382
+Underfull \hbox (badness 1371) in paragraph at lines 371--372
 \TU/lmr/m/n/10 account for time-dependent confounding([]). Previous studies
  []
 
 [31]
 
-LaTeX Warning: Citation 'williamson2019' on page 32 undefined on input line 395
+LaTeX Warning: Citation 'williamson2019' on page 32 undefined on input line 385
 .
 
 
-LaTeX Warning: Citation 'ikram2017' on page 32 undefined on input line 404.
+LaTeX Warning: Citation 'ikram2017' on page 32 undefined on input line 394.
 
 
 Overfull \hbox (7.7156pt too wide) has occurred while \output is active
@@ -1845,40 +1739,40 @@ ND DEMENTIA
 
 [32]
 
-LaTeX Warning: Citation 'wieberdink2012' on page 33 undefined on input line 410
+LaTeX Warning: Citation 'wieberdink2012' on page 33 undefined on input line 400
 .
 
 
-LaTeX Warning: Citation 'akoudad2015' on page 33 undefined on input line 410.
+LaTeX Warning: Citation 'akoudad2015' on page 33 undefined on input line 400.
 
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=t
 ex-text;!
 
-LaTeX Warning: Citation 'debruijn2015' on page 33 undefined on input line 412.
+LaTeX Warning: Citation 'debruijn2015' on page 33 undefined on input line 402.
 
 
-LaTeX Warning: Citation 'ott1999' on page 33 undefined on input line 412.
+LaTeX Warning: Citation 'ott1999' on page 33 undefined on input line 402.
 
 [33]
 File: figs/03_fig1.pdf Graphic file (type pdf)
 <use figs/03_fig1.pdf>
 
-LaTeX Warning: Citation 'taubman2009' on page 34 undefined on input line 429.
+LaTeX Warning: Citation 'taubman2009' on page 34 undefined on input line 419.
 
 
 LaTeX Warning: Citation 'garcia_aymerich2014' on page 34 undefined on input lin
-e 429.
+e 419.
 
 
-LaTeX Warning: Citation 'danaei_epid2013' on page 34 undefined on input line 42
+LaTeX Warning: Citation 'danaei_epid2013' on page 34 undefined on input line 41
 9.
 
 
-LaTeX Warning: Citation 'vangenlonne2018' on page 34 undefined on input line 42
+LaTeX Warning: Citation 'vangenlonne2018' on page 34 undefined on input line 41
 9.
 
 
-LaTeX Warning: Citation 'dickerman2019' on page 34 undefined on input line 429.
+LaTeX Warning: Citation 'dickerman2019' on page 34 undefined on input line 419.
 
 
 
@@ -1898,22 +1792,22 @@ ND DEMENTIA
 
 [36]
 
-LaTeX Warning: Citation 'young2020' on page 37 undefined on input line 472.
+LaTeX Warning: Citation 'young2020' on page 37 undefined on input line 461.
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 476--478
+Underfull \hbox (badness 1062) in paragraph at lines 465--467
 []\TU/lmr/m/n/10 All g-formula analyses were conducted using SAS 9.4 software a
 nd the
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 476--478
+Underfull \hbox (badness 7576) in paragraph at lines 465--467
 \TU/lmr/m/n/10 GFORMULA macro that is publicly available at []$[][][][] [] [] [
 ] [][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 476--478
+Underfull \hbox (badness 2591) in paragraph at lines 465--467
 \TU/lmr/m/n/10 call for our primary analysis is available on the following repo
 sitory
  []
@@ -1926,86 +1820,86 @@ ND DEMENTIA
 
 [38]
 
-LaTeX Warning: Citation 'ettehad2016' on page 39 undefined on input line 497.
+LaTeX Warning: Citation 'ettehad2016' on page 39 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'vangenlonne2018' on page 39 undefined on input line 49
-7.
+LaTeX Warning: Citation 'vangenlonne2018' on page 39 undefined on input line 48
+6.
 
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=t
 ex-text;!
 
-LaTeX Warning: Citation 'ettehad2016' on page 39 undefined on input line 497.
+LaTeX Warning: Citation 'ettehad2016' on page 39 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'chiuve2008' on page 39 undefined on input line 497.
+LaTeX Warning: Citation 'chiuve2008' on page 39 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'braillon2015' on page 39 undefined on input line 497.
+LaTeX Warning: Citation 'braillon2015' on page 39 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'zhang2012' on page 39 undefined on input line 497.
+LaTeX Warning: Citation 'zhang2012' on page 39 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'williamson2019' on page 39 undefined on input line 499
+LaTeX Warning: Citation 'williamson2019' on page 39 undefined on input line 488
 .
 
 
 LaTeX Warning: Citation 'ace_inhibitors2000' on page 39 undefined on input line
- 499.
+ 488.
 
 
-LaTeX Warning: Citation 'prince1996' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'prince1996' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'forette2002' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'forette2002' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'progress2003' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'progress2003' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'lithell2003' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'lithell2003' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'diener2008' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'diener2008' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'anderson2011' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'anderson2011' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'williamson2019' on page 39 undefined on input line 499
+LaTeX Warning: Citation 'williamson2019' on page 39 undefined on input line 488
 .
 
 
-LaTeX Warning: Citation 'bosch2019' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'bosch2019' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'ding2020' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'ding2020' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'walker2019' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'walker2019' on page 39 undefined on input line 488.
 
 
-LaTeX Warning: Citation 'beam2018' on page 39 undefined on input line 499.
+LaTeX Warning: Citation 'beam2018' on page 39 undefined on input line 488.
 
 [39]
 
-LaTeX Warning: Citation 'joe2019' on page 40 undefined on input line 501.
+LaTeX Warning: Citation 'joe2019' on page 40 undefined on input line 490.
 
 
-LaTeX Warning: Citation 'taubman2009' on page 40 undefined on input line 501.
+LaTeX Warning: Citation 'taubman2009' on page 40 undefined on input line 490.
 
 
-LaTeX Warning: Citation 'waterkills' on page 40 undefined on input line 503.
+LaTeX Warning: Citation 'waterkills' on page 40 undefined on input line 492.
 
 
-LaTeX Warning: Citation 'hernan2011' on page 40 undefined on input line 503.
+LaTeX Warning: Citation 'hernan2011' on page 40 undefined on input line 492.
 
 
-LaTeX Warning: Citation 'johnson2019' on page 40 undefined on input line 503.
+LaTeX Warning: Citation 'johnson2019' on page 40 undefined on input line 492.
 
 
-LaTeX Warning: Citation 'lancet2020' on page 40 undefined on input line 503.
+LaTeX Warning: Citation 'lancet2020' on page 40 undefined on input line 492.
 
 
 Overfull \hbox (7.7156pt too wide) has occurred while \output is active
@@ -2015,100 +1909,126 @@ ND DEMENTIA
 
 [40]
 
-LaTeX Warning: Citation 'who_dementia2019' on page 41 undefined on input line 5
-05.
+LaTeX Warning: Citation 'who_dementia2019' on page 41 undefined on input line 4
+94.
 
 [41]
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+
+LaTeX Warning: Citation 'ott2002' on page 42 undefined on input line 516.
+
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+
+LaTeX Warning: Citation 'ruitenberg2002' on page 42 undefined on input line 518
+.
+
+
+LaTeX Warning: Citation 'leening2012' on page 42 undefined on input line 520.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (7.7156pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE A
 ND DEMENTIA
  []
 
-[42
+[42] [43]
+Overfull \hbox (7.7156pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 44 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE A
+ND DEMENTIA
+ []
 
-]
+[44]
 Chapter 4.
-Package biblatex Info: Reference segment=5 on input line 518.
-Package biblatex Info: Setting label 'refsegment:05' on input line 518.
-[43] [44]
+Package biblatex Info: Reference segment=5 on input line 626.
+Package biblatex Info: Setting label 'refsegment:05' on input line 626.
+[45
 
-LaTeX Warning: Citation 'ma2014' on page 45 undefined on input line 550.
+] [46]
 
-
-LaTeX Warning: Citation 'hanson2016' on page 45 undefined on input line 550.
-
-
-LaTeX Warning: Citation 'vanderwillik2018' on page 45 undefined on input line 5
-50.
+LaTeX Warning: Citation 'ma2014' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'ospina2020' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'hanson2016' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'behrens2009' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'vanderwillik2018' on page 47 undefined on input line 6
+58.
 
 
-LaTeX Warning: Citation 'harris2014' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'ospina2020' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'nudelman2019' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'behrens2009' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'Papin2020' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'harris2014' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'driverbiogeront2014' on page 45 undefined on input lin
-e 550.
+LaTeX Warning: Citation 'nudelman2019' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'olson2019' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'Papin2020' on page 47 undefined on input line 658.
 
 
-LaTeX Warning: Citation 'li2021' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'driverbiogeront2014' on page 47 undefined on input lin
+e 658.
 
 
-LaTeX Warning: Citation 'driverpin2015' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'olson2019' on page 47 undefined on input line 658.
+
+
+LaTeX Warning: Citation 'li2021' on page 47 undefined on input line 658.
+
+
+LaTeX Warning: Citation 'driverpin2015' on page 47 undefined on input line 658.
 
 
 
-LaTeX Warning: Citation 'snyder2017' on page 45 undefined on input line 550.
+LaTeX Warning: Citation 'snyder2017' on page 47 undefined on input line 658.
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 550--551
+Underfull \hbox (badness 2680) in paragraph at lines 658--659
 \TU/lmr/m/n/10 These findings have motivated substantial research toward mechan
 istic
  []
 
 
-LaTeX Warning: Citation 'driverbiogeront2014' on page 45 undefined on input lin
-e 552.
+LaTeX Warning: Citation 'driverbiogeront2014' on page 47 undefined on input lin
+e 660.
 
 
-LaTeX Warning: Citation 'ganguli2015' on page 45 undefined on input line 552.
+LaTeX Warning: Citation 'ganguli2015' on page 47 undefined on input line 660.
 
 
-LaTeX Warning: Citation 'didelez2016' on page 45 undefined on input line 552.
+LaTeX Warning: Citation 'didelez2016' on page 47 undefined on input line 660.
 
 
-LaTeX Warning: Citation 'labrecque2017' on page 45 undefined on input line 552.
+LaTeX Warning: Citation 'labrecque2017' on page 47 undefined on input line 660.
 
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 552--553
+Underfull \hbox (badness 1735) in paragraph at lines 660--661
 \TU/lmr/m/n/10 served cancer-dementia inverse association is not straightforwar
 d. Re-
  []
 
 
-LaTeX Warning: Citation 'driverpin2015' on page 45 undefined on input line 554.
+LaTeX Warning: Citation 'driverpin2015' on page 47 undefined on input line 662.
 
 
 
-LaTeX Warning: Citation 'angelucci2017' on page 45 undefined on input line 554.
+LaTeX Warning: Citation 'angelucci2017' on page 47 undefined on input line 662.
 
 
 
-LaTeX Warning: Citation 'li2021' on page 45 undefined on input line 554.
+LaTeX Warning: Citation 'li2021' on page 47 undefined on input line 662.
 
 
 Underfull \vbox (badness 2547) has occurred while \output is active []
@@ -2116,271 +2036,271 @@ Underfull \vbox (badness 2547) has occurred while \output is active []
 
 Overfull \hbox (250.27792pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 4.2.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIAT
-ION BETWEEN CANCER AND DEMENTIA \TU/lmr/m/n/10 45
+ION BETWEEN CANCER AND DEMENTIA \TU/lmr/m/n/10 47
  []
 
-[45]
+[47]
 
-LaTeX Warning: Citation 'whatif2020' on page 46 undefined on input line 566.
-
-
-LaTeX Warning: Citation 'ospina2020' on page 46 undefined on input line 566.
+LaTeX Warning: Citation 'whatif2020' on page 48 undefined on input line 674.
 
 
-LaTeX Warning: Citation 'tan2010' on page 46 undefined on input line 566.
+LaTeX Warning: Citation 'ospina2020' on page 48 undefined on input line 674.
 
 
-LaTeX Warning: Citation 'dementia_lancet' on page 46 undefined on input line 56
-6.
+LaTeX Warning: Citation 'tan2010' on page 48 undefined on input line 674.
+
+
+LaTeX Warning: Citation 'dementia_lancet' on page 48 undefined on input line 67
+4.
 
 File: 04-cancer_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf
 )
 <use 04-cancer_files/figure-latex/unnamed-chunk-1-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--570
+Underfull \hbox (badness 10000) in paragraph at lines 676--678
 [][] \TU/lmr/bx/n/10 Figure 1.
  []
 
 
-LaTeX Warning: Citation 'driver2012' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'driver2012' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'musicco2013' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'musicco2013' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'freedman2016' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'freedman2016' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'bowles2017' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'bowles2017' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'frain2017' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'frain2017' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'schmidt2017' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'schmidt2017' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'sun2020' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'sun2020' on page 48 undefined on input line 679.
 
 
-LaTeX Warning: Citation 'ording2020' on page 46 undefined on input line 571.
+LaTeX Warning: Citation 'ording2020' on page 48 undefined on input line 679.
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 571--572
+Underfull \hbox (badness 1194) in paragraph at lines 679--680
 \TU/lmr/m/n/10 explains the inverse association between cancer diagnosis and de
 mentia,
  []
 
-[46]
+[48]
 File: 04-cancer_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type pdf
 )
 <use 04-cancer_files/figure-latex/unnamed-chunk-2-1.pdf>
 
-LaTeX Warning: Citation 'hernan2016' on page 47 undefined on input line 583.
+LaTeX Warning: Citation 'hernan2016' on page 49 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'hernan2016' on page 47 undefined on input line 583.
+LaTeX Warning: Citation 'hernan2016' on page 49 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'driver2012' on page 47 undefined on input line 583.
+LaTeX Warning: Citation 'driver2012' on page 49 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'hanson2016' on page 47 undefined on input line 583.
+LaTeX Warning: Citation 'hanson2016' on page 49 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'anderson1983' on page 47 undefined on input line 583.
+LaTeX Warning: Citation 'anderson1983' on page 49 undefined on input line 691.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 583--584
+Underfull \hbox (badness 1112) in paragraph at lines 691--692
 \TU/lmr/m/n/10 for Pin1 is defining the time zero, i.e. the time when eligibili
 ty crite-
  []
 
-[47]
+[49]
 
-LaTeX Warning: Citation 'white2013' on page 48 undefined on input line 585.
-
-
-LaTeX Warning: Citation 'hanson2016' on page 48 undefined on input line 585.
+LaTeX Warning: Citation 'white2013' on page 50 undefined on input line 693.
 
 
-LaTeX Warning: Citation 'bowles2017' on page 48 undefined on input line 585.
+LaTeX Warning: Citation 'hanson2016' on page 50 undefined on input line 693.
 
 
-LaTeX Warning: Citation 'nadler2013' on page 48 undefined on input line 585.
+LaTeX Warning: Citation 'bowles2017' on page 50 undefined on input line 693.
+
+
+LaTeX Warning: Citation 'nadler2013' on page 50 undefined on input line 693.
 
 File: 04-cancer_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pdf
 )
 <use 04-cancer_files/figure-latex/unnamed-chunk-3-1.pdf>
-[48]
+[50]
 File: 04-cancer_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf
 )
 <use 04-cancer_files/figure-latex/unnamed-chunk-4-1.pdf>
 
-LaTeX Warning: Citation 'young2020' on page 49 undefined on input line 605.
+LaTeX Warning: Citation 'young2020' on page 51 undefined on input line 713.
 
 
-LaTeX Warning: Citation 'young2020' on page 49 undefined on input line 605.
+LaTeX Warning: Citation 'young2020' on page 51 undefined on input line 713.
 
 
-LaTeX Warning: Citation 'stensrud2020' on page 49 undefined on input line 607.
+LaTeX Warning: Citation 'stensrud2020' on page 51 undefined on input line 715.
 
 
-LaTeX Warning: Citation 'frain2017' on page 49 undefined on input line 607.
+LaTeX Warning: Citation 'frain2017' on page 51 undefined on input line 715.
 
-[49]
+[51]
 
-LaTeX Warning: Citation 'whatif2020' on page 50 undefined on input line 609.
+LaTeX Warning: Citation 'whatif2020' on page 52 undefined on input line 717.
 
 File: 04-cancer_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf
 )
 <use 04-cancer_files/figure-latex/unnamed-chunk-5-1.pdf>
 
-LaTeX Warning: Citation 'ikram2020' on page 50 undefined on input line 624.
+LaTeX Warning: Citation 'ikram2020' on page 52 undefined on input line 732.
 
 
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
-[50]
-
-LaTeX Warning: Citation 'driver2012' on page 51 undefined on input line 631.
-
-
-LaTeX Warning: Citation 'hernan2000' on page 51 undefined on input line 631.
-
-[51]
-
-LaTeX Warning: Citation 'whatif2020' on page 52 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'young2020' on page 52 undefined on input line 633.
-
-
-LaTeX Warning: Citation 'young2020' on page 52 undefined on input line 637.
-
-
-LaTeX Warning: Citation 'peterson1976' on page 52 undefined on input line 639.
-
 [52]
+
+LaTeX Warning: Citation 'driver2012' on page 53 undefined on input line 739.
+
+
+LaTeX Warning: Citation 'hernan2000' on page 53 undefined on input line 739.
+
+[53]
+
+LaTeX Warning: Citation 'whatif2020' on page 54 undefined on input line 741.
+
+
+LaTeX Warning: Citation 'young2020' on page 54 undefined on input line 741.
+
+
+LaTeX Warning: Citation 'young2020' on page 54 undefined on input line 745.
+
+
+LaTeX Warning: Citation 'peterson1976' on page 54 undefined on input line 747.
+
+[54]
 File: V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/
 figs/04_fig6.jpg Graphic file (type bmp)
 <V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/figs/
 04_fig6.jpg>
 
-Overfull \hbox (298.52266pt too wide) in paragraph at lines 652--655
+Overfull \hbox (298.52266pt too wide) in paragraph at lines 760--763
 []\TU/lmr/m/n/10 \begin{figure} []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[53]
+[55]
 
-LaTeX Warning: Citation 'hernan2016' on page 54 undefined on input line 661.
+LaTeX Warning: Citation 'hernan2016' on page 56 undefined on input line 769.
 
-[54]
+[56]
 
-LaTeX Warning: Citation 'young2020' on page 55 undefined on input line 663.
-
-
-LaTeX Warning: Citation 'frain2017' on page 55 undefined on input line 663.
+LaTeX Warning: Citation 'young2020' on page 57 undefined on input line 771.
 
 
-LaTeX Warning: Citation 'weuve2012' on page 55 undefined on input line 663.
+LaTeX Warning: Citation 'frain2017' on page 57 undefined on input line 771.
 
 
-LaTeX Warning: Citation 'peterson1976' on page 55 undefined on input line 663.
+LaTeX Warning: Citation 'weuve2012' on page 57 undefined on input line 771.
 
 
-LaTeX Warning: Citation 'huitfeldt2016' on page 55 undefined on input line 665.
+LaTeX Warning: Citation 'peterson1976' on page 57 undefined on input line 771.
 
 
-[55] [56] [57] [58] [59]
+LaTeX Warning: Citation 'huitfeldt2016' on page 57 undefined on input line 773.
+
+
+[57] [58] [59] [60] [61]
 File: V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/
 figs/04_fig7.jpg Graphic file (type bmp)
 <V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/figs/
 04_fig7.jpg>
 
-Overfull \hbox (298.52266pt too wide) in paragraph at lines 785--788
+Overfull \hbox (298.52266pt too wide) in paragraph at lines 893--896
 \TU/lmr/m/n/10 \begin{figure} []
  []
 
-[60]
+[62]
 File: V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/
 figs/04_fig8.jpg Graphic file (type bmp)
 <V:/HomeDir/040609(Paloma Rojas)/My Documents/01_Projects/thesis_bookdown/figs/
 04_fig8.jpg>
 
-Overfull \hbox (298.52266pt too wide) in paragraph at lines 794--797
+Overfull \hbox (298.52266pt too wide) in paragraph at lines 902--905
 \TU/lmr/m/n/10 \begin{figure} []
  []
 
-[61] [62
+[63] [64
 
 ]
 Chapter 5.
-Package biblatex Info: Reference segment=6 on input line 801.
-Package biblatex Info: Setting label 'refsegment:06' on input line 801.
-[63] [64]
+Package biblatex Info: Reference segment=6 on input line 909.
+Package biblatex Info: Setting label 'refsegment:06' on input line 909.
+[65] [66]
 
-LaTeX Warning: Citation 'tsiatis1975' on page 65 undefined on input line 817.
-
-
-LaTeX Warning: Citation 'young2020' on page 65 undefined on input line 817.
+LaTeX Warning: Citation 'tsiatis1975' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'young2020' on page 65 undefined on input line 817.
+LaTeX Warning: Citation 'young2020' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'hernan2010' on page 65 undefined on input line 817.
+LaTeX Warning: Citation 'young2020' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'stensrud2020' on page 65 undefined on input line 817.
+LaTeX Warning: Citation 'hernan2010' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'geskus2016' on page 65 undefined on input line 817.
+LaTeX Warning: Citation 'stensrud2020' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'young2020' on page 65 undefined on input line 827.
+LaTeX Warning: Citation 'geskus2016' on page 67 undefined on input line 925.
 
 
-LaTeX Warning: Citation 'geskus2016' on page 65 undefined on input line 827.
+LaTeX Warning: Citation 'young2020' on page 67 undefined on input line 935.
 
 
-LaTeX Warning: Citation 'andersen2012' on page 65 undefined on input line 827.
-
-[65]
-
-LaTeX Warning: Citation 'geskus2016' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'geskus2016' on page 67 undefined on input line 935.
 
 
-LaTeX Warning: Citation 'young2020' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'andersen2012' on page 67 undefined on input line 935.
+
+[67]
+
+LaTeX Warning: Citation 'geskus2016' on page 68 undefined on input line 942.
 
 
-LaTeX Warning: Citation 'geskus2016' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'young2020' on page 68 undefined on input line 942.
 
 
-LaTeX Warning: Citation 'young2020' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'geskus2016' on page 68 undefined on input line 942.
 
 
-LaTeX Warning: Citation 'hernan2010' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'young2020' on page 68 undefined on input line 942.
 
 
-LaTeX Warning: Citation 'stensrud2020' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'hernan2010' on page 68 undefined on input line 942.
 
 
-LaTeX Warning: Citation 'geskus2016' on page 66 undefined on input line 834.
+LaTeX Warning: Citation 'stensrud2020' on page 68 undefined on input line 942.
 
-[66]
+
+LaTeX Warning: Citation 'geskus2016' on page 68 undefined on input line 942.
+
+[68]
 Chapter 6.
-Package biblatex Info: Reference segment=7 on input line 845.
-Package biblatex Info: Setting label 'refsegment:07' on input line 845.
-[67
+Package biblatex Info: Reference segment=7 on input line 953.
+Package biblatex Info: Setting label 'refsegment:07' on input line 953.
+[69
 
-] [68]
+] [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[69] [70]
+[71] [72]
 Missing character: There is no  (U+F0E0) in font [lmroman10-regular]:mapping=t
 ex-text;!
 Missing character: There is no  (U+F0E0) in font [lmroman10-regular]:mapping=t
@@ -2390,509 +2310,518 @@ ex-text;!
 
 Overfull \hbox (342.26466pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 6.2.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME 
-INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 71
+INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 73
  []
 
-[71]
+[73]
 Missing character: There is no  (U+F0DF) in font [lmroman10-regular]:mapping=t
 ex-text;!
 Missing character: There is no  (U+F0E0) in font [lmroman10-regular]:mapping=t
 ex-text;!
-[72] [73]
+[74] [75]
 Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
 ex-text;!
 Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=t
 ex-text;!
-[74] [75] [76]
+[76] [77] [78]
+Underfull \hbox (badness 4595) in paragraph at lines 1074--1074
+[]\TU/lmr/bx/n/12 Modeling specifications for inverse probability
+ []
+
+[79] [80]
 Chapter 7.
-Package biblatex Info: Reference segment=8 on input line 952.
-Package biblatex Info: Setting label 'refsegment:08' on input line 952.
-[77
+Package biblatex Info: Reference segment=8 on input line 1127.
+Package biblatex Info: Setting label 'refsegment:08' on input line 1127.
+[81
 
 ]
 
-LaTeX Warning: Citation 'luijken2021' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'luijken2021' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'power2015' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'power2015' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'hernan2008' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'hernan2008' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'danaei2012' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'danaei2012' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'hernan2016' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'hernan2016' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'hernan_robins_2016' on page 78 undefined on input line
- 964.
+LaTeX Warning: Citation 'hernan_robins_2016' on page 82 undefined on input line
+ 1139.
 
 
-LaTeX Warning: Citation 'ray2003' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'ray2003' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'lund2015' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'lund2015' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'johnson2013' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'johnson2013' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'danaei2012' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'danaei2012' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'power2015' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'power2015' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'emilsson2018' on page 78 undefined on input line 964.
+LaTeX Warning: Citation 'emilsson2018' on page 82 undefined on input line 1139.
 
 
-LaTeX Warning: Citation 'danaei2013' on page 78 undefined on input line 966.
 
+LaTeX Warning: Citation 'danaei2013' on page 82 undefined on input line 1141.
 
-LaTeX Warning: Citation 'garcia_albeniz2017' on page 78 undefined on input line
- 966.
 
-[78]
+LaTeX Warning: Citation 'garcia_albeniz2017' on page 82 undefined on input line
+ 1141.
 
-LaTeX Warning: Citation 'zhou2021' on page 79 undefined on input line 968.
+[82]
 
+LaTeX Warning: Citation 'zhou2021' on page 83 undefined on input line 1143.
 
-LaTeX Warning: Citation 'danaei2013' on page 79 undefined on input line 968.
 
+LaTeX Warning: Citation 'danaei2013' on page 83 undefined on input line 1143.
 
-LaTeX Warning: Citation 'garcia_albeniz_eje2017' on page 79 undefined on input 
-line 968.
 
+LaTeX Warning: Citation 'garcia_albeniz_eje2017' on page 83 undefined on input 
+line 1143.
 
-LaTeX Warning: Citation 'emilsson2018' on page 79 undefined on input line 968.
 
+LaTeX Warning: Citation 'emilsson2018' on page 83 undefined on input line 1143.
 
-LaTeX Warning: Citation 'williamson2019' on page 79 undefined on input line 972
-.
 
 
-LaTeX Warning: Citation 'ace_inhibitors2000' on page 79 undefined on input line
- 972.
+LaTeX Warning: Citation 'williamson2019' on page 83 undefined on input line 114
+7.
 
 
-LaTeX Warning: Citation 'forette2002' on page 79 undefined on input line 972.
+LaTeX Warning: Citation 'ace_inhibitors2000' on page 83 undefined on input line
+ 1147.
 
 
-LaTeX Warning: Citation 'progress2003' on page 79 undefined on input line 972.
+LaTeX Warning: Citation 'forette2002' on page 83 undefined on input line 1147.
 
 
-LaTeX Warning: Citation 'lithell2003' on page 79 undefined on input line 972.
+LaTeX Warning: Citation 'progress2003' on page 83 undefined on input line 1147.
 
 
-LaTeX Warning: Citation 'diener2008' on page 79 undefined on input line 972.
 
+LaTeX Warning: Citation 'lithell2003' on page 83 undefined on input line 1147.
 
-LaTeX Warning: Citation 'anderson2011' on page 79 undefined on input line 972.
 
+LaTeX Warning: Citation 'diener2008' on page 83 undefined on input line 1147.
 
-LaTeX Warning: Citation 'williamson2019' on page 79 undefined on input line 972
-.
 
+LaTeX Warning: Citation 'anderson2011' on page 83 undefined on input line 1147.
 
-LaTeX Warning: Citation 'ding2020' on page 79 undefined on input line 972.
 
 
-LaTeX Warning: Citation 'rajan2018' on page 79 undefined on input line 972.
+LaTeX Warning: Citation 'williamson2019' on page 83 undefined on input line 114
+7.
 
 
-LaTeX Warning: Citation 'walker2019' on page 79 undefined on input line 972.
+LaTeX Warning: Citation 'ding2020' on page 83 undefined on input line 1147.
 
-[79]
 
-LaTeX Warning: Citation 'young2020' on page 80 undefined on input line 974.
+LaTeX Warning: Citation 'rajan2018' on page 83 undefined on input line 1147.
 
 
-LaTeX Warning: Citation 'robins1986' on page 80 undefined on input line 976.
+LaTeX Warning: Citation 'walker2019' on page 83 undefined on input line 1147.
 
+[83]
 
-LaTeX Warning: Citation 'whatif2020' on page 80 undefined on input line 976.
+LaTeX Warning: Citation 'young2020' on page 84 undefined on input line 1149.
 
 
-LaTeX Warning: Citation 'taubman2009' on page 80 undefined on input line 976.
+LaTeX Warning: Citation 'robins1986' on page 84 undefined on input line 1151.
 
 
-LaTeX Warning: Citation 'young2011' on page 80 undefined on input line 976.
+LaTeX Warning: Citation 'whatif2020' on page 84 undefined on input line 1151.
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 976--977
+LaTeX Warning: Citation 'taubman2009' on page 84 undefined on input line 1151.
+
+
+LaTeX Warning: Citation 'young2011' on page 84 undefined on input line 1151.
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 1151--1152
 \TU/lmr/m/n/10 joint distribution of the outcome given the time-varying exposur
 es and
  []
 
-[80]
-
-LaTeX Warning: Citation 'hernan2009' on page 81 undefined on input line 982.
-
-
-LaTeX Warning: Citation 'zhang2011' on page 81 undefined on input line 982.
-
-
-LaTeX Warning: Citation 'young2019' on page 81 undefined on input line 982.
-
-
-LaTeX Warning: Citation 'waterkills' on page 81 undefined on input line 986.
-
-
-LaTeX Warning: Citation 'hernan2011' on page 81 undefined on input line 986.
-
-[81]
-
-LaTeX Warning: Citation 'yamada1999' on page 82 undefined on input line 992.
-
-
-LaTeX Warning: Citation 'ospina2020' on page 82 undefined on input line 992.
-
-
-LaTeX Warning: Citation 'vanderwillik2018' on page 82 undefined on input line 9
-92.
-
-
-LaTeX Warning: Citation 'snyder2017' on page 82 undefined on input line 992.
-
-
-LaTeX Warning: Citation 'banegas2000' on page 82 undefined on input line 992.
-
-
-LaTeX Warning: Citation 'westreich2013' on page 82 undefined on input line 992.
-
-
-[82]
-
-LaTeX Warning: Citation 'ganguli2015' on page 83 undefined on input line 994.
-
-
-LaTeX Warning: Citation 'driverbiogeront2014' on page 83 undefined on input lin
-e 994.
-
-
-LaTeX Warning: Citation 'frain2017' on page 83 undefined on input line 994.
-
-
-LaTeX Warning: Citation 'ospina2020' on page 83 undefined on input line 994.
-
-
-LaTeX Warning: Citation 'snyder2017' on page 83 undefined on input line 994.
-
-
-LaTeX Warning: Citation 'li2021' on page 83 undefined on input line 996.
-
-
-LaTeX Warning: Citation 'driverpin2015' on page 83 undefined on input line 996.
-
-
-
-LaTeX Warning: Citation 'driverbiogeront2014' on page 83 undefined on input lin
-e 996.
-
-[83]
-
-LaTeX Warning: Citation 'nadler2013' on page 84 undefined on input line 1003.
-
 [84]
 
-LaTeX Warning: Citation 'young2020' on page 85 undefined on input line 1009.
+LaTeX Warning: Citation 'hernan2009' on page 85 undefined on input line 1157.
 
 
-LaTeX Warning: Citation 'stensrud2020' on page 85 undefined on input line 1009.
+LaTeX Warning: Citation 'zhang2011' on page 85 undefined on input line 1157.
+
+
+LaTeX Warning: Citation 'young2019' on page 85 undefined on input line 1157.
+
+
+LaTeX Warning: Citation 'waterkills' on page 85 undefined on input line 1161.
+
+
+LaTeX Warning: Citation 'hernan2011' on page 85 undefined on input line 1161.
+
+[85]
+
+LaTeX Warning: Citation 'yamada1999' on page 86 undefined on input line 1167.
+
+
+LaTeX Warning: Citation 'ospina2020' on page 86 undefined on input line 1167.
+
+
+LaTeX Warning: Citation 'vanderwillik2018' on page 86 undefined on input line 1
+167.
+
+
+LaTeX Warning: Citation 'snyder2017' on page 86 undefined on input line 1167.
+
+
+LaTeX Warning: Citation 'banegas2000' on page 86 undefined on input line 1167.
+
+
+LaTeX Warning: Citation 'westreich2013' on page 86 undefined on input line 1167
+.
+
+[86]
+
+LaTeX Warning: Citation 'ganguli2015' on page 87 undefined on input line 1169.
+
+
+LaTeX Warning: Citation 'driverbiogeront2014' on page 87 undefined on input lin
+e 1169.
+
+
+LaTeX Warning: Citation 'frain2017' on page 87 undefined on input line 1169.
+
+
+LaTeX Warning: Citation 'ospina2020' on page 87 undefined on input line 1169.
+
+
+LaTeX Warning: Citation 'snyder2017' on page 87 undefined on input line 1169.
+
+
+LaTeX Warning: Citation 'li2021' on page 87 undefined on input line 1171.
+
+
+LaTeX Warning: Citation 'driverpin2015' on page 87 undefined on input line 1171
+.
+
+
+LaTeX Warning: Citation 'driverbiogeront2014' on page 87 undefined on input lin
+e 1171.
+
+[87]
+
+LaTeX Warning: Citation 'nadler2013' on page 88 undefined on input line 1178.
+
+[88]
+
+LaTeX Warning: Citation 'young2020' on page 89 undefined on input line 1184.
+
+
+LaTeX Warning: Citation 'stensrud2020' on page 89 undefined on input line 1184.
 
 
 
-LaTeX Warning: Citation 'ospina2020' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'ospina2020' on page 89 undefined on input line 1186.
 
 
-LaTeX Warning: Citation 'hayes_larson2020' on page 85 undefined on input line 1
-011.
+LaTeX Warning: Citation 'hayes_larson2020' on page 89 undefined on input line 1
+186.
 
 
-LaTeX Warning: Citation 'hanson2016' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'hanson2016' on page 89 undefined on input line 1186.
 
 
-LaTeX Warning: Citation 'roe2010' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'roe2010' on page 89 undefined on input line 1186.
 
 
-LaTeX Warning: Citation 'driver2012' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'driver2012' on page 89 undefined on input line 1186.
 
 
-LaTeX Warning: Citation 'nudelman2014' on page 85 undefined on input line 1011.
-
-
-
-LaTeX Warning: Citation 'freedman2016' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'nudelman2014' on page 89 undefined on input line 1186.
 
 
 
-LaTeX Warning: Citation 'frain2017' on page 85 undefined on input line 1011.
-
-
-LaTeX Warning: Citation 'bowles2017' on page 85 undefined on input line 1011.
-
-
-LaTeX Warning: Citation 'prinelli2018' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'freedman2016' on page 89 undefined on input line 1186.
 
 
 
-LaTeX Warning: Citation 'frain2017' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'frain2017' on page 89 undefined on input line 1186.
 
 
-LaTeX Warning: Citation 'hanson2016' on page 85 undefined on input line 1011.
+LaTeX Warning: Citation 'bowles2017' on page 89 undefined on input line 1186.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 1011--1012
+LaTeX Warning: Citation 'prinelli2018' on page 89 undefined on input line 1186.
+
+
+
+LaTeX Warning: Citation 'frain2017' on page 89 undefined on input line 1186.
+
+
+LaTeX Warning: Citation 'hanson2016' on page 89 undefined on input line 1186.
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1186--1187
 \TU/lmr/m/n/10 As I mentioned previously, most studies treated death as a censo
 ring
  []
 
-[85]
-
-LaTeX Warning: Citation 'weuve2012' on page 86 undefined on input line 1013.
-
-
-LaTeX Warning: Citation 'vangeloven2014' on page 86 undefined on input line 101
-3.
-
-
-LaTeX Warning: Citation 'hernan_cword2018' on page 86 undefined on input line 1
-021.
-
-
-LaTeX Warning: Citation 'hernan2019' on page 86 undefined on input line 1021.
-
-
-LaTeX Warning: Citation 'goetghebeur2020' on page 86 undefined on input line 10
-21.
-
-
-LaTeX Warning: Citation 'olarte2021' on page 86 undefined on input line 1021.
-
-[86]
-
-LaTeX Warning: Citation 'tsiatis1975' on page 87 undefined on input line 1023.
-
-
-LaTeX Warning: Citation 'peterson1976' on page 87 undefined on input line 1023.
-
-
-
-LaTeX Warning: Citation 'young2020' on page 87 undefined on input line 1023.
-
-
-LaTeX Warning: Citation 'lau2009' on page 87 undefined on input line 1025.
-
-
-LaTeX Warning: Citation 'austin2016' on page 87 undefined on input line 1025.
-
-
-LaTeX Warning: Citation 'young2020' on page 87 undefined on input line 1025.
-
-
-LaTeX Warning: Citation 'vangeloven2020' on page 87 undefined on input line 102
-5.
-
-[87]
-
-LaTeX Warning: Citation 'therneau2021' on page 88 undefined on input line 1027.
-
-
-
-LaTeX Warning: Citation 'andersen2012' on page 88 undefined on input line 1027.
-
-
-
-LaTeX Warning: Citation 'weuve2012' on page 88 undefined on input line 1027.
-
-
-LaTeX Warning: Citation 'chaix2012' on page 88 undefined on input line 1027.
-
-
-LaTeX Warning: Citation 'karn1932' on page 88 undefined on input line 1029.
-
-
-LaTeX Warning: Citation 'karn1932' on page 88 undefined on input line 1029.
-
-
-LaTeX Warning: Citation 'colombo2015' on page 88 undefined on input line 1029.
-
-
-LaTeX Warning: Citation 'seth2014' on page 88 undefined on input line 1029.
-
-
-LaTeX Warning: Citation 'karn1933' on page 88 undefined on input line 1029.
-
-
-LaTeX Warning: Citation 'tsiatis1975' on page 88 undefined on input line 1029.
-
-[88]
-
-LaTeX Warning: Citation 'frangakis2002' on page 89 undefined on input line 1031
-.
-
-
-LaTeX Warning: Citation 'stensrud2020' on page 89 undefined on input line 1031.
-
-
 [89]
 
-LaTeX Warning: Citation 'vanderweele2014' on page 90 undefined on input line 10
-40.
+LaTeX Warning: Citation 'weuve2012' on page 90 undefined on input line 1188.
 
 
-LaTeX Warning: Citation 'glymour2014' on page 90 undefined on input line 1040.
+LaTeX Warning: Citation 'vangeloven2014' on page 90 undefined on input line 118
+8.
 
 
-LaTeX Warning: Citation 'kaufman2014' on page 90 undefined on input line 1040.
+LaTeX Warning: Citation 'hernan_cword2018' on page 90 undefined on input line 1
+196.
 
 
-LaTeX Warning: Citation 'glymour2017' on page 90 undefined on input line 1040.
+LaTeX Warning: Citation 'hernan2019' on page 90 undefined on input line 1196.
 
 
-LaTeX Warning: Citation 'vandenbroucke2016' on page 90 undefined on input line 
-1040.
+LaTeX Warning: Citation 'goetghebeur2020' on page 90 undefined on input line 11
+96.
 
 
-LaTeX Warning: Citation 'krieger2016' on page 90 undefined on input line 1040.
+LaTeX Warning: Citation 'olarte2021' on page 90 undefined on input line 1196.
+
+[90]
+
+LaTeX Warning: Citation 'tsiatis1975' on page 91 undefined on input line 1198.
 
 
-LaTeX Warning: Citation 'robinson2019' on page 90 undefined on input line 1040.
-
-
-
-LaTeX Warning: Citation 'jackson2020' on page 90 undefined on input line 1040.
-
-
-LaTeX Warning: Citation 'schwartz2016' on page 90 undefined on input line 1040.
-
-
-
-LaTeX Warning: Citation 'epidemicIllusions' on page 90 undefined on input line 
-1040.
-
-
-LaTeX Warning: Citation 'krieger2008' on page 90 undefined on input line 1040.
-
-
-LaTeX Warning: Citation 'ruhm2018' on page 90 undefined on input line 1040.
-
-
-LaTeX Warning: Citation 'bailey2021' on page 90 undefined on input line 1041.
-
-
-LaTeX Warning: Citation 'krieger2021' on page 90 undefined on input line 1041.
-
-
-LaTeX Warning: Citation 'abimbola2021' on page 90 undefined on input line 1041.
+LaTeX Warning: Citation 'peterson1976' on page 91 undefined on input line 1198.
 
 
 
-LaTeX Warning: Citation 'bayingana2021' on page 90 undefined on input line 1041
+LaTeX Warning: Citation 'young2020' on page 91 undefined on input line 1198.
+
+
+LaTeX Warning: Citation 'lau2009' on page 91 undefined on input line 1200.
+
+
+LaTeX Warning: Citation 'austin2016' on page 91 undefined on input line 1200.
+
+
+LaTeX Warning: Citation 'young2020' on page 91 undefined on input line 1200.
+
+
+LaTeX Warning: Citation 'vangeloven2020' on page 91 undefined on input line 120
+0.
+
+[91]
+
+LaTeX Warning: Citation 'therneau2021' on page 92 undefined on input line 1202.
+
+
+
+LaTeX Warning: Citation 'andersen2012' on page 92 undefined on input line 1202.
+
+
+
+LaTeX Warning: Citation 'weuve2012' on page 92 undefined on input line 1202.
+
+
+LaTeX Warning: Citation 'chaix2012' on page 92 undefined on input line 1202.
+
+
+LaTeX Warning: Citation 'karn1932' on page 92 undefined on input line 1204.
+
+
+LaTeX Warning: Citation 'karn1932' on page 92 undefined on input line 1204.
+
+
+LaTeX Warning: Citation 'colombo2015' on page 92 undefined on input line 1204.
+
+
+LaTeX Warning: Citation 'seth2014' on page 92 undefined on input line 1204.
+
+
+LaTeX Warning: Citation 'karn1933' on page 92 undefined on input line 1204.
+
+
+LaTeX Warning: Citation 'tsiatis1975' on page 92 undefined on input line 1204.
+
+[92]
+
+LaTeX Warning: Citation 'frangakis2002' on page 93 undefined on input line 1206
 .
 
 
-Overfull \hbox (42.86pt too wide) in paragraph at lines 1040--1042
+LaTeX Warning: Citation 'stensrud2020' on page 93 undefined on input line 1206.
+
+
+[93]
+
+LaTeX Warning: Citation 'vanderweele2014' on page 94 undefined on input line 12
+15.
+
+
+LaTeX Warning: Citation 'glymour2014' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'kaufman2014' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'glymour2017' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'vandenbroucke2016' on page 94 undefined on input line 
+1215.
+
+
+LaTeX Warning: Citation 'krieger2016' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'robinson2019' on page 94 undefined on input line 1215.
+
+
+
+LaTeX Warning: Citation 'jackson2020' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'schwartz2016' on page 94 undefined on input line 1215.
+
+
+
+LaTeX Warning: Citation 'epidemicIllusions' on page 94 undefined on input line 
+1215.
+
+
+LaTeX Warning: Citation 'krieger2008' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'ruhm2018' on page 94 undefined on input line 1215.
+
+
+LaTeX Warning: Citation 'bailey2021' on page 94 undefined on input line 1216.
+
+
+LaTeX Warning: Citation 'krieger2021' on page 94 undefined on input line 1216.
+
+
+LaTeX Warning: Citation 'abimbola2021' on page 94 undefined on input line 1216.
+
+
+
+LaTeX Warning: Citation 'bayingana2021' on page 94 undefined on input line 1216
+.
+
+
+Overfull \hbox (42.86pt too wide) in paragraph at lines 1215--1217
 \TU/lmr/m/n/10 defined interventions” were held in the context of social epidem
 iology[“[];
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 1040--1042
+Underfull \hbox (badness 7504) in paragraph at lines 1215--1217
 []\TU/lmr/m/n/10 ; []; []; [];
  []
 
 
-LaTeX Warning: Citation 'mayeda2016' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'mayeda2016' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'nebel2018' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'nebel2018' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'weuve2018' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'weuve2018' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'glymour_manly2008' on page 90 undefined on input line 
-1043.
+LaTeX Warning: Citation 'glymour_manly2008' on page 94 undefined on input line 
+1218.
 
 
-LaTeX Warning: Citation 'manly_glymour2021' on page 90 undefined on input line 
-1043.
+LaTeX Warning: Citation 'manly_glymour2021' on page 94 undefined on input line 
+1218.
 
 
-LaTeX Warning: Citation 'gilmore2021' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'gilmore2021' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'manly_gilmore2021' on page 90 undefined on input line 
-1043.
+LaTeX Warning: Citation 'manly_gilmore2021' on page 94 undefined on input line 
+1218.
 
 
-LaTeX Warning: Citation 'raman2021' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'raman2021' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'howe2018' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'howe2018' on page 94 undefined on input line 1218.
 
 
-LaTeX Warning: Citation 'jackson2021' on page 90 undefined on input line 1043.
+LaTeX Warning: Citation 'jackson2021' on page 94 undefined on input line 1218.
 
-[90]
+[94]
 
-LaTeX Warning: Citation 'vanderweele2014' on page 91 undefined on input line 10
-45.
-
-
-LaTeX Warning: Citation 'howe2018' on page 91 undefined on input line 1045.
+LaTeX Warning: Citation 'vanderweele2014' on page 95 undefined on input line 12
+20.
 
 
-LaTeX Warning: Citation 'jackson2018' on page 91 undefined on input line 1045.
+LaTeX Warning: Citation 'howe2018' on page 95 undefined on input line 1220.
 
 
-LaTeX Warning: Citation 'jackson2020' on page 91 undefined on input line 1045.
+LaTeX Warning: Citation 'jackson2018' on page 95 undefined on input line 1220.
 
 
-LaTeX Warning: Citation 'mehrotra2019' on page 91 undefined on input line 1045.
+LaTeX Warning: Citation 'jackson2020' on page 95 undefined on input line 1220.
 
 
-
-LaTeX Warning: Citation 'rudolph2018' on page 91 undefined on input line 1045.
-
-
-LaTeX Warning: Citation 'stensrud2020' on page 91 undefined on input line 1047.
+LaTeX Warning: Citation 'mehrotra2019' on page 95 undefined on input line 1220.
 
 
 
-LaTeX Warning: Citation 'stensrud2021' on page 91 undefined on input line 1047.
+LaTeX Warning: Citation 'rudolph2018' on page 95 undefined on input line 1220.
+
+
+LaTeX Warning: Citation 'stensrud2020' on page 95 undefined on input line 1222.
 
 
 
-LaTeX Warning: Citation 'mayeda2018' on page 91 undefined on input line 1047.
+LaTeX Warning: Citation 'stensrud2021' on page 95 undefined on input line 1222.
 
 
-LaTeX Warning: Citation 'shaw2021' on page 91 undefined on input line 1047.
 
-[91] [92]
+LaTeX Warning: Citation 'mayeda2018' on page 95 undefined on input line 1222.
+
+
+LaTeX Warning: Citation 'shaw2021' on page 95 undefined on input line 1222.
+
+[95] [96]
 Chapter 8.
-Package biblatex Info: Reference segment=9 on input line 1056.
-Package biblatex Info: Setting label 'refsegment:09' on input line 1056.
-[93
+Package biblatex Info: Reference segment=9 on input line 1231.
+Package biblatex Info: Setting label 'refsegment:09' on input line 1231.
+[97
 
-] [94
+] [98
 
 ]
 Chapter 9.
-Package biblatex Info: Reference segment=10 on input line 1067.
-Package biblatex Info: Setting label 'refsegment:010' on input line 1067.
+Package biblatex Info: Reference segment=10 on input line 1242.
+Package biblatex Info: Setting label 'refsegment:010' on input line 1242.
 
-LaTeX Warning: Empty bibliography on input line 1071.
+LaTeX Warning: Empty bibliography on input line 1246.
 
-[95] (./thesis_bookdown.aux)
+[99] (./thesis_bookdown.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis_bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: 9449C46551248C01BBF7730C0EFF4188;7947.
+(rerunfilecheck)             Checksum: 08D8FB3177B41AE9BD2225940B7BF17A;8391.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                thesis_bookdown
@@ -2903,12 +2832,12 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26627 strings out of 478472
- 499417 string characters out of 5859709
- 1475522 words of memory out of 5000000
- 46563 multiletter control sequences out of 15000+600000
- 410972 words of font info for 90 fonts, out of 8000000 for 9000
+ 25380 strings out of 478472
+ 481073 string characters out of 5859709
+ 1452974 words of memory out of 5000000
+ 45367 multiletter control sequences out of 15000+600000
+ 410866 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,7n,120p,2889b,4823s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,6n,120p,2889b,4823s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis_bookdown.pdf (95 pages).
+Output written on thesis_bookdown.pdf (99 pages).

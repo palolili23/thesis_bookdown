@@ -71,19 +71,6 @@
 \usepackage{booktabs}
 \usepackage{subfig}
 \usepackage{float}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -93,7 +80,7 @@
 
 \title{Dementia research under a causal inference lens}
 \author{Liliana Paloma Rojas Saunero}
-\date{2021-11-10}
+\date{2021-11-11}
 
 \begin{document}
 \maketitle
@@ -340,6 +327,9 @@ We thank Miguel Hernán for helpful comments on an earlier version of this manus
 
 This study was partly funded by ZonMW Memorabel (projectnr 73305095005) and Alzheimer Nederland through the Netherlands Consortium of Dementia Cohorts (NCDC) in the context of Deltaplan Dementie. Further funding was obtained from the Netherlands CardioVascular Research Initiative: the Dutch Heart Foundation (CVON 2018-28 Heart Brain Connection Cross-roads), Dutch Federation of University Medical Centres , the Netherlands Organisation for Health Research and Development and the Royal Netherlands Academy of Sciences.
 
+\hypertarget{supplementary-information}{%
+\section{Supplementary information}\label{supplementary-information}}
+
 \hypertarget{chapter3}{%
 \chapter{Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia}\label{chapter3}}
 
@@ -440,8 +430,7 @@ The simplified steps for the parametric g-formula, using stroke as the outcome a
   Use a Monte Carlo simulation to generate life histories for a pseudo-population of 10000 simulated individuals.
 \end{enumerate}
 
-\begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
+\begin{itemize}
 \item
   Baseline covariates are randomly sampled with replacement from the original population.
 \item
@@ -450,7 +439,7 @@ The simplified steps for the parametric g-formula, using stroke as the outcome a
   The value of the covariates that will be ``intervened'' on is set according to the defined strategy (skip this step for the ``natural course strategy'').
 \item
   The predicted risk of dementia and death is calculated for each individual in the pseudo-population.
-\end{enumerate}
+\end{itemize}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -511,8 +500,127 @@ Figure 1. Flowchart
 Figure 2. Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20\% if above 140 mmHg and quit smoking at 15 years of follow-up
 Figure 3. Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20\% if above 140 mmHg and quit smoking at 15 years of follow-up
 
-\hypertarget{references-1}{%
-\section{References}\label{references-1}}
+\hypertarget{supplementary-information-1}{%
+\section{Supplementary information}\label{supplementary-information-1}}
+
+\hypertarget{table-e-1.target-trial-description}{%
+\subsection{Table e-1.Target trial description}\label{table-e-1.target-trial-description}}
+
+Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
+
+\newpage
+
+\hypertarget{measurements}{%
+\subsection{Measurements}\label{measurements}}
+
+The information on covariates were also collected during each visit through several questionnaires, physical examination and blood samples. From each visit, we selected the following covariates: age, sex, education attained, BMI, Apolipoprotein E (APOE)- ε4 carrier status, alcohol intake (grams per day), cholesterol (mmol/dl) and hypertensive medication. Education attained was divided in three categories: 1) primary; 2) further: lower or intermediate general or vocational education, or higher general education; 3) higher: vocational education or university\autocite{ott2002}. BMI was computed by dividing the weight in kg by the square of the height in meters. APOE genotype was determined using polymerase chain reaction on coded DNA samples28.
+
+Distribution of APOE genotype and allele frequencies was in the Hardy-Weinberg equilibrium. APOE-ε4 carrier status was defined by the presence of at least one ε4 allele. Alcohol intake was collected from a validated semiquantitative food-frequency questionnaire and units were harmonized to grams/day, based on the assumption that one unit (glass) of alcoholic beverage equals 10 grams of alcohol\autocite{ruitenberg2002}.
+
+Hypertensive medication was categorized by the World Health Organization Anatomical Therapeutic Chemical (WHO ATC) classification as antihypertensives (c02), diuretics (c03), beta blockers (c07), calcium channel blockers (c08), and renin-angiotensin-aldosterone system modifying agents (c09). History of heart disease and diabetes was collected at baseline. Heart disease was defined as the history of myocardial infarction, atrial fibrillation and cardiac intervention such as angioplasty, coronary artery bypass grafting and other coronary revascularization procedures\autocite{leening2012}.
+
+Additionally, the occurrence of incident heart diseases and cardiac interventions, incident diabetes, transient ischemic attack, Parkinson disease, Parkinsonism, and cancer diagnosis were recorded independent from the visit process. The specific date of diagnosis was obtained through an automated follow-up system that integrates data from different sources as was performed for stroke and dementia.
+
+\hypertarget{table-e-2.-characteristics-of-included-and-excluded-missing-covariates-participants}{%
+\subsection{Table e-2. Characteristics of included and excluded (missing covariates) participants}\label{table-e-2.-characteristics-of-included-and-excluded-missing-covariates-participants}}
+
+\hypertarget{table-e-3.}{%
+\subsection{Table e-3.}\label{table-e-3.}}
+
+\hypertarget{difference-between-mean-predicted-values-and-mean-observed-values}{%
+\subsection{Difference between mean predicted values and mean observed values}\label{difference-between-mean-predicted-values-and-mean-observed-values}}
+
+\hypertarget{figure-e-1.-outcome-stroke}{%
+\subsubsection{Figure e-1. Outcome: Stroke}\label{figure-e-1.-outcome-stroke}}
+
+\hypertarget{figure-e-2.-outcome-dementia}{%
+\subsubsection{Figure e-2. Outcome: Dementia}\label{figure-e-2.-outcome-dementia}}
+
+\hypertarget{additional-analysis-when-outcome-is-stroke}{%
+\subsection{Additional analysis when outcome is stroke}\label{additional-analysis-when-outcome-is-stroke}}
+
+\hypertarget{death-as-a-censored-event.}{%
+\subsubsection{Death as a censored event.}\label{death-as-a-censored-event.}}
+
+The observed risk at 15 years is 12.0\% .
+
+\hypertarget{stroke-and-death-as-combined-outcome}{%
+\subsubsection{Stroke and death as combined outcome}\label{stroke-and-death-as-combined-outcome}}
+
+The observed risk at 15 years is 36.4\%.
+
+\hypertarget{under-65-years-subgroup}{%
+\subsubsection{Under 65 years subgroup}\label{under-65-years-subgroup}}
+
+The observed risk at 15 years is 6.1\%.
+
+\hypertarget{above-65-years-and-below-80-years-subgroup}{%
+\subsubsection{Above 65 years and below 80 years subgroup}\label{above-65-years-and-below-80-years-subgroup}}
+
+The observed risk at 15 years is 14.0\%.
+
+\hypertarget{women-subgroup}{%
+\subsubsection{Women subgroup}\label{women-subgroup}}
+
+The observed risk at 15 years is 9.2 \%.
+
+\hypertarget{men-subgroup}{%
+\subsubsection{Men subgroup}\label{men-subgroup}}
+
+The observed risk at 15 years is 11.6 \%.
+
+\hypertarget{without-hypertension-medication-at-baseline-subgroup}{%
+\subsubsection{Without hypertension medication at baseline subgroup}\label{without-hypertension-medication-at-baseline-subgroup}}
+
+The observed risk at 15 years is 8.8 \%.
+
+\hypertarget{no-history-of-heart-disease-at-baseline-subgroup}{%
+\subsubsection{No history of heart disease at baseline subgroup}\label{no-history-of-heart-disease-at-baseline-subgroup}}
+
+The observed risk at 15 years is 9.9\%.
+
+\hypertarget{additional-analysis-when-outcome-is-dementia}{%
+\subsection{Additional analysis when outcome is dementia}\label{additional-analysis-when-outcome-is-dementia}}
+
+\hypertarget{death-as-censored.}{%
+\subsection{Death as censored.}\label{death-as-censored.}}
+
+The observed risk at 15 years is 10.8\%.
+
+\hypertarget{dementia-and-death-as-combined-outcome}{%
+\subsection{Dementia and death as combined outcome}\label{dementia-and-death-as-combined-outcome}}
+
+The observed risk at 15 years is 36.7\%.
+
+\hypertarget{under-65-years-subgroup-1}{%
+\subsection{Under 65 years subgroup}\label{under-65-years-subgroup-1}}
+
+The observed risk at 15 years is 3.2\%.
+
+\hypertarget{above-65-years-and-below-80-years-subgroup-1}{%
+\subsection{Above 65 years and below 80 years subgroup}\label{above-65-years-and-below-80-years-subgroup-1}}
+
+The observed risk at 15 years is 14.1\%.
+
+\hypertarget{women-subgroup-1}{%
+\subsection{Women subgroup}\label{women-subgroup-1}}
+
+The observed risk at 15 years is 10.7\%.
+
+\hypertarget{men-subgroup-1}{%
+\subsection{Men subgroup}\label{men-subgroup-1}}
+
+The observed risk at 15 years is 6.7\%.
+
+\hypertarget{without-hypertension-medication-at-baseline-subgroup-1}{%
+\subsection{Without hypertension medication at baseline subgroup}\label{without-hypertension-medication-at-baseline-subgroup-1}}
+
+The observed risk at 15 years is 8.6\%.
+
+\hypertarget{free-of-heart-disease-at-baseline-subgroup}{%
+\subsection{Free of heart disease at baseline subgroup}\label{free-of-heart-disease-at-baseline-subgroup}}
+
+The observed risk at 15 years is 8.6\%.
 
 \hypertarget{chapter4}{%
 \chapter{Towards a clearer causal question underlying the association between cancer and dementia}\label{chapter4}}
@@ -669,8 +777,8 @@ We underscore that our study is just one case study for how observed association
 
 \newpage
 
-\hypertarget{supplementary-information}{%
-\section{Supplementary Information}\label{supplementary-information}}
+\hypertarget{supplementary-information-2}{%
+\section{Supplementary Information}\label{supplementary-information-2}}
 
 \hypertarget{modeling-description}{%
 \subsection{Modeling description}\label{modeling-description}}
@@ -775,7 +883,7 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); A = cance
 
 \emph{Where:}
 
-Where D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs.~men), education (five categories), apoe (three categories), cohort (two categories); Lt = time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), heart disease condition (yes, no), incident stroke (yes, no), systolic blood pressure and body mass (continuous variables) and no product terms between covariates
+D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs.~men), education (five categories), apoe (three categories), cohort (two categories); Lt = time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), heart disease condition (yes, no), incident stroke (yes, no), systolic blood pressure and body mass (continuous variables) and no product terms between covariates
 
 \newpage
 
@@ -838,8 +946,8 @@ This study shows that death is often not considered as part of the main analysis
 
 Figure. Flowchart of paper selection for systematic review. A total of 209 papers were selected from Pubmed based on searching criteria. After full-text screening of eligibility criteria, 57 papers were included.
 
-\hypertarget{references-2}{%
-\section{References}\label{references-2}}
+\hypertarget{references-1}{%
+\section{References}\label{references-1}}
 
 \hypertarget{chapter6}{%
 \chapter{Choosing questions before methods in dementia research with competing events and causal goals}\label{chapter6}}
@@ -882,6 +990,8 @@ Consider the effect of smoking cessation (versus continuing) in late-midlife on 
 Trial participants will be observed to follow different possible event trajectories through the study period: death without developing dementia; dementia onset (some dying after dementia onset); or remaining alive and dementia-free until end of follow-up. For those individuals who died without developing dementia, after the time of death, they cannot subsequently develop dementia. This is the key implication of competing events: they make it impossible for the event of interest to subsequently occur. This determinism is what makes choosing a causal question more difficult than when competing events are absent.
 
 The causal diagram in Figure 1 represents some key features of this data structure, where an arrow from one node A into another node B on a causal diagram reflects that A may cause B(14). In this graph, Smoking represents smoking status, and Death19 and Dementia20 represent indicators of death by 19 years of follow-up and dementia risk by 20 years of follow-up, respectively. By randomization, we know there are no shared causes of Smoking and other variables represented in the graph (the only cause of quitting smoking is a ``coin flip''). However, we have no such guarantee for death and dementia status over the follow-up and therefore depict shared causes C of dementia and death (such as cardiovascular comorbidities) that may or may not be measured. The arrows from Smoking to Death19 and Smoking to Dementia20 illustrate that smoking may affect both dementia and death through different mechanisms. The bold arrow from Death19 to Dementia20 represents the key feature of a competing events data structure: an individual who dies by year 19 of follow-up cannot subsequently develop dementia at the next time point. Though we present death and dementia at years 19 and 20 respectively, the causal diagram could be expanded to include prior assessments, but this simplified causal diagram is sufficient, for our consideration of the different causal effects on dementia in the presence of death.
+
+\textbf{Figure 1.} A causal directed acyclic graph representing some key causal features of the data structure. Smoking represents the exposure status (quit smoking vs.~continue smoking), Death(19) and Dementia(20) represent indicators of death by 19 years of follow-up and dementia by 20 years of follow-up, respectively. C represents possible shared causes of dementia and death (such as cardiovascular comorbidities, that may or may not be measured). The key relations are: 1) smoking may independently affect both the risk of dementia and death over time through different mechanisms; 2) dying over the first 19 years of follow-up (without prior onset of dementia) determines that the indicator of dementia at 20 years of follow-up is zero (the bold arrow representing this key determinism induced by competing events); and 3) dementia and death can have shared causes.
 
 \hypertarget{choosing-a-causal-question-the-total-and-controlled-direct-effect}{%
 \subsection{Choosing a causal question: the total and controlled direct effect}\label{choosing-a-causal-question-the-total-and-controlled-direct-effect}}
@@ -937,6 +1047,8 @@ Of 10994 Rotterdam Study participants, 4179 individuals met eligibility criteria
 
 We estimated a total effect of smoking cessation (compared to continued smoking) on 20-year dementia risk of 2.1 (95\%CI: -0.1, 4.2) percentage points (Table 2; Figure 2). This slightly harmful effect estimate of quitting smoking (with wide confidence intervals) includes all causal pathways, including that through death. The presence of this pathway is evidenced in the estimated total effect of quitting smoking on 20-year mortality risk: -17.4 (95\%CI: -20.5, -14.5) percentage points. Alternatively, we estimated a controlled direct effect of quitting smoking on 20-year dementia risk had death been fully prevented during the study period as -1.9 (95\%CI: -5.1, 1.4) percentage points.
 
+\textbf{Figure 2.} Risk of dementia and death by smoking cessation status over 20 years of follow-up. Panel A represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs.~quit smoking. Panel B represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs.~quit smoking. Panel C represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs.~quit smoking.
+
 \hypertarget{discussion-3}{%
 \section{Discussion}\label{discussion-3}}
 
@@ -947,6 +1059,69 @@ The controlled direct effect does not have this feature, and in our example, we 
 Since both of these questions can seem unsatisfactory, we note that there are yet further alternative questions that can potentially be posed. For example, the ``survivor average treatment effect'' quantifies the effect of a treatment on a subgroup of individuals who would not die during the study period under either level of treatment(18). However, the utility of this question is questionable as this subgroup is not observable and may not even exist. One can also consider a combined outcome endpoint, such as the effect on dementia or death; in our example, the effect of smoking on risk of death would drive the effect. A novel alternative of ``separable effects'' avoids evoking scenarios that ``eliminate death'' or unobservable subpopulations(17). Separable effects are effects of modified treatments motivated by the physical decomposition of the exposure assumed to operate on dementia and death through separate pathways or completely different treatments that operate like the study treatment. In this work we focused on the two questions because of their relation to commonly used estimators in dementia research, but we suspect in the future that separable effects will become a more explicit question of interest with the increasing development of useable tools for aiding reasoning.
 
 Too often, we start by defining the statistical method that appears to fit the complexity of data, and we let this decision implicitly determine the research question to be answered. In a setting with competing events, there is no ``one size fits all''. Through our discussion and application, we hope that readers will see an opportunity to re-conceptualize how to ask clearer questions in the context of competing events and let the question define the methods that best suit the research aim.
+
+\hypertarget{supplementary-information-3}{%
+\section{Supplementary information}\label{supplementary-information-3}}
+
+\hypertarget{the-rotterdam-study-outcome-assessments}{%
+\subsection{The Rotterdam Study, outcome assessments}\label{the-rotterdam-study-outcome-assessments}}
+
+\emph{Dementia diagnosis}: Diagnosis was collected by screening during the five study visits, using MMSE and the Geriatric Mental Schedule (GMS) organic level. Screen-positives (MMSE\textless26 or GMS organic level\textgreater0) subsequently underwent an examination and informant interview with the Cambridge Examination for Mental Disorders in the Elderly. A consensus panel led by a consultant neurologist established the final diagnosis according to standard criteria for dementia (DSM-III-R). Additionally, participants were continuously followed for the occurrence of dementia through automated linkage of the study database and digitized medical records from general practitioners and the Regional Institute for Outpatient Mental Health Care. For participants who moved outside the study district or lived in nursing homes, medical records were regularly checked by contacting their treating physicians. Research physicians reviewed all potential dementia cases using hospital discharge letters and information from general practitioners and nursing home physicians3. Linkage-based diagnoses were based on data up through December 2015.
+
+\emph{Vital status:} Vital status was obtained on a weekly basis via municipal population registries and through general practitioners' and hospitals' databases, with complete linkage up through December 2015.
+
+\hypertarget{modeling-specifications-for-inverse-probability-weighting}{%
+\subsection{Modeling specifications for inverse probability weighting}\label{modeling-specifications-for-inverse-probability-weighting}}
+
+\textbf{Inverse probability of treatment weights}:
+
+\[SW^A = \frac{f(A)}{f(A|L)}\]
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Numerator:} \(Pr[A = 1|1]\)
+\end{itemize}
+
+\emph{Where:}
+
+A = smoking (0 = current, 1 = former)
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Denominator:} \(Pr[A = 1|L]\)
+\end{itemize}
+
+\emph{Where:}
+
+A = smoking (0 = current, 1 = former); L = age at study entry with natural cubic splines, sex (women vs.~men), education (five categories), apoe4 (four categories), cohort (two categories), and no product terms between covariates
+
+\textbf{Inverse probability of censoring weights for death}:
+
+\[SW^C = \frac{f(C_{t+1}|C_t, Y_t, A, T)}{f(C_{t+1}|C_t, Y_t, A_t, T, V, L_t)}\]
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Numerator:} \(Pr[C_{t+1} = 0|C_t = 0, Y_t = 0, A, T, V]\)
+\end{itemize}
+
+\emph{Where:}
+
+D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs.~men), education (five categories), apoe (four categories), cohort (two categories) and no product terms between covariates
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Denominator:} \(Pr[D_{t+1} = 0|D_t = 0, Y_t = 0, A_t, T, V, L_t]\)
+\end{itemize}
+
+\emph{Where:}
+
+D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes); V = age at study entry with cubic splines, sex (women vs.~men), education (five categories), apoe (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
+
+\newpage
 
 \hypertarget{chapter7}{%
 \chapter{Discussion}\label{chapter7}}

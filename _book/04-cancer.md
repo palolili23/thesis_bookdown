@@ -226,7 +226,7 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes);  A = canc
 
 _Where:_
 
-Where D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (three categories), cohort (two categories); Lt = time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), heart disease condition (yes, no), incident stroke (yes, no), systolic blood pressure and body mass (continuous variables) and no product terms between covariates
+D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (three categories), cohort (two categories); Lt = time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), heart disease condition (yes, no), incident stroke (yes, no), systolic blood pressure and body mass (continuous variables) and no product terms between covariates
 
 \newpage
 

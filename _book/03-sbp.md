@@ -87,7 +87,10 @@ Vital status was obtained on a weekly basis via municipal population registries 
 **Start and end of follow-up:_** We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure 1).
 
 
-![(\#fig:03_fig1)(ref:Flowchart)](figs/03_fig1.pdf) 
+<div class="figure">
+<img src="figs/03_fig1.JPG" alt="(ref:Flowchart)" width="303" />
+<p class="caption">(\#fig:03_fig1)(ref:Flowchart)</p>
+</div>
 
 
 (ref:Flowchart) __Flowchart__. After a baseline block without stimulation, participants performed the attentional blink task during 20 minutes of anodal.
@@ -106,13 +109,13 @@ The simplified steps for the parametric g-formula, using stroke as the outcome a
 
 3. Use a Monte Carlo simulation to generate life histories for a pseudo-population of 10000 simulated individuals.
 
-  a. Baseline covariates are randomly sampled with replacement from the original population.
+  - Baseline covariates are randomly sampled with replacement from the original population.
 
-  b. The values of time-varying covariates are drawn from the parametric distribution in Step 1.
+  - The values of time-varying covariates are drawn from the parametric distribution in Step 1.
 
-  c. The value of the covariates that will be “intervened” on is set according to the defined strategy (skip this step for the “natural course strategy”).
+  - The value of the covariates that will be “intervened” on is set according to the defined strategy (skip this step for the “natural course strategy”).
 
-  d. The predicted risk of dementia and death is calculated for each individual in the pseudo-population.
+  - The predicted risk of dementia and death is calculated for each individual in the pseudo-population.
 
 
 4. Calculate the mean predicted risk of stroke and death at 15 years in the pseudo-population.
@@ -144,9 +147,6 @@ https://github.com/palolili23/ht_trial_gformula.
 ## Results
 
 Table 1 shows the baseline characteristics of the study participants. The mean age of the participants was 66 years and 57% were women. The mean SBP at baseline was 137 mmHg, and 24% were current cigarette smokers.
-
-
-
 
 **_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table 2. Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure 2A.
 
@@ -195,7 +195,534 @@ Figure 1. Flowchart
 Figure 2. Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up
 Figure 3. Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up 
 
+## Supplementary information
 
-## References
+### Table e-1.Target trial description
+
+Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
+
+
+```{=html}
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#sxrzssweea .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#sxrzssweea .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#sxrzssweea .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#sxrzssweea .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#sxrzssweea .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#sxrzssweea .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#sxrzssweea .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#sxrzssweea .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sxrzssweea .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sxrzssweea .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#sxrzssweea .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#sxrzssweea .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#sxrzssweea .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#sxrzssweea .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sxrzssweea .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sxrzssweea .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#sxrzssweea .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sxrzssweea .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sxrzssweea .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#sxrzssweea .gt_left {
+  text-align: left;
+}
+
+#sxrzssweea .gt_center {
+  text-align: center;
+}
+
+#sxrzssweea .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#sxrzssweea .gt_font_normal {
+  font-weight: normal;
+}
+
+#sxrzssweea .gt_font_bold {
+  font-weight: bold;
+}
+
+#sxrzssweea .gt_font_italic {
+  font-style: italic;
+}
+
+#sxrzssweea .gt_super {
+  font-size: 65%;
+}
+
+#sxrzssweea .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="sxrzssweea" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Section</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Target.trial</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Emulation using observation data</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Aim</td>
+      <td class="gt_row gt_left">To estimate the effect of joint interventions on 15-year risk of stroke among people at risk</td>
+      <td class="gt_row gt_left">Same</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Eligibility criteria</td>
+      <td class="gt_row gt_left">Individuals below 80 years old, with no prior history of stroke or transient ischemic attack, cognitive impairment, dementia diagnosis or Parkinsonâ€™s disease or Parkinsonism.</td>
+      <td class="gt_row gt_left">Same  + MMSE above 26 at baseline.</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Treatment strategies</td>
+      <td class="gt_row gt_left">1. Maintaining SBP below 120 mmHg</td>
+      <td class="gt_row gt_left">Same</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">2. Maintaining SBP below 140 mmHg</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">3. Reducing SBP by 10% if above 140 mmHg</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">4. Reducing SBP by 20% if above 140 mmHg</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">5. Quitting smoking</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">6. Joint 1 + 5</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">7. Joint 2 + 5</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">8. Joint 3 + 5</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">NA</td>
+      <td class="gt_row gt_left">9. Joint 4 + 5.</td>
+      <td class="gt_row gt_left">NA</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Comparison arm</td>
+      <td class="gt_row gt_left">Natural course</td>
+      <td class="gt_row gt_left">Same</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Follow-up</td>
+      <td class="gt_row gt_left">Starts at first visit, ends after stroke diagnosis, death, lost to follow up or after 15 years since baseline, which ever happens first. Annual checkups during trial to assess adherence and adverse effects.</td>
+      <td class="gt_row gt_left">Same + simulate visit process</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Outcome</td>
+      <td class="gt_row gt_left">Stroke (Death as competing risk)</td>
+      <td class="gt_row gt_left">Same</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Causal contrast of interest</td>
+      <td class="gt_row gt_left">What would have been observed if all individuals adhered to their assigned strategy over the 15 years of follow-up (Per protocol effect)</td>
+      <td class="gt_row gt_left">Same</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Statistical analysis</td>
+      <td class="gt_row gt_left">Comparison of 15 year-risk of stroke between groups that received each treatment strategy, adjusted for post-baseline confounders associated with adherence to the treatment strategies and lost to follow-up</td>
+      <td class="gt_row gt_left">Same as per-protocol effect + adjustment of baseline</td>
+    </tr>
+  </tbody>
+  
+  
+</table></div>
+```
+
+\newpage
+
+### Measurements
+
+The information on covariates were also collected during each visit through several questionnaires, physical examination and blood samples. From each visit, we selected the following covariates: age, sex, education attained, BMI, Apolipoprotein E (APOE)- ε4 carrier status, alcohol intake (grams per day), cholesterol (mmol/dl) and hypertensive medication. Education attained was divided in three categories: 1) primary; 2) further: lower or intermediate general or vocational education, or higher general education; 3) higher: vocational education or university[@ott2002]. BMI was computed by dividing the weight in kg by the square of the height in meters. APOE genotype was determined using polymerase chain reaction on coded DNA samples28.
+
+Distribution of APOE genotype and allele frequencies was in the Hardy-Weinberg equilibrium. APOE-ε4 carrier status was defined by the presence of at least one ε4 allele. Alcohol intake was collected from a validated semiquantitative food-frequency questionnaire and units were harmonized to grams/day, based on the assumption that one unit (glass) of alcoholic beverage equals 10 grams of alcohol[@ruitenberg2002]. 
+
+Hypertensive medication was categorized by the World Health Organization Anatomical Therapeutic Chemical (WHO ATC) classification as antihypertensives (c02), diuretics (c03), beta blockers (c07), calcium channel blockers (c08), and renin-angiotensin-aldosterone system modifying agents (c09). History of heart disease and diabetes was collected at baseline. Heart disease was defined as the history of myocardial infarction, atrial fibrillation and cardiac intervention such as angioplasty, coronary artery bypass grafting and other coronary revascularization procedures[@leening2012]. 
+
+
+Additionally, the occurrence of incident heart diseases and cardiac interventions, incident diabetes, transient ischemic attack, Parkinson disease, Parkinsonism, and cancer diagnosis were recorded independent from the visit process. The specific date of diagnosis was obtained through an automated follow-up system that integrates data from different sources as was performed for stroke and dementia.
+
+### Table e-2. Characteristics of included and excluded (missing covariates) participants 
+
+### Table e-3.
+
+### Difference between mean predicted values and mean observed values
+
+#### Figure e-1. Outcome: Stroke
+
+#### Figure e-2. Outcome: Dementia
+
+### Additional analysis when outcome is stroke
+
+#### Death as a censored event. 
+
+The observed risk at 15 years is 12.0% .  
+
+#### Stroke and death as combined outcome
+
+The observed risk at 15 years is 36.4%.  
+
+#### Under 65 years subgroup
+
+The observed risk at 15 years is 6.1%.  
+
+#### Above 65 years and below 80 years subgroup
+
+The observed risk at 15 years is 14.0%.
+
+#### Women subgroup
+
+The observed risk at 15 years is 9.2 %.
+
+#### Men subgroup
+
+The observed risk at 15 years is 11.6 %.
+
+#### Without hypertension medication at baseline subgroup
+
+The observed risk at 15 years is 8.8 %.
+
+#### No history of heart disease at baseline subgroup
+
+The observed risk at 15 years is 9.9%.  
+
+### Additional analysis when outcome is dementia
+
+### Death  as censored.
+The observed risk at 15 years is 10.8%.  
+
+### Dementia and death as combined outcome
+
+The observed risk at 15 years is 36.7%.  
+
+### Under 65 years subgroup
+
+The observed risk at 15 years is 3.2%.
+
+### Above 65 years and below 80 years subgroup
+
+The observed risk at 15 years is 14.1%. 
+
+### Women subgroup
+
+The observed risk at 15 years is 10.7%.
+
+### Men subgroup
+
+The observed risk at 15 years is 6.7%. 
+
+### Without hypertension medication at baseline subgroup
+
+The observed risk at 15 years is 8.6%.
+
+### Free of heart disease at baseline subgroup
+
+The observed risk at 15 years is 8.6%. 
 
 
