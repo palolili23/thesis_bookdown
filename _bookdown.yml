@@ -4,4 +4,4 @@ delete_merged_file: true
 
 chapter_name: "Chapter "
 
-new_session: yes
+new_session: yes #K-M

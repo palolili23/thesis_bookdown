@@ -132,6 +132,15 @@ _Analysis plan_
 
 The modified intention-to-treat analysis was the same as in the target trial except that we included the previously described baseline covariates in the pooled logistic regression model. Because individuals in the observational study did not necessarily have MMSE and cholesterol measurements taken exactly at baseline, we also included time since most recent MMSE measurement and time since most recent cholesterol measurement as baseline covariates. The per-protocol analysis was the same as in the target trial (individuals are artificially censored when they deviate from their assigned treatment strategy) except that we included the two additional baseline covariates time since most recent MMSE measurement and time since most recent cholesterol measurement as baseline covariates.
 
+\newpage
+
+<table2.1>
+
+### Table 1. Protocol of target trial and emulation using observational data, Rotterdam Study – I and II
+*Serious illness defined as cancer or heart disease. Following a serious illness, participants may or may not take statin therapy, as guided by their physicians.
+
+\newpage
+
 _Sensitivity analyses and subgroup analyses_
 
 We performed the same sensitivity and subgroup analyses as in the target trial. Further, we conducted several additional sensitivity analyses. To evaluate residual confounding by indication, we excluded individuals who: (1) had a history of heart disease or history of stroke at baseline; (2) were taking vascular medications at baseline (non-statin cholesterol-lowering medications, diuretics, beta-blockers, calcium-blockers, RAAS inhibitors, NSAIDs, or aspirin); (3) had high cholesterol (>6.2 mmol/L) at baseline; and (4) did not have high cholesterol at baseline. To evaluate whether our results were sensitive to overly strict inclusion criteria that could decrease our sample size, we required a 6-month statin washout period at baseline (rather than two-year) and required an MMSE ≥26 at baseline but did not require it to be in the previous 3 years.
@@ -146,36 +155,43 @@ All analysis where performed in SAS using publicly available macros (https://www
 
 _Data Availability_
 
-Data can be obtained on request. Requests should be directed toward the management team of the Rotterdam Study (secretariat.epi@erasmusmc.nl), which has a protocol for approving data requests. Because of restrictions based on privacy regulations and informed consent of the participants, data cannot be made freely available in a public repository.
-
-/newpage
-
-<!-- ```{r, warning=FALSE, echo=FALSE, eval=TRUE} -->
-<!-- library(readxl) -->
-<!-- library(kableExtra) -->
-<!-- library(tidyverse) -->
-<!-- # library(huxtable) -->
-
-<!-- options(knitr.kable.NA = ' ') -->
-<!-- target_statins <- rio::import(here::here("tables","02_tab1.RData" )) -->
-<!-- knitr::kable(target_statins, booktabs = T, longtable = T) %>%  -->
-<!--   # add_indent(c(4:5, 7:10, 13, 15:20)) %>%  -->
-<!--   # column_spec(1, width = "10em") %>%  -->
-<!--   # column_spec(2:7, width = "8em") %>% -->
-<!--   kable_styling(font_size = 6.5) -->
-<!-- ```   -->
+Data can be obtained on request. Requests should be directed toward the management team of the Rotterdam Study (secretariat.epi[at]erasmusmc.nl), which has a protocol for approving data requests. Because of restrictions based on privacy regulations and informed consent of the participants, data cannot be made freely available in a public repository.
 
 ## Results
 
-180 trials were conducted from January 1993 to December 2007. Of 1,578,655 potential persontrials (10,942 individuals), 233,526 person-trials (6,373 individuals) met the eligibility criteria. There were 622 initiators and 232,904 non-initiators (Figure 1). Across the 180 months of trials, the mean number of participants in a given month was 1,297 with a mean number of 3.5 initiators. The trial beginning in March 2006 had the most initiators (15 initiators, 1,915 noninitiators) (Appendix Table 1, available from Dryad doi:10.5061/dryad.kprr4xh19). Initiators and non-initiators were similar in age, MMSE, educational attainment. Compared with non-initiators, initiators had higher baseline total cholesterol measurements and systolic blood pressure measurements and were more likely to be current or former smokers, have a history of heart disease, stroke, and diabetes, and use other prescription medications (Table 2). 
+180 trials were conducted from January 1993 to December 2007. Of 1,578,655 potential persontrials (10,942 individuals), 233,526 person-trials (6,373 individuals) met the eligibility criteria. There were 622 initiators and 232,904 non-initiators (Figure 1). Across the 180 months of trials, the mean number of participants in a given month was 1,297 with a mean number of 3.5 initiators. The trial beginning in March 2006 had the most initiators (15 initiators, 1,915 noninitiators) (Supplementary material Table 1). Initiators and non-initiators were similar in age, MMSE, educational attainment. Compared with non-initiators, initiators had higher baseline total cholesterol measurements and systolic blood pressure measurements and were more likely to be current or former smokers, have a history of heart disease, stroke, and diabetes, and use other prescription medications (Table 2). 
+
+<Figure 1> 
+Figure 1. Flowchart of person-trials in the modified intention-to-treat analysis, Rotterdam Study 
+
+<table2>
+
+### Table 2. Characteristics of eligible individuals at the start of the trial’s follow-up, Rotterdam-Study I and II
+
+*Defined as any history of atrial fibrillation, heart failure, myocardial infarction or revascularization
+**Defined as antidepressants, antipsychotics, or benzodiazepines
+
 
 Of the 622 initiators, 63 developed dementia and 225 died or developed dementia over the follow-up. Of the 232,904 non-initiators, 23,885 developed dementia and 82,896 died or developed dementia over the follow-up. The median (IQR) follow-up time was 9.3 (7.8, 11.9) years for initiators and 9.9 (7.8, 13.5) years for non-initiators in the dementia analysis. The median (IQR) time to dementia was 7.5 (5.4, 11.4) years for initiators and 8.3 (4.9, 11.4) years for non-initiators.
 
 Figure 2 shows the modified intention-to-treat 10-year dementia-free and dementia-free survival curves by statin initiation. Comparing statin initiation with no initiation, the 10-year risk differences (95% CI) were -0.1% (-2.3%, 1.8%) for dementia and 0.3% (-2.7%, 3.3%) for dementia or death (Table 3). Unadjusted estimates were similar for dementia but larger for dementia or death (data not shown).
 
+<Figure 2>
+
+Figure 2. Modified intention-to-treat 10-year dementia-free (left) and dementia-free survival (right) curves
+
+_The curves are standardized to the following covariates, measured at the baseline of each ‘trial’: sex, educational attainment, APOE- ε4 carrier status, calendar year, age, BMI, most recent MMSE, months since most recent MMSE, most recent cholesterol measurement, months since the most recent cholesterol measurement, most recent systolic blood pressure measurement, current smoking status, history of stroke, history of heart disease (defined as any history of atrial fibrillation, heart failure, myocardial infarction or revascularization), history of diabetes, history of cancer, use of the following other prescription medications: antihypertensives, diuretics, beta-blockers, calcium antagonists, RAAS inhibitors, other lipid lowering drugs, NSAIDs, psychotropics (antidepressants, antipsychotics, benzodiazepines), and aspirin_
+
+
 After one-year of follow-up, 459 of the initiators remained on statin therapy. This number was 385, 274, and 100 after 2 years, 5 years, and 10 years, respectively. Compared with individuals who did not stop statin use over follow-up, individuals who stopped statin use over follow-up were more likely to be female, have lower baseline MMSE scores, and be smokers and were less likely to be on other prescription medications. In the per-protocol analysis, 27 of the 622 initiators developed dementia and 122 died or developed dementia over the follow-up. Of the 232,904 non-initiators, 20,379 developed dementia and 72,207 died or developed dementia over the follow-up. The median (IQR) time of follow-up was 3.8 (0.9, 8.7) years for initiators and 9.0 (5.9, 12.2) years for non-initiators. Figure 3 shows the per-protocol 10-year dementia-free and dementia-free survival curves by statin initiation. Comparing sustained statin use with no use, the 10-year risk difference (95% CI) was -2.2% (-5.2%, 1.6%) for dementia and -5.1% (-10.5%, -1.1%) for dementia or death (Table 3).
 
-Inverse-probability weighting to adjust for censoring due to infrequent follow-up or censoring due to death did not materially change estimates. The 10-year per-protocol risk difference estimates for dementia or death were attenuated when excluding individuals age 70 years or older (-1.5%, 95% CI: -7.4%, 3.5%) and when excluding individuals with high cholesterol at baseline (-1.3%, 95% CI: -7.2%, 6.3%), but were larger when excluding individuals with a history of heart disease or stroke at baseline (-7.1%, 95% CI: -12.9%, -0.1%). The 10-year per-protocol risk difference estimates for dementia where also attenuated when excluding individuals age 70 years or older and larger when excluding individuals with a history of heart disease or stroke at baseline (data not shown). None of the other subgroup and sensitivity analyses yielded appreciably different results (Appendix Table 2, available from Dryad doi:10.5061/dryad.kprr4xh19).
+<Figure 3>
+Figure 3. Per-protocol 10-year dementia-free (left) and dementia-free survival (right) curves
+
+_The curves are standardized to the following covariates, measured at the baseline of each ‘trial’: sex, educational attainment, APOE- ε4 carrier status, calendar year, age, BMI, most recent MMSE, months since most recent MMSE, most recent cholesterol measurement, months since the most recent cholesterol measurement, most recent systolic blood pressure measurement, current smoking status, history of stroke, history of heart disease (defined as any history of atrial fibrillation, heart failure, myocardial infarction or revascularization), history of diabetes, history of cancer, use of the following other prescription medications: antihypertensives, diuretics, beta-blockers, calcium antagonists, RAAS inhibitors, other lipid lowering drugs, NSAIDs, psychotropics (antidepressants, antipsychotics, benzodiazepines), and aspirin_
+
+
+Inverse-probability weighting to adjust for censoring due to infrequent follow-up or censoring due to death did not materially change estimates. The 10-year per-protocol risk difference estimates for dementia or death were attenuated when excluding individuals age 70 years or older (-1.5%, 95% CI: -7.4%, 3.5%) and when excluding individuals with high cholesterol at baseline (-1.3%, 95% CI: -7.2%, 6.3%), but were larger when excluding individuals with a history of heart disease or stroke at baseline (-7.1%, 95% CI: -12.9%, -0.1%). The 10-year per-protocol risk difference estimates for dementia where also attenuated when excluding individuals age 70 years or older and larger when excluding individuals with a history of heart disease or stroke at baseline (data not shown). None of the other subgroup and sensitivity analyses yielded appreciably different results (Supplementary information, Table s2).
 
 ## Discussion
 
@@ -185,13 +201,11 @@ A causal interpretation of all of our estimates relies on the untestable assumpt
 
 In addition to unmeasured or residual confounding, all of our estimates could also be biased if there are diagnostic delays for dementia that are differential with respect to statin use. For example, perhaps individuals taking statins are more likely to visit the doctor and receive a dementia diagnosis more quickly after onset of symptoms compared with someone not taking statins who does not visit a doctor as frequently. This differential outcome diagnosis would yield an underestimate of a protective effect of statins on dementia. While adjudication of dementia diagnoses in our study is based on continuous linkage to medical records in addition to information systematically gathered during the study, diagnostic delays will still occur for individuals who stop attending study visits and do not regularly see a doctor. We are interested in the effects of statins on dementia; however, estimates of the effects of statins on dementia diagnoses are not susceptible to this bias.
 
-Protocols typically allow treatment discontinuation due to clinical reasons such as
-contraindications, serious diagnoses, side-effects or toxicity. Accordingly, a per-protocol analysis should estimate an effect of adhering to a protocol that allows treatment discontinuations for appropriate reasons. Estimating an appropriate per-protocol effect analogue is challenging when, as in our study, data on reasons for discontinuation is not available. We dealt with this challenge by allowing individuals to discontinue (or initiate) statins after diagnosis of cancer or heart disease, but this is likely an insufficient attempt to allow clinically supported deviations.
+Protocols typically allow treatment discontinuation due to clinical reasons such as contraindications, serious diagnoses, side-effects or toxicity. Accordingly, a per-protocol analysis should estimate an effect of adhering to a protocol that allows treatment discontinuations for appropriate reasons. Estimating an appropriate per-protocol effect analogue is challenging when, as in our study, data on reasons for discontinuation is not available. We dealt with this challenge by allowing individuals to discontinue (or initiate) statins after diagnosis of cancer or heart disease, but this is likely an insufficient attempt to allow clinically supported deviations.
 
 A causal interpretation of the per-protocol effect analogues’ estimates further relies on the additional assumption that the measured time-varying covariates were sufficient to adjust for time-varying confounding. This assumption would not be met if there were reasons for discontinuing (or initiating) statins over time related to dementia risk for which we did not adequately measure or adjust. Individuals who discontinued statins had lower baseline MMSE scores, further suggesting the possibility of residual confounding by sub-clinical dementia. In addition, since linkage with pharmacy dispending records is lost when individuals enter nursing homes in the Rotterdam Study, these individuals will be censored from the sustained statin use strategy even though they may not have discontinued statins. Since these individuals may be sicker, this could lead to an overestimation of the beneficial effect of sustained statin use.
 
-Finally, since many of the measured time-varying covariates in our analysis could only be
-updated when a Rotterdam Study visit occurred, we may not have been able to sufficiently adjust for time-varying confounding by measured covariates. Instrumental variable approaches – that do not rely on measuring exposure-outcome confounders but instead make different strong assumptions[41] – may offer a complementary way to estimate per-protocol effect analogues in some studies, but these methods are not well suited for estimating sustained treatment strategies.[41, 42]
+Finally, since many of the measured time-varying covariates in our analysis could only be updated when a Rotterdam Study visit occurred, we may not have been able to sufficiently adjust for time-varying confounding by measured covariates. Instrumental variable approaches – that do not rely on measuring exposure-outcome confounders but instead make different strong assumptions[41] – may offer a complementary way to estimate per-protocol effect analogues in some studies, but these methods are not well suited for estimating sustained treatment strategies.[41, 42]
 
 Altogether, our findings suggest a potential decreased 10-year risk of dementia and dementia or death after sustained statin use compared with no statin use in older adults. However, this decreased risk relied heavily on data from few individuals (resulting in wide confidence intervals), and certain plausible biases (such as residual confounding by cardiovascular disease risk) cannot be ruled out. Our study may be useful to inform the design and analyses of future observational studies and randomized clinical trials to estimate the effect of sustained statin use on dementia.
 
@@ -203,4 +217,23 @@ This study was partly funded by ZonMW Memorabel (projectnr 73305095005) and Alzh
 
 ## Supplementary information
 
+### Number of participants and initiators in each non-randomized ‘trial,’ Rotterdam Study – I and II
+
+### 5-year and 10-year risks (95% CIs) of dementia/death in sensitivity and subset analyses
+
+* non-statin cholesterol-lowering medications, diuretics, beta-blockers, calcium-blockers, ace-inhibitors, NSAIDs, or aspirin 
+
+### Distribution of inverse probability weights for estimation of the per-protocol effect of statin use on dementia
+
+                                    100% Max       8.82404E+09
+                                    99%            7.84237E+00
+                                    95%            2.44104E+00
+                                    90%            1.78096E+00
+                                    75% Q3         1.31107E+00
+                                    50% Median     1.10539E+00
+                                    25% Q1         1.02265E+00
+                                    10%            1.00000E+00
+                                    5%             1.00000E+00
+                                    1%             1.00000E+00
+                                    0% Min         1.00000E+00
 
