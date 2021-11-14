@@ -1,11 +1,3 @@
-```{r setup, include = FALSE}
-library(tidyverse)
-library(pander)
-library(gt)
-source(here::here("tables", "tables3sbp.R"))
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-```
-
 # Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia {#chapter3}
 
 \small
@@ -45,6 +37,13 @@ High blood pressure is a well-known modifiable risk factor for stroke[@johnson20
 
 As a several-years-long randomized trial in the general population has not been conducted (and is likely unfeasible), decisions today regarding dynamic interventions on blood pressure and other lifestyle changes (e.g., quitting smoking) can be empirically informed using observational data to emulate a “target trial”[@zhang2018; @taubman2009; @jain2016; @danaei2018; @garcia_aymerich2014]. Target trial emulation requires clear specification of the trial protocol elements and, when assessing interventions sustained over time, analytic methods known as “g-methods” are required to appropriately account for time-dependent confounding[@whatif2020]. Previous studies have shown how results from observational studies can closely align with results from randomized controlled trials when the target trial framework is implemented[@lodi2019; @hernan2008]. In this study, we emulate a target trial to estimate the sustained effects of several hypothetical interventions on systolic blood pressure (SBP) control, including in combination with an intervention on smoking over follow-up, on the risk of first-ever stroke and dementia using data from 15 years of follow-up in the Rotterdam Study. 
 
+```{r setup, include = FALSE}
+library(tidyverse)
+library(pander)
+library(gt)
+source(here::here("tables", "tables3sbp.R"))
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
 ## Methods
 
 We begin by briefly describing the target trial specifications and then how we attempt to emulate the trial using data from the Rotterdam Study. A detailed comparison between the target trial and the emulation using observational data, is provided in the Supplementary information, Table s1.
