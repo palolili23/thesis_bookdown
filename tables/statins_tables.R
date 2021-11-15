@@ -63,44 +63,44 @@ table2.2 <- tibble::tribble(
   "MMSE, mean score (SD)", "28.3 (1.2)", "28.2 (1.3)",
   "Body mass index, mean (SD)", "27.0 (3.9)", "27.8 (4.4)",
   "Highest educational attainment (%)", NA, NA,
-  "Primary", "9.7%",   "9.5%",
-  "Lower/intermediate general or lower vocational", "43.7%","44.7%",
-  "Intermediate vocational or higher general","31.8%","33.0%", 
-  "Higher vocational or university", "13.7%","12.1%",
-  "Unknown","1.2%", "0.8%",
+  "   Primary", "9.7%",   "9.5%",
+  "   Lower/intermediate general or lower vocational", "43.7%","44.7%",
+  "   Intermediate vocational or higher general","31.8%","33.0%", 
+  "   Higher vocational or university", "13.7%","12.1%",
+  "   Unknown","1.2%", "0.8%",
   "APOE-e4 carrier", NA, NA,
-  "Yes","25.8%","28.3%",
-  "No","70.2%","66.4%",
-  "Missing","4.0%","5.3%",
+  "   Yes","25.8%","28.3%",
+  "   No","70.2%","66.4%",
+  "   Missing","4.0%","5.3%",
   "Total cholesterol, mean mmol/L (SD)","6.01 (1.01)","6.49 (1.15)",
   "Total cholesterol < 5.2 mmol/L (%)","20.5%","14.3%",
   "Total cholesterol 5.2-6.2 mmol/L (%)","39.9%","26.5%",
   "Total cholesterol >6.2 mmol/L (%)","39.6%","59.2%",
   "Systolic blood pressure, mmHg (SD)", "142.7 (20.9)", "147.5 (21.5)",
   "Smoking status (%)", NA, NA,
-  "Never","30.9%","24.9%",
-  "current or former","66.9%","72.8%",
-  "Missing", "2.3%", "2.3%",
+  "   Never","30.9%","24.9%",
+  "   Current or former","66.9%","72.8%",
+  "   Missing", "2.3%", "2.3%",
   "History of heart disease* (%)", "9.0%", "19.1%",
   "History of stroke (%)", "1.8%", "7.7%",
   "History of cancer (%)", NA, NA,
-  "No", "92.5%", "93.6%",
-  "Yes",  "5.8%",  "5.1%",
-  "Missing",  "1.7%",  "1.3%",
+  "   No", "92.5%", "93.6%",
+  "   Yes",  "5.8%",  "5.1%",
+  "   Missing",  "1.7%",  "1.3%",
   "History of diabetes (%)", NA, NA,
-  "No","93.5%","86.2%",
-  "Yes", "4.0%","11.6%",
-  "Missing", "2.5%", "2.4%",
+  "   No","93.5%","86.2%",
+  "   Yes", "4.0%","11.6%",
+  "   Missing", "2.5%", "2.4%",
   "Current use of other prescription drugs (%)", NA, NA,
-  "Antihypertensives","0.8", "0.8%",
-  "Diuretics","11.1%", "17.9%",
-  "Beta-blockers", "15.7%", "29.7%",
-  "Calcium antagonists", "6.0%", "14.8%",
-  "RAAS inhibitors", "12.0%", "24.8%",
-  "Other lipid lowering drugs", "0.5%", "1.6%",
-  "NSAIDs", "7.3%", "8.0%",
-  "Psychotropics**", "12.0%", "15.0%",
-  "Aspirin", "11.5%", "30.7%")
+  "   Antihypertensives","0.8", "0.8%",
+  "   Diuretics","11.1%", "17.9%",
+  "   Beta-blockers", "15.7%", "29.7%",
+  "   Calcium antagonists", "6.0%", "14.8%",
+  "   RAAS inhibitors", "12.0%", "24.8%",
+  "   Other lipid lowering drugs", "0.5%", "1.6%",
+  "   NSAIDs", "7.3%", "8.0%",
+  "   Psychotropics**", "12.0%", "15.0%",
+  "   Aspirin", "11.5%", "30.7%")
 
 legend2.2 <- "* Defined as any history of atrial fibrillation, heart failure, myocardial infarction or 
 revascularization"
@@ -110,23 +110,23 @@ legend2.22 <- "**Defined as antidepressants, antipsychotics, or benzodiazepines"
 
 ## 2.3 Table 3 ------------------------------------------------------------
 
-# table3 <- tibble::tribble(
-#                   ~`5-year.risk.of.dementia`,  ~No statins,   ~`2.8.(2.6,.3.2)`, ~`0.0.(reference)`,   ~`2.9.(2.6,.3.2)`,   ~`2.8.(2.5,.3.2)`,   ~`0.0.(reference)`,
-#                    "5-year risk of dementia",    "Statins",    "2.4 (1.5, 3.3)", "-0.4 (-1.3, 0.5)",    "2.2 (1.1, 3.3)",    "1.8 (0.7, 3.2)",   "-1.1 (-2.2, 0.5)",
-#                   "10-year risk of dementia", "No statins",    "8.6 (7.9, 9.4)",  "0.0 (reference)",    "8.7 (7.9, 9.6)",    "8.7 (7.8, 9.7)",    "0.0 (reference)",
-#                   "10-year risk of dementia",    "Statins",   "8.5 (6.2, 10.5)", "-0.1 (-2.3, 1.8)",   "7.3 (4.4, 10.2)",   "6.6 (3.4, 10.6)",   "-2.2 (-5.2, 1.6)",
-#              "5-year risk of dementia/death", "No statins", "11.1 (10.6, 11.8)",  "0.0 (reference)", "11.3 (10.8, 11.9)", "11.2 (10.6, 11.8)",    "0.0 (reference)",
-#              "5-year risk of dementia/death",    "Statins",  "10.7 (8.9, 12.8)", "-0.4 (-2.2, 1.4)",  "10.4 (8.2, 13.0)",   "8.5 (5.4, 11.1)",   "-2.7 (-5.3, 0.1)",
-#             "10-year risk of dementia/death", "No statins", "26.0 (24.9, 27.1)",  "0.0 (reference)", "26.3 (25.2, 27.3)", "26.1 (24.8, 27.3)",    "0.0 (reference)",
-#             "10-year risk of dementia/death",    "Statins", "26.3 (23.1, 29.3)",  "0.3 (-2.7, 3.3)", "25.0 (21.0, 28.8)", "21.0 (15.6, 25.7)", "-5.1 (-10.5, -1.1)",
-#                                           NA,           NA,                  NA,                 NA,                  NA,                  NA,                   NA
-#             )
+table2.3 <- tibble::tribble(
+  ~`Risk`, ~`Treatment Arm`, ~`Risk %(95%CI)_1`, ~`Risk Difference(%)_1`, ~`Risk %(95%CI)_2`, ~`Risk %(95%CI)_3`, ~`Risk Difference(%)_2`,
+  "5-year risk of dementia",   "No statins",     "2.8 (2.6, 3.2)",        "0.0 (reference)",      "2.9 (2.6, 3.2)",      "2.8 (2.5, 3.2)",      "0.0 (reference)",
+  NA,      "Statins",     "2.4 (1.5, 3.3)",       "-0.4 (-1.3, 0.5)",      "2.2 (1.1, 3.3)",      "1.8 (0.7, 3.2)",     "-1.1 (-2.2, 0.5)",
+  "10-year risk of dementia",   "No statins",     "8.6 (7.9, 9.4)",        "0.0 (reference)",      "8.7 (7.9, 9.6)",      "8.7 (7.8, 9.7)",      "0.0 (reference)",
+  NA,      "Statins",    "8.5 (6.2, 10.5)",       "-0.1 (-2.3, 1.8)",     "7.3 (4.4, 10.2)",     "6.6 (3.4, 10.6)",     "-2.2 (-5.2, 1.6)",
+  "5-year risk of dementia/death",   "No statins",  "11.1 (10.6, 11.8)",        "0.0 (reference)",   "11.3 (10.8, 11.9)",   "11.2 (10.6, 11.8)",      "0.0 (reference)",
+  NA,      "Statins",   "10.7 (8.9, 12.8)",       "-0.4 (-2.2, 1.4)",    "10.4 (8.2, 13.0)",     "8.5 (5.4, 11.1)",     "-2.7 (-5.3, 0.1)",
+  "10-year risk of dementia/death",   "No statins",  "26.0 (24.9, 27.1)",        "0.0 (reference)",   "26.3 (25.2, 27.3)",   "26.1 (24.8, 27.3)",      "0.0 (reference)",
+  NA,      "Statins",  "26.3 (23.1, 29.3)",        "0.3 (-2.7, 3.3)",   "25.0 (21.0, 28.8)",   "21.0 (15.6, 25.7)",   "-5.1 (-10.5, -1.1)"
+)
 
 
 # 2.4 supplementary table -------------------------------------------------
 
 table2e1 <- tibble::tribble(
-  ~"Trial.number", ~"Calendar.month", ~"Participants", ~"Initiators",
+  ~"Trial number", ~"Calendar month", ~"Participants", ~"Initiators",
   1L,        "Jan-93",          105L,          0L,
   2L,        "Feb-93",          119L,          0L,
   3L,        "Mar-93",          121L,          0L,
