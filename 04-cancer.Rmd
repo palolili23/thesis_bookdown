@@ -375,7 +375,7 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = can
 knitr::include_graphics(here::here("figs", "cancerf7.jpg"))
 ```
 
-(ref:cancer7) A legend
+(ref:cancerf7) A legend
 
 
 \newpage
