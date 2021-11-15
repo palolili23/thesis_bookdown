@@ -75,13 +75,17 @@ Dementia diagnosis was collected by screening during the cohort visits, using MM
 
 Vital status was obtained on a weekly basis via municipal population registries and through general practitioners’ and hospitals’ databases. All-cause mortality was defined as participants who died from any cause during the total follow-up period. 
 
-**Start and end of follow-up:_** We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure 1).
+**Start and end of follow-up:_** We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure \@ref(fig:sbpf1)).
 
-```{r 03_fig1, fig.cap='(ref:Flowchart)', results='show'}
-knitr::include_graphics("figs/03_fig1.JPG", auto_pdf = TRUE)
+\newpage
+
+```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE}
+knitr::include_graphics(here::here("figs", "sbpf1.jpg"))
 ```
 
-(ref:Flowchart) __Flowchart__. After a baseline block without stimulation, participants performed the attentional blink task during 20 minutes of anodal.
+(ref:sbpf1) **Flowchart.**
+
+\newpage
 
 ### Statistical Analysis:
 
@@ -117,11 +121,9 @@ The simplified steps for the parametric g-formula, using stroke as the outcome a
 
 7. For each strategy repeat step 3 to 6.
 
-The same steps were performed with dementia as an outcome.  Our primary analyses consisted of models with baseline confounders which included: age with a quadratic term, sex, APOE-ε4 carrier, history of type-II diabetes mellitus, history of heart disease, education level, baseline SBP with a cubic term. Additionally, we also included time-varying covariates: the visit process, SBP, cholesterol, BMI, alcohol intake, smoking status, hypertensive medications, incident heart disease, incident diabetes, incident cancer, incident transient ischemic attack and incident Parkinson Disease or Parkinsonism. Details on measurements of these variables are available in the Supplementary information (Measurements). When stroke was the principal outcome, we included dementia as a time-varying confounder, and vice versa. All covariates that were measured during the visit process were modeled under the condition of having attended the visit (Supplementary information, Tables3). To probe for potential model misspecification, we estimated the difference between the observed mean value and the predicted mean value for each covariate (Supplementary information, Figure s1, Figure s2). We also conducted a sensitivity analysis of reordering the time-varying covariates to probe potential model misspecification.
-
+The same steps were performed with dementia as an outcome.  Our primary analyses consisted of models with baseline confounders which included: age with a quadratic term, sex, APOE-ε4 carrier, history of type-II diabetes mellitus, history of heart disease, education level, baseline SBP with a cubic term. Additionally, we also included time-varying covariates: the visit process, SBP, cholesterol, BMI, alcohol intake, smoking status, hypertensive medications, incident heart disease, incident diabetes, incident cancer, incident transient ischemic attack and incident Parkinson Disease or Parkinsonism. Details on measurements of these variables are available in the Supplementary information (Measurements). When stroke was the principal outcome, we included dementia as a time-varying confounder, and vice versa. All covariates that were measured during the visit process were modeled under the condition of having attended the visit (Supplementary information, Tables3). To probe for potential model misspecification, we estimated the difference between the observed mean value and the predicted mean value for each covariate (Supplementary information, Figure \@ref(fig:sbpf4) and \@ref(fig:sbpf5)). We also conducted a sensitivity analysis of reordering the time-varying covariates to probe potential model misspecification.
 
 The results are presented as the average causal effect under each hypothetical intervention at 15 years of follow-up compared to the natural course as a risk ratio and risk difference. For each intervention, we further report the cumulative proportion of participants who would have had to have been intervened on during the follow-up, to adhere to the strategy. We additionally presented the standardized cumulative incidence curves, comparing the risk over time under the natural course and the joint treatment strategy.
-
 
 **_Competing risk analysis:_** During follow-up, individuals can die before developing stroke and dementia, and interventions may affect the risk of death in our main analysis. For this reason, we estimate the risk of stroke and dementia taking into account that individuals can also progress to death. This means that the effect on our main outcome is through all pathways between the interventions and the outcome, including those possibly mediated by this competing event. We additionally run the primary analysis considering death as a censoring event, however the interpretation in this setting emulates a counterfactual world in which death could be entirely prevented, which would not be realistic and relies on additional stronger no-unmeasured-confounding assumptions[@young2020]. Finally, we performed analysis considering the effect of each intervention in the composite outcome with death (i.e., stroke and death, dementia and death).
 
@@ -134,32 +136,27 @@ https://github.com/palolili23/ht_trial_gformula.
 
 Table 1 shows the baseline characteristics of the study participants. The mean age of the participants was 66 years and 57% were women. The mean SBP at baseline was 137 mmHg, and 24% were current cigarette smokers.
 
-**_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table 2. Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure 2A.
+**_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table 2. Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure \@ref(fig:sbpf2), panel A.
 
-**_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table 3. Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure 3A.
+```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf2)'}
+knitr::include_graphics(here::here("figs", "sbpf2.jpg"))
+```
+(ref:sbpf2) Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up
 
+**_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table 3. Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure \@ref(fig:sbpf3) panel A.
+
+```{r sbpf3, echo=FALSE, fig.cap = '(ref:sbpf3)'}
+knitr::include_graphics(here::here("figs", "sbpf3.jpg"))
+```
+(ref:sbpf3) Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up 
 
 Alternative analyses for competing event: Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the Supplementary information, Table s4, s5, s11, s12.
-
-
-<!-- ```{r 03_fig2, fig.cap='(ref:Figure 2)', results='show'} -->
-<!-- knitr::include_graphics("figs/03_fig2.jpg", auto_pdf = TRUE) -->
-<!-- ``` -->
-
-<!-- (ref:Figure 2) _Figure 2._ Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. -->
-
-<!-- ```{r 03_fig3, fig.cap='(ref:Figure 3)', results='show'} -->
-<!-- knitr::include_graphics("figs/03_fig3.jpg", auto_pdf = TRUE) -->
-<!-- ``` -->
-<!-- (ref: Figure 3) _Figure 3._ Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. -->
-
 
 **_Subgroup analyses:_** Table 4 provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Table s6 to s 11, s14 to s19.
 
 ## Discussion
 
 Our study suggests that intervening on blood pressure could reduce stroke risk by approximately 10% over 15 years of follow-up in a population-based setting, and that combining such interventions with smoking cessation could result in an overall reduction of 18%. In contrast, our study is consistent with these same interventions having null or opposite effects on risk of dementia, taking into account that these estimates could be affected by how the interventions may decrease the risk of death. 
-
 Our results on stroke risk are comparable in direction but not quite in magnitude of prior studies’ effect estimates. A previous meta-analysis of randomized trials has shown that a 10 mmHg reduction in blood pressure decreases the risk of stroke by 27%, though this effect was observed in a high-risk population of individuals with cardiovascular diseases[@ettehad2016]. The most comparable observational study to ours was one emulating hypothetical treatment strategies to reduce SBP in middle-aged (i.e., baseline mean age 46.1 years or about 20 years younger that our study) healthy individuals from Norway, also using the g-formula. This study showed that a 23 mmHg average reduction in blood pressure of 120 mmHg and above resulted in a 45% reduction in stroke risk over a 15 year period[@vangenlonne2018]. The difference in the risk estimates might be due to differences in the average age of the study populations. Of note, no differences in proportional risk reductions were reported in trials involving persons with systolic blood pressure <130 mmHg and those at high risk (≥160 mmHg)[@ettehad2016]. Our study also adds to these prior studies by considering a joint intervention with smoking cessation, although our combined strategies appears to reduce stroke risk by a much lower amount (18%) than those reported previously in observational studies (35-55%)[@chiuve2008; @braillon2015; @zhang2012].
 
 To compare the results from our hypothetical intervention on blood pressure (dropping below 120 or 140 mmHg over time) in dementia risk with previous research, we must consider the differences in the eligibility criteria, treatment strategies and analytical choices. Our target trial by design follows similar treatment strategies such as the  Systolic Blood Pressure Intervention Trial (SPRINT) MIND trial, however this trial considered eligible individuals as those who had risk of cardiovascular disease[@williamson2019], which represents a small subgroup of our population-based cohort. (Specifically, at most 290 individuals in the Rotterdam Study would meet criteria at baseline, based on our assessments of SBP, presence of cardiovascular disease other than stroke and history of diabetes.)  Similarly, since previous trials were primarily designed to assess the effect of antihypertensive medication on the risk of stroke and did not have dementia as their primary outcome, they were tailored to a specific subgroup of individuals who required treatment. Eligibility criteria in other trials included having had a history of stroke, being above 80 years old and having a SBP above 160 mmHg[@ace_inhibitors2000; @prince1996; @forette2002; @progress2003; @lithell2003; @diener2008; @anderson2011; @williamson2019; @bosch2019].  Furthermore, assessing the comparability of our findings with prior observational studies requires caution. A recent meta-analysis by Ding et al. have studied the effect of taking any antihypertensive medication and specific antihypertensive medications and the risk of dementia stratified by SBP including five large population-based cohort[@ding2020]. However, they assess the effect being on treatment at baseline and only include baseline covariates for adjustment. Similarly, Want et al. stratify individuals by longitudinal blood pressure patterns (mid-life and late-life normotension/hypertension), but covariates are measured during two of the six visits[@walker2019]. In contrast, we assessed the sustained effect of lowering SBP over time given time-updated covariates. Last, we consider that our findings reflect the relevance of the competing event of death by other causes, and how estimates are likely affected by the effect of interventions on the risk of death, and give a more comprehensive view of the implications of these results. This will be especially important when we stratify by characteristics that have a different survival distribution, as we observe in the different direction of the effects among women vs. men[@beam2018]. Reconsidering these points as part of how we frame research question and analytical decisions when using observational data, will have a direct impact on results interpretation and clinical translation. 
@@ -169,12 +166,6 @@ By leveraging a rich dataset in a population-based observational study, high-qua
 Finally, another key point to reflect upon in interpreting our specified treatment strategies is that we did not, in fact, specify how SBP would be lowered. This means our estimates are based on the consistency assumption that lowering SBP through any available means (e.g., dietary changes, medication use, other lifestyle changes) would have the same effect on stroke or dementia risk, or otherwise are at best interpretable as estimates for an effect of a weighted average of several SBP-lowering strategies with weights determined by the frequency that the particular strategies  occur in our specific population[@waterkills; @hernan2011]. Future studies that have more detailed assessments of these various SBP-lowering treatments are needed to disentangle treatment variation relevance and build upon this initial study. Furthermore, smoking cessation is one of several more specific behavioral interventions that could be assessed, as well as other metabolic factors described in current guidelines[@johnson2019; @lancet2020]. Implementing the target-trial framework and defining research questions to study more refined or further specified treatment strategies is a crucial next step. Doing so will require rich, longitudinal data on the specific interventions under study; the level of specificity in the research questions that can be studied is hampered in part by the data currently available. Thus, while there are certainly limitations in terms of ambiguity to the interventions studied in the current paper, they represent an improvement (in terms of clarity and for informing decision-making) over etiologic studies that address SBP’s effects with a simplified version of the complexity of real data, and a step toward the types of interventions we may consider in practice.
 
 Given previous considerations, studying population-level interventions as done here is particularly suitable for public health research, in that we can better understand how particular recommendations may affect stroke or dementia risk at the population-level rather than as estimated in high-risk subpopulations. Importantly, while the possible effect of blood pressure control on dementia risk remains debated, our findings nonetheless align with the recent WHO Report’s recommendation that lowering blood pressure has substantial benefits (in terms of stroke risk and mortality, here) that may motivate blood pressure control regardless of its possible effects on dementia risk[@who_dementia2019].
-
-## Figure legends
-
-Figure 1. Flowchart
-Figure 2. Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up
-Figure 3. Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up 
 
 \newpage
 
@@ -201,15 +192,30 @@ Hypertensive medication was categorized by the World Health Organization Anatomi
 
 Additionally, the occurrence of incident heart diseases and cardiac interventions, incident diabetes, transient ischemic attack, Parkinson disease, Parkinsonism, and cancer diagnosis were recorded independent from the visit process. The specific date of diagnosis was obtained through an automated follow-up system that integrates data from different sources as was performed for stroke and dementia.
 
+\newpage
+
 ### Table s2. Characteristics of included and excluded (missing covariates) participants 
 
-### Table s3.
+
+### Table s3. How things were modeled
 
 ### Difference between mean predicted values and mean observed values
 
-#### Figure s1. Outcome: Stroke
+#### Outcome: Stroke
 
-#### Figure s2. Outcome: Dementia
+```{r sbpf4, echo=FALSE, fig.cap = '(ref:sbpf4)'}
+knitr::include_graphics(here::here("figs", "sbpf4.png"))
+```
+(ref:sbpf4) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.
+
+#### Outcome: Dementia
+
+```{r sbpf5, echo=FALSE, fig.cap = '(ref:sbpf5)'}
+knitr::include_graphics(here::here("figs", "sbpf5.png"))
+```
+(ref:sbpf5) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.
+
+\newpage
 
 ### Additional analysis when outcome is stroke
 
