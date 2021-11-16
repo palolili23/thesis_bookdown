@@ -36,8 +36,6 @@ table3.1 <- tibble::tribble(
 
 legend3.1 <- "MMSE: Mini Mental State Examination; BMI: Body Mass Index; HDL: High density lipoproteins"
 
-rio::export(table3.1, here::here("tables", "table3.1.RData"))
-
 
 ## 3.2 Table 2 -------------------------------------------------------------
 
@@ -57,16 +55,8 @@ table3.2 <- tibble::tribble(
   9L,                           "Joint 4 + 5",          "8.5 (7.2, 9.9)",    "0.83 (0.71, 0.94)",         "-1.8 (-3.1, -0.6)",                    88.2
 )
 
-legend3.2 <-"SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric
-g-formula with fixed covariates: age, sex, education, 
-systolic blood pressure, history of diabetes and history 
-of heart disease at baseline; and time-varying covariates: 
-visit process, smoking status, systolic blood pressure, 
-body mass index, hypertension medication, total cholesterol and
-diagnosis of diabetes, heart disease, Parkinson disease,  
-Parkinsonism, transient ischemic attack, dementia or cancer."
+legend3.2 <-"SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, Parkinson disease, Parkinsonism, transient ischemic attack, dementia or cancer."
 
-rio::export(table3.2, here::here("tables", "table3.2.RData"))
 
 ## 3.3 Table 3 -------------------------------------------------------------
 
@@ -143,23 +133,21 @@ table3.3 <- tibble::tribble(
 
 
 legend3.3. <- 
-  "SBP: Systolic blood pressure (mmHg).
-Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, Parkinson disease, Parkinsonism, transient ischemic attack, dementia or cancer.
-"
-rio::export(table3.3, here::here("tables", "table3.3.RData"))
+  "SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, Parkinson disease, Parkinsonism, transient ischemic attack, dementia or cancer."
+
 
 ## 3.4 Supplementary -----------------------------------------------------------
 
 table3e1 <- tibble::tribble(
   ~ "Section",
-  ~"Target.trial",
+  ~"Target trial",
   ~ "Emulation using observation data",
   "Aim",
   "To estimate the effect of joint interventions on 15-year risk of stroke among people at risk",
   "Same",
   "Eligibility criteria",
   "Individuals below 80 years old, with no prior history of stroke or transient ischemic attack, cognitive impairment, dementia diagnosis or Parkinson’s disease or Parkinsonism.",
-  "Same  + MMSE above 26 at baseline.",
+  "Same plus MMSE above 26 at baseline.",
   "Treatment strategies",
   "1. Maintaining SBP below 120 mmHg",
   "Same",
@@ -192,7 +180,7 @@ table3e1 <- tibble::tribble(
   "Same",
   "Follow-up",
   "Starts at first visit, ends after stroke diagnosis, death, lost to follow up or after 15 years since baseline, which ever happens first. Annual checkups during trial to assess adherence and adverse effects.",
-  "Same + simulate visit process",
+  "Same plus simulate visit process",
   "Outcome",
   "Stroke (Death as competing risk)",
   "Same",
@@ -237,24 +225,75 @@ table3e3a <- tibble::tribble(
   "1st visit", "Indicator", "Yes; No"
 )
 
-table3e3b <-tibble::tribble(
-  ~"Time-varying covariates",                                               ~"Assessed", ~"Functional form when used as predictor",                                                                         ~"Cathegories",
-  "Second visit",                               "Between year 1 and year 5",       "Indicator and time since switch",                                                                               "N/A",
-  "Third visit",  "Between year 5 and year 9 and only if visit 2 happened",       "Indicator and time since switch",                                                                               "N/A",
-  "Fourth visit", "Between year 5 and year 14 and only if visit 3 happened",       "Indicator and time since switch",                                                                               "N/A",
-  "Smoking status",                                         "1st - 4th visit",                          "3 categories",                                                "Current (3); Former (2); Never (1)",
-  "Alcohol intake (g/day)",                                         "1st - 4th visit",                          "5 categories", ">= 10 g/day (5);  5 - 10 g/day (4); 1 - 5 g/day  (3); < 1  g/day (2); Missing (1)",
-  "Systolic blood pressure (mmHg)",                                         "1st - 4th visit",                            "Continuous",                                                                               "N/A",
-  "Body mass index",                                         "1st - 4th visit",                            "Continuous",                                                          "Splines in 18.5 20 25 30",
-  "Hypertension medication",                                         "1st - 4th visit",                             "Indicator",                                                                            "Yes/No",
-  "Total Cholesterol",                                     "1st, 3rd, 4th visit",                          "4 Categories",                       ">= 6.21 (4); > 5.17 & <6.21 (3); <= 5.17  (2);  Missing (1)",
-  "Diagnosis of diabetes type 2",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of heart disease",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of Parkinson’s Disease or Parkinsonism",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of transient ischemic attack",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of stroke",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of cancer",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A",
-  "Diagnosis of dementia",                                       "Year of diagnosis",       "Indicator and time since switch",                                                                               "N/A"
+table3e3b <- tibble::tribble(
+  ~ "Time-varying covariates",
+  ~ "Assessed",
+  ~ "Functional form when used as predictor",
+  ~ "Cathegories",
+  "Second visit",
+  "Between year 1 and year 5",
+  "Indicator and time since switch",
+  "N/A",
+  "Third visit",
+  "Between year 5 and year 9 and only if visit 2 happened",
+  "Indicator and time since switch",
+  "N/A",
+  "Fourth visit",
+  "Between year 5 and year 14 and only if visit 3 happened",
+  "Indicator and time since switch",
+  "N/A",
+  "Smoking status",
+  "1st - 4th visit",
+  "3 categories",
+  "Current (3); Former (2); Never (1)",
+  "Alcohol intake (g/day)",
+  "1st - 4th visit",
+  "5 categories",
+  ">= 10 g/day (5);  5 - 10 g/day (4); 1 - 5 g/day  (3); < 1  g/day (2); Missing (1)",
+  "Systolic blood pressure (mmHg)",
+  "1st - 4th visit",
+  "Continuous",
+  "N/A",
+  "Body mass index",
+  "1st - 4th visit",
+  "Continuous",
+  "Splines in 18.5 20 25 30",
+  "Hypertension medication",
+  "1st - 4th visit",
+  "Indicator",
+  "Yes/No",
+  "Total Cholesterol",
+  "1st, 3rd, 4th visit",
+  "4 Categories",
+  ">= 6.21 (4); > 5.17 & <6.21 (3); <= 5.17  (2);  Missing (1)",
+  "Diagnosis of diabetes type 2",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of heart disease",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of Parkinson’s Disease or Parkinsonism",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of transient ischemic attack",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of stroke",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of cancer",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A",
+  "Diagnosis of dementia",
+  "Year of diagnosis",
+  "Indicator and time since switch",
+  "N/A"
 )
 
 
