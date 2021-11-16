@@ -41,3 +41,5 @@ vignettes/*.pdf
 ## Knitting heavy files
 
 _book/
+
+_bookdown_files/

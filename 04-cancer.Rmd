@@ -10,7 +10,15 @@ Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A.
 \newpage
 \normalsize
 
-\newpage
+```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
+library(knitr)
+library(kableExtra)
+library(magrittr)
+library(dplyr)
+source(here::here("tables", "cancer_tables.R"))
+options(knitr.kable.NA = "")
+```
+
 
 ## Abstract
 
@@ -28,9 +36,9 @@ Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A.
 ## Towards a clearer causal question underlying the association between cancer and dementia
 
 
-Many observational studies have consistently found that individuals with cancer have a lower risk of developing dementia when compared to individuals with no history of cancer[@ma2014;@hanson2016;@vanderwillik2018;@ospina2020]. These findings have motivated substantial research toward mechanistic explanations, including molecular and genetic pathways that may explain this association[@behrens2009;@harris2014;@nudelman2019;@Papin2020;@driverbiogeront2014;@olson2019;@li2021;@driverpin2015]. These research questions have led to discussions of repurposing or augmenting current cancer treatments, including chemotherapy, for dementia[@snyder2017].
+Many observational studies have consistently found that individuals with cancer have a lower risk of developing dementia when compared to individuals with no history of cancer[@ma2014;@hanson2016;@vanderwillik2018;@ospina2020]. These findings have motivated substantial research toward mechanistic explanations, including molecular and genetic pathways that may explain this association[@behrens2009;@harris2014;@nudelman2019;@Papin2020;@driver2014;@olson2019;@li2021;@driverpin2015]. These research questions have led to discussions of repurposing or augmenting current cancer treatments, including chemotherapy, for dementia[@snyder2017].
 
-Nevertheless, inferring any treatment or mechanistic effects from the observed cancer-dementia inverse association is not straightforward. Researchers have raised concerns related to the competing event of death, unmeasured confounding, and ascertainment error that could explain these results[@driverbiogeront2014;@ganguli2015]. However, understanding these or other sources of bias first requires making explicit a causal question. Moreover, enumerating an explicit causal question is one step toward tying a research study to a question that is relevant to decision-making[@didelez2016;@labrecque2017].
+Nevertheless, inferring any treatment or mechanistic effects from the observed cancer-dementia inverse association is not straightforward. Researchers have raised concerns related to the competing event of death, unmeasured confounding, and ascertainment error that could explain these results[@driver2014;@ganguli2015]. However, understanding these or other sources of bias first requires making explicit a causal question. Moreover, enumerating an explicit causal question is one step toward tying a research study to a question that is relevant to decision-making[@didelez2016;@labrecque2017].
 
 To illustrate the complexities of inferring hypothetical or available cancer treatments’ effects on dementia from the observed cancer-dementia association, we focus on a specific question conceptualizing the Pin1 enzyme as the target of intervention. Previous animal studies have shown that Pin1 enzyme over-expression promotes tumorigenesis, while its down-regulation is attributed to mechanisms that contribute to neurodegeneration and amyloid deposition[@driverpin2015;@angelucci2017;@li2021]. If we – hypothetically speaking –  one day could develop a drug that increases Pin1 expression specifically in brain tissue in hopes of preventing dementia, we could pose the question as: _What is the effect of this Pin1-targeting drug on the risk of dementia over time compared to standard treatments?_
 
@@ -252,7 +260,31 @@ All analysis were performed using R. Code is provided in Supplementary informati
 
 Participants had a mean age of 64.5 years, and 54% (n=1979) were women (Table 1). Over follow-up, 25% (n=899) developed cancer, with a median age of cancer diagnosis at 73 (IQR:69-78). From the total sample, 13% (n=460) were diagnosed with dementia over follow-up with a median age of at 79 (IQR:75-83) years. Among participants with incident cancer, 6% (n=53) had dementia diagnosis, 63% (n=567) died over follow-up, and 31% (n=279) remained alive and dementia-free at 20 years since study entry. In contrast, among participants free of cancer diagnosis over follow-up, 15% (n=411) were diagnosed with dementia, 24% (n=667) died over follow-up, and 61% (n=1657) were alive and dementia-free at the end of follow-up. The proportion of participants in each possible status over follow-up and leading causes of death for both arms are presented as Figure \@ref(fig:cancerf7) and Figure \@ref(fig:cancerf8) in the Supplementary information.
 
-Results for all scenarios are presented in Table 2. Using Scenario A’s analytic design and without adjusting for confounding or selection bias due to conditioning on death, we observe a protective association with a risk ratio (RR, 95% Confidence interval) of 0.70 (0.49,0.93) and a hazard ratio [HR, (95% Confidence interval)] of 0.52 (0.39,0.69). Though adjusting for measured confounding only minimally changed the observed association, the association is closer to the null after including censoring weights for death [RR: 0.91 (0.65,1.19); HR: 0.72 (0.54,0.98)]. In contrast, using Scenario B’s analytic design, the fully adjusted model results in a RR of RR: 1.05 (0.79,1.29) and a HR of 1.09 (0.80,1.50), though confidence intervals cross the null. The cumulative incidence curves for dementia for participants free of cancer diagnosis and with incident cancer diagnosis, under Scenarios A and B, reflect that the difference between groups changes over time and flips direction when considering cancer as a time-varying proxy. Bounds (rather than point estimates) were wide and covered the null (Lower bound RR: 0.39; Upper bound RR: 2.08).
+Results for all scenarios are presented in Table 2. Using Scenario A’s analytic design and without adjusting for confounding or selection bias due to conditioning on death, we observe a protective association with a risk ratio (RR, 95% Confidence interval) of 0.70 (0.49,0.93) and a hazard ratio [HR, (95% Confidence interval)] of 0.52 (0.39,0.69). Though adjusting for measured confounding only minimally changed the observed association, the association is closer to the null after including censoring weights for death [RR: 0.91 (0.65,1.19); HR: 0.72 (0.54,0.98)]. In contrast, using Scenario B’s analytic design, the fully adjusted model results in a RR of RR: 1.05 (0.79,1.29) and a HR of 1.09 (0.80,1.50), though confidence intervals cross the null. The cumulative incidence curves for dementia for participants free of cancer diagnosis and with incident cancer diagnosis, under Scenarios A and B, are presented in Figure \@ref(fig:cancerf6). These plots reflect that the difference between groups changes over time and flips direction when considering cancer as a time-varying proxy. Bounds (rather than point estimates) were wide and covered the null (Lower bound RR: 0.39; Upper bound RR: 2.08).
+
+```{r cancert1, echo= FALSE, warning = FALSE, results='asis'}
+table4.1 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:cancert1)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>%
+  footnote(general = legend4.1)
+```
+(ref:cancert1) Characteristics of cohort at baseline (n = 3634)
+
+```{r cancert2, echo= FALSE, warning = FALSE, results='asis'}
+table4.2 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:cancert2)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>%
+  footnote(general = legend4.2)
+```
+(ref:cancert2) 20-year risk differences, risk ratio, and hazard ratios for dementia risk by cancer proxy and model adjustment
 
 ```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)'}
 knitr::include_graphics(here::here("figs", "cancerf6.jpg"))
@@ -267,8 +299,7 @@ For instance, a key challenge of cancer diagnosis as a proxy for Pin1 is the inc
 
 On the other hand, death as a competing event is a challenge that has some straightforward strategies, beginning first and foremost by choosing the causal parameter (or estimand) of interest[@young2020, @rojas_medrxiv]. In this study we chose the controlled direct effect, which represents the effect of Pin1 (or cancer) in a setting where death due to cancer and other causes could have been prevented, yet without an explicit intervention, which makes it ambiguous. This is different than conceiving a drug-target that increases Pin1 expression only in brain tissue, with no side effects that could increase cancer risk (and thus, death due to cancer). As opposed to prior studies that implicitly address a direct effect, and that define censoring as ignorable[@frain2017], we show how point estimates change substantially when we include weights for death to relax the independent censoring assumption[@weuve2012, @vangeloven2014, @willems2018, @young2020] when the estimand of interest is the controlled direct effect. Bounds to assess extreme scenarios of dependence between death and dementia[@peterson1976] illustrate the wide range of possible point estimates that cross the null. This shows that even with the effort of adjusting for time-varying covariates, we may be far from meeting this assumption and thus better efforts to measure shared (time-varying) causes of dementia and death are needed. In addition, presenting the proportion of participants that died prior to dementia diagnosis in each arm, as well as the proportion of participants in each status over time, improves transparency and puts in evidence the limitations of the data to answer this question.
 
-Pin1 is only one of the several mechanisms proposed by other investigators as an explanation for the inverse cancer-dementia relationship. Certainly, cancer diagnosis represents a complex and heterogeneous health condition that exceeds the representation of Pin1 expression. To understand how – if at all – the cancer-dementia association informs the potential effects of any other mechanism or treatment strategy, and its connection to collected data, we may require different causal representations. For example, if researchers used this association to inform the possible effects of different chemotherapeutics on cognitive decline among patients undergoing treatment for cancer, different challenges would arise for mapping the observed association to the hypothetical randomized trial underlying that new research question. Notably, that target trial, unlike the one considered here, would include cancer diagnosis as part of the eligibility, and thus researchers would need to instead grapple with how using data on persons without cancer is useful and useable[@huitfeldt2016].
-Each question requires thinking about bias anew and each question brings its own set of challenges and opportunities. 
+Pin1 is only one of the several mechanisms proposed by other investigators as an explanation for the inverse cancer-dementia relationship. Certainly, cancer diagnosis represents a complex and heterogeneous health condition that exceeds the representation of Pin1 expression. To understand how – if at all – the cancer-dementia association informs the potential effects of any other mechanism or treatment strategy, and its connection to collected data, we may require different causal representations. For example, if researchers used this association to inform the possible effects of different chemotherapeutics on cognitive decline among patients undergoing treatment for cancer, different challenges would arise for mapping the observed association to the hypothetical randomized trial underlying that new research question. Notably, that target trial, unlike the one considered here, would include cancer diagnosis as part of the eligibility, and thus researchers would need to instead grapple with how using data on persons without cancer is useful and useable[@huitfeldt2016]. Each question requires thinking about bias anew and each question brings its own set of challenges and opportunities. 
 
 We underscore that our study is just one case study for how observed associations between two diseases or health states may be disentangled to more transparently unveil possible mechanisms (and sources of bias) behind them, and how to maximize what we can learn about the potential mechanisms given available or readily-collected data. We hope to stimulate researchers first have a discussion about the exact research question, rather than trying to replicate the cancer and dementia relation in their dataset. Such discussion is needed to obtain meaningful conclusions.
 
@@ -377,9 +408,10 @@ knitr::include_graphics(here::here("figs", "cancerf7.jpg"))
 
 (ref:cancerf7) A legend
 
-
+```{=latex}
 \newpage
-
+\blandscape
+```
 
 ### Causes of death defined by ICD-10 codes for participants who died prior to dementia diagnosis
 
@@ -388,3 +420,11 @@ knitr::include_graphics(here::here("figs", "cancerf8.jpg"))
 ```
 
 (ref:cancerf8) Information on vital status and cause – specific mortality is obtained continuously from the municipal authorities in Rotterdam. General practitioners in the research area report incident events by means of a computerized system, covering 78.8 % of the cohort. General practitioners without the computerized system are requested to notify new events annually. Trained research assistants subsequently collect information from medical records of the general practitioners, hospitals, and nursing homes. Two research physicians independently classify the events according to the ICPC and ICD-10 coding systems. Thereafter, a medical expert in the field reviews all coded events.
+
+
+```{=latex}
+\elandscape
+\newpage
+```
+
+## References

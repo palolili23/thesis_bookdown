@@ -8,6 +8,15 @@ _This chapter is under revision_:
 
 Rojas-Saunero L.P., Young J.G, Didelez V., Ikram M. A., Swanson S.A. Choosing questions before methods in dementia research with competing events and causal goals.
 
+```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
+library(knitr)
+library(kableExtra)
+library(magrittr)
+library(dplyr)
+source(here::here("tables", "cr_tables.R"))
+options(knitr.kable.NA = "")
+```
+
 \newpage
 \normalsize
 
@@ -17,19 +26,19 @@ Several exposures that affect dementia risk also affect mortality risk. This has
 
 \newpage
 
+## Introduction
+
 Much research on dementia etiology focuses on understanding the role of biological factors in the pathophysiological process, and the impact of modifiable factors that could prevent or delay the onset of the disease[@lancet2020]. As such, the field is often interested in causal questions. However, proper causal inference in dementia research faces many methodological and substantive challenges[@power2015]. One of these challenges, which arises even in randomized trials, is that individuals at risk of dementia may die of other causes prior to its onset. In this setting, death is a competing event because an individual who dies from another cause prior to dementia onset cannot subsequently experience dementia[@tsiatis1975].
 
-Several of the hypothesized or studied exposures that may affect dementia risk can also increase the risk of death. This may explain counterintuitive results, where exposures that are known to be harmful for mortality risk, such as smoking[@abner2019] or history of cancer[@driver2012] sometimes seem protective for the risk of dementia. Authors have attempted to make sense of these counterintuitive results by naming biases such as “competing risk bias” or “survival bias”[@ospina2020].  However, the bias associated with a particular analytic method cannot be defined or assessed if the causal question is not explicitly specified. 
+Several of the hypothesized or studied exposures that may affect dementia risk can also increase the risk of death. This may explain counterintuitive results, where exposures that are known to be harmful for mortality risk, such as smoking[@abner2019] or history of cancer[@driver2012] sometimes seem protective for the risk of dementia. Authors have attempted to make sense of these counterintuitive results by naming biases such as “competing risk bias” or “survival bias”[@ospina2020].  However, the bias associated with a particular analytic method cannot be defined or assessed if the causal question is not explicitly specified.
 
-Current dementia research guidelines[@power2015] have not explicitly considered what constitutes a meaningful causal question in this setting or, more generally, how this choice justifies and should drive particular analytic decisions. Although previous recommendations in the statistical and epidemiologic methods literature have advocated for the cause-specific hazard ratio when the aim is “etiologic”[@lau2009; @austin2016; @austin2017; @koller2012], these recommendations have contributed to the misconception that “censoring” competing events is equivalent to somehow “ignoring” them[@frain2017]. 
+Current dementia research guidelines[@power2015] have not explicitly considered what constitutes a meaningful causal question in this setting or, more generally, how this choice justifies and should drive particular analytic decisions. Although previous recommendations in the statistical and epidemiologic methods literature have advocated for the cause-specific hazard ratio when the aim is “etiologic”[@lau2009; @austin2016; @austin2017; @koller2012], these recommendations have contributed to the misconception that “censoring” competing events is equivalent to somehow “ignoring” them[@frain2017].
 
 Recently, Young and colleagues placed core statistical concepts like risk and hazard within a formal causal inference framework and mapped common analytic strategies for competing events to questions about an intervention’s effect either with and without elimination of the competing event, referred as “the controlled direct effect” and “the total effect”[@young2020]. This work clarifies the role of censoring with respect to question formulation, assumptions needed for causal interpretation given real-world data, and particular analytic choices. To contextualize these ideas in the setting of dementia research, we illustrate how to ask and attempt to answer these questions first by describing a hypothetical randomized trial of smoking cessation and then emulating the trial using observational data from the Rotterdam Study[@ikram2020].  
-
 
 ## From questions to methods in dementia studies where some individuals die during study: A pedagogic example
 
 ### Observed data structure
-
 
 Consider the effect of smoking cessation (versus continuing) in late-midlife on developing dementia after 20 years of follow-up.  In order to focus on the challenges to causal inference created by competing events, we begin by considering an idealized randomized trial such that middle-aged smokers are randomly assigned to a strategy of quitting versus continuing smoking. Dementia onset is rigorously measured through constant screening and date of death is collected through linkage with municipal records. Further, suppose in the idealized trial we have complete follow-up (all individuals remain in the study until end of follow-up or until death) and perfect adherence.
 
@@ -37,11 +46,10 @@ Trial participants will be observed to follow different possible event trajector
 
 The causal diagram in Figure \@ref(fig:crf1) represents some key features of this data structure, where an arrow from one node A into another node B on a causal diagram reflects that A may cause B[@whatif2020]. In this graph, Smoking represents smoking status, and Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia risk by 20 years of follow-up, respectively. By randomization, we know there are no shared causes of Smoking and other variables represented in the graph (the only cause of quitting smoking is a “coin flip”).  However, we have no such guarantee for death and dementia status over the follow-up and therefore depict shared causes C of dementia and death (such as cardiovascular comorbidities) that may or may not be measured. The arrows from Smoking to Death~19~ and Smoking to Dementia~20~ illustrate that smoking may affect both dementia and death through different mechanisms. The bold arrow from Death~19~ to Dementia~20~ represents the key feature of a competing events data structure: an individual who dies by year 19 of follow-up cannot subsequently develop dementia at the next time point. Though we present death and dementia at years 19 and 20 respectively, the causal diagram could be expanded to include prior assessments, but this simplified causal diagram is sufficient, for our consideration of the different causal effects on dementia in the presence of death.
 
-```{r crf1, fig.cap= '(ref:crf1)', echo = FALSE}
+```{r crf1, fig.cap= '(ref:crf1)', echo = FALSE, position = 'center'}
 knitr::include_graphics(here::here("figs", "crf1.png"))
 ```
 (ref:crf1) A causal directed acyclic graph representing some key causal features of the data structure. Smoking represents the exposure status (quit smoking vs. continue smoking), Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia by 20 years of follow-up, respectively. C represents possible shared causes of dementia and death (such as cardiovascular comorbidities, that may or may not be measured). The key relations are: 1) smoking may independently affect both the risk of dementia and death over time through different mechanisms; 2) dying over the first 19 years of follow-up (without prior onset of dementia) determines that the indicator of dementia at 20 years of follow-up is zero (the bold arrow representing this key determinism induced by competing events); and 3) dementia and death can have shared causes.
-
 
 ### Choosing a causal question: the total and controlled direct effect
 
@@ -55,9 +63,7 @@ The risk differences above both quantify causal effects because they both refer 
 
 In sum, there is no single way to define “the” causal effect on dementia when deaths occur. Choosing either of these research questions should be done in a case-by-case basis. Presenting information on the exposure-mortality association complements both questions.
 
-
 ### Identifying the total versus controlled direct effect in a real-world study
-
 
 In this section we consider assumptions that help us connect our causal quantity of interest to observable data (i.e., identification). Consider again Figure \@ref(fig:crf1): because exposure was randomized, there are no non-causal paths connecting Smoking and Dementia20[@whatif2020; @pearl1994].  This is consistent with the assumption of “no confounding”, allowing identification of the total effect. In contrast, to identify the controlled direct effect of smoking cessation on the risk of dementia, we need to make the following additional assumptions; that is, “no confounding” ensured by randomization of the exposure is not sufficient.
 
@@ -80,7 +86,6 @@ We now illustrate an application of inverse probability weighted methods to esti
 
 Individuals ages 55-70 years who reported smoking (current or former) and who did not have history of dementia at cohort entry were eligible for the current study. To emulate the trial described previously, we contrast former and current smokers. This contrast has some limitations when viewed as an emulation of the trial: e.g., there may be unmeasured confounding, selection bias due to misaligning "time zero"[@hernan2016; @howe2018], and measurement error[@whatif2020]. A thorough consideration of these other issues would be critical for evaluating the effect size of smoking cessation on dementia risk, but go beyond the scope of this exercise. For didactic purposes, we therefore focus our attention on how the competing event of death affects the interpretation, analytic decisions, and assumptions evoked. 
 
-
 ### Methods
 
 To estimate the total effect of smoking cessation on dementia risk, we compared a weighted Aalen-Johannsen estimator in current versus former smokers with weights defined as a product of inverse probability of treatment weights[@whatif2020] to adjust for the following possible confounders: age, sex, APOE ε4 status, and educational attainment. Briefly, the weight for a current smoker is defined as the inverse of the probability of smoking conditional on confounders, and for a former smoker as the inverse of quitting conditional on covariates.  We estimated these probabilities with a logistic regression model for smoking as a function of the above-mentioned covariates.
@@ -89,18 +94,50 @@ To estimate the controlled direct effect, we compared the complement of a weight
 
 We also estimated the total effect of smoking on mortality risk applying the Kaplan-Meier estimator with the weights calculated for handling confounding. We therefore are assuming the same set of measured confounders used to estimate the total effect of smoking on dementia risk are sufficient for addressing confounding of the total effect of smoking on mortality risk. Estimates of the total and controlled direct effect at 20 years of follow-up are presented as risk differences (RD) and risk ratios (RR). All 95% confidence intervals were calculated using percentile-based bootstrapping with 500 bootstrap samples. All analysis were performed using R.
 
-
 ### Results
 
 Of 10994 Rotterdam Study participants, 4179 individuals met eligibility criteria (55-70 years who reported smoking history at baseline and who did not have history of dementia at study entry). The mean age was 62 years and 1870 (44.7%) were women (Table 1). In total, 368 (8.8%) developed dementia and 1318 (31.5%) died over 20 years of follow-up. The median time to dementia was 15.5 years and the median time to death was 13.1 years. Overall, from 1572 who were current smokers at baseline, 117 (7.4%) developed dementia and 630 (40.1%) died; of the 2607 former smokers, 251 (9.6%) developed dementia and 688 (26.4%) died.
 
 We estimated a total effect of smoking cessation (compared to continued smoking) on 20-year dementia risk of 2.1 (95%CI: -0.1, 4.2) percentage points (Table 2; Figure \@ref(fig:crf2)). This slightly harmful effect estimate of quitting smoking (with wide confidence intervals) includes all causal pathways, including that through death. The presence of this pathway is evidenced in the estimated total effect of quitting smoking on 20-year mortality risk: -17.4 (95%CI: -20.5, -14.5) percentage points. Alternatively, we estimated a controlled direct effect of quitting smoking on 20-year dementia risk had death been fully prevented during the study period as -1.9 (95%CI: -5.1, 1.4) percentage points.
 
+```{r crt1, echo= FALSE, warning = FALSE, results='asis'}
+table6.1 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:crt1)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>%
+  footnote(general = legend6.1)
+```
+(ref:crt1) Descriptive characteristics of former and current smokers in the Rotterdam Study (n = 4179)
+
+```{r crt2, echo= FALSE, warning = FALSE, results='asis'}
+table6.2 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:crt2)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>%
+  footnote(general = legend6.2)
+```
+(ref:crt2) Total effect and controlled direct effect of smoking cessation (compared to continued smoking) on the risk of dementia, and the total effect on risk of mortality, at 20 years of follow-up
+
+```{=latex}
+\newpage
+\blandscape
+```
 
 ```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE}
 knitr::include_graphics(here::here("figs", "crf2.png"))
 ```
 (ref:crf2) Risk of dementia and death by smoking cessation status over 20 years of follow-up. Panel A represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel B represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel C represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs. quit smoking.
+
+```{=latex}
+\elandscape
+\newpage
+```
 
 ## Discussion
 
@@ -111,7 +148,6 @@ The controlled direct effect does not have this feature, and in our example, we 
 Since both of these questions can seem unsatisfactory, we note that there are yet further alternative questions that can potentially be posed. For example, the “survivor average treatment effect” quantifies the effect of a treatment on a subgroup of individuals who would not die during the study period under either level of treatment[@frangakis2002]. However, the utility of this question is questionable as this subgroup is not observable and may not even exist. One can also consider a combined outcome endpoint, such as the effect on dementia or death; in our example, the effect of smoking on risk of death would drive the effect. A novel alternative of “separable effects” avoids evoking scenarios that “eliminate death” or unobservable subpopulations[@stensrud2020]. Separable effects are effects of modified treatments motivated by the physical decomposition of the exposure assumed to operate on dementia and death through separate pathways or completely different treatments that operate like the study treatment. In this work we focused on the two questions because of their relation to commonly used estimators in dementia research, but we suspect in the future that separable effects will become a more explicit question of interest with the increasing development of useable tools for aiding reasoning.
 
 Too often, we start by defining the statistical method that appears to fit the complexity of data, and we let this decision implicitly determine the research question to be answered. In a setting with competing events, there is no “one size fits all”. Through our discussion and application, we hope that readers will see an opportunity to re-conceptualize how to ask clearer questions in the context of competing events and let the question define the methods that best suit the research aim.
-
 
 ## Supplementary information
 
@@ -168,3 +204,5 @@ _Where:_
 D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
 
 \newpage
+
+## References
