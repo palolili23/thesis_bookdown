@@ -17,6 +17,7 @@ library(kableExtra)
 library(magrittr)
 library(dplyr)
 source(here::here("tables", "sbp_tables.R"))
+source(here::here("tables", "sbp_si_tables.R"))
 options(knitr.kable.NA = "")
 ```
 
@@ -210,7 +211,7 @@ Given previous considerations, studying population-level interventions as done h
 
 ## Supplementary information
 
-### Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
+### Target trial description
 
 ```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
 table3e1 %>%
@@ -221,7 +222,7 @@ table3e1 %>%
     position = 'center'
   ) 
 ```
-(ref:sbpt4) Target-trial description
+(ref:sbpt4) Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
 
 \clearpage
 
@@ -250,6 +251,7 @@ table3e2 %>%
 ```
 (ref:sbpt5) Comparison of baseline characteristics for included and excluded participants.
 
+\newpage
 
 ### Modeling of covariates included in the g-formula
 
@@ -297,69 +299,202 @@ knitr::include_graphics(here::here("figs", "sbpf5.png"))
 
 ### Additional analysis when outcome is stroke
 
-#### Death as a censored event. 
+```{r sbpt8, echo= FALSE, warning = FALSE, results='asis'}
+stroke2 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt8)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt8) Death as a censored event. The observed risk at 15 years is 12.0% .
 
-The observed risk at 15 years is 12.0% .  
+```{r sbpt9, echo= FALSE, warning = FALSE, results='asis'}
+stroke3 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt9)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt9) Stroke and death as combined outcome. The observed risk at 15 years is 36.4%.  
 
-#### Stroke and death as combined outcome
+```{r sbpt10, echo= FALSE, warning = FALSE, results='asis'}
+stroke4 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt10)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt10) Under 65 years subgroup. The observed risk at 15 years is 6.1%.  
 
-The observed risk at 15 years is 36.4%.  
+```{r sbpt11, echo= FALSE, warning = FALSE, results='asis'}
+stroke5 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt11)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt11) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.0%.
 
-#### Under 65 years subgroup
+```{r sbpt12, echo= FALSE, warning = FALSE, results='asis'}
+stroke_women %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt12)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt12) Women subgroup. The observed risk at 15 years is 9.2 %.
 
-The observed risk at 15 years is 6.1%.  
+```{r sbpt13, echo= FALSE, warning = FALSE, results='asis'}
+stroke_men %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt13)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt13) Men subgroup. The observed risk at 15 years is 11.6 %.
 
-#### Above 65 years and below 80 years subgroup
+```{r sbpt14, echo= FALSE, warning = FALSE, results='asis'}
+stroke_freemed %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt14)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt14) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.8 %.
 
-The observed risk at 15 years is 14.0%.
-
-#### Women subgroup
-
-The observed risk at 15 years is 9.2 %.
-
-#### Men subgroup
-
-The observed risk at 15 years is 11.6 %.
-
-#### Without hypertension medication at baseline subgroup
-
-The observed risk at 15 years is 8.8 %.
-
-#### No history of heart disease at baseline subgroup
-
-The observed risk at 15 years is 9.9%.  
+```{r sbpt15, echo= FALSE, warning = FALSE, results='asis'}
+stroke_nohd %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt15)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt15) No history of heart disease at baseline subgroup. The observed risk at 15 years is 9.9%.  
 
 ### Additional analysis when outcome is dementia
 
-### Death  as censored.
-The observed risk at 15 years is 10.8%.  
+```{r sbpt16, echo= FALSE, warning = FALSE, results='asis'}
+dementia2 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt16)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt16) Death as a censored event. The observed risk at 15 years is 10.8%.  
 
-### Dementia and death as combined outcome
+```{r sbpt17, echo= FALSE, warning = FALSE, results='asis'}
+dementia3 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt17)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
 
-The observed risk at 15 years is 36.7%.  
+\newpage
 
-### Under 65 years subgroup
+## References
+(ref:sbpt17) Dementia and death as combined outcome. The observed risk at 15 years is 36.7%.  
 
-The observed risk at 15 years is 3.2%.
+```{r sbpt18, echo= FALSE, warning = FALSE, results='asis'}
+dementia4 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt18)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt18) Under 65 years subgroup. The observed risk at 15 years is 3.2%.
 
-### Above 65 years and below 80 years subgroup
+```{r sbpt19, echo= FALSE, warning = FALSE, results='asis'}
+dementia5 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt19)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt19) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.1%. 
 
-The observed risk at 15 years is 14.1%. 
+```{r sbpt20, echo= FALSE, warning = FALSE, results='asis'}
+dementia_women %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt20)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt20) Women subgroup. The observed risk at 15 years is 10.7%.
 
-### Women subgroup
+```{r sbpt21, echo= FALSE, warning = FALSE, results='asis'}
+dementia_men %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt21)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt21) Men subgroup. The observed risk at 15 years is 6.7%. 
 
-The observed risk at 15 years is 10.7%.
+```{r sbpt22, echo= FALSE, warning = FALSE, results='asis'}
+dementia_freemed %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt22)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt22) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.6%.
 
-### Men subgroup
-
-The observed risk at 15 years is 6.7%. 
-
-### Without hypertension medication at baseline subgroup
-
-The observed risk at 15 years is 8.6%.
-
-### Free of heart disease at baseline subgroup
-
-The observed risk at 15 years is 8.6%. 
+```{r sbpt23, echo= FALSE, warning = FALSE, results='asis'}
+dementia_freemed %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt23)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt23) Free of heart disease at baseline subgroup. The observed risk at 15 years is 8.6%. 
 
 

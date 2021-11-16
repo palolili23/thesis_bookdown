@@ -480,9 +480,7 @@ dementia_men <- data.frame(
                              98.2,83.4,83.8,83.8,30.5,98.7,89,
                              89.7,89.7)
 )
-dementia_freemed <- table(data)%>% 
-  dpasta
-data.frame(
+dementia_freemed <- data.frame(
   stringsAsFactors = FALSE,
   check.names = FALSE,
   No = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9),
