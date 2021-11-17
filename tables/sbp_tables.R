@@ -136,7 +136,90 @@ legend3.3. <-
   "SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, Parkinson disease, Parkinsonism, transient ischemic attack, dementia or cancer."
 
 
-## 3.4 Supplementary -----------------------------------------------------------
+# 3.4 subgroup tables -----------------------------------------------------
+
+
+table3.4 <- tibble::tribble(
+  ~ `Subgroup`,
+  ~ `Risk under natural course (95% CI)`,
+  ~ `Risk under joint intervention (95% CI)`,
+  ~ `Risk ratio (95% CI)`,
+  ~ `Risk Difference (95% CI)`,
+  ~ `Risk under natural course (95% CI)`,
+  ~ `Risk under joint intervention (95% CI)`,
+  ~ `Risk ratio (95% CI)`,
+  ~ `Risk Difference (95% CI)`,
+  "Complete cohort",
+  "10.3 (9.3, 11.5)",
+  "8.5 (7.2, 9.9)",
+  "0.83 (0.71, 0.94)",
+  "-1.8 (-3.1, -0.6)",
+  "9.2 (8.2, 10.3)",
+  "9.6 (8, 11.6)",
+  "1.05 (0.92, 1.2)",
+  "0.4 (-0.7, 2)",
+  "Age below 65 (n=2303)",
+  "6.3 (5, 7.9)",
+  "4.7 (3.3, 6.4)",
+  "0.75 (0.56, 0.98)",
+  "-1.6 (-2.7, -0.2)",
+  "4 (3.2, 5.7)",
+  "4.2 (3, 6.1)",
+  "1.04 (0.73, 1.37)",
+  "0.2 (-1, 1.4)",
+  "Age between 65 and 80 (n = 2627)",
+  "14 (12.6, 15.8)",
+  "11.9 (9.6, 14.5)",
+  "0.85 (0.71, 1)",
+  "-2.2 (-4.3, 0)",
+  "13.8 (12.4, 15.6)",
+  "14.2 (12, 17.3)",
+  "1.03 (0.87, 1.2)",
+  "0.4 (-1.8, 2.9)",
+  "Women (n = 2824)",
+  "9.3 (8.1, 10.9)",
+  "7.7 (6.1, 10.3)",
+  "0.83 (0.71, 1.02)",
+  "-1.6 (-2.9, 0.3)",
+  "11.2 (9.7, 12.7)",
+  "10.1 (8.4, 12.3)",
+  "0.91 (0.73, 1.05)",
+  "-1.1 (-3.4, 0.5)",
+  "Men (n = 2106)",
+  "11.6 (10.2, 13.5)",
+  "9.4 (7.5, 12.3)",
+  "0.81 (0.67, 1.01)",
+  "-2.2 (-4, 0.1)",
+  "7 (6, 8.9)",
+  "9.8 (7.2, 13)",
+  "1.4 (1.12, 1.64)",
+  "2.8 (0.8, 4.5)",
+  "Without hypertension medication at baseline (n = 3570)",
+  "9 (8.1, 10.6)",
+  "7 (5.8, 9.1)",
+  "0.78 (0.66, 0.94)",
+  "-2 (-3.3, -0.5)",
+  "8.8 (8, 10.2)",
+  "9.9 (7.7, 11.8)",
+  "1.12 (0.95, 1.27)",
+  "1.1 (-0.4, 2.4)",
+  "No history of heart disease at baseline (n = 4406)",
+  "9.9 (9.1, 10.9)",
+  "8.2 (6.8, 10.1)",
+  "0.83 (0.7, 0.99)",
+  "-1.6 (-2.9, -0.1)",
+  "8.8 (8, 10)",
+  "9.2 (7.6, 11.1)",
+  "1.05 (0.9, 1.16)",
+  "0.4 (-0.9, 1.6)"
+)
+
+legend3.4 <- "SBP: Systolic blood pressure (mmHg). 
+Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, dementia or cancer.
+"
+
+
+## Supplementary -----------------------------------------------------------
 
 table3e1 <- tibble::tribble(
   ~ "Section",

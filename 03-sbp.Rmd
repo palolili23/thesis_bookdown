@@ -45,7 +45,7 @@ As a several-years-long randomized trial in the general population has not been 
 
 ## Methods
 
-We begin by briefly describing the target trial specifications and then how we attempt to emulate the trial using data from the Rotterdam Study. A detailed comparison between the target trial and the emulation using observational data, is provided in the Supplementary information, Table s1.
+We begin by briefly describing the target trial specifications and then how we attempt to emulate the trial using data from the Rotterdam Study. A detailed comparison between the target trial and the emulation using observational data, is provided in the Supplementary information, Table \@ref(tab:sbpt5).
 
 ### Target trial specification
 
@@ -64,7 +64,7 @@ Key protocol elements of a target trial include:
 
 **_Study design and public involvement:_**  To emulate the described target trial, we used data from The Rotterdam Study (RS), a population-based prospective cohort study among middle age and elderly persons living in the Ommoord district in the city of Rotterdam, the Netherlands. Participants living in the district were invited to participate in the cohort between 1990 and 1993. All participants underwent questionnaire administration, physical and clinical examinations, and blood sample collection at baseline (1990-1993) and at follow-up visits from 1993-1995, 1997-1999, 2002-2005[@ikram2017]. 
 
-**_Eligibility criteria:_** Same as specified above. Prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism and dementia were assessed by using home interviews and by reviewing medical records, and cognitive impairment defined as a Mini Mental State Examination (MMSE) below 26 at first study visit. Thus, of the 7983 persons who participated at baseline, 5193 were considered eligible for this study based on the above-mentioned criteria. We further required complete information on SBP, BMI, smoking status and/or hypertensive medication at intake, giving a final sample size of 4930 participants (figure 1). Participants with missing covariates, which represent a 5% of the eligible sample, were, on average, three years older than those included, had a higher frequency of primary education and had a higher prevalence of heart disease and diabetes at baseline (Supplementary information, Table s2).
+**_Eligibility criteria:_** Same as specified above. Prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism and dementia were assessed by using home interviews and by reviewing medical records, and cognitive impairment defined as a Mini Mental State Examination (MMSE) below 26 at first study visit. Thus, of the 7983 persons who participated at baseline, 5193 were considered eligible for this study based on the above-mentioned criteria. We further required complete information on SBP, BMI, smoking status and/or hypertensive medication at intake, giving a final sample size of 4930 participants (figure 1). Participants with missing covariates, which represent a 5% of the eligible sample, were, on average, three years older than those included, had a higher frequency of primary education and had a higher prevalence of heart disease and diabetes at baseline (Supplementary information, Table \@ref(tab:sbpt6)).
 
 **_Treatment strategies:_** Same as specified above. SBP was measured in two readings using a random-zero sphygmomanometer in a sitting position, and the mean of both measurements was calculated during each follow-up visit. Smoking habit for cigarettes was collected using a detailed questionnaire and was categorized as never, current and former.
 
@@ -120,7 +120,7 @@ The simplified steps for the parametric g-formula, using stroke as the outcome a
 
 7. For each strategy repeat step 3 to 6.
 
-The same steps were performed with dementia as an outcome.  Our primary analyses consisted of models with baseline confounders which included: age with a quadratic term, sex, APOE-ε4 carrier, history of type-II diabetes mellitus, history of heart disease, education level, baseline SBP with a cubic term. Additionally, we also included time-varying covariates: the visit process, SBP, cholesterol, BMI, alcohol intake, smoking status, hypertensive medications, incident heart disease, incident diabetes, incident cancer, incident transient ischemic attack and incident Parkinson Disease or Parkinsonism. Details on measurements of these variables are available in the Supplementary information (Measurements). When stroke was the principal outcome, we included dementia as a time-varying confounder, and vice versa. All covariates that were measured during the visit process were modeled under the condition of having attended the visit (Supplementary information, Tables3). To probe for potential model misspecification, we estimated the difference between the observed mean value and the predicted mean value for each covariate (Supplementary information, Figure \@ref(fig:sbpf4) and \@ref(fig:sbpf5)). We also conducted a sensitivity analysis of reordering the time-varying covariates to probe potential model misspecification.
+The same steps were performed with dementia as an outcome.  Our primary analyses consisted of models with baseline confounders which included: age with a quadratic term, sex, APOE-ε4 carrier, history of type-II diabetes mellitus, history of heart disease, education level, baseline SBP with a cubic term. Additionally, we also included time-varying covariates: the visit process, SBP, cholesterol, BMI, alcohol intake, smoking status, hypertensive medications, incident heart disease, incident diabetes, incident cancer, incident transient ischemic attack and incident Parkinson Disease or Parkinsonism. Details on measurements of these variables are available in the Supplementary information (Measurements). When stroke was the principal outcome, we included dementia as a time-varying confounder, and vice versa. All covariates that were measured during the visit process were modeled under the condition of having attended the visit (Supplementary information, Table\@ref(tab:sbpt7) and \@ref(tab:sbpt8)). To probe for potential model misspecification, we estimated the difference between the observed mean value and the predicted mean value for each covariate (Supplementary information, Figure \@ref(fig:sbpf4) and \@ref(fig:sbpf5)). We also conducted a sensitivity analysis of reordering the time-varying covariates to probe potential model misspecification.
 
 The results are presented as the average causal effect under each hypothetical intervention at 15 years of follow-up compared to the natural course as a risk ratio and risk difference. For each intervention, we further report the cumulative proportion of participants who would have had to have been intervened on during the follow-up, to adhere to the strategy. We additionally presented the standardized cumulative incidence curves, comparing the risk over time under the natural course and the joint treatment strategy.
 
@@ -133,7 +133,7 @@ https://github.com/palolili23/ht_trial_gformula.
 
 ## Results
 
-Table 1 shows the baseline characteristics of the study participants. The mean age of the participants was 66 years and 57% were women. The mean SBP at baseline was 137 mmHg, and 24% were current cigarette smokers.
+Table \@ref(tab:sbpt1) shows the baseline characteristics of the study participants. The mean age of the participants was 66 years and 57% were women. The mean SBP at baseline was 137 mmHg, and 24% were current cigarette smokers.
 
 ```{r sbpt1, echo= FALSE, warning = FALSE, results='asis'}
 table3.1 %>%
@@ -149,7 +149,7 @@ table3.1 %>%
 
 \clearpage
 
-**_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table 2. Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure \@ref(fig:sbpf2), panel A.
+**_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table \@ref(tab:sbpt2). Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure \@ref(fig:sbpf2), panel A.
 
 ```{r sbpt2, echo= FALSE, warning = FALSE, results='asis'}
 table3.2 %>%
@@ -170,7 +170,7 @@ knitr::include_graphics(here::here("figs", "sbpf2.jpg"))
 
 \newpage
 
-**_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table 3. Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure \@ref(fig:sbpf3) panel A.
+**_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table  \@ref(tab:sbpt3). Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure \@ref(fig:sbpf3) panel A.
 
 ```{r sbpt3, echo= FALSE, warning = FALSE, results='asis'}
 table3.3 %>%
@@ -190,18 +190,34 @@ knitr::include_graphics(here::here("figs", "sbpf3.jpg"))
 
 (ref:sbpf3) **Panel A.** Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
-Alternative analyses for competing event: Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the Supplementary information, Table s4, s5, s11, s12.
+Alternative analyses for competing event: Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the Supplementary information, Tables \@ref(tab:sbpt9), \@ref(tab:sbpt10), \@ref(tab:sbpt17), \@ref(tab:sbpt18).
 
-**_Subgroup analyses:_** Table 4 provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Table s6 to s 11, s14 to s19.
+**_Subgroup analyses:_** Table \@ref(tab:sbpt4)  provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Tables \@ref(tab:sbpt11) to \@ref(tab:sbpt16), \@ref(tab:sbpt19) to \@ref(tab:sbpt24).
+
+```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
+table3.4 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt4)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>%
+  add_header_above(c(" " = 1, "Stroke" = 4, "Dementia" = 4)) %>% 
+  footnote(general = legend3.4)
+```
+(ref:sbpt4) Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking in the risk of stroke and dementia by subgroups
+
+
 
 ## Discussion
 
 Our study suggests that intervening on blood pressure could reduce stroke risk by approximately 10% over 15 years of follow-up in a population-based setting, and that combining such interventions with smoking cessation could result in an overall reduction of 18%. In contrast, our study is consistent with these same interventions having null or opposite effects on risk of dementia, taking into account that these estimates could be affected by how the interventions may decrease the risk of death. 
+
 Our results on stroke risk are comparable in direction but not quite in magnitude of prior studies’ effect estimates. A previous meta-analysis of randomized trials has shown that a 10 mmHg reduction in blood pressure decreases the risk of stroke by 27%, though this effect was observed in a high-risk population of individuals with cardiovascular diseases[@ettehad2016]. The most comparable observational study to ours was one emulating hypothetical treatment strategies to reduce SBP in middle-aged (i.e., baseline mean age 46.1 years or about 20 years younger that our study) healthy individuals from Norway, also using the g-formula. This study showed that a 23 mmHg average reduction in blood pressure of 120 mmHg and above resulted in a 45% reduction in stroke risk over a 15 year period[@vangenlonne2018]. The difference in the risk estimates might be due to differences in the average age of the study populations. Of note, no differences in proportional risk reductions were reported in trials involving persons with systolic blood pressure <130 mmHg and those at high risk (≥160 mmHg)[@ettehad2016]. Our study also adds to these prior studies by considering a joint intervention with smoking cessation, although our combined strategies appears to reduce stroke risk by a much lower amount (18%) than those reported previously in observational studies (35-55%)[@chiuve2008; @braillon2015; @zhang2012].
 
 To compare the results from our hypothetical intervention on blood pressure (dropping below 120 or 140 mmHg over time) in dementia risk with previous research, we must consider the differences in the eligibility criteria, treatment strategies and analytical choices. Our target trial by design follows similar treatment strategies such as the  Systolic Blood Pressure Intervention Trial (SPRINT) MIND trial, however this trial considered eligible individuals as those who had risk of cardiovascular disease[@williamson2019], which represents a small subgroup of our population-based cohort. (Specifically, at most 290 individuals in the Rotterdam Study would meet criteria at baseline, based on our assessments of SBP, presence of cardiovascular disease other than stroke and history of diabetes.)  Similarly, since previous trials were primarily designed to assess the effect of antihypertensive medication on the risk of stroke and did not have dementia as their primary outcome, they were tailored to a specific subgroup of individuals who required treatment. Eligibility criteria in other trials included having had a history of stroke, being above 80 years old and having a SBP above 160 mmHg[@ace_inhibitors2000; @prince1996; @forette2002; @progress2003; @lithell2003; @diener2008; @anderson2011; @williamson2019; @bosch2019].  Furthermore, assessing the comparability of our findings with prior observational studies requires caution. A recent meta-analysis by Ding et al. have studied the effect of taking any antihypertensive medication and specific antihypertensive medications and the risk of dementia stratified by SBP including five large population-based cohort[@ding2020]. However, they assess the effect being on treatment at baseline and only include baseline covariates for adjustment. Similarly, Want et al. stratify individuals by longitudinal blood pressure patterns (mid-life and late-life normotension/hypertension), but covariates are measured during two of the six visits[@walker2019]. In contrast, we assessed the sustained effect of lowering SBP over time given time-updated covariates. Last, we consider that our findings reflect the relevance of the competing event of death by other causes, and how estimates are likely affected by the effect of interventions on the risk of death, and give a more comprehensive view of the implications of these results. This will be especially important when we stratify by characteristics that have a different survival distribution, as we observe in the different direction of the effects among women vs. men[@beam2018]. Reconsidering these points as part of how we frame research question and analytical decisions when using observational data, will have a direct impact on results interpretation and clinical translation. 
 
-By leveraging a rich dataset in a population-based observational study, high-quality and frequent assessments of outcomes and key covariates, and the use of the parametric g-formula to account for the complex confounding structure assumed, we emulated a “target trial” that may be of key public health interest but would not be easily conducted as a randomized trial. However, like any observational data analysis, several assumptions need to be carefully weighed. The possibility of unmeasured confounding remains, and in particular we were unable to adjust for covariates such as types of antihypertension medications, LDL (as separate from total cholesterol), glucose and frailty in our analysis. Likewise, we used MMSE as a screening tool and excluded individuals with Parkinson disease or parkinsonism symptoms at baseline, but it is possible that persons with subclinical cognitive impairment might be included in our analysis at baseline or during follow-up[@joe2019]. Self-reported smoking status is also subject to measurement error, although we did assess the consistency of our measurements over time. In addition, the parametric g-formula relies on several strong modeling assumptions. As reported in the Supplementary information Figure s1, Figure s2, we observed an agreement between the mean estimated values of each variable (outcomes and covariates) under the natural course with their observed values, which supports but does not prove these model specifications hold[@taubman2009]. Furthermore, we did not assess the effect of the hypothetical interventions in the specific clinical phenotypes of each disease, since numbers on the disaggregated clinical subtypes are small and is further complicated by each subtype being a competing event for each other. However, the effect of lowering blood pressure may effect in the risk of each clinical subtype in different magnitude and should be addressed in future studies. 
+By leveraging a rich dataset in a population-based observational study, high-quality and frequent assessments of outcomes and key covariates, and the use of the parametric g-formula to account for the complex confounding structure assumed, we emulated a “target trial” that may be of key public health interest but would not be easily conducted as a randomized trial. However, like any observational data analysis, several assumptions need to be carefully weighed. The possibility of unmeasured confounding remains, and in particular we were unable to adjust for covariates such as types of antihypertension medications, LDL (as separate from total cholesterol), glucose and frailty in our analysis. Likewise, we used MMSE as a screening tool and excluded individuals with Parkinson disease or parkinsonism symptoms at baseline, but it is possible that persons with subclinical cognitive impairment might be included in our analysis at baseline or during follow-up[@joe2019]. Self-reported smoking status is also subject to measurement error, although we did assess the consistency of our measurements over time. In addition, the parametric g-formula relies on several strong modeling assumptions. As reported in the Supplementary information Figure \@ref(fig:sbpf4) and \@ref(fig:sbpf5), we observed an agreement between the mean estimated values of each variable (outcomes and covariates) under the natural course with their observed values, which supports but does not prove these model specifications hold[@taubman2009]. Furthermore, we did not assess the effect of the hypothetical interventions in the specific clinical phenotypes of each disease, since numbers on the disaggregated clinical subtypes are small and is further complicated by each subtype being a competing event for each other. However, the effect of lowering blood pressure may effect in the risk of each clinical subtype in different magnitude and should be addressed in future studies. 
 
 Finally, another key point to reflect upon in interpreting our specified treatment strategies is that we did not, in fact, specify how SBP would be lowered. This means our estimates are based on the consistency assumption that lowering SBP through any available means (e.g., dietary changes, medication use, other lifestyle changes) would have the same effect on stroke or dementia risk, or otherwise are at best interpretable as estimates for an effect of a weighted average of several SBP-lowering strategies with weights determined by the frequency that the particular strategies  occur in our specific population[@waterkills; @hernan2011]. Future studies that have more detailed assessments of these various SBP-lowering treatments are needed to disentangle treatment variation relevance and build upon this initial study. Furthermore, smoking cessation is one of several more specific behavioral interventions that could be assessed, as well as other metabolic factors described in current guidelines[@johnson2019; @lancet2020]. Implementing the target-trial framework and defining research questions to study more refined or further specified treatment strategies is a crucial next step. Doing so will require rich, longitudinal data on the specific interventions under study; the level of specificity in the research questions that can be studied is hampered in part by the data currently available. Thus, while there are certainly limitations in terms of ambiguity to the interventions studied in the current paper, they represent an improvement (in terms of clarity and for informing decision-making) over etiologic studies that address SBP’s effects with a simplified version of the complexity of real data, and a step toward the types of interventions we may consider in practice.
 
@@ -213,16 +229,16 @@ Given previous considerations, studying population-level interventions as done h
 
 ### Target trial description
 
-```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
+```{r sbpt5, echo= FALSE, warning = FALSE, results='asis'}
 table3e1 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt4)') %>%
+        caption = '(ref:sbpt5)') %>%
   kable_styling(
     full_width = F,
     position = 'center'
   ) 
 ```
-(ref:sbpt4) Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
+(ref:sbpt5) Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
 
 \clearpage
 
@@ -240,23 +256,8 @@ Additionally, the occurrence of incident heart diseases and cardiac intervention
 
 ### Characteristics of included and excluded (missing covariates) participants 
 
-```{r sbpt5, echo= FALSE, warning = FALSE, results='asis'}
-table3e2 %>%
-  kable(booktabs = TRUE,
-        caption = '(ref:sbpt5)') %>%
-  kable_styling(
-    full_width = F,
-    position = 'center'
-  ) 
-```
-(ref:sbpt5) Comparison of baseline characteristics for included and excluded participants.
-
-\newpage
-
-### Modeling of covariates included in the g-formula
-
 ```{r sbpt6, echo= FALSE, warning = FALSE, results='asis'}
-table3e3a %>%
+table3e2 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt6)') %>%
   kable_styling(
@@ -264,10 +265,14 @@ table3e3a %>%
     position = 'center'
   ) 
 ```
-(ref:sbpt6) Baseline covariates
+(ref:sbpt6) Comparison of baseline characteristics for included and excluded participants.
+
+\newpage
+
+### Modeling of covariates included in the g-formula
 
 ```{r sbpt7, echo= FALSE, warning = FALSE, results='asis'}
-table3e3b %>%
+table3e3a %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt7)') %>%
   kable_styling(
@@ -275,7 +280,18 @@ table3e3b %>%
     position = 'center'
   ) 
 ```
-(ref:sbpt7) Time-varying covariates
+(ref:sbpt7) Baseline covariates
+
+```{r sbpt8, echo= FALSE, warning = FALSE, results='asis'}
+table3e3b %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt8)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) 
+```
+(ref:sbpt8) Time-varying covariates
 
 \newpage
 
@@ -299,20 +315,8 @@ knitr::include_graphics(here::here("figs", "sbpf5.png"))
 
 ### Additional analysis when outcome is stroke
 
-```{r sbpt8, echo= FALSE, warning = FALSE, results='asis'}
-stroke2 %>%
-  kable(booktabs = TRUE,
-        caption = '(ref:sbpt8)') %>%
-  kable_styling(
-    full_width = F,
-    position = 'center'
-  ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
-```
-(ref:sbpt8) Death as a censored event. The observed risk at 15 years is 12.0% .
-
 ```{r sbpt9, echo= FALSE, warning = FALSE, results='asis'}
-stroke3 %>%
+stroke2 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt9)') %>%
   kable_styling(
@@ -321,10 +325,10 @@ stroke3 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt9) Stroke and death as combined outcome. The observed risk at 15 years is 36.4%.  
+(ref:sbpt9) Death as a censored event. The observed risk at 15 years is 12.0% .
 
 ```{r sbpt10, echo= FALSE, warning = FALSE, results='asis'}
-stroke4 %>%
+stroke3 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt10)') %>%
   kable_styling(
@@ -333,10 +337,10 @@ stroke4 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt10) Under 65 years subgroup. The observed risk at 15 years is 6.1%.  
+(ref:sbpt10) Stroke and death as combined outcome. The observed risk at 15 years is 36.4%.  
 
 ```{r sbpt11, echo= FALSE, warning = FALSE, results='asis'}
-stroke5 %>%
+stroke4 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt11)') %>%
   kable_styling(
@@ -345,10 +349,10 @@ stroke5 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt11) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.0%.
+(ref:sbpt11) Under 65 years subgroup. The observed risk at 15 years is 6.1%.  
 
 ```{r sbpt12, echo= FALSE, warning = FALSE, results='asis'}
-stroke_women %>%
+stroke5 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt12)') %>%
   kable_styling(
@@ -357,10 +361,10 @@ stroke_women %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt12) Women subgroup. The observed risk at 15 years is 9.2 %.
+(ref:sbpt12) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.0%.
 
 ```{r sbpt13, echo= FALSE, warning = FALSE, results='asis'}
-stroke_men %>%
+stroke_women %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt13)') %>%
   kable_styling(
@@ -369,10 +373,10 @@ stroke_men %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt13) Men subgroup. The observed risk at 15 years is 11.6 %.
+(ref:sbpt13) Women subgroup. The observed risk at 15 years is 9.2 %.
 
 ```{r sbpt14, echo= FALSE, warning = FALSE, results='asis'}
-stroke_freemed %>%
+stroke_men %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt14)') %>%
   kable_styling(
@@ -381,10 +385,10 @@ stroke_freemed %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt14) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.8 %.
+(ref:sbpt14) Men subgroup. The observed risk at 15 years is 11.6 %.
 
 ```{r sbpt15, echo= FALSE, warning = FALSE, results='asis'}
-stroke_nohd %>%
+stroke_freemed %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt15)') %>%
   kable_styling(
@@ -393,12 +397,10 @@ stroke_nohd %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt15) No history of heart disease at baseline subgroup. The observed risk at 15 years is 9.9%.  
-
-### Additional analysis when outcome is dementia
+(ref:sbpt15) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.8 %.
 
 ```{r sbpt16, echo= FALSE, warning = FALSE, results='asis'}
-dementia2 %>%
+stroke_nohd %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt16)') %>%
   kable_styling(
@@ -407,10 +409,12 @@ dementia2 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt16) Death as a censored event. The observed risk at 15 years is 10.8%.  
+(ref:sbpt16) No history of heart disease at baseline subgroup. The observed risk at 15 years is 9.9%.  
+
+### Additional analysis when outcome is dementia
 
 ```{r sbpt17, echo= FALSE, warning = FALSE, results='asis'}
-dementia3 %>%
+dementia2 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt17)') %>%
   kable_styling(
@@ -419,14 +423,10 @@ dementia3 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-
-\newpage
-
-## References
-(ref:sbpt17) Dementia and death as combined outcome. The observed risk at 15 years is 36.7%.  
+(ref:sbpt17) Death as a censored event. The observed risk at 15 years is 10.8%.  
 
 ```{r sbpt18, echo= FALSE, warning = FALSE, results='asis'}
-dementia4 %>%
+dementia3 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt18)') %>%
   kable_styling(
@@ -435,9 +435,21 @@ dementia4 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt18) Under 65 years subgroup. The observed risk at 15 years is 3.2%.
+(ref:sbpt18) Dementia and death as combined outcome. The observed risk at 15 years is 36.7%.  
 
 ```{r sbpt19, echo= FALSE, warning = FALSE, results='asis'}
+dementia4 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt19)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt19) Under 65 years subgroup. The observed risk at 15 years is 3.2%.
+
+```{r sbpt20, echo= FALSE, warning = FALSE, results='asis'}
 dementia5 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt19)') %>%
@@ -447,22 +459,10 @@ dementia5 %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt19) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.1%. 
-
-```{r sbpt20, echo= FALSE, warning = FALSE, results='asis'}
-dementia_women %>%
-  kable(booktabs = TRUE,
-        caption = '(ref:sbpt20)') %>%
-  kable_styling(
-    full_width = F,
-    position = 'center'
-  ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
-```
-(ref:sbpt20) Women subgroup. The observed risk at 15 years is 10.7%.
+(ref:sbpt20) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.1%. 
 
 ```{r sbpt21, echo= FALSE, warning = FALSE, results='asis'}
-dementia_men %>%
+dementia_women %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt21)') %>%
   kable_styling(
@@ -471,10 +471,10 @@ dementia_men %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt21) Men subgroup. The observed risk at 15 years is 6.7%. 
+(ref:sbpt21) Women subgroup. The observed risk at 15 years is 10.7%.
 
 ```{r sbpt22, echo= FALSE, warning = FALSE, results='asis'}
-dementia_freemed %>%
+dementia_men %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt22)') %>%
   kable_styling(
@@ -483,7 +483,7 @@ dementia_freemed %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt22) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.6%.
+(ref:sbpt22) Men subgroup. The observed risk at 15 years is 6.7%. 
 
 ```{r sbpt23, echo= FALSE, warning = FALSE, results='asis'}
 dementia_freemed %>%
@@ -495,6 +495,20 @@ dementia_freemed %>%
   ) %>% 
   footnote(general = "95%CI based on 500 bootstraps")
 ```
-(ref:sbpt23) Free of heart disease at baseline subgroup. The observed risk at 15 years is 8.6%. 
+(ref:sbpt23) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.6%.
 
+```{r sbpt24, echo= FALSE, warning = FALSE, results='asis'}
+dementia_freemed %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt24)') %>%
+  kable_styling(
+    full_width = F,
+    position = 'center'
+  ) %>% 
+  footnote(general = "95%CI based on 500 bootstraps")
+```
+(ref:sbpt24) Free of heart disease at baseline subgroup. The observed risk at 15 years is 8.6%. 
 
+\newpage
+
+## References
