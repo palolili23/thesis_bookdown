@@ -36,3 +36,4 @@ When the Rotterdam Study was conceived, it was focused on four primary areas of 
  
 ## References
 
+\printbibliography[segment=\therefsegment,heading=subbibliography]

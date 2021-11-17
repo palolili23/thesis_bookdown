@@ -373,3 +373,9 @@ table2e2 %>%
                                     5%             1.00000E+00
                                     1%             1.00000E+00
                                     0% Min         1.00000E+00
+
+
+\newpage
+## References
+
+\printbibliography[segment=\therefsegment,heading=subbibliography]

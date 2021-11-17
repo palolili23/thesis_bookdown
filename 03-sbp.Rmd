@@ -510,5 +510,6 @@ dementia_freemed %>%
 (ref:sbpt24) Free of heart disease at baseline subgroup. The observed risk at 15 years is 8.6%. 
 
 \newpage
-
 ## References
+
+\printbibliography[segment=\therefsegment,heading=subbibliography]

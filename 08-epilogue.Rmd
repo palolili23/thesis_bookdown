@@ -1,4 +1,20 @@
-# In the midst of two realities {#chapter8}
+# Epilogue {#chapter8}
+
+## _In the midst of two realities_ 
+
+\chaptermark{Epilogue}
+
+\small
+
+\noindent *This chapter has been published as*:
+
+Rojas-Saunero L.P.*Epidemiology*.2020;
+<doi>
+
+```{=tex}
+\newpage
+\normalsize
+```
 
 To me, the global circumstances of 2020 rebuilt my perception of what being an epidemiologist means. It required me to understand my privileges and, as a result, decipher how to make myself accountable for them.
 
@@ -13,3 +29,7 @@ I am currently part of a multidisciplinary team that founded the Red Estratégic
 Being an epidemiologist in 2020 has allowed me to reconnect with my roots and with the motivations that led me to where I am today. It has meant appraising the value of social epidemiology and how to put methods development at people's needs and service. It has meant being critical about the regional frontiers that divide science and epidemiology between the global north and the global south. Finally, I realized that, no matter how far I am from my home country, if I am not accountable for my privilege to this learning process, I will be perpetuating this division.  
 
 
+\newpage
+## References
+
+\printbibliography[segment=\therefsegment,heading=subbibliography]
