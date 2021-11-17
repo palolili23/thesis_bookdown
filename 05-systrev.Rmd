@@ -82,6 +82,5 @@ Eligibility criteria:
 -	The outcome of interest is time to incident case of dementia, Alzheimer’s disease or cognitive impairment
 
 \newpage
-## References
 
 \printbibliography[segment=\therefsegment,heading=subbibliography]

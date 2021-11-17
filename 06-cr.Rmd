@@ -204,6 +204,5 @@ _Where:_
 D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
 
 \newpage
-## References
 
 \printbibliography[segment=\therefsegment,heading=subbibliography]
