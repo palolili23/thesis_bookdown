@@ -195,15 +195,15 @@ Alternative analyses for competing event: Given that death was modeled as a comp
 **_Subgroup analyses:_** Table \@ref(tab:sbpt4)  provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Tables \@ref(tab:sbpt11) to \@ref(tab:sbpt16), \@ref(tab:sbpt19) to \@ref(tab:sbpt24).
 
 ```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
-table3.4 %>%
-  kable(booktabs = TRUE,
-        caption = '(ref:sbpt4)') %>%
-  kable_styling(
-    full_width = F,
-    position = 'center'
-  ) %>%
-  add_header_above(c(" " = 1, "Stroke" = 4, "Dementia" = 4)) %>% 
-  footnote(general = legend3.4)
+# table3.4 %>%
+#   select(1:5) %>% 
+#   kable(booktabs = TRUE,
+#         caption = '(ref:sbpt4)') %>%
+#   kable_styling(
+#     full_width = F,
+#     position = 'center'
+#   ) %>%
+#   footnote(general = legend3.4)
 ```
 (ref:sbpt4) Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking in the risk of stroke and dementia by subgroups
 
