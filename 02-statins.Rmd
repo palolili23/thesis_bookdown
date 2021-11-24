@@ -2,16 +2,15 @@
 
 \chaptermark{Statins and dementia}
 
+\vspace*{\fill}
+
+---
+
 \small
-
-\noindent *This chapter has been published as*:
-
-Caniglia, E.C., Rojas-Saunero L.P., Hilal S., Licher S., Logan R., Stricker B., Ikram M. A., Swanson S.A. Emulating a target trial of statin use and risk of dementia using cohort data. *Neurology*.2020; 95 (10): e1322-e1332; <https://doi.org/10.1212/WNL.0000000000010433>
-
-```{=tex}
+\noindent 
+_This chapter has been published as_: Caniglia, E.C., Rojas-Saunero L.P., Hilal S., Licher S., Logan R., Stricker B., Ikram M. A., Swanson S.A. Emulating a target trial of statin use and risk of dementia using cohort data. *Neurology*. 2020;95(10):e1322-e1332.
 \newpage
 \normalsize
-```
 
 ```{r call_tables_statins, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)

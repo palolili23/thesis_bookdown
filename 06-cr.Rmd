@@ -50,7 +50,7 @@ Trial participants will be observed to follow different possible event trajector
 
 The causal diagram in Figure \@ref(fig:crf1) represents some key features of this data structure, where an arrow from one node A into another node B on a causal diagram reflects that A may cause B[@whatif2020]. In this graph, Smoking represents smoking status, and Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia risk by 20 years of follow-up, respectively. By randomization, we know there are no shared causes of Smoking and other variables represented in the graph (the only cause of quitting smoking is a “coin flip”).  However, we have no such guarantee for death and dementia status over the follow-up and therefore depict shared causes C of dementia and death (such as cardiovascular comorbidities) that may or may not be measured. The arrows from Smoking to Death~19~ and Smoking to Dementia~20~ illustrate that smoking may affect both dementia and death through different mechanisms. The bold arrow from Death~19~ to Dementia~20~ represents the key feature of a competing events data structure: an individual who dies by year 19 of follow-up cannot subsequently develop dementia at the next time point. Though we present death and dementia at years 19 and 20 respectively, the causal diagram could be expanded to include prior assessments, but this simplified causal diagram is sufficient, for our consideration of the different causal effects on dementia in the presence of death.
 
-```{r crf1, fig.cap= '(ref:crf1)', echo = FALSE, position = 'center'}
+```{r crf1, fig.cap= '(ref:crf1)', echo = FALSE, fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "crf1.png"))
 ```
 (ref:crf1) A causal directed acyclic graph representing some key causal features of the data structure. Smoking represents the exposure status (quit smoking vs. continue smoking), Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia by 20 years of follow-up, respectively. C represents possible shared causes of dementia and death (such as cardiovascular comorbidities, that may or may not be measured). The key relations are: 1) smoking may independently affect both the risk of dementia and death over time through different mechanisms; 2) dying over the first 19 years of follow-up (without prior onset of dementia) determines that the indicator of dementia at 20 years of follow-up is zero (the bold arrow representing this key determinism induced by competing events); and 3) dementia and death can have shared causes.
@@ -104,16 +104,21 @@ Of 10994 Rotterdam Study participants, 4179 individuals met eligibility criteria
 
 We estimated a total effect of smoking cessation (compared to continued smoking) on 20-year dementia risk of 2.1 (95%CI: -0.1, 4.2) percentage points (Table \@ref(tab:crt2); Figure \@ref(fig:crf2)). This slightly harmful effect estimate of quitting smoking (with wide confidence intervals) includes all causal pathways, including that through death. The presence of this pathway is evidenced in the estimated total effect of quitting smoking on 20-year mortality risk: -17.4 (95%CI: -20.5, -14.5) percentage points. Alternatively, we estimated a controlled direct effect of quitting smoking on 20-year dementia risk had death been fully prevented during the study period as -1.9 (95%CI: -5.1, 1.4) percentage points.
 
+\newpage
+
 ```{r crt1, echo= FALSE, warning = FALSE, results='asis'}
 table6.1 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:crt1)') %>%
+        caption = '(ref:crt1)',
+        align = 'lcc') %>%
   kable_styling(
     full_width = F,
     position = 'center',
         latex_options = "HOLD_position"
   ) %>%
-  column_spec(1, width = "7cm") %>% 
+  column_spec(1, width = "6cm") %>% 
+  column_spec(c(2,3), width = "2cm") %>%
+  row_spec(0,0, bold = TRUE) %>%
   footnote(general = legend6.1, threeparttable = TRUE)
 ```
 (ref:crt1) Descriptive characteristics of former and current smokers in the Rotterdam Study (n = 4179)
@@ -121,13 +126,15 @@ table6.1 %>%
 ```{r crt2, echo= FALSE, warning = FALSE, results='asis'}
 table6.2 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:crt2)') %>%
+        caption = '(ref:crt2)',
+        align = 'lcc') %>%
   kable_styling(
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position"
   ) %>%
   column_spec(1, width = "5cm") %>% 
+  row_spec(0,0, bold = TRUE) %>%
   footnote(general = legend6.2, threeparttable = TRUE)
 ```
 (ref:crt2) Total effect and controlled direct effect of smoking cessation (compared to continued smoking) on the risk of dementia, and the total effect on risk of mortality, at 20 years of follow-up
@@ -157,17 +164,20 @@ Since both of these questions can seem unsatisfactory, we note that there are ye
 
 Too often, we start by defining the statistical method that appears to fit the complexity of data, and we let this decision implicitly determine the research question to be answered. In a setting with competing events, there is no “one size fits all”. Through our discussion and application, we hope that readers will see an opportunity to re-conceptualize how to ask clearer questions in the context of competing events and let the question define the methods that best suit the research aim.
 
-## Supplementary information
+\newpage
 
-### The Rotterdam Study, outcome assessments
+## Supplementary information {-}
+
+### The Rotterdam Study, outcome assessments {-}
 
 _Dementia diagnosis_: Diagnosis was collected by screening during the five study visits, using MMSE and the Geriatric Mental Schedule (GMS) organic level. Screen-positives (MMSE<26 or GMS organic level>0) subsequently underwent an examination and informant interview with the Cambridge Examination for Mental Disorders in the Elderly. A consensus panel led by a consultant neurologist established the final diagnosis according to standard criteria for dementia (DSM-III-R). Additionally, participants were continuously followed for the occurrence of dementia through automated linkage of the study database and digitized medical records from general practitioners and the Regional Institute for Outpatient Mental Health Care. For participants who moved outside the study district or lived in nursing homes, medical records were regularly checked by contacting their treating physicians. Research physicians reviewed all potential dementia cases using hospital discharge letters and information from general practitioners and nursing home physicians3. Linkage-based diagnoses were based on data up through December 2015.
 
 
 _Vital status:_ Vital status was obtained on a weekly basis via municipal population registries and through general practitioners’ and hospitals’ databases, with complete linkage up through December 2015.
 
+\newpage
 
-### Modeling specifications for inverse probability weighting
+### Modeling specifications for inverse probability weighting {-}
 
 **Inverse probability of treatment weights**: 
 <br>

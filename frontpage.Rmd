@@ -1,24 +1,19 @@
-```{=latex}
 
-%\includepdf{"figs/cover_draft.pdf"}
-
+<!-- ```{r align='center', echo=FALSE} -->
+<!-- knitr::include_graphics(here::here("figs", "cover_draft.png")) # show thesis cover -->
+<!-- ``` -->
 \newpage
 
-\hfill
+<center>
 
-\newpage
-\begin{center}
+**Dementia research under a causal inference lens**
 
-{ \huge Dementia research under a causal inference lens}  
-\hfill
-{ \large Onderzoek naar dementie onder een causale inferentielens}  
-\hfill
-\hfill
-\hfill
-{\Large Thesis}
-\hfill
-\hfill
-\hfill
+_Onderzoek naar dementie onder een causale inferentielens_
+
+
+**Thesis**
+
+
 to obtain the degree of Doctor from the   
 Erasmus University Rotterdam  
 by the command of the   
@@ -26,20 +21,14 @@ Rector Magnificus
 Prof. Dr. F.A. van der Duijn Schouten  
 and in accordance with the decision of the Doctorate Board 
 
-\hfill
-\hfill
 by  
 Liliana Paloma Rojas Saunero
 born in La Paz, Bolivia
-\end{center}
-\vspace*{\fill}  
-```  
 
-<br><br><br><br><br>
 
-```{r, echo=FALSE, warning=FALSE, out.width=c('2.25in','2.25in')}
-knitr::include_graphics(c("figs/eur1.png", "figs/eur2.png"))
-```
+<!-- ```{r, echo=FALSE, warning=FALSE, out.width=c('2.25in','2.25in')} -->
+<!-- knitr::include_graphics(c("figs/eur1.png", "figs/eur2.png")) -->
+<!-- ``` -->
 
 
 \newpage
@@ -50,21 +39,24 @@ knitr::include_graphics(c("figs/eur1.png", "figs/eur2.png"))
 
 \vspace*{\fill}
  
-\textbf{Paranymphs }    L. Paloma Rojas-Saunero   \\ 
+\textbf{Paranymphs }    Irma Karabegovic   \\ 
 \phantom{Paranymphs ab} Banafsheh Arshi    
 ```                     
 \newpage  
 
 **Manuscripts that form the basis of this thesis**  
 
-**Diemer EW**, Labrecque JA, Neumann A, Tiemeier H, Swanson SA (2021). Mendelian randomisation approaches to the study of prenatal exposures: A systematic review. *Paediatric and Perinatal Epidemiology*. 35(1):130-142. (Chapter 3)  
 
-**Diemer EW**, Labrecque JA, Tiemeier H, Swanson SA (2020). Application of the instrumental inequalities to a Mendelian randomization study with multiple proposed instruments. *Epidemiology*. 31(1):65-74. (Chapter 4)  
+Caniglia E.C., **Rojas-Saunero L.P.**, Hilal S., Licher S., Logan R., Stricker B., Ikram M.A., Swanson S.A. [Emulating a target trial of statin use and risk of dementia using cohort data](https://pubmed.ncbi.nlm.nih.gov/32753444/). _Neurology._ 2020;95(10):e1322-e1332. (Chapter 2)  
 
-Guo K, **Diemer EW**, Labrecque JA, Swanson SA (in progress). Falsification of the instrumental variable conditions in Mendelian randomization studies in the UK Biobank. (Chapter 5)     
+**Rojas-Saunero L.P.**, Hilal S., Murray E.J., Logan R.W., Ikram M.A., Swanson S.A. [Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia](https://pubmed.ncbi.nlm.nih.gov/33247419/). _European Journal of Epidemiology._ 2021;36(1):69-79. (Chapter 3)  
 
-**Diemer EW**, Havdahl A, Andreassen OA, Munafo MR, Njolstad PR, Tiemeier H, Zuccolo L, Swanson SA (revise and resubmit). Bounding the average causal effect in Mendelian randomization studies with multiple proposed instruments: An application to prenatal alcohol exposure and attention deficit hyperactivity disorder. *American Journal of Epidemiology*. (Chapter 6)  
+**Rojas-Saunero L.P.**, van der Willik K.D., Schagen S.B., Ikram M.A., Swanson S.A. Towards a clearer causal question underlying the association between cancer and dementia. _Submitted_ (Chapter 4)     
 
-**Diemer EW**, Zuccolo L, Swanson SA (in progress). Partial identification of the average causal effect using bounds computed in multiple study populations: the challenge of combining Mendelian randomization studies. (Chapter 7)     
+**Rojas-Saunero L.P.**, Young J.G., Didelez V., Ikram M.A., Swanson S.A. How are we counting the dead in dementia studies? _Submitted_ (Chapter 5)
+
+**Rojas-Saunero L.P.**, Young J.G., Didelez V., Ikram M.A., Swanson S.A. Choosing questions before methods in dementia research with competing events and causal goals _Submitted_ (Chapter 6)
+
+**Rojas-Saunero L.P.** [In the midst of two realities](https://pubmed.ncbi.nlm.nih.gov/33122553/). _Epidemiology._ 2021;32(1):148-149. (Chapter 8)     
 
 \newpage

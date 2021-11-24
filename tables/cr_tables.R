@@ -8,8 +8,8 @@
 
 table6.1 <- tibble::tribble(
   ~ "Characteristics",
-  ~ "Former smokers N = 2607",
-  ~ "Current smokers N = 1572",
+  ~ "Former smokers   N = 2607",
+  ~ "Current smokers   N = 1572",
   "Age, mean years (SD)",
   "62.4 (4.0)",
   "61.7 (4.0)",

@@ -2,12 +2,13 @@
 
 \chaptermark{Systolic blood pressure, stroke and dementia}
 
+\vspace*{\fill}
+
+---
+
 \small
-\noindent
-_This chapter has been published as_:
-
-Rojas-Saunero, L.P., Hilal, S., Murray, E.J. et al. Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia. _Eur J Epidemiol_.2021; 36: 69–79. <https://doi.org/10.1007/s10654-020-00694-5>
-
+\noindent 
+_This chapter has been published as_: Rojas-Saunero, L.P., Hilal, S., Murray, E.J. et al. Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia. _Eur J Epidemiol_. 2021;36(1):69-79.
 \normalsize
 \newpage
 
@@ -227,7 +228,7 @@ Given previous considerations, studying population-level interventions as done h
 
 ## Supplementary information
 
-### Target trial description
+### Target trial description {-}
 
 ```{r sbpt5, echo= FALSE, warning = FALSE, results='asis'}
 table3e1 %>%
@@ -235,14 +236,15 @@ table3e1 %>%
         caption = '(ref:sbpt5)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = 'HOLD_position'
   ) 
 ```
 (ref:sbpt5) Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
 
 \clearpage
 
-### Measurements
+### Measurements {-}
 
 The information on covariates were also collected during each visit through several questionnaires, physical examination and blood samples. From each visit, we selected the following covariates: age, sex, education attained, BMI, Apolipoprotein E (APOE)- ε4 carrier status, alcohol intake (grams per day), cholesterol (mmol/dl) and hypertensive medication. Education attained was divided in three categories: 1) primary; 2) further: lower or intermediate general or vocational education, or higher general education; 3) higher: vocational education or university[@ott1999]. BMI was computed by dividing the weight in kg by the square of the height in meters. APOE genotype was determined using polymerase chain reaction on coded DNA samples28.
 
@@ -254,7 +256,7 @@ Additionally, the occurrence of incident heart diseases and cardiac intervention
 
 \newpage
 
-### Characteristics of included and excluded (missing covariates) participants 
+### Characteristics of included and excluded (missing covariates) participants {-}
 
 ```{r sbpt6, echo= FALSE, warning = FALSE, results='asis'}
 table3e2 %>%
@@ -269,7 +271,7 @@ table3e2 %>%
 
 \newpage
 
-### Modeling of covariates included in the g-formula
+### Modeling of covariates included in the g-formula {-}
 
 ```{r sbpt7, echo= FALSE, warning = FALSE, results='asis'}
 table3e3a %>%
@@ -295,220 +297,364 @@ table3e3b %>%
 
 \newpage
 
-### Difference between mean predicted values and mean observed values
+### Difference between mean predicted values and mean observed values {-}
 
-#### Outcome: Stroke
+#### Outcome: Stroke {-}
 
-```{r sbpf4, echo=FALSE, fig.cap = '(ref:sbpf4)'}
+```{r sbpf4, echo=FALSE, fig.cap = '(ref:sbpf4)', fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "sbpf4.png"))
 ```
 (ref:sbpf4) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.
 
-#### Outcome: Dementia
+#### Outcome: Dementia {-}
 
-```{r sbpf5, echo=FALSE, fig.cap = '(ref:sbpf5)'}
+```{r sbpf5, echo=FALSE, fig.cap = '(ref:sbpf5)', fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "sbpf5.png"))
 ```
 (ref:sbpf5) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.
 
+\blandscape
 \newpage
 
-### Additional analysis when outcome is stroke
+### Additional analysis when outcome is stroke {-}
 
 ```{r sbpt9, echo= FALSE, warning = FALSE, results='asis'}
 stroke2 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt9)') %>%
+        caption = '(ref:sbpt9)',
+         align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 12.0%.")
 ```
-(ref:sbpt9) Death as a censored event. The observed risk at 15 years is 12.0% .
+(ref:sbpt9) **Death as a censored event**
+
+\newpage
 
 ```{r sbpt10, echo= FALSE, warning = FALSE, results='asis'}
 stroke3 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt10)') %>%
+        caption = '(ref:sbpt10)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 36.4%.")
 ```
-(ref:sbpt10) Stroke and death as combined outcome. The observed risk at 15 years is 36.4%.  
+(ref:sbpt10) **Stroke and death as combined outcome**
+
+\newpage
 
 ```{r sbpt11, echo= FALSE, warning = FALSE, results='asis'}
 stroke4 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt11)') %>%
+        caption = '(ref:sbpt11)',
+        align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 6.1%.")
 ```
-(ref:sbpt11) Under 65 years subgroup. The observed risk at 15 years is 6.1%.  
+(ref:sbpt11) **Under 65 years subgroup**
+
+\newpage
 
 ```{r sbpt12, echo= FALSE, warning = FALSE, results='asis'}
 stroke5 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt12)') %>%
+        caption = '(ref:sbpt12)',         
+        align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 14.0%.")
 ```
-(ref:sbpt12) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.0%.
+(ref:sbpt12) **Above 65 years and below 80 years subgroup**
+
+\newpage
 
 ```{r sbpt13, echo= FALSE, warning = FALSE, results='asis'}
 stroke_women %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt13)') %>%
+        caption = '(ref:sbpt13)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 9.2 %")
 ```
-(ref:sbpt13) Women subgroup. The observed risk at 15 years is 9.2 %.
+(ref:sbpt13) **Women subgroup**
+
+\newpage
 
 ```{r sbpt14, echo= FALSE, warning = FALSE, results='asis'}
 stroke_men %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt14)') %>%
+        caption = '(ref:sbpt14)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 11.6 %.")
 ```
-(ref:sbpt14) Men subgroup. The observed risk at 15 years is 11.6 %.
+(ref:sbpt14) **Men subgroup**
+
+\newpage
 
 ```{r sbpt15, echo= FALSE, warning = FALSE, results='asis'}
 stroke_freemed %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt15)') %>%
+        caption = '(ref:sbpt15)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 8.8 %.")
 ```
-(ref:sbpt15) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.8 %.
+(ref:sbpt15) **Without hypertension medication at baseline subgroup**
+
+\newpage
 
 ```{r sbpt16, echo= FALSE, warning = FALSE, results='asis'}
 stroke_nohd %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt16)') %>%
+        caption = '(ref:sbpt16)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 9.9%.")
 ```
-(ref:sbpt16) No history of heart disease at baseline subgroup. The observed risk at 15 years is 9.9%.  
+(ref:sbpt16) **No history of heart disease at baseline subgroup**
 
-### Additional analysis when outcome is dementia
+\newpage
+
+### Additional analysis when outcome is dementia {-}
 
 ```{r sbpt17, echo= FALSE, warning = FALSE, results='asis'}
 dementia2 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt17)') %>%
+        caption = '(ref:sbpt17)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 10.8%.")
 ```
-(ref:sbpt17) Death as a censored event. The observed risk at 15 years is 10.8%.  
+(ref:sbpt17) **Death as a censored event**  
+
+\newpage
 
 ```{r sbpt18, echo= FALSE, warning = FALSE, results='asis'}
 dementia3 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt18)') %>%
+        caption = '(ref:sbpt18)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 36.7%.")
 ```
-(ref:sbpt18) Dementia and death as combined outcome. The observed risk at 15 years is 36.7%.  
+(ref:sbpt18) **Dementia and death as combined outcome**
+
+\newpage
 
 ```{r sbpt19, echo= FALSE, warning = FALSE, results='asis'}
 dementia4 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt19)') %>%
+        caption = '(ref:sbpt19)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 3.2%.")
 ```
-(ref:sbpt19) Under 65 years subgroup. The observed risk at 15 years is 3.2%.
+(ref:sbpt19) **Under 65 years subgroup**
+
+\newpage
 
 ```{r sbpt20, echo= FALSE, warning = FALSE, results='asis'}
 dementia5 %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt19)') %>%
+        caption = '(ref:sbpt19)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 14.1%.")
 ```
-(ref:sbpt20) Above 65 years and below 80 years subgroup. The observed risk at 15 years is 14.1%. 
+(ref:sbpt20) **Above 65 years and below 80 years subgroup**
+
+\newpage
 
 ```{r sbpt21, echo= FALSE, warning = FALSE, results='asis'}
 dementia_women %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt21)') %>%
+        caption = '(ref:sbpt21)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 10.7%.")
 ```
-(ref:sbpt21) Women subgroup. The observed risk at 15 years is 10.7%.
+(ref:sbpt21) **Women subgroup**
+
+\newpage
 
 ```{r sbpt22, echo= FALSE, warning = FALSE, results='asis'}
 dementia_men %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt22)') %>%
+        caption = '(ref:sbpt22)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 6.7%.")
 ```
-(ref:sbpt22) Men subgroup. The observed risk at 15 years is 6.7%. 
+(ref:sbpt22) **Men subgroup**
+
+\newpage
 
 ```{r sbpt23, echo= FALSE, warning = FALSE, results='asis'}
 dementia_freemed %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt23)') %>%
+        caption = '(ref:sbpt23)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 8.6%.")
 ```
-(ref:sbpt23) Without hypertension medication at baseline subgroup. The observed risk at 15 years is 8.6%.
+(ref:sbpt23) **Without hypertension medication at baseline subgroup**
+
+\newpage
 
 ```{r sbpt24, echo= FALSE, warning = FALSE, results='asis'}
 dementia_freemed %>%
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt24)') %>%
+        caption = '(ref:sbpt24)',
+                 align = "clcccc") %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    font_size = 9,
+    latex_options = "HOLD_position"
   ) %>% 
-  footnote(general = "95%CI based on 500 bootstraps")
+  column_spec(2, width = "6.5cm") %>%
+  column_spec(c(3:5), width = "2.5cm") %>%   
+  column_spec(6, width = "1.5cm") %>%
+    row_spec(0,0, bold = TRUE) %>%
+  footnote(general = "The observed risk at 15 years is 8.6%.")
 ```
-(ref:sbpt24) Free of heart disease at baseline subgroup. The observed risk at 15 years is 8.6%. 
+(ref:sbpt24) **Free of heart disease at baseline subgroup**
 
+\elandscape
 \newpage
 
 \printbibliography[segment=\therefsegment,heading=subbibliography]
