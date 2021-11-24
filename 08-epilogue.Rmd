@@ -1,6 +1,4 @@
-# Epilogue {#chapter8}
-
-## _In the midst of two realities_ 
+# Epilogue: _In the midst of two realities_ {#chapter8}
 
 \chaptermark{Epilogue}
 
@@ -30,6 +28,5 @@ Being an epidemiologist in 2020 has allowed me to reconnect with my roots and wi
 
 
 \newpage
-## References
 
 \printbibliography[segment=\therefsegment,heading=subbibliography]

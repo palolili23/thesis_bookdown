@@ -57,6 +57,8 @@ t_portfolio %>%
   footnote(general = "* 1 ECTS (European Credit Transfer System) equals a workload of 28 hours ")
 ```
 
+\newpage
+
 **Teaching activities**
 
 ```{r port_t3, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
@@ -98,52 +100,46 @@ t_portfolio %>%
 
 **List of publications**
 
-- **Rojas-Saunero LP**, Hilal S, Murray EJ, Logan RW, Ikram MA, Swanson SA. [Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia](https://pubmed.ncbi.nlm.nih.gov/33247419/). _European Journal of Epidemiology._2020;
+- **Rojas-Saunero LP**, Hilal S, Murray EJ, Logan RW, Ikram MA, Swanson SA. [Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia](https://pubmed.ncbi.nlm.nih.gov/33247419/). _European Journal of Epidemiology._ 2021;36(1):69-79.
 
-- **Rojas-Saunero LP**. [In the midst of two realities](https://pubmed.ncbi.nlm.nih.gov/33122553/).2020;
+- **Rojas-Saunero LP**. [In the midst of two realities](https://pubmed.ncbi.nlm.nih.gov/33122553/). _Epidemiology._ 2021;32(1):148-149.
 
-- Caniglia EC, **Rojas-Saunero LP**, Hilal S, Licher S, Logan R, Stricker B, Ikram MA, Swanson SA. [Emulating a target trial of statin use and risk of dementia using cohort data](https://pubmed.ncbi.nlm.nih.gov/32753444/). _Neurology._ 
+- Caniglia EC, **Rojas-Saunero LP**, Hilal S, Licher S, Logan R, Stricker B, Ikram MA, Swanson SA. [Emulating a target trial of statin use and risk of dementia using cohort data](https://pubmed.ncbi.nlm.nih.gov/32753444/). _Neurology._ 2020;95(10):e1322-e1332. 
 
-- Heshmatollah A, Mutlu U, **Rojas-Saunero LP**, Portegies MLP, Wieberdink RG, Koudstaal PJ, Ikram MK, Ikram MA. [Unspecified Strokes: Time Trends, Determinants, and Long-Term Prognosis in the General Population](https://pubmed.ncbi.nlm.nih.gov/32062655/). _Neuroepidemiology._ 
+- Heshmatollah A, Mutlu U, **Rojas-Saunero LP**, Portegies MLP, Wieberdink RG, Koudstaal PJ, Ikram MK, Ikram MA. [Unspecified Strokes: Time Trends, Determinants, and Long-Term Prognosis in the General Population](https://pubmed.ncbi.nlm.nih.gov/32062655/). _Neuroepidemiology._ 2020;54(4):334-342.
 
-- Hettne K, Proppert R, Nab L, **Rojas-Saunero LP**, Gawehns G. [ReprohackNL 2019: How libraries can promote research reproducibility through community engagement](https://iassistquarterly.com/index.php/iassist/article/view/977). _IASSIST Quarterly._ 
+- Hettne K, Proppert R, Nab L, **Rojas-Saunero LP**, Gawehns G. [ReprohackNL 2019: How libraries can promote research reproducibility through community engagement](https://iassistquarterly.com/index.php/iassist/article/view/977). _IASSIST Quarterly._ 2020;44:1-2.
 
-- Téllez-Rojo MM, Rothenberg SJ , Texcalac-Sangrador JL, Just AC, Kloog I, **Rojas-Saunero LP**, Gutiérrez-Avila I, Bautista-Arredondo LF, Tamayo-Ortiz M, Romero M, Hurtado-Díaz M, Schwartz JD, Wright R, Riojas-Rodríguez H. [Children's acute respiratory symptoms associated with PM2. 5 estimates in two sequential representative surveys from the Mexico City Metropolitan Area](https://pubmed.ncbi.nlm.nih.gov/31711659/). _Environmental Research._ 
+- Téllez-Rojo MM, Rothenberg SJ , Texcalac-Sangrador JL, Just AC, Kloog I, **Rojas-Saunero LP**, Gutiérrez-Avila I, Bautista-Arredondo LF, Tamayo-Ortiz M, Romero M, Hurtado-Díaz M, Schwartz JD, Wright R, Riojas-Rodríguez H. [Children's acute respiratory symptoms associated with PM2. 5 estimates in two sequential representative surveys from the Mexico City Metropolitan Area](https://pubmed.ncbi.nlm.nih.gov/31711659/). _Environmental Research._ 2020;180:108868.
 
-- van der Willik KD, **Rojas-Saunero LP.**, Labrecque JA, Ikram MA, Schagen SB, Striker BH, Ruiter R. [Pathology-confirmed versus non pathology-confirmed cancer diagnoses: incidence, participant characteristics, and survival](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320936/). _European Journal of Epidemiology._ 
+- van der Willik KD, **Rojas-Saunero LP.**, Labrecque JA, Ikram MA, Schagen SB, Striker BH, Ruiter R. [Pathology-confirmed versus non pathology-confirmed cancer diagnoses: incidence, participant characteristics, and survival](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320936/). _European Journal of Epidemiology._ 2020;35(6):557–565.
 
-- Marciano S, Mauro E, Giunta D, Torres MC, Diaz JM, Bermudez C, Gutierrez-Acevedo MN, Narvaez A, Ortíz J, Dirchwolf M, Pollarsky F, **Rojas-Saunero LP**, Gadano A. [Impact of acute-on-chronic liver failure on post-transplant survival and on kidney outcomes](https://pubmed.ncbi.nlm.nih.gov/31385871/). _European journal of gastroenterology & hepatology._ 2019
+- Marciano S, Mauro E, Giunta D, Torres MC, Diaz JM, Bermudez C, Gutierrez-Acevedo MN, Narvaez A, Ortíz J, Dirchwolf M, Pollarsky F, **Rojas-Saunero LP**, Gadano A. [Impact of acute-on-chronic liver failure on post-transplant survival and on kidney outcomes](https://pubmed.ncbi.nlm.nih.gov/31385871/). _European journal of gastroenterology & hepatology._ 2019;31(9):1157-1164.
 
-- Díaz JM, Boietti BR, Vazquez FJ, Waisman GD, Giunta DH, **Rojas LP**, Peuchot V, Posadas-Martínez ML. [Mean platelet volume as a prognostic factor for venous thromboembolic disease](https://pubmed.ncbi.nlm.nih.gov/31095161/). _Revista Medica de Chile._ 2019
+- Díaz JM, Boietti BR, Vazquez FJ, Waisman GD, Giunta DH, **Rojas LP**, Peuchot V, Posadas-Martínez ML. [Mean platelet volume as a prognostic factor for venous thromboembolic disease](https://pubmed.ncbi.nlm.nih.gov/31095161/). _Revista Medica de Chile._ 2019;147(2):145-152.
 
-- Mendizabal M, Tagliafichi V, Rubinstein F, **Rojas P**, Marciano S, Yantorno S, Cejas N, Barrabino M, Anders M, Cairo F, Villamil F, Blazquez L, Zerega A, Ferretti S, Fernández D, Paredes S, Aballay Soteras G, Gaite L, Bisigniano L, Silva MO. [Liver transplantation in adults with acute liver failure: Outcomes from the Argentinean Transplant Registry](https://pubmed.ncbi.nlm.nih.gov/31053539/)
-_Annals of Hepatology._ 
+- Mendizabal M, Tagliafichi V, Rubinstein F, **Rojas P**, Marciano S, Yantorno S, Cejas N, Barrabino M, Anders M, Cairo F, Villamil F, Blazquez L, Zerega A, Ferretti S, Fernández D, Paredes S, Aballay Soteras G, Gaite L, Bisigniano L, Silva MO. [Liver transplantation in adults with acute liver failure: Outcomes from the Argentinean Transplant Registry](https://pubmed.ncbi.nlm.nih.gov/31053539/). _Annals of Hepatology._ 2019;18(2):338-344
 
-- [Are there any risk factors for developing complications with the use of retrievable vena cava filters in orthopaedic surgery?](https://pubmed.ncbi.nlm.nih.gov/30273535/)
+- Slullitel PAI, Díaz Dilernia F, Stagnaro J, **Rojas LP**, Posadas-Martinez ML, Buttaro MA, Slullitel GA. [Are there any risk factors for developing complications with the use of retrievable vena cava filters in orthopaedic surgery?](https://pubmed.ncbi.nlm.nih.gov/30273535/). _Rev Fac Cien Med Univ Nac Cordoba_. 2018;75(2):119-127.
 
-_Revista de la Facultad de Ciencias Médicas de Córdoba._ Slullitel PAI, Díaz Dilernia F, Stagnaro J, **Rojas LP**, Posadas-Martinez ML, Buttaro MA, Slullitel GA. 2018
+- Gutt S, Argüero MJ, **Rojas LP**, Aragona HS, Tamaroff J, Abecia VH, Marcolongo M.  [Medium-term results in the treatment of obesity with an intragastric balloon: cohort study](http://www.actagastro.org/numeros-anteriores/2017/Vol-47-N1/Vol47N1-PDF11.pdf). _Acta Gastroenterol Latinoam_. 2017;47(1):58-63
 
-- [Medium-term results in the treatment of obesity with an intragastric balloon: cohort study](http://www.actagastro.org/numeros-anteriores/2017/Vol-47-N1/Vol47N1-PDF11.pdf). _Acta Gastroenterológica Latinoamericana._ Gutt S, Argüero MJ, **Rojas LP**, Aragona HS, Tamaroff J, Abecia VH, Marcolongo M. 2017
+- Marciano S, Mauro E, Dirchwolf M, Debernardi ME, Giunta DG, Pagotto V, **Rojas LP**, Gadano A. [A Dynamic Definition of Acute Kidney Injury Does not Improve Prognosis Assessment in Acutely Decompensated Patients with Cirrhosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5478969/). _Journal of clinical and experimental hepatology._ 2017;7(2):135–143.
 
-- [A Dynamic Definition of Acute Kidney Injury Does not Improve Prognosis Assessment in Acutely Decompensated Patients with Cirrhosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5478969/). _Journal of clinical and experimental hepatology._ Marciano S, Mauro E, Dirchwolf M, Debernardi ME, Giunta DG, Pagotto V, **Rojas LP**, Gadano A. 2017
+- L Acion, J Zwick, **LP Rojas-Saunero**, S Arndt. [Distinctions between seeking-and non-seeking-treatment research participants: implications for clinical trials effectiveness](https://pubmed.ncbi.nlm.nih.gov/28662359/). _The American Journal of Drug and Alcohol Abuse._ 2017;43(6):628-630.
 
-- [Distinctions between seeking-and non-seeking-treatment research participants: implications for clinical trials effectiveness](https://pubmed.ncbi.nlm.nih.gov/28662359/). _The American Journal of Drug and Alcohol Abuse._ L Acion, J Zwick, **LP Rojas-Saunero**, S Arndt. 2017
+- Gutiérrez Acevedo MN, Peuchot V, Ardiles V, Giunta D, Marciano S, **Rojas Saunero LP**, Waisman GD, Boietti BR, Posadas-Martínez ML. [Incidence of venous thromboembolism in cirrhotic patients ](http://www.actagastro.org/numeros-anteriores/2016/Vol-46-N3/Vol46N3-PDF07.pdf). _Acta Gastroenterol Latinoam_. 2016;46:201-204.
 
-- Gutiérrez Acevedo MN, Peuchot V, Ardiles V, Giunta D, Marciano S, **Rojas Saunero LP**, Waisman GD, Boietti BR, Posadas-Martínez ML. [Incidence of venous thromboembolism in cirrhotic patients ](http://www.actagastro.org/numeros-anteriores/2016/Vol-46-N3/Vol46N3-PDF07.pdf). _Acta Gastroenterológica Latinoamericana._ 2016
+- Posadas-Martinez ML, **Rojas LP**, Vazquez FJ, De Quiros FB, Waisman GD, Giunta DH. [Statistical Process Control: A Quality Tool for a Venous Thromboembolic Disease Registry](https://pubmed.ncbi.nlm.nih.gov/27556842/). _Journal of registry management._ 2016;43(2):82-6.
 
-- Posadas-Martinez ML, **Rojas LP**, Vazquez FJ, De Quiros FB, Waisman GD, Giunta DH. [Statistical Process Control: A Quality Tool for a Venous Thromboembolic Disease Registry](https://pubmed.ncbi.nlm.nih.gov/27556842/). _Journal of registry management._ 2016
-
-- **Rojas-Saunero LP**, Claros Beltrán N. [Familiar, socioeconomic and gynecologic aspects as risk factors for teenage pregnancy](http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1726-89582014000100004). _Revista Médica La Paz._ 2014
+- **Rojas-Saunero LP**, Claros Beltrán N. [Familiar, socioeconomic and gynecologic aspects as risk factors for teenage pregnancy](http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1726-89582014000100004). _Revista Médica La Paz._ 2014; 20(1): 18-27.
 
 \newpage
 
 ## About the author {-}
 
-Liliana Paloma Rojas Saunero was born on 23rd of April, 1989 in La Paz, Bolivia. She was raised around mountains at over 3500 meters above sea level, and obtained her medical degree from the public university "Universidad Mayor de San Andrés". During the last two years of her studies, she was an undergraduate research assistant at Research Institute in Health and Development at the same university. During this time she felt in love with research and epidemiology. For this reason, after obtaining her medical degree in medicine, she moved to Buenos Aires and obtained her master degree in clinical Research. During the same time as her master, she worked as a Research Fellow in the Internal Medicine Research Area, Hospital Italiano de Buenos Aires. She later accepted a position as Associate Researcher Liver Transplant Unit, Hospital El Cruce, at the same time she collaborated as a research assistant for the Center for Nutrition and Health Research, National Institute of Public Health in Mexico. During those two years she  persuit a graduate degree of Specialization in Statistics for Health Sciences. Calculus Institute. University of Buenos Aires
-Buenos Aires, Argentina.
-
-During that time she received a the fellowship for the Summer Program at the National Institute of Health Sciences. This visit was trascendental, not because it was the first time 
-
-\newpage
+Liliana Paloma Rojas Saunero was born on April 23, 1989 in La Paz, Bolivia. She was raised surrounded by beautiful mountains at over 3400 meters above sea level, and studied medicine at the local public university, Universidad Mayor de San Andrés. During the last two years of her studies, she was an undergraduate research assistant at the Research Institute in Health and Development, where her passion for research began. For this reason, after obtaining her medical degree in medicine in 2013, she moved to Buenos Aires, Argentina. There, she obtained her Master Degree in Clinical Research and worked as a Research Fellow in the Internal Medicine Research Area of the Hospital Italiano de Buenos Aires. In 2016, she joined the Liver Transplant Unit at Hospital El Cruce, as Associate Researcher. At the same time, she worked remotely as research consultant for the National Institute of Public Health in Cuernavaca, Mexico. Between 2016 and 2017 she pursuit the Specialization in Statistics for Health Sciences, a graduate degree provided by the Calculus Institute in the University of Buenos Aires. In 2017, she earned the Erasmus Summer Program Fellowship and traveled to Rotterdam to spend part of her summer learning outstanding classes at the National Institute of Health Sciences. This trascendental experience taught her that to address research questions that required complex data, she required further training in advanced epidemiologic methods. For this reason, in 2018 she moved to Rotterdam and started her PhD training at the Epidemiology Department of Erasmus MC under the supervision of Sonja A. Swanson and M. Arfan Ikram, as part of the Causal Inference group and the Neuro-Epidemiology Group. During this time she was immersed in the world of causal inference methods development and had the opportunity to spend time in the Harvard School of Public Health in Boston, USA, as well as in the Leibniz Institute for Prevention Research in Bremen, Germany, collaborating with outstanding and truly kind researchers.
+\
+newpage
 
 ## Acknowledgements {-}
