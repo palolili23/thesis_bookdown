@@ -16,6 +16,6 @@ bookdown::pdf_book:
   citation_package: biblatex
   keep_tex: yes
   extra_dependencies: ["subfig", "float"]
-  toc: True
+  toc: False
   subparagraph: true
   pandoc_args: --top-level-division=chapter
