@@ -4,7 +4,7 @@
 
 ## PhD Portafolio {-}
 
-**PhD candidate:** Liliana Paloma Rojas Sauner
+**PhD candidate:** Liliana Paloma Rojas Saunero
 
 **Department:** Department of Epidemiology, Erasmus Medical Center
 
@@ -16,9 +16,7 @@
 
 ***
 
-**General courses**
-
-```{r port_t1, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
+```{r portt1, echo= FALSE, warning = FALSE, message = FALSE}
 library(knitr)
 library(kableExtra)
 library(magrittr)
@@ -31,71 +29,72 @@ t_portfolio %>%
   filter(type == "GC") %>% 
   select(-type) %>% 
   rename(`Elective courses` = Activity) %>% 
-  kable(booktabs = TRUE) %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:portt1)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
-  column_spec(1, width = "25em") %>% 
+  column_spec(1, width = "25em") %>%
   footnote(general = "* 1 ECTS (European Credit Transfer System) equals a workload of 28 hours ") 
 
 ```
+(ref:portt1) **General courses**
 
-**International conferences**
-
-```{r port_t2, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
+```{r portt2, echo= FALSE, warning = FALSE, message = FALSE}
 t_portfolio %>%
   filter(type == "IC") %>% 
   select(-type) %>% 
   rename(Event = Activity) %>% 
-  kable(booktabs = TRUE) %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:portt2)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
   column_spec(1, width = "25em") %>% 
   footnote(general = "* 1 ECTS (European Credit Transfer System) equals a workload of 28 hours ")
 ```
+(ref:portt2) **International conferences**
 
-\newpage
-
-**Teaching activities**
-
-```{r port_t3, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
+```{r portt3, echo= FALSE, warning = FALSE, message = FALSE}
 
 t_portfolio %>%
   filter(type == "TA") %>% 
   select(-type) %>% 
-  kable(booktabs = TRUE) %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:portt3)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
   row_spec(c(0,c(1,5,12)), bold = TRUE) %>% 
-  kable_styling(font_size = 9) %>% 
   column_spec(1, width = "25em") %>% 
   footnote(general = "* 1 ECTS (European Credit Transfer System) equals a workload of 28 hours ")
 
 ```
+(ref:portt3) **Teaching activities**
 
-**Other activities**
-
-```{r port_t4, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
+```{r portt4, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
 t_portfolio %>%
   filter(type =="O") %>% 
   select(-type) %>% 
-  kable(booktabs = TRUE) %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:portt4)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
   row_spec(c(0,c(2,5)), bold = TRUE) %>% 
-  kable_styling(font_size = 9) %>% 
   column_spec(1, width = "25em") %>% 
   footnote(general = "* 1 ECTS (European Credit Transfer System) equals a workload of 28 hours ")
 ```
+(ref:portt4) **Other activities**
 
-\clearpage
 \newpage
 
 **List of publications**

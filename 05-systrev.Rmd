@@ -2,7 +2,15 @@
 
 \chaptermark{Counting the death}
 
+\vspace*{\fill}
+
+---
+
+\small
+\noindent 
+_This chapter has been submitted as_: Rojas-Saunero L.P., Young J.G, Didelez V., Ikram M. A., Swanson S.A. How are we counting the dead in dementia studies? 
 \newpage
+\normalsize
 
 ```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)
@@ -27,7 +35,7 @@ In longitudinal studies of treatment/exposure effects on dementia, some particip
 
 Eligibility for the systematic review included: original research with a study design that corresponds to an observational study or randomized trial with longitudinal follow-up and with dementia or Alzheimer’s disease as outcome; published between January 2018 to December 2019; published in one of nine medicine or neurology journals; and having an implicit or explicit study aim of estimating a causal effect. Search criteria on PubMed included: Alzheimer’s disease or dementia; longitudinal or cohort; hazard or risks. All details are presented as Supplementary Information. We collected the following information: study characteristics (exposure of interest, target causal parameter, median length of follow-up); report on total deaths over time and across levels of the exposure of interest and total losses to follow-up; specific methodologic considerations (how death is handled in the analysis plan, primary statistical measure, primary statistical method); and interpretation (valid interpretation of the primary result in light of deaths, mentions mortality in discussion).
 
-```{r systrevf1, echo=FALSE, fig.cap = '(ref:systrevf1)', auto_pdf = TRUE}
+```{r systrevf1, echo=FALSE, fig.cap = '(ref:systrevf1)', auto_pdf = TRUE, fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "systrevf1.png"))
 ```
 
@@ -43,9 +51,12 @@ table5.1 %>%
         caption = '(ref:systrevt1)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
-  ) %>%
-  footnote(general = legend5.1)
+    position = 'center',
+    latex_options = "HOLD_position",
+    font_size = 9
+      ) %>%
+  column_spec(1, width = "9cm") %>% 
+  footnote(general = legend5.1, threeparttable = TRUE)
 ```
 (ref:systrevt1) Current reporting practices relevant to competing events in dementia research among 57 studies included in the systematic review
 

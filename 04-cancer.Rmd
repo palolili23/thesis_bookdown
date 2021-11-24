@@ -1,12 +1,13 @@
 # Towards a clearer causal question underlying the association between cancer and dementia {#chapter4}
-\chaptermark{Pin 1 and risk of dementia}
+\chaptermark{Clearer causal questions for cancer and dementia association}
+
+\vspace*{\fill}
+
+---
 
 \small
-\noindent
-_This chapter is under revision_: 
-
-Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A. Towards a clearer causal question underlying the association between cancer and dementia.
-
+\noindent 
+_This chapter has been submitted as_: Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A. Towards a clearer causal question underlying the association between cancer and dementia.
 \newpage
 \normalsize
 
@@ -18,7 +19,6 @@ library(dplyr)
 source(here::here("tables", "cancer_tables.R"))
 options(knitr.kable.NA = "")
 ```
-
 
 ## Abstract
 
@@ -52,7 +52,7 @@ If this hypothetical Pin1-targeting drug was developed, the best way to understa
 
 In the observational setting, confounding could explain the observed association between Pin1 and dementia. In the causal diagram[@whatif2020] in Figure \@ref(fig:cancerf1), we present Pin1 expression as $P_{t}$ and dementia diagnosis by time $t+k$ as $Y_{t+k}$. Both may share causes $L_1$, and to assess the causal relationship between $P_{t}$ and $Y_{t+k}$ we would thus adjust for $L_1$. Previous dementia studies have described age, sex, educational level and race/ethnicity as a minimal adjusting set of covariates[@ospina2020]. However, environmental and behavioral factors such as smoking may translate into Pin1 over-expression[@tan2010] and are also related to the development of dementia[@lancet2020] and should therefore be adjusted for. Although $L_1$ can be time-varying in nature, we only depict $L_1$ at one time-point for readability.
 
-```{tikz cancerf1, echo = FALSE, fig.cap = '(ref:cancerf1)'}
+```{tikz cancerf1, echo = FALSE, fig.cap = '(ref:cancerf1)', fig.align= 'center'}
 \usetikzlibrary{arrows}
 \begin{tikzpicture}[node distance=2cm]
 \node (p) {$P_t$};
@@ -82,7 +82,6 @@ In the observational setting, confounding could explain the observed association
 \draw[->, semithick] (p2) to [out=+45,in=+135, looseness=0.3] (y);
 \end{tikzpicture}
 ```
-
 (ref:cancerf1) **Causal directed acyclic graph highlighting confounding of the potential effect of Pin1 on risk of dementia.** Pin1 at time $t$ is represented as $P_t$; dementia at time $t+k$ is represented as $Y_{t+k}$; $L_1$ represents shared causes of Pin1 and dementia, such as smoking. To isolate the effect of $P_t$ on $Y_{t+k}$ we need to block the backdoor path $Y_{t+k} \leftarrow L_1 \rightarrow P_t$. Gray nodes and arrows are described progressively in Figures \@ref(fig:cancerf1) to \@ref(fig:cancerf5).
 
 Currently, Pin1 expression is not an available biomarker for population-based research, so at best we can only rely on a proxy for it. Because Pin1 over-expression is present in tumors, and tumors are only diagnosed through biopsies, previous studies have speculated that Pin1 over-expression partly explains the inverse association between cancer diagnosis and dementia, though Pin1 was not explicitly part of the research  question[@driver2012;@musicco2013;@freedman2016;@bowles2017;@frain2017;@schmidt2017;@sun2020;@ording2020]. Unlike measuring Pin1 at the same time for all participants (though this would not necessarily mean this would be the ideal time to measure it, we discuss this point further in the discussion section), cancer diagnosis is collected during follow-up. We depict this feature in Figure \@ref(fig:cancerf2), where $C_t$ and $C_{t+1}$ represent _cancer diagnosis_ over time, the measured proxy of $P_{t}$ and $P_{t+1}$ respectively. Although this means we would measure the association between cancer diagnosis over time and dementia in the observed data, we are assuming that the captured effect is only through the pathway that involves Pin1 expression over time. That is, we only have measurements of $C_{t+1}$ and $Y_{t+k}$ and some subset of $L_1$, but our question remains focused on the effect of $P_t$. 
@@ -268,9 +267,11 @@ table4.1 %>%
         caption = '(ref:cancert1)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
-  footnote(general = legend4.1)
+  column_spec(1, width = "5cm") %>% 
+  footnote(general = legend4.1, threeparttable = TRUE)
 ```
 (ref:cancert1) Characteristics of cohort at baseline (n = 3634)
 
@@ -280,9 +281,12 @@ table4.2 %>%
         caption = '(ref:cancert2)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
-  footnote(general = legend4.2)
+  column_spec(2, width = "5cm") %>% 
+  column_spec(c(3:5), width = "1.6cm") %>% 
+  footnote(general = legend4.2, threeparttable = TRUE)
 ```
 (ref:cancert2) 20-year risk differences, risk ratio, and hazard ratios for dementia risk by cancer proxy and model adjustment
 
@@ -292,7 +296,7 @@ table4.2 %>%
 \blandscape
 ```
 
-```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)'}
+```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)', fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "cancerf6.jpg"))
 ```
 (ref:cancerf6) **Risk of dementia under elimination of death over 20 years of follow-up by cancer diagnosis status.** Panel A. represents the scenario where cancer was considered as “ever vs. never”. Panel B. represents the scenario where cancer was considered as a time-varying proxy.
@@ -412,15 +416,17 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = can
 
 ### Additional figures
 
-```{r cancerf7, echo=FALSE, fig.cap = '(ref:cancerf7)'}
+```{r cancerf7, echo=FALSE, fig.cap = '(ref:cancerf7)', fig.align='center'}
 knitr::include_graphics(here::here("figs", "cancerf7.jpg"))
 ```
-(ref:cancerf7) Distribution of participants under each health status, by age over follow-up
+(ref:cancerf7) **Distribution of participants under each health status, by age over follow-up**
 
-```{r cancerf8, echo=FALSE, fig.cap = '(ref:cancerf8)'}
+\newpage
+
+```{r cancerf8, echo=FALSE, fig.cap = '(ref:cancerf8)', fig.align='center'}
 knitr::include_graphics(here::here("figs", "cancerf8.jpg"))
 ```
-(ref:cancerf8) Causes of death defined by ICD-10 codes for participants who died prior to dementia diagnosis. Information on vital status and cause – specific mortality is obtained continuously from the municipal authorities in Rotterdam. General practitioners in the research area report incident events by means of a computerized system, covering 78.8 % of the cohort. General practitioners without the computerized system are requested to notify new events annually. Trained research assistants subsequently collect information from medical records of the general practitioners, hospitals, and nursing homes. Two research physicians independently classify the events according to the ICPC and ICD-10 coding systems. Thereafter, a medical expert in the field reviews all coded events.
+(ref:cancerf8) **Causes of death defined by ICD-10 codes for participants who died prior to dementia diagnosis.** Information on vital status and cause – specific mortality is obtained continuously from the municipal authorities in Rotterdam. General practitioners in the research area report incident events by means of a computerized system, covering 78.8 % of the cohort. General practitioners without the computerized system are requested to notify new events annually. Trained research assistants subsequently collect information from medical records of the general practitioners, hospitals, and nursing homes. Two research physicians independently classify the events according to the ICPC and ICD-10 coding systems. Thereafter, a medical expert in the field reviews all coded events.
 
 \newpage
 

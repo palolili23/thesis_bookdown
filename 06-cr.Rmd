@@ -2,11 +2,15 @@
 
 \chaptermark{Competing events in dementia research}
 
-\small
-\noindent
-_This chapter is under revision_: 
+\vspace*{\fill}
 
-Rojas-Saunero L.P., Young J.G, Didelez V., Ikram M. A., Swanson S.A. Choosing questions before methods in dementia research with competing events and causal goals.
+---
+
+\small
+\noindent 
+_This chapter has been submitted as_: Rojas-Saunero L.P., Young J.G, Didelez V., Ikram M. A., Swanson S.A. Choosing questions before methods in dementia research with competing events and causal goals.
+\newpage
+\normalsize
 
 ```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)
@@ -106,9 +110,11 @@ table6.1 %>%
         caption = '(ref:crt1)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+        latex_options = "HOLD_position"
   ) %>%
-  footnote(general = legend6.1)
+  column_spec(1, width = "7cm") %>% 
+  footnote(general = legend6.1, threeparttable = TRUE)
 ```
 (ref:crt1) Descriptive characteristics of former and current smokers in the Rotterdam Study (n = 4179)
 
@@ -118,9 +124,11 @@ table6.2 %>%
         caption = '(ref:crt2)') %>%
   kable_styling(
     full_width = F,
-    position = 'center'
+    position = 'center',
+    latex_options = "HOLD_position"
   ) %>%
-  footnote(general = legend6.2)
+  column_spec(1, width = "5cm") %>% 
+  footnote(general = legend6.2, threeparttable = TRUE)
 ```
 (ref:crt2) Total effect and controlled direct effect of smoking cessation (compared to continued smoking) on the risk of dementia, and the total effect on risk of mortality, at 20 years of follow-up
 
@@ -129,7 +137,7 @@ table6.2 %>%
 \blandscape
 ```
 
-```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE}
+```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE, fig.align="center", fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "crf2.png"))
 ```
 (ref:crf2) Risk of dementia and death by smoking cessation status over 20 years of follow-up. Panel A represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel B represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel C represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs. quit smoking.

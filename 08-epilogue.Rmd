@@ -2,17 +2,15 @@
 
 \chaptermark{Epilogue}
 
+\vspace*{\fill}
+
+---
+
 \small
-
-\noindent *This chapter has been published as*:
-
-Rojas-Saunero L.P.*Epidemiology*.2020;
-<doi>
-
-```{=tex}
+\noindent 
+_This chapter has been published as_: Rojas-Saunero L.P. In the midst of two realities. _Epidemiology_. 2020; 2021;32(1):148-149.
 \newpage
 \normalsize
-```
 
 To me, the global circumstances of 2020 rebuilt my perception of what being an epidemiologist means. It required me to understand my privileges and, as a result, decipher how to make myself accountable for them.
 
