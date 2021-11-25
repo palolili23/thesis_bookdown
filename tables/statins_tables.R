@@ -7,16 +7,13 @@ table2.1 <-
     ~ "Section",
     ~ "Target trial protocol",
     ~ "Emulation using observational data",
-    "Eligibility criteria",
-    "Age 55 - 80 years at enrollment,
-    no statin prescription in the previous 2 years, 
+    "Eligibility criteria", "Age 55 - 80 years at enrollment;
+    no statin prescription in the previous 2 years;
     known to be dementia free, MMSE >=26 at enrollment;
-    cholesterol, BMI and SBP measurement at enrollment",
-    "Same, except MMSE which is measured within the previous 3 years",
+    cholesterol, BMI and SBP measurement at enrollment", "Same, except MMSE which is measured within the previous 3 years",
     "Treatment strategies",
-    "1. Initiate statin therapy at baseline and remain on it during the follow-up unless serious illnes occurs <br>
-     2. Refrain from taking statin therapy during the follow-up unless serious illness occurs",
-    "Same",
+    "1. Initiate statin therapy at baseline and remain on it during the follow-up unless serious illnes occurs", "Same",
+     NA, "2. Refrain from taking statin therapy during the follow-up unless serious illness occurs", NA,
     "Randomized assignment",
     "Random assignment to either strategy at baseline",
     "Participants are assumed to be randomly assigned at
@@ -28,20 +25,14 @@ revascularization), and other medication",
 "Start/End of follow-up",
 "From baseline until dementia dx, death, or loss to follow-up (10 years without an MMSE measurement), or January 1st, 2015, which ever happened first",
 "Same",
-"Outcome",
-"Dementia (Death as a censoring event),
-     Composite outcome: dementia or death", 
-"Same",
-"Causal contrast",
-"Modified intention-to-treat. 
-    Per-protocol effect",
-"Same",
-"Analysis plan",
-"Modified intention-to-treat analysis
-    Per-protocol analysis",
+"Outcome", "Dementia (Death as a censoring event)", "Same",
+NA, "Composite outcome: dementia or death", NA, 
+"Causal contrast", "Modified intention-to-treat", "Same",
+NA, "Per-protocol effect", NA,
+"Analysis plan", "Modified intention-to-treat analysis",
 "Same modified intention-to-treat analysis, 
-    except that estimates are adjusted for baseline variables.
-    Same per-protocol analysis, except tat time since most recent MMSE measurement 
+    except that estimates are adjusted for baseline variables",
+NA, "Per-protocol analysis", "Same per-protocol analysis, except tat time since most recent MMSE measurement 
     and time since most recent cholesterol measurement are included as baseline
     covariates",
   )
@@ -56,8 +47,9 @@ as guided by their physicians"
 
 table2.2 <- tibble::tribble(
   ~"Characteristic",
-  ~"Non-initiators 232,904 person-trials",
-  ~"Initiators 622 person-trials",
+  ~"Non-initiators",
+  ~"Initiators",
+  "Number of person-trials", "232,904", "622",
   "Male (%)", "43.0%", "45.7%",
   "Age, mean years (SD)", "69.4 (5.6)", "69.4 (5.0)",
   "MMSE, mean score (SD)", "28.3 (1.2)", "28.2 (1.3)",
@@ -72,10 +64,11 @@ table2.2 <- tibble::tribble(
   "   Yes","25.8%","28.3%",
   "   No","70.2%","66.4%",
   "   Missing","4.0%","5.3%",
+  "Total cholesterol in categories", NA, NA,
+  "< 5.2 mmol/L (%)","20.5%","14.3%",
+  "5.2-6.2 mmol/L (%)","39.9%","26.5%",
+  ">6.2 mmol/L (%)","39.6%","59.2%",
   "Total cholesterol, mean mmol/L (SD)","6.01 (1.01)","6.49 (1.15)",
-  "Total cholesterol < 5.2 mmol/L (%)","20.5%","14.3%",
-  "Total cholesterol 5.2-6.2 mmol/L (%)","39.9%","26.5%",
-  "Total cholesterol >6.2 mmol/L (%)","39.6%","59.2%",
   "Systolic blood pressure, mmHg (SD)", "142.7 (20.9)", "147.5 (21.5)",
   "Smoking status (%)", NA, NA,
   "   Never","30.9%","24.9%",
@@ -102,9 +95,7 @@ table2.2 <- tibble::tribble(
   "   Psychotropics**", "12.0%", "15.0%",
   "   Aspirin", "11.5%", "30.7%")
 
-legend2.2 <- "* Defined as any history of atrial fibrillation, heart failure, myocardial infarction or 
-revascularization"
-legend2.22 <- "**Defined as antidepressants, antipsychotics, or benzodiazepines"
+legend2.2 <- "SD: Standard deviation; *History of atrial fibrillation, heart failure, myocardial infarction or revascularization; **Antidepressants, antipsychotics, or benzodiazepines"
 
 # rio::export(table2.2, here::here("tables", "table2.2.RData"))
 
@@ -311,7 +302,7 @@ table2e1 <- tibble::tribble(
 
 
 table2e2 <- tibble::tribble(
-                                        ~`Analysis`, ~`Initiators (n)`, ~`Non-initiators (n)`, ~`No statins %(95%CI)_1`,
+                                        ~`Analysis`, ~`Initiators`, ~`Non-initiators`, ~`No statins %(95%CI)_1`,
                                         ~`Statins %(95%CI)_1`,         ~`Risk Difference (95%CI)`,         ~`No statins %(95%CI)_2`,         
                                         ~`Statins %(95%CI)_2`,          ~`Risk Difference (95%CI)`,
                              "Main result(Table 3 and Figure 3)",        622L,                232904, "11.2 (10.6, 11.8)",  "8.5 (5.4, 11.1)",  "-2.7 (-5.3, 0.1)", "26.1 (24.8, 27.3)", "21.0 (15.6, 25.7)", "-5.1 (-10.5, -1.1)",

@@ -8,8 +8,11 @@
 
 table6.1 <- tibble::tribble(
   ~ "Characteristics",
-  ~ "Former smokers   N = 2607",
-  ~ "Current smokers   N = 1572",
+  ~ "Former smokers",
+  ~ "Current smokers",
+  "Participants",
+  "2607",
+  "1572",
   "Age, mean years (SD)",
   "62.4 (4.0)",
   "61.7 (4.0)",
@@ -78,7 +81,7 @@ table6.1 <- tibble::tribble(
   "27 (1.7)"
 )
 
-legend6.1 <- "Abbreviation: N, number of participants; SD, Standard deviation"
+legend6.1 <- "SD: Standard deviation"
 
 
 ## 6.2 Table 2 -----------------------------------------------------------------
@@ -100,4 +103,4 @@ table6.2 <- tibble::tribble(
   "0.68 (0.63, 0.72)"
 )
 
-legend6.2 <- "Abbreviation: IPCW, Inverse probability censoring weights"
+legend6.2 <- "IPCW: Inverse probability censoring weights"
