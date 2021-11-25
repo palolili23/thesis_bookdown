@@ -11,9 +11,9 @@
 
 01-intro &#10004;&#65039; Falta un grafico
 
-02-statins &#10004;&#65039;
+02-statins &#10004;&#65039; leyenda flowchart, hacerla mejor en pdf
 
-03-sbp &#10004;&#65039; Checkear tabla 3.4
+03-sbp &#10004;&#65039; Checkear tabla 3.4, agrandar figura flowchart
 
 04-cancer &#10004;&#65039;
 
