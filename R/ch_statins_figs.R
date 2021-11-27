@@ -18,7 +18,6 @@ itt_long <- itt %>%
     names_to = "Treatment Arm",
     values_to = "Risk"
   ) %>% 
-  ) %>% 
   mutate(`Treatment arm` = as_factor(`Treatment Arm`))
   
 

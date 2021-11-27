@@ -159,20 +159,17 @@ Data can be obtained on request. Requests should be directed toward the manageme
 table2.1 %>%
   kable(booktabs = TRUE,
         caption = '(ref:statinst1)',
-        align = "lll") %>% # alineacion configurada
+        align = "lll") %>% 
   kable_styling(
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    # mantener posicion
-    font_size = 9
-  ) %>% #ajustar fuente
-  column_spec(1, width = "1.5cm") %>% #ajustar el largo de las columnas
+    font_size = 9) %>% 
+  column_spec(1, width = "1.5cm") %>% 
   column_spec(2, width = "5cm") %>%
   column_spec(3, width = "5cm") %>%
   row_spec(0, 0, bold = TRUE) %>%
-  footnote(general = "*Serious illness defined as cancer or heart disease. Following a serious illness, participants may or may not take statin therapy, as guided by their physicians.", threeparttable =
-             T) #ajustar el scaling del footnote
+  footnote(general = "*Serious illness defined as cancer or heart disease. Following a serious illness, participants may or may not take statin therapy, as guided by their physicians.", threeparttable = T) 
 ```
 (ref:statinst1) **Protocol of target trial and emulation using observational data, Rotterdam Study -- I and II**
 
@@ -180,14 +177,16 @@ table2.1 %>%
 
 ## Results
 
-180 trials were conducted from January 1993 to December 2007. Of 1,578,655 potential persontrials (10,942 individuals), 233,526 person-trials (6,373 individuals) met the eligibility criteria. There were 622 initiators and 232,904 non-initiators (Figure \@ref(fig:statinsf1)). Across the 180 months of trials, the mean number of participants in a given month was 1,297 with a mean number of 3.5 initiators. The trial beginning in March 2006 had the most initiators (15 initiators, 1,915 noninitiators) (Supplementary information, Table \@ref(tab:statinst5)). Initiators and non-initiators were similar in age, MMSE, educational attainment. Compared with non-initiators, initiators had higher baseline total cholesterol measurements and systolic blood pressure measurements and were more likely to be current or former smokers, have a history of heart disease, stroke, and diabetes, and use other prescription medications (Table \@ref(tab:statinst2)).
+From January 1993 to December 2007 a total of 180 trials were conducted. Of 1,578,655 potential person-trials (10,942 individuals), 233,526 person-trials (6,373 individuals) met the eligibility criteria. There were 622 initiators and 232,904 non-initiators (Figure \@ref(fig:statinsf1)). Across the 180 months of trials, the mean number of participants in a given month was 1,297 with a mean number of 3.5 initiators. The trial beginning in March 2006 had the most initiators (15 initiators, 1,915 noninitiators; Supplementary information, Table \@ref(tab:statinst5)). Initiators and non-initiators were similar in age, MMSE, educational attainment. Compared with non-initiators, initiators had higher baseline total cholesterol measurements and systolic blood pressure measurements and were more likely to be current or former smokers, have a history of heart disease, stroke, and diabetes, and use other prescription medications (Table \@ref(tab:statinst2)).
 
 Of the 622 initiators, 63 developed dementia and 225 died or developed dementia over the follow-up. Of the 232,904 non-initiators, 23,885 developed dementia and 82,896 died or developed dementia over the follow-up. The median (IQR) follow-up time was 9.3 (7.8, 11.9) years for initiators and 9.9 (7.8, 13.5) years for non-initiators in the dementia analysis. The median (IQR) time to dementia was 7.5 (5.4, 11.4) years for initiators and 8.3 (4.9, 11.4) years for non-initiators.
 
-```{r statinsf1, echo=FALSE, fig.cap = '(ref:statinsf1)'}
-knitr::include_graphics(here::here("figs", "statinsf1.png"))
+```{r statinsf1, echo=FALSE, fig.cap = '(ref:statinsf1)', auto_pdf = TRUE, fig.show='asis', fig.align='center', out.width = "85%"}
+knitr::include_graphics(here::here("figs", "statinsf1_test.png"))
 ```
-(ref:statinsf1) **Flowchart of person-trials in the modified intention-to-treat analysis**
+(ref:statinsf1) Flowchart of person-trials in the modified intention-to-treat analysis
+
+\newpage
 
 ```{r statinst2, echo= FALSE, warning = FALSE, results='asis'}
 table2.2 %>%
@@ -261,7 +260,7 @@ Inverse-probability weighting to adjust for censoring due to infrequent follow-u
 \blandscape
 ```
 
-```{r statinsf2, echo=FALSE, fig.cap = '(ref:statinsf2)', auto_pdf = TRUE}
+```{r statinsf2, echo=FALSE, fig.cap = '(ref:statinsf2)', fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf2.png"))
 ```
 
@@ -276,7 +275,7 @@ knitr::include_graphics(here::here("figs", "statinsf2.png"))
 \blandscape
 ```
 
-```{r statinsf3, echo=FALSE, fig.cap = '(ref:statinsf3)', auto_pdf = TRUE}
+```{r statinsf3, echo=FALSE, fig.cap = '(ref:statinsf3)', fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf3.png"))
 ```
 
@@ -328,7 +327,6 @@ table2e1 %>%
     font_size = 9) %>% 
       row_spec(0, 0, bold = TRUE)
 ```
-
 (ref:statinst5) Number of participants and initiators in each non-randomized ‘trial,’ Rotterdam Study – I and II
 
 \blandscape

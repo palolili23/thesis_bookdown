@@ -14,6 +14,7 @@
 
 **Co-promotor:** Sonja A. Swanson
 
+**General Courses**
 ```{r portt1, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
 library(knitr)
 library(kableExtra)
@@ -29,9 +30,8 @@ t_portfolio %>%
   filter(type == "GC") %>%
   select(-c(3:4)) %>% 
   # select(-type) %>% 
-  rename(`Elective courses` = Activity) %>% 
-  kable(booktabs = TRUE,
-        caption = '(ref:portt1)') %>%
+  # rename(`Elective courses` = Activity) %>% 
+  kable(booktabs = TRUE) %>%
   kable_styling(
     full_width = F,
     position = 'left',
@@ -41,8 +41,8 @@ t_portfolio %>%
   row_spec(0,0, bold = TRUE)
 
 ```
-(ref:portt1) **General courses**
 
+**International Conferences**
 ```{r portt2, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
 t_portfolio %>%
   filter(type == "IC") %>% 
@@ -50,8 +50,7 @@ t_portfolio %>%
   rename(Event = Activity) %>% 
   mutate(Event = stringr::str_replace(Event, " - Oral presentation", "")) %>% 
   # select(-type) %>% 
-  kable(booktabs = TRUE,
-        caption = '(ref:portt2)') %>%
+  kable(booktabs = TRUE) %>%
   kable_styling(
     full_width = F,
     position = 'left',
@@ -61,16 +60,17 @@ t_portfolio %>%
   column_spec(1, width = "8cm") %>% 
   footnote(general = "All as oral presentations")
 ```
-(ref:portt2) **International conferences**
 
+\newpage
+
+**Teaching Activities**
 ```{r portt3, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
 
 t_portfolio %>%
   filter(type == "TA") %>% 
   select(-c(3:4)) %>% 
   # select(-type) %>% 
-  kable(booktabs = TRUE,
-        caption = '(ref:portt3)') %>%
+  kable(booktabs = TRUE) %>%
   kable_styling(
     full_width = F,
     position = 'left',
@@ -80,15 +80,14 @@ t_portfolio %>%
   column_spec(1, width = "8cm")
 
 ```
-(ref:portt3) **Teaching activities**
 
+**Other Activities**
 ```{r portt4, echo= FALSE, warning = FALSE, message = FALSE, results='asis'}
 t_portfolio %>%
   filter(type =="O") %>% 
   select(-c(3:4)) %>% 
   # select(-type) %>% 
-  kable(booktabs = TRUE,
-        caption = '(ref:portt4)') %>%
+  kable(booktabs = TRUE) %>%
   kable_styling(
     full_width = F,
     position = 'left',
@@ -97,11 +96,10 @@ t_portfolio %>%
   row_spec(c(0,c(1,3,6)), bold = TRUE) %>% 
   column_spec(1, width = "8cm")
 ```
-(ref:portt4) **Other activities**
 
 \newpage
 
-**List of publications**
+**List of Publications**
 
 - **Rojas-Saunero LP**, Hilal S, Murray EJ, Logan RW, Ikram MA, Swanson SA. [Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia](https://pubmed.ncbi.nlm.nih.gov/33247419/). _European Journal of Epidemiology._ 2021;36(1):69-79.
 
