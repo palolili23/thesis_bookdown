@@ -297,21 +297,16 @@ table4.2 %>%
 ```
 (ref:cancert2) 20-year risk differences, risk ratio, and hazard ratios for dementia risk by cancer proxy and model adjustment
 
-```{=latex}
 \newpage
-\pagestyle{empty}
 \blandscape
-```
 
 ```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)', fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "cancerf6.jpg"))
 ```
 (ref:cancerf6) **Risk of dementia under elimination of death over 20 years of follow-up by cancer diagnosis status.** Panel A. represents the scenario where cancer was considered as “ever vs. never”. Panel B. represents the scenario where cancer was considered as a time-varying proxy.
 
-```{=latex}
 \elandscape
 \newpage
-```
 
 ## Discussion
 

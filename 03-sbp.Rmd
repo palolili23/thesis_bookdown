@@ -11,7 +11,6 @@
 _This chapter has been published as_: Rojas-Saunero, L.P., Hilal, S., Murray, E.J. et al. Hypothetical blood-pressure-lowering interventions and risk of stroke and dementia. _Eur J Epidemiol_. 2021;36(1):69-79.
 \normalsize
 \newpage
-
 ```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)
 library(kableExtra)
@@ -53,29 +52,54 @@ We begin by briefly describing the target trial specifications and then how we a
 Key protocol elements of a target trial include:
 
 
-**_Eligibility criteria:_** Individuals 55-80 years old, with no prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism, dementia or cognitive impairment.
+*Eligibility criteria*
 
-**_Treatment strategies:_** Eligible individuals are assigned to one of the following sustained strategies, to be followed for the duration of the study: (1) maintaining SBP below 120 mmHg, (2) maintaining SBP below 140 mmHg, (3) reducing SBP by 10% if above 140 mmHg, (4) reducing SBP by 20% if above 140 mmHg. The means for following these strategies are not pre-specified (i.e., SBP may be reduced via lifestyle or medication interventions); we return to this point in the discussion. Given the known health effects of smoking, we further considered the intervention of (5) quitting smoking, and also four joint interventions combining (5) with (1), (2), (3), and (4). We compare all these strategies to the “natural course”, which represents no pre-specified treatment strategy. Of note, strategies (1) and (2) align with recent studied strategies in a randomized trial[@williamson2019], while (3) and (4) perhaps are more achievable in practice.
+Individuals 55-80 years old, with no prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism, dementia or cognitive impairment.
 
-**_Outcome recording:_** The two primary outcomes of interest were first stroke event and dementia diagnosis within 15 years of follow-up, as recorded by continuous linkage to medical records and periodic cognitive assessments. Because death is a competing event, we also considered composite outcomes with death as a secondary analysis. 
+*Treatment strategies*
 
-**_Start and end of follow-up:_** Each eligible individual is followed from when they meet our eligibility criteria described above. They are followed until first stroke event, dementia diagnosis, death, incomplete follow-up, or administrative end of follow-up after 15 years from baseline.
+Eligible individuals are assigned to one of the following sustained strategies, to be followed for the duration of the study: (1) maintaining SBP below 120 mmHg, (2) maintaining SBP below 140 mmHg, (3) reducing SBP by 10% if above 140 mmHg, (4) reducing SBP by 20% if above 140 mmHg. The means for following these strategies are not pre-specified (i.e., SBP may be reduced via lifestyle or medication interventions); we return to this point in the discussion. Given the known health effects of smoking, we further considered the intervention of (5) quitting smoking, and also four joint interventions combining (5) with (1), (2), (3), and (4). We compare all these strategies to the “natural course”, which represents no pre-specified treatment strategy. Of note, strategies (1) and (2) align with recent studied strategies in a randomized trial[@williamson2019], while (3) and (4) perhaps are more achievable in practice.
+
+*Outcome recording*
+
+The two primary outcomes of interest were first stroke event and dementia diagnosis within 15 years of follow-up, as recorded by continuous linkage to medical records and periodic cognitive assessments. Because death is a competing event, we also considered composite outcomes with death as a secondary analysis. 
+
+*Start and end of follow-up* Each eligible individual is followed from when they meet our eligibility criteria described above. They are followed until first stroke event, dementia diagnosis, death, incomplete follow-up, or administrative end of follow-up after 15 years from baseline.
 
 ### Target trial emulation
 
-**_Study design and public involvement:_**  To emulate the described target trial, we used data from The Rotterdam Study (RS), a population-based prospective cohort study among middle age and elderly persons living in the Ommoord district in the city of Rotterdam, the Netherlands. Participants living in the district were invited to participate in the cohort between 1990 and 1993. All participants underwent questionnaire administration, physical and clinical examinations, and blood sample collection at baseline (1990-1993) and at follow-up visits from 1993-1995, 1997-1999, 2002-2005[@ikram2017]. 
+*Study design and public involvement*
 
-**_Eligibility criteria:_** Same as specified above. Prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism and dementia were assessed by using home interviews and by reviewing medical records, and cognitive impairment defined as a Mini Mental State Examination (MMSE) below 26 at first study visit. Thus, of the 7983 persons who participated at baseline, 5193 were considered eligible for this study based on the above-mentioned criteria. We further required complete information on SBP, BMI, smoking status and/or hypertensive medication at intake, giving a final sample size of 4930 participants (figure \@ref(fig:sbpf1)). Participants with missing covariates, which represent a 5% of the eligible sample, were, on average, three years older than those included, had a higher frequency of primary education and had a higher prevalence of heart disease and diabetes at baseline (Supplementary information, Table \@ref(tab:sbpt6)).
+To emulate the described target trial, we used data from The Rotterdam Study (RS), a population-based prospective cohort study among middle age and elderly persons living in the Ommoord district in the city of Rotterdam, the Netherlands. Participants living in the district were invited to participate in the cohort between 1990 and 1993. All participants underwent questionnaire administration, physical and clinical examinations, and blood sample collection at baseline (1990-1993) and at follow-up visits from 1993-1995, 1997-1999, 2002-2005[@ikram2017]. 
 
-**_Treatment strategies:_** Same as specified above. SBP was measured in two readings using a random-zero sphygmomanometer in a sitting position, and the mean of both measurements was calculated during each follow-up visit. Smoking habit for cigarettes was collected using a detailed questionnaire and was categorized as never, current and former.
+*Eligibility criteria*
 
-**_Outcome recordings:_** Incident stroke was collected by continuously monitoring through computerized linkage of the study database and digitized medical records from general practitioners and the Regional Institute for Outpatient Mental Health Care. For participants who moved outside the study district or lived in nursing homes, medical records were regularly checked by contacting their treating physicians. Research physicians reviewed all potential strokes using hospital discharge letters and information from general practitioners and nursing home physicians. An experienced vascular neurologist verified the stroke diagnosis[@wieberdink2012; @akoudad2015]. In accordance with World Health Organization criteria, stroke was defined as a syndrome of rapidly emerging clinical signs of focal or global disturbance of cerebral function. Symptoms should last ≥24 hours or cause death, with no apparent cause other than of vascular origin.
+Same as specified above. Prior history of stroke, transient ischemic attack, Parkinson´s Disease, Parkinsonism and dementia were assessed by using home interviews and by reviewing medical records, and cognitive impairment defined as a Mini Mental State Examination (MMSE) below 26 at first study visit. Thus, of the 7983 persons who participated at baseline, 5193 were considered eligible for this study based on the above-mentioned criteria. We further required complete information on SBP, BMI, smoking status and/or hypertensive medication at intake, giving a final sample size of 4930 participants (figure \@ref(fig:sbpf1)). Participants with missing covariates, which represent a 5% of the eligible sample, were, on average, three years older than those included, had a higher frequency of primary education and had a higher prevalence of heart disease and diabetes at baseline (Supplementary information, Table \@ref(tab:sbpt6)).
+
+*Treatment strategies* 
+
+Same as specified above. SBP was measured in two readings using a random-zero sphygmomanometer in a sitting position, and the mean of both measurements was calculated during each follow-up visit. Smoking habit for cigarettes was collected using a detailed questionnaire and was categorized as never, current and former.
+
+*Outcome recordings*
+
+Incident stroke was collected by continuously monitoring through computerized linkage of the study database and digitized medical records from general practitioners and the Regional Institute for Outpatient Mental Health Care. For participants who moved outside the study district or lived in nursing homes, medical records were regularly checked by contacting their treating physicians. Research physicians reviewed all potential strokes using hospital discharge letters and information from general practitioners and nursing home physicians. An experienced vascular neurologist verified the stroke diagnosis[@wieberdink2012; @akoudad2015]. In accordance with World Health Organization criteria, stroke was defined as a syndrome of rapidly emerging clinical signs of focal or global disturbance of cerebral function. Symptoms should last ≥24 hours or cause death, with no apparent cause other than of vascular origin.
 
 Dementia diagnosis was collected by screening during the cohort visits, using MMSE and the Geriatric Mental Schedule (GMS) organic level. Screen-positives (MMSE<26 or GMS organic level>0) subsequently underwent an examination and informant interview with the Cambridge Examination for Mental Disorders in the Elderly. A consensus panel led by a consultant neurologist established the final diagnosis according to standard criteria for dementia (DSM-III-R). Additionally, participants were continuously followed up for the occurrence of dementia through automated linkage of general practitioners’ medical records with the study database[@debruijn2015; @ott1999] as with stroke.
 
 Vital status was obtained on a weekly basis via municipal population registries and through general practitioners’ and hospitals’ databases. All-cause mortality was defined as participants who died from any cause during the total follow-up period. 
 
-**_Start and end of follow-up:_** We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure \@ref(fig:sbpf1)).
+*Start and end of follow-up*
+
+We defined baseline as the date of recruitment in the Rotterdam Study for individuals for whom the above-described eligibility criteria were met on that date. Study participants were followed up from study baseline until stroke, dementia, death, censoring due to loss to follow-up, or 15 years after baseline, whichever occurred first. We defined loss to follow-up for stroke as follows: Participants who skipped a visit or were lost to follow-up were censored at the last year in which the next visit could have taken place. Of the included participants who did not develop the main outcome or died during follow-up, 283 (9%) were lost after the first visit, 408 (13%) after the second visit, 230 (7%) after the third visit, and 2285 (71%) were censored after the fourth round. For dementia analysis, we followed participants until dementia diagnosis, death, or censored as previously defined. Of the 4930 included participants, 280 (9%) were lost after the first visit, 398 (12%) after the second visit, 194 (6%) after the third visit, and 2324 (73%) were censored after the fourth round (figure \@ref(fig:sbpf1)).
+
+\newpage
+
+```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE, fig.align='center', fig.pos= 'H', out.width = '120%'}
+knitr::include_graphics(here::here("figs", "sbpf1_test.png"))
+```
+(ref:sbpf1) **Flowchart.**
+
+\newpage
 
 ### Statistical Analysis:
 
@@ -109,19 +133,14 @@ The same steps were performed with dementia as an outcome.  Our primary analyses
 
 The results are presented as the average causal effect under each hypothetical intervention at 15 years of follow-up compared to the natural course as a risk ratio and risk difference. For each intervention, we further report the cumulative proportion of participants who would have had to have been intervened on during the follow-up, to adhere to the strategy. We additionally presented the standardized cumulative incidence curves, comparing the risk over time under the natural course and the joint treatment strategy.
 
-**_Competing risk analysis:_** During follow-up, individuals can die before developing stroke and dementia, and interventions may affect the risk of death in our main analysis. For this reason, we estimate the risk of stroke and dementia taking into account that individuals can also progress to death. This means that the effect on our main outcome is through all pathways between the interventions and the outcome, including those possibly mediated by this competing event. We additionally run the primary analysis considering death as a censoring event, however the interpretation in this setting emulates a counterfactual world in which death could be entirely prevented, which would not be realistic and relies on additional stronger no-unmeasured-confounding assumptions[@young2020]. Finally, we performed analysis considering the effect of each intervention in the composite outcome with death (i.e., stroke and death, dementia and death).
+*Competing risk analysis*
+
+During follow-up, individuals can die before developing stroke and dementia, and interventions may affect the risk of death in our main analysis. For this reason, we estimate the risk of stroke and dementia taking into account that individuals can also progress to death. This means that the effect on our main outcome is through all pathways between the interventions and the outcome, including those possibly mediated by this competing event. We additionally run the primary analysis considering death as a censoring event, however the interpretation in this setting emulates a counterfactual world in which death could be entirely prevented, which would not be realistic and relies on additional stronger no-unmeasured-confounding assumptions[@young2020]. Finally, we performed analysis considering the effect of each intervention in the composite outcome with death (i.e., stroke and death, dementia and death).
 
 **_Subgroup analysis:_** We repeated our primary analyses within the following subgroups:  age 55 to 65 years; age between 66 and 80 years; women, men; without hypertensive medication at baseline; and free of heart disease at baseline.
 
 All g-formula analyses were conducted using SAS 9.4 software and the GFORMULA macro that is publicly available at http://www.hsph.harvard.edu/causal/software. The SAS code for the GFORMULA macro call for our primary analysis is available on the following repository
 https://github.com/palolili23/ht_trial_gformula. 
-
-\newpage
-
-```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE, fig.align='center', fig.pos= 'H'}
-knitr::include_graphics(here::here("figs", "sbpf1.jpg"))
-```
-(ref:sbpf1) **Flowchart.**
 
 \newpage
 
@@ -147,11 +166,17 @@ table3.1 %>%
 
 \newpage
 
-**_Stroke risk:_** During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table \@ref(tab:sbpt2). Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure \@ref(fig:sbpf2), panel A.
+*Stroke risk*
 
-**_Dementia risk:_** During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table \@ref(tab:sbpt3). Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure \@ref(fig:sbpf3) panel A.
+During the 15 years of follow-up, there were 490 cases of incident stroke and 1234 deaths. The observed 15 years risk for stroke was 10.3% and under the simulated natural course was 10.3% (95%CI: 9.3, 11.5). The risk of stroke under the different hypothetical treatment strategies are presented in Table \@ref(tab:sbpt2). Overall, all interventions that lowered SBP under a threshold reduced the risk of stroke by approximately 10% compared to the natural course during the study period. Although all interventions on SBP had a similar association with risk of stroke, the most intensive treatment strategy studied (“maintaining SBP below 120 mmHg”) required intervening in 98% of the population at some point in follow-up, which involved 15% more people compared to all other strategies. By contrast, smoking cessation was associated with a reduction in stroke risk by 7% (RR 95%CI: 0.89, 0.97) compared to the natural course, and required an intervention on only 26% of the population. All joint interventions showed a larger reduction in the risk of stroke. For example, lowering SBP by 20% if above 140 mmHg and quitting smoking was associated with a 17% (RR 95% CI: 0.71, 0.94) reduction in the risk of stroke over the study period compared to the natural course as observed in Figure \@ref(fig:sbpf2), panel A.
 
-_Alternative analyses for competing event:_ Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the Supplementary information, Tables \@ref(tab:sbpt9), \@ref(tab:sbpt10), \@ref(tab:sbpt17), \@ref(tab:sbpt18).
+*Dementia risk* 
+
+During the 15 years of follow-up, there were 431 cases of dementia and 1303 deaths. The observed 15-year risk for dementia was 8.9% and under the simulated natural course was 9.2% (95% CI: 8.2, 10.3%). The risk of dementia under the different hypothetical interventions are shown in Table \@ref(tab:sbpt3). Overall, none of the treatment strategies involving SBP were associated with substantial changes in risk of dementia. For example, the treatment strategy “maintaining SBP below 120 mmHg” was associated with a 6% (RR 95% CI: 0.90, 1.24) increase in dementia risk compared to the natural course. This pattern was likewise seen for the treatment strategy of smoking cessation and joint treatment strategies involving lowering SBP and smoking cessation. For example, lowering SBP by 20% if above 140 mmHg and quit smoking was associated with an increment in dementia risk of 5% (RR 95% CI: 0.92, 1.20) as observed in Figure \@ref(fig:sbpf3) panel A.
+
+*Alternative analyses for competing event*
+
+Given that death was modeled as a competing event for both outcomes (stroke and dementia), we present the effect of the intervention “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of death in Figure 2B and Figure 3B respectively. Treating death as a censoring event and as part of a composite outcome did not meaningfully change the results, as presented in the Supplementary information, Tables \@ref(tab:sbpt9), \@ref(tab:sbpt10), \@ref(tab:sbpt17), \@ref(tab:sbpt18).
 
 \blandscape
 
@@ -194,15 +219,14 @@ table3.3 %>%
 (ref:sbpt3) Risk of dementia at 15 years of follow-up under natural course and hypothetical interventions
 
 \elandscape
-\newpage
 
-```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf3)', fig.align='center', fig.pos= 'H'}
-knitr::include_graphics(here::here("figs", "sbpf2.jpg"))
+```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf2)', fig.align='center', fig.pos= 'H'}
+knitr::include_graphics(here::here("figs", "stroke_cr.png"))
 ```
 (ref:sbpf2) **Panel A.** Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
 ```{r sbpf3, echo=FALSE, fig.cap = '(ref:sbpf3)', fig.align='center', fig.pos= 'H'}
-knitr::include_graphics(here::here("figs", "sbpf3.jpg"))
+knitr::include_graphics(here::here("figs", "dementia_cr.png"))
 ```
 (ref:sbpf3) **Panel A.** Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
@@ -210,18 +234,39 @@ knitr::include_graphics(here::here("figs", "sbpf3.jpg"))
 
 **_Subgroup analyses:_** Table \@ref(tab:sbpt4)  provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Tables \@ref(tab:sbpt11) to \@ref(tab:sbpt16), \@ref(tab:sbpt19) to \@ref(tab:sbpt24).
 
+\blandscape
+
 ```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
-# table3.4 %>%
-#   select(1:5) %>% 
-#   kable(booktabs = TRUE,
-#         caption = '(ref:sbpt4)') %>%
-#   kable_styling(
-#     full_width = F,
-#     position = 'center'
-#   ) %>%
-#   footnote(general = legend3.4)
+table3.4 %>%
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt4)',
+        align = 'llcccccccc',
+        col.names = c("Subgroup","Sample size",
+                      "Risk under natural course (95% CI)",
+                      "Risk under joint intervention (95% CI)",
+                      "Risk ratio (95% CI)",
+                      "Risk difference (95% CI)",
+                      "Risk under natural course (95% CI)",
+                      "Risk under joint intervention (95% CI)",
+                      "Risk ratio (95% CI)",
+                      "Risk difference (95% CI)")
+        ) %>%
+  kable_styling(
+    full_width = F,
+    position = 'center',
+    latex_options = "HOLD_position",
+    font_size = 9
+  ) %>%
+  footnote(general = legend3.4, threeparttable = T) %>%
+  row_spec(0, 0, bold = TRUE) %>%
+  column_spec(1, width = "2.8cm") %>%
+  column_spec(2, width = "0.7cm") %>% 
+  column_spec(c(3:10), width = "1.5cm") %>% 
+  add_header_above(c("", "", "Stroke" = 4, "Dementia" = 4), bold = TRUE)
 ```
 (ref:sbpt4) Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking in the risk of stroke and dementia by subgroups
+
+\elandscape
 
 ## Discussion
 

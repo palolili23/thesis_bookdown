@@ -91,7 +91,9 @@ To compare the two treatment strategies, we estimate a modified intention-to-tre
 
 Modified intention-to-treat effect: For each outcome, we fit the pooled logistic regression model: $logitPr(D_{t+1} = 1|D_t = 0, A) = \theta_{0t} + \theta_{1}A + \theta_{2}A * h(t)$ where $D_t$ is an indicator for developing the outcome during time $t$ (1: yes, 0: no), $A$ is an indicator for treatment initiation (1: statins; 0:no statins), $\theta_{0t}$ is a time-varying intercept and $h(t)$ for follow-up time, modeled as restricted cubic splines. The model's predicted values are then used to estimate 10-year dementia-free and 10-year dementia-free survival curves, and 5- and 10-year risks of dementia and the combined endpoint of dementia and death.
 
-*Per protocol effect:* Individuals are artifically censored when they deviate from their assigned treatment strategy. Specifically, individuals assigned to initiation and sustained statin use are censored after one calendar month with no treated days, and individuals assigned to refrain from statins are censored after one calendar month with one or more treated days. Individuals can no longer be artificially censored after a diagnosis of heart disease or cancer.
+*Per protocol effect* 
+
+Individuals are artifically censored when they deviate from their assigned treatment strategy. Specifically, individuals assigned to initiation and sustained statin use are censored after one calendar month with no treated days, and individuals assigned to refrain from statins are censored after one calendar month with one or more treated days. Individuals can no longer be artificially censored after a diagnosis of heart disease or cancer.
 
 For each outcome we fit a weighted pooled logistic regression model: $logitPr(D_{t+1} = 1|D_t = 0, C_t = 0, A, V) = \theta_{0t} + \theta_{1}A + \theta_{2}A * h(t) + \theta_{3}'V$ where $C_t$ is an indicator for artificial censoring at time $t$ (1: yes, 0: no) and $V$ is a vector of covariates measured at baseline. To adjust for time-varying selection bias induced by the artificial censoring, we weight each individual at each time $t$ by the inverse probability of receiving their own time-varying history[@cain2010; @hernan2000]: i.e., the weight $$W_{t} = \prod_{k=0}^{t} \frac{1}{f(A_{k}│\bar{A}_{k-1}, \bar{D}_{k} = 0, \bar{L}_{k-1})}$$ where $f(A_{k}|\bar{A}_{k-1},\bar{D}_{k} = 0, \bar{L}_{k-1})$ is the conditional probability mass function $f(A_{k}|\bar{A}_{k-1},\bar{D}_{k} = 0, \bar{L}_{k-1})(a_{k-1}|\bar{a}_{k-1}, d_k = 0, \bar{l}_{k-1})$ with $(a_{k-1}|\bar{a}_{k-1}, a_k = 0, \bar{l}_{k-1})$ evaluated at the random argument $(A_{k}|\bar{A}_{k-1},\bar{D}_{k} = 0, \bar{L}_{k-1})$. We use overbars. We use overbars to denote an individual's covariate or treatment history. For an individual who is uncensored through time $t$, note that the contribution to the denominator of the weight is equal to the probability that the individual remains uncensored through time $t$ conditional on not developing the outcome by time $t$, covariate history, and treatment history[@cain2010]. An individual's weight at each time is therefore the cumulative product of the conditional probability of remaining uncensored. The weights are estimated by fitting a pooled logistic model including a time-specific intercept, the baseline covariates and the most recent measurement of several time-varying covariates.
 
@@ -254,11 +256,8 @@ table2.3 %>%
 
 Inverse-probability weighting to adjust for censoring due to infrequent follow-up or censoring due to death did not materially change estimates. The 10-year per-protocol risk difference estimates for dementia or death were attenuated when excluding individuals age 70 years or older (-1.5%, 95% CI: -7.4%, 3.5%) and when excluding individuals with high cholesterol at baseline (-1.3%, 95% CI: -7.2%, 6.3%), but were larger when excluding individuals with a history of heart disease or stroke at baseline (-7.1%, 95% CI: -12.9%, -0.1%). The 10-year per-protocol risk difference estimates for dementia where also attenuated when excluding individuals age 70 years or older and larger when excluding individuals with a history of heart disease or stroke at baseline (data not shown). None of the other subgroup and sensitivity analyses yielded appreciably different results (Supplementary information, Table \@ref(tab:statinst6) and \@ref(tab:statinst7)).
 
-```{=latex}
 \newpage
-\pagestyle{empty}
 \blandscape
-```
 
 ```{r statinsf2, echo=FALSE, fig.cap = '(ref:statinsf2)', fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf2.png"))
@@ -266,14 +265,7 @@ knitr::include_graphics(here::here("figs", "statinsf2.png"))
 
 (ref:statinsf2) **Modified intention-to-treat 10-year dementia-free (left) and dementia-free survival (right) curves**. The curves are standardized to the following covariates, measured at the baseline of each 'trial': sex, educational attainment, APOE- ε4 carrier status, calendar year, age, BMI, most recent MMSE, months since most recent MMSE, most recent cholesterol measurement, months since the most recent cholesterol measurement, most recent systolic blood pressure measurement, current smoking status, history of stroke, history of heart disease (defined as any history of atrial fibrillation, heart failure, myocardial infarction or revascularization), history of diabetes, history of cancer, use of the following other prescription medications: antihypertensives, diuretics, beta-blockers, calcium antagonists, RAAS inhibitors, other lipid lowering drugs, NSAIDs, psychotropics (antidepressants, antipsychotics, benzodiazepines), and aspirin.
 
-```{=latex}
-\elandscape
-```
-
-```{=latex}
 \newpage
-\blandscape
-```
 
 ```{r statinsf3, echo=FALSE, fig.cap = '(ref:statinsf3)', fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf3.png"))
@@ -281,11 +273,8 @@ knitr::include_graphics(here::here("figs", "statinsf3.png"))
 
 (ref:statinsf3) **Per-protocol 10-year dementia-free (left) and dementia-free survival (right) curves.** The curves are standardized to the following covariates, measured at the baseline of each 'trial': sex, educational attainment, APOE- ε4 carrier status, calendar year, age, BMI, most recent MMSE, months since most recent MMSE, most recent cholesterol measurement, months since the most recent cholesterol measurement, most recent systolic blood pressure measurement, current smoking status, history of stroke, history of heart disease (defined as any history of atrial fibrillation, heart failure, myocardial infarction or revascularization), history of diabetes, history of cancer, use of the following other prescription medications: antihypertensives, diuretics, beta-blockers, calcium antagonists, RAAS inhibitors, other lipid lowering drugs, NSAIDs, psychotropics (antidepressants, antipsychotics, benzodiazepines), and aspirin.
 
-```{=latex}
 \elandscape
 \newpage
-```
-\pagestyle{plain}
 
 ## Discussion
 
@@ -313,6 +302,8 @@ This study was partly funded by ZonMW Memorabel (projectnr 73305095005) and Alzh
 
 ## Supplementary information
 
+### Participants per person-trial
+
 ```{r statinst5, echo= FALSE, warning = FALSE, results='asis'}
 table2e1 %>%
   kable(booktabs = TRUE,
@@ -330,7 +321,6 @@ table2e1 %>%
 (ref:statinst5) Number of participants and initiators in each non-randomized ‘trial,’ Rotterdam Study – I and II
 
 \blandscape
-\newpage
 
 ### Per-protocol effect: Sensitivity and Subgroup analysis {-}
 
@@ -349,7 +339,7 @@ table2e2 %>%
     font_size = 9,
     latex_options = "HOLD_position") %>% 
   footnote(general = "* non-statin cholesterol-lowering medications, diuretics, beta-blockers, calcium-blockers, ace-inhibitors, NSAIDs, or aspirin", threeparttable = T) %>%
-  column_spec(1, width = "5cm") %>%
+  column_spec(1, width = "5.3cm") %>%
   column_spec(c(2,3), width = "1.2cm") %>%
   column_spec(c(4,5,6), width = "2.5cm") %>% 
       row_spec(0, 0, bold = TRUE)
