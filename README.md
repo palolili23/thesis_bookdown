@@ -44,7 +44,6 @@
 
 - Apoe4
 
-- fijarse dimensiones
 
 
 Me estan salvando la vida:

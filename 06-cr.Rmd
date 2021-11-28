@@ -133,7 +133,8 @@ table6.2 %>%
     position = 'center',
     latex_options = "HOLD_position"
   ) %>%
-  column_spec(1, width = "5cm") %>% 
+  column_spec(1, width = "4cm") %>% 
+  column_spec(c(2,3), width = "3cm") %>% 
   row_spec(0,0, bold = TRUE) %>%
   footnote(general = legend6.2, threeparttable = TRUE)
 ```
@@ -168,7 +169,7 @@ Too often, we start by defining the statistical method that appears to fit the c
 
 ## Supplementary information {-}
 
-### The Rotterdam Study, outcome assessments {-}
+#### The Rotterdam Study, outcome assessments {-}
 
 _Dementia diagnosis_: Diagnosis was collected by screening during the five study visits, using MMSE and the Geriatric Mental Schedule (GMS) organic level. Screen-positives (MMSE<26 or GMS organic level>0) subsequently underwent an examination and informant interview with the Cambridge Examination for Mental Disorders in the Elderly. A consensus panel led by a consultant neurologist established the final diagnosis according to standard criteria for dementia (DSM-III-R). Additionally, participants were continuously followed for the occurrence of dementia through automated linkage of the study database and digitized medical records from general practitioners and the Regional Institute for Outpatient Mental Health Care. For participants who moved outside the study district or lived in nursing homes, medical records were regularly checked by contacting their treating physicians. Research physicians reviewed all potential dementia cases using hospital discharge letters and information from general practitioners and nursing home physicians3. Linkage-based diagnoses were based on data up through December 2015.
 
@@ -177,7 +178,7 @@ _Vital status:_ Vital status was obtained on a weekly basis via municipal popula
 
 \newpage
 
-### Modeling specifications for inverse probability weighting {-}
+#### Modeling specifications for inverse probability weighting {-}
 
 **Inverse probability of treatment weights**: 
 <br>

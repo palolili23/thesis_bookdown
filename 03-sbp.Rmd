@@ -94,7 +94,7 @@ We defined baseline as the date of recruitment in the Rotterdam Study for indivi
 
 \newpage
 
-```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE, fig.align='center', fig.pos= 'H', out.width = '120%'}
+```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE, fig.align='center', fig.pos= 'H', out.width = '100%'}
 knitr::include_graphics(here::here("figs", "sbpf1_test.png"))
 ```
 (ref:sbpf1) **Flowchart.**
@@ -193,8 +193,8 @@ table3.2 %>%
   footnote(general = legend3.2, threeparttable = T) %>%
   row_spec(0, 0, bold = TRUE) %>%
   column_spec(1, width = "1cm") %>%
-  column_spec(2, width = "5cm") %>% 
-  column_spec(c(3,4,5,6), width = "2cm")
+  column_spec(2, width = "4.2cm") %>% 
+  column_spec(c(3,4,5,6), width = "2.2cm")
 ```
 (ref:sbpt2) Risk of stroke at 15 years of follow-up under natural course and hypothetical interventions
 
@@ -210,42 +210,44 @@ table3.3 %>%
     position = 'center',
     latex_options = "HOLD_position",
     font_size = 8) %>%
-  footnote(general = legend3.2, threeparttable = T) %>%
+  footnote(general = legend3.3., threeparttable = T) %>%
   row_spec(0, 0, bold = TRUE) %>%
   column_spec(1, width = "1cm") %>%
-  column_spec(2, width = "5cm") %>% 
-  column_spec(c(3,4,5,6), width = "2cm")
+  column_spec(2, width = "4.2cm") %>% 
+  column_spec(c(3,4,5,6), width = "2.2cm")
 ```
 (ref:sbpt3) Risk of dementia at 15 years of follow-up under natural course and hypothetical interventions
 
-\elandscape
+\newpage
 
 ```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf2)', fig.align='center', fig.pos= 'H'}
 knitr::include_graphics(here::here("figs", "stroke_cr.png"))
 ```
 (ref:sbpf2) **Panel A.** Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
+\newpage
+
 ```{r sbpf3, echo=FALSE, fig.cap = '(ref:sbpf3)', fig.align='center', fig.pos= 'H'}
 knitr::include_graphics(here::here("figs", "dementia_cr.png"))
 ```
 (ref:sbpf3) **Panel A.** Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
+\elandscape
 \newpage
 
-**_Subgroup analyses:_** Table \@ref(tab:sbpt4)  provides estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Tables \@ref(tab:sbpt11) to \@ref(tab:sbpt16), \@ref(tab:sbpt19) to \@ref(tab:sbpt24).
+*Subgroup analyses* 
+
+Tables \@ref(tab:sbpt4a) and  \@ref(tab:sbpt4b) provide estimates for the treatment strategy “lowering 20% of SBP if above 140 mmHg and quit smoking” on the risk of stroke and dementia by subgroups (age, sex, without hypertension medication at baseline, free of heart disease at baseline) compared to the natural course. Estimates were relatively consistent for stroke risk across subgroups, with the exception of individuals with age below 65 years among whom there appeared to be a much stronger association (RR: 0.75, 95% CI: 0.56,  0.98).For dementia risk, subgroup analyses present similar findings. Additional treatment strategies are presented in the Supplementary information, Tables \@ref(tab:sbpt11) to \@ref(tab:sbpt16), \@ref(tab:sbpt19) to \@ref(tab:sbpt24).
 
 \blandscape
 
-```{r sbpt4, echo= FALSE, warning = FALSE, results='asis'}
+```{r sbpt4a, echo= FALSE, warning = FALSE, results='asis'}
 table3.4 %>%
+  select(1:6) %>% 
   kable(booktabs = TRUE,
-        caption = '(ref:sbpt4)',
-        align = 'llcccccccc',
+        caption = '(ref:sbpt4a)',
+        align = 'llcccc',
         col.names = c("Subgroup","Sample size",
-                      "Risk under natural course (95% CI)",
-                      "Risk under joint intervention (95% CI)",
-                      "Risk ratio (95% CI)",
-                      "Risk difference (95% CI)",
                       "Risk under natural course (95% CI)",
                       "Risk under joint intervention (95% CI)",
                       "Risk ratio (95% CI)",
@@ -259,12 +261,37 @@ table3.4 %>%
   ) %>%
   footnote(general = legend3.4, threeparttable = T) %>%
   row_spec(0, 0, bold = TRUE) %>%
-  column_spec(1, width = "2.8cm") %>%
-  column_spec(2, width = "0.7cm") %>% 
-  column_spec(c(3:10), width = "1.5cm") %>% 
-  add_header_above(c("", "", "Stroke" = 4, "Dementia" = 4), bold = TRUE)
+  column_spec(1, width = "3cm") %>%
+  column_spec(2, width = "1cm") %>% 
+  column_spec(c(3:6), width = "2.3cm")
 ```
-(ref:sbpt4) Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking in the risk of stroke and dementia by subgroups
+(ref:sbpt4a) Subgroup analysis - Risk of stroke: Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking compared to the natural course.
+
+```{r sbpt4b, echo= FALSE, warning = FALSE, results='asis'}
+table3.4 %>%
+  select(c(1,2,7:10)) %>% 
+  kable(booktabs = TRUE,
+        caption = '(ref:sbpt4b)',
+        align = 'llcccc',
+        col.names = c("Subgroup","Sample size",
+                      "Risk under natural course (95% CI)",
+                      "Risk under joint intervention (95% CI)",
+                      "Risk ratio (95% CI)",
+                      "Risk difference (95% CI)")
+        ) %>%
+  kable_styling(
+    full_width = F,
+    position = 'center',
+    latex_options = "HOLD_position",
+    font_size = 9
+  ) %>%
+  footnote(general = legend3.4, threeparttable = T) %>%
+  row_spec(0, 0, bold = TRUE) %>%
+  column_spec(1, width = "3cm") %>%
+  column_spec(2, width = "1cm") %>% 
+  column_spec(c(3:6), width = "2.3cm")
+```
+(ref:sbpt4b) Subgroup analysis - Risk of dementia: Effect of joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking compared to the natural course.
 
 \elandscape
 
@@ -282,11 +309,11 @@ Finally, another key point to reflect upon in interpreting our specified treatme
 
 Given previous considerations, studying population-level interventions as done here is particularly suitable for public health research, in that we can better understand how particular recommendations may affect stroke or dementia risk at the population-level rather than as estimated in high-risk subpopulations. Importantly, while the possible effect of blood pressure control on dementia risk remains debated, our findings nonetheless align with the recent WHO Report’s recommendation that lowering blood pressure has substantial benefits (in terms of stroke risk and mortality, here) that may motivate blood pressure control regardless of its possible effects on dementia risk[@who_dementia2019].
 
-\newpage
+\clearpage
 
 ## Supplementary information
 
-### Target trial description {-}
+#### Target trial description {-}
 
 ```{r sbpt5, echo= FALSE, warning = FALSE, results='asis'}
 table3e1 %>%
@@ -307,7 +334,7 @@ table3e1 %>%
 
 \newpage
 
-### Measurements {-}
+#### Measurements {-}
 
 The information on covariates were also collected during each visit through several questionnaires, physical examination and blood samples. From each visit, we selected the following covariates: age, sex, education attained, BMI, Apolipoprotein E (APOE)- ε4 carrier status, alcohol intake (grams per day), cholesterol (mmol/dl) and hypertensive medication. Education attained was divided in three categories: 1) primary; 2) further: lower or intermediate general or vocational education, or higher general education; 3) higher: vocational education or university[@ott1999]. BMI was computed by dividing the weight in kg by the square of the height in meters. APOE genotype was determined using polymerase chain reaction on coded DNA samples28.
 
@@ -319,9 +346,9 @@ Additionally, the occurrence of incident heart diseases and cardiac intervention
 
 \newpage
 
-### Characteristics of included and excluded (missing covariates) participants {-}
+#### Characteristics of included and excluded (missing covariates) participants {-}
 
-```{r sbpt6, echo= FALSE, warning = FALSE, results='asis'}
+```{r sbpt6, echo= FALSE, warning = FALSE}
 table3e2 %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt6)',
@@ -329,16 +356,17 @@ table3e2 %>%
   kable_styling(
     full_width = F,
     position = 'center',
-    latex_options = "HOLD_position",
-    font_size = 9) %>%
+    latex_options = "HOLD_position") %>%
   row_spec(0, 0, bold = TRUE) %>%
   column_spec(c(2,3), width = "3cm")
 ```
 (ref:sbpt6) Comparison of baseline characteristics for included and excluded participants.
 
-### Modeling of covariates included in the g-formula {-}
+\newpage
 
-```{r sbpt7, echo= FALSE, warning = FALSE, results='asis'}
+#### Modeling of covariates included in the g-formula {-}
+
+```{r sbpt7, echo= FALSE, warning = FALSE}
 table3e3a %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt7)',
@@ -346,13 +374,14 @@ table3e3a %>%
   kable_styling(
     full_width = F,
     position = 'center',
-    latex_options = "HOLD_position",
-    font_size = 9) %>%
+    latex_options = "HOLD_position") %>%
   row_spec(0, 0, bold = TRUE) %>%
   column_spec(2, width = "2cm") %>%
   column_spec(c(1,3,4), width = "3cm")
 ```
 (ref:sbpt7) Baseline covariates
+
+\newpage
 
 ```{r sbpt8, echo= FALSE, warning = FALSE, results='asis'}
 table3e3b %>%
@@ -371,7 +400,7 @@ table3e3b %>%
 
 \newpage
 
-### Difference between mean predicted values and mean observed values {-}
+#### Difference between mean predicted values and mean observed values {-}
 
 #### Outcome: Stroke {-}
 
@@ -392,7 +421,7 @@ knitr::include_graphics(here::here("figs", "sbpf5.png"))
 \blandscape
 \newpage
 
-### Additional analysis when outcome is stroke {-}
+#### Additional analysis when outcome is stroke {-}
 
 ```{r sbpt9, echo= FALSE, warning = FALSE, results='asis'}
 stroke2 %>%
@@ -405,9 +434,10 @@ stroke2 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 12.0%.")
 ```
@@ -426,9 +456,10 @@ stroke3 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 36.4%.")
 ```
@@ -447,9 +478,10 @@ stroke4 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 6.1%.")
 ```
@@ -468,9 +500,10 @@ stroke5 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 14.0%.")
 ```
@@ -489,9 +522,10 @@ stroke_women %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 9.2 %")
 ```
@@ -510,9 +544,10 @@ stroke_men %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 11.6 %.")
 ```
@@ -531,9 +566,10 @@ stroke_freemed %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.8 %.")
 ```
@@ -552,9 +588,10 @@ stroke_nohd %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 9.9%.")
 ```
@@ -562,7 +599,7 @@ stroke_nohd %>%
 
 \newpage
 
-### Additional analysis when outcome is dementia {-}
+#### Additional analysis when outcome is dementia {-}
 
 ```{r sbpt17, echo= FALSE, warning = FALSE, results='asis'}
 dementia2 %>%
@@ -575,9 +612,10 @@ dementia2 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 10.8%.")
 ```
@@ -596,9 +634,10 @@ dementia3 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 36.7%.")
 ```
@@ -617,9 +656,10 @@ dementia4 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 3.2%.")
 ```
@@ -638,9 +678,10 @@ dementia5 %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 14.1%.")
 ```
@@ -659,9 +700,10 @@ dementia_women %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 10.7%.")
 ```
@@ -680,9 +722,10 @@ dementia_men %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 6.7%.")
 ```
@@ -701,9 +744,10 @@ dementia_freemed %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.6%.")
 ```
@@ -722,9 +766,10 @@ dementia_freemed %>%
     font_size = 9,
     latex_options = "HOLD_position"
   ) %>% 
-  column_spec(2, width = "6.5cm") %>%
-  column_spec(c(3:5), width = "2.5cm") %>%   
-  column_spec(6, width = "1.5cm") %>%
+  column_spec(2, width = "3.4cm") %>%
+  column_spec(c(3,4), width = "2.5cm") %>%   
+  column_spec(c(5), width = "2.2cm") %>%   
+  column_spec(6, width = "1.3cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.6%.")
 ```

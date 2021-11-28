@@ -166,10 +166,10 @@ table2.1 %>%
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    font_size = 9) %>% 
+    font_size = 8) %>% 
   column_spec(1, width = "1.5cm") %>% 
-  column_spec(2, width = "5cm") %>%
-  column_spec(3, width = "5cm") %>%
+  column_spec(2, width = "4.5cm") %>%
+  column_spec(3, width = "5.5cm") %>%
   row_spec(0, 0, bold = TRUE) %>%
   footnote(general = "*Serious illness defined as cancer or heart disease. Following a serious illness, participants may or may not take statin therapy, as guided by their physicians.", threeparttable = T) 
 ```
@@ -199,7 +199,7 @@ table2.2 %>%
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    font_size = 9) %>%
+    font_size = 8) %>%
     column_spec(1, width = "6cm") %>% 
     column_spec(c(2,3), width = "2.5cm") %>% 
   footnote(general = legend2.2, threeparttable=T) 
@@ -302,7 +302,7 @@ This study was partly funded by ZonMW Memorabel (projectnr 73305095005) and Alzh
 
 ## Supplementary information
 
-### Participants per person-trial
+#### Participants per person-trial {-}
 
 ```{r statinst5, echo= FALSE, warning = FALSE, results='asis'}
 table2e1 %>%
@@ -322,7 +322,7 @@ table2e1 %>%
 
 \blandscape
 
-### Per-protocol effect: Sensitivity and Subgroup analysis {-}
+#### Per-protocol effect: Sensitivity and Subgroup analysis {-}
 
 ```{r statinst6, echo= FALSE, warning = FALSE, results='asis'}
 table2e2 %>%
@@ -336,12 +336,12 @@ table2e2 %>%
   kable_styling(
     full_width = F,
     position = 'center',
-    font_size = 9,
+    font_size = 8,
     latex_options = "HOLD_position") %>% 
   footnote(general = "* non-statin cholesterol-lowering medications, diuretics, beta-blockers, calcium-blockers, ace-inhibitors, NSAIDs, or aspirin", threeparttable = T) %>%
-  column_spec(1, width = "5.3cm") %>%
+  column_spec(1, width = "5cm") %>%
   column_spec(c(2,3), width = "1.2cm") %>%
-  column_spec(c(4,5,6), width = "2.5cm") %>% 
+  column_spec(c(4,5,6), width = "2.2cm") %>% 
       row_spec(0, 0, bold = TRUE)
 ```
 (ref:statinst6) Five-year risk and risk difference of dementia or death under both treatment arms
@@ -360,12 +360,12 @@ table2e2 %>%
   kable_styling(
     full_width = F,
     position = 'center',
-    font_size = 9,
+    font_size = 8,
     latex_options = "HOLD_position")%>% 
   footnote(general = "*non-statin cholesterol-lowering medications, diuretics, beta-blockers, calcium-blockers, ace-inhibitors, NSAIDs, or aspirin", threeparttable = T) %>%
   column_spec(1, width = "5cm") %>%
   column_spec(c(2,3), width = "1.2cm") %>%
-  column_spec(c(4,5,6), width = "2.5cm") %>% 
+  column_spec(c(4,5,6), width = "2.2cm") %>% 
       row_spec(0, 0, bold = TRUE)
 ```
 (ref:statinst7) Ten-year risk and risk difference of dementia or death under both treatment arms
@@ -373,7 +373,7 @@ table2e2 %>%
 \elandscape
 \newpage
 
-### Distribution of inverse probability weights for estimation of the per-protocol effect of statin use on dementia {-}
+#### Distribution of inverse probability weights for estimation of the per-protocol effect of statin use on dementia {-}
 
                                     100% Max       8.82404E+09
                                     99%            7.84237E+00

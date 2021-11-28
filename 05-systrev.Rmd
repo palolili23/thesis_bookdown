@@ -35,11 +35,11 @@ In longitudinal studies of treatment/exposure effects on dementia, some particip
 
 Eligibility for the systematic review included: original research with a study design that corresponds to an observational study or randomized trial with longitudinal follow-up and with dementia or Alzheimer’s disease as outcome; published between January 2018 to December 2019; published in one of nine medicine or neurology journals; and having an implicit or explicit study aim of estimating a causal effect. Search criteria on PubMed included: Alzheimer’s disease or dementia; longitudinal or cohort; hazard or risks. All details are presented as Supplementary Information. We collected the following information: study characteristics (exposure of interest, target causal parameter, median length of follow-up); report on total deaths over time and across levels of the exposure of interest and total losses to follow-up; specific methodologic considerations (how death is handled in the analysis plan, primary statistical measure, primary statistical method); and interpretation (valid interpretation of the primary result in light of deaths, mentions mortality in discussion).
 
+\newpage
+
 ## Results
 
 Fifty-seven studies ultimately met our eligibility criteria (Figure \@ref(fig:systrevf1)). Mean or median follow-up was over 5 years for 84% of the studies (Table  \@ref(tab:systrevt1)). The number or proportion of individuals who died over time was reported in 56% of papers; 18% presented these numbers by exposure level. Only 11% had a clear and complete description of how death was treated in the main analysis, while 47% did not include any description on how death was handled in the methods section. The vast majority (93%) presented estimates of a hazard ratio, mostly under a Cox proportional hazards model though none reported the correct interpretation given the presence of a competing event nor discussed the assumptions related to death as a competing event[@young2020; @geskus2016; @andersen2012]. Furthermore, 86% interpreted hazard ratios as inferring something about a risk (e.g. “the exposure increased the risk of dementia, HR:X, 95%CI”) and only one study gave an explicit interpretation that matched the target causal parameter of interest. Overall, only one-third mentioned death in some context in the discussion section.
-
-\par\vspace{1cm}\
 
 ```{r systrevf1, echo=FALSE, fig.cap = '(ref:systrevf1)', auto_pdf = TRUE, fig.align = 'center'}
 knitr::include_graphics(here::here("figs", "systrevf1.png"))
@@ -57,7 +57,7 @@ table5.1 %>%
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    font_size = 9
+    font_size = 8.5
       ) %>%
   column_spec(1, width = "9cm") %>% 
     row_spec(0,0, bold = TRUE) %>%
@@ -73,13 +73,13 @@ This study shows that death is often not considered as part of the main analysis
 
 ## Supplementary Information {-}
 
-###	Searching criteria: {-}
+####	Searching criteria: {-}
 
 (("Neurology"[Journal] OR "JAMA"[Journal] OR "JAMA neurology"[Journal] OR "lancet london england"[Journal] OR "the lancet neurology"[Journal] OR "Annals of neurology"[Journal] OR "alzheimer s dementia the journal of the alzheimer s association"[Journal] OR "The New England journal of medicine"[Journal] OR "bmj clinical research ed"[Journal]) AND (("alzheimer disease"[MeSH Major Topic] OR "dementia"[All Fields]) AND ("longitudinal"[All Fields] OR "longitudinally"[All Fields] OR "cohort studies"[MeSH Terms] OR "cohort"[All Fields]) AND ("hazard"[All Fields] OR "hazard s"[All Fields] OR "hazardous"[All Fields] OR "hazardously"[All Fields] OR "hazardousness"[All Fields] OR "hazards"[All Fields] OR ("risk"[MeSH Terms] OR "risk"[All Fields]))) AND (2018:2019[pdat])
 
 Date of extraction: 29 May, 2020
 
-###	Eligibility criteria {-}
+####	Eligibility criteria {-}
 
 -	Original research
 

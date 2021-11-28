@@ -288,9 +288,10 @@ table4.2 %>%
   kable_styling(
     full_width = F,
     position = 'center',
-    latex_options = "HOLD_position"
+    latex_options = "HOLD_position",
+    font_size = 9
   ) %>%
-  column_spec(2, width = "6cm") %>% 
+  column_spec(2, width = "4cm") %>% 
   column_spec(c(3:5), width = "1.6cm") %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = legend4.2, threeparttable = TRUE)
@@ -325,7 +326,7 @@ We underscore that our study is just one case study for how observed association
 
 ## Supplementary Information {-}
 
-### Modeling description {-}
+#### Modeling description {-}
 
 #### Scenario A: Cancer diagnosis as “ever vs. never” proxy for Pin1
 
@@ -416,7 +417,7 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = can
 
 \newpage
 
-### Additional figures {-}
+#### Additional figures {-}
 
 \par\vspace{2cm}\
 
