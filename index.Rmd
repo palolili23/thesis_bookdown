@@ -8,12 +8,3 @@ biblio-style: apa
 biblatexoptions: [refsegment=chapter]
 link-citations: yes
 ---
-
-
-```{r child="frontpage.Rmd"}
-```
-
-```{=latex}
-%triggers table of contents creation
-\tableofcontents
-```                 
