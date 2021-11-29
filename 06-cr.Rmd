@@ -108,7 +108,10 @@ We estimated a total effect of smoking cessation (compared to continued smoking)
 
 ```{r crt1, echo= FALSE, warning = FALSE, results='asis'}
 table6.1 %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = F,
+    booktabs = TRUE,
         caption = '(ref:crt1)',
         align = 'lcc') %>%
   kable_styling(
@@ -119,6 +122,7 @@ table6.1 %>%
   column_spec(1, width = "6cm") %>% 
   column_spec(c(2,3), width = "2cm") %>%
   row_spec(0,0, bold = TRUE) %>%
+  add_indent(c(5:9, 11:14)) %>% 
   footnote(general = legend6.1, threeparttable = TRUE)
 ```
 (ref:crt1) Descriptive characteristics of former and current smokers in the Rotterdam Study (n = 4179)

@@ -137,7 +137,9 @@ The results are presented as the average causal effect under each hypothetical i
 
 During follow-up, individuals can die before developing stroke and dementia, and interventions may affect the risk of death in our main analysis. For this reason, we estimate the risk of stroke and dementia taking into account that individuals can also progress to death. This means that the effect on our main outcome is through all pathways between the interventions and the outcome, including those possibly mediated by this competing event. We additionally run the primary analysis considering death as a censoring event, however the interpretation in this setting emulates a counterfactual world in which death could be entirely prevented, which would not be realistic and relies on additional stronger no-unmeasured-confounding assumptions[@young2020]. Finally, we performed analysis considering the effect of each intervention in the composite outcome with death (i.e., stroke and death, dementia and death).
 
-**_Subgroup analysis:_** We repeated our primary analyses within the following subgroups:  age 55 to 65 years; age between 66 and 80 years; women, men; without hypertensive medication at baseline; and free of heart disease at baseline.
+*Subgroup analysis:*
+
+We repeated our primary analyses within the following subgroups:  age 55 to 65 years; age between 66 and 80 years; women, men; without hypertensive medication at baseline; and free of heart disease at baseline.
 
 All g-formula analyses were conducted using SAS 9.4 software and the GFORMULA macro that is publicly available at http://www.hsph.harvard.edu/causal/software. The SAS code for the GFORMULA macro call for our primary analysis is available on the following repository
 https://github.com/palolili23/ht_trial_gformula. 
@@ -150,7 +152,10 @@ Table \@ref(tab:sbpt1) shows the baseline characteristics of the study participa
 
 ```{r sbpt1, echo= FALSE, warning = FALSE, results='asis'}
 table3.1 %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = F,
+    booktabs = TRUE,
         caption = '(ref:sbpt1)',
         align = 'lc') %>%
   kable_styling(
@@ -159,6 +164,7 @@ table3.1 %>%
     latex_options = "HOLD_position",
     font_size = 9
   ) %>%
+  add_indent(c(4:6, 8:10, 14:16)) %>% 
   row_spec(0, 0, bold = TRUE) %>%
   footnote(general = legend3.1, threeparttable = TRUE)
 ```
@@ -309,11 +315,9 @@ Finally, another key point to reflect upon in interpreting our specified treatme
 
 Given previous considerations, studying population-level interventions as done here is particularly suitable for public health research, in that we can better understand how particular recommendations may affect stroke or dementia risk at the population-level rather than as estimated in high-risk subpopulations. Importantly, while the possible effect of blood pressure control on dementia risk remains debated, our findings nonetheless align with the recent WHO Report’s recommendation that lowering blood pressure has substantial benefits (in terms of stroke risk and mortality, here) that may motivate blood pressure control regardless of its possible effects on dementia risk[@who_dementia2019].
 
-\clearpage
+\newpage
 
 ## Supplementary information
-
-#### Target trial description {-}
 
 ```{r sbpt5, echo= FALSE, warning = FALSE, results='asis'}
 table3e1 %>%
@@ -330,7 +334,7 @@ table3e1 %>%
   column_spec(2, width = "7cm") %>%
   column_spec(3, width = "3cm")
 ```
-(ref:sbpt5) Emulation of a target trial of multiple and joint strategies to lower the risk of stroke among adults from 55 to 80 years old.
+(ref:sbpt5) Target trial specifications considering stroke as outcome.
 
 \newpage
 
@@ -350,15 +354,20 @@ Additionally, the occurrence of incident heart diseases and cardiac intervention
 
 ```{r sbpt6, echo= FALSE, warning = FALSE}
 table3e2 %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = F,
+    booktabs = TRUE,
         caption = '(ref:sbpt6)',
-        align = "lcc") %>%
+    col.names = linebreak(c("Characteristics", "Included\n(n = 4930)", "Excluded\n(n = 263)"), align = "l")) %>%
   kable_styling(
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position") %>%
   row_spec(0, 0, bold = TRUE) %>%
-  column_spec(c(2,3), width = "3cm")
+   add_indent(c(5:7)) %>% 
+  column_spec(c(2,3), width = "3cm") %>% 
+  footnote(general = "SD: Standard deviation")
 ```
 (ref:sbpt6) Comparison of baseline characteristics for included and excluded participants.
 
@@ -368,7 +377,10 @@ table3e2 %>%
 
 ```{r sbpt7, echo= FALSE, warning = FALSE}
 table3e3a %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = F,
+    booktabs = TRUE,
         caption = '(ref:sbpt7)',
         align = "lccl") %>%
   kable_styling(
@@ -385,7 +397,10 @@ table3e3a %>%
 
 ```{r sbpt8, echo= FALSE, warning = FALSE, results='asis'}
 table3e3b %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = F,
+    booktabs = TRUE,
         caption = '(ref:sbpt8)',
         align = "llll") %>%
   kable_styling(

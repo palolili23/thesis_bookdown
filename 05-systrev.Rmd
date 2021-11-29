@@ -61,6 +61,8 @@ table5.1 %>%
       ) %>%
   column_spec(1, width = "9cm") %>% 
     row_spec(0,0, bold = TRUE) %>%
+    add_indent(c(2:4, 6,7, 9:14,
+                 19:23, 25:30, 32:35, 37:41)) %>% 
   footnote(general = legend5.1, threeparttable = TRUE)
 ```
 (ref:systrevt1) Current reporting practices relevant to competing events in dementia research among 57 studies included in the systematic review

@@ -33,8 +33,7 @@ options(knitr.kable.NA = "")
 
 \newpage
 
-## Towards a clearer causal question underlying the association between cancer and dementia
-
+## Introduction
 
 Many observational studies have consistently found that individuals with cancer have a lower risk of developing dementia when compared to individuals with no history of cancer[@ma2014;@hanson2016;@vanderwillik2018;@ospina2020]. These findings have motivated substantial research toward mechanistic explanations, including molecular and genetic pathways that may explain this association[@behrens2009;@harris2014;@nudelman2019;@Papin2020;@driver2014;@olson2019;@li2021;@driverpin2015]. These research questions have led to discussions of repurposing or augmenting current cancer treatments, including chemotherapy, for dementia[@snyder2017].
 
@@ -240,6 +239,7 @@ We use data collected in the Rotterdam Study, a population-based prospective coh
 
 Eligibility criteria included: ages 60 to 70 years at study entry; no history of cancer diagnosis, no history of dementia diagnosis; and free of cognitive decline (defined by a Mini Mental Score <26). Out of 10998 persons who participated at study entry, 3634 were considered eligible. Time to cancer diagnosis, time to dementia diagnosis and death status was measured for all participants. All participants were followed from study entry until dementia diagnosis, death or 20 years after their individual baseline date, whichever occurred first. Given that participants from the second sub-cohort were followed for 15 years, we assume that they would have had a similar distribution of dementia risk and mortality as the first subcohort, between year 15 and 20 of follow-up.
 
+\newpage
 
 ### Statistical Methods
 
@@ -265,7 +265,10 @@ Results for all scenarios are presented in Table \@ref(tab:cancert2). Using Scen
 
 ```{r cancert1, echo= FALSE, warning = FALSE, results='asis'}
 table4.1 %>%
-  kable(booktabs = TRUE,
+  kable(
+    format = 'latex',
+    escape = FALSE,
+    booktabs = TRUE,
         caption = '(ref:cancert1)',
         align = "lc") %>%
   kable_styling(
@@ -276,6 +279,7 @@ table4.1 %>%
   column_spec(1, width = "5cm") %>% 
   column_spec(1, width = "5cm") %>% 
     row_spec(0,0, bold = TRUE) %>%
+    add_indent(c(4:7, 9:11, 13:15)) %>% 
   footnote(general = legend4.1, threeparttable = TRUE)
 ```
 (ref:cancert1) Characteristics of cohort at baseline (n = 3634)
@@ -393,6 +397,8 @@ A= cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines
 _Where:_
 
 A = cancer diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (three categories), APOE $\varepsilon4$ carrier status (three categories), cohort (two categories); L= time-varying smoking status (three categories), hypertension status (two categories), hypertension medication (two categories), diabetes status (three categories), systolic blood pressure and body mass (continuous variables); no product terms between covariates.
+
+\newpage
 
 **Inverse probability of censoring weights for death**: 
 <br>
