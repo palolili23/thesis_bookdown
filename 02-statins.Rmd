@@ -166,7 +166,7 @@ table2.1 %>%
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    font_size = 8) %>% 
+    font_size = 7.5) %>% 
   column_spec(1, width = "1.5cm") %>% 
   column_spec(2, width = "4.5cm") %>%
   column_spec(3, width = "5.5cm") %>%

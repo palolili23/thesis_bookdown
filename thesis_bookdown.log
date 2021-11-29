@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  28 NOV 2021 10:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  29 NOV 2021 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,19 +416,41 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen182
 \Gm@layoutvoffset=\dimen183
 \Gm@dimlist=\toks26
-) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+(c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen184
+\ESO@tempdimb=\dimen185
+)
+\wpXoffset=\skip71
+\wpYoffset=\skip72
+\tileXoffset=\skip73
+\tileYoffset=\skip74
+\tilewidth=\skip75
+\tileheight=\skip76
+\tileX=\skip77
+\tileY=\skip78
+) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+(c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen184
-\captionmargin@=\dimen185
-\captionwidth=\dimen186
-\caption@tempdima=\dimen187
-\caption@indent=\dimen188
-\caption@parindent=\dimen189
-\caption@hangindent=\dimen190
+\captionmargin=\dimen186
+\captionmargin@=\dimen187
+\captionwidth=\dimen188
+\caption@tempdima=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count317
@@ -440,27 +462,27 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 ))
 \c@KVtest=\count319
-\sf@farskip=\skip71
-\sf@captopadj=\dimen191
-\sf@capskip=\skip72
-\sf@nearskip=\skip73
+\sf@farskip=\skip79
+\sf@captopadj=\dimen193
+\sf@capskip=\skip80
+\sf@nearskip=\skip81
 \c@subfigure=\count320
 \c@subfigure@save=\count321
 \c@lofdepth=\count322
 \c@subtable=\count323
 \c@subtable@save=\count324
 \c@lotdepth=\count325
-\sf@top=\skip74
-\sf@bottom=\skip75
+\sf@top=\skip82
+\sf@bottom=\skip83
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip76
+\multirow@colwidth=\skip84
 \multirow@cntb=\count326
-\multirow@dima=\skip77
-\bigstrutjot=\dimen192
+\multirow@dima=\skip85
+\bigstrutjot=\dimen194
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen193
-\WF@size=\dimen194
+\wrapoverhang=\dimen195
+\WF@size=\dimen196
 \c@WF@wrappedlines=\count327
 \WF@box=\box64
 \WF@everypar=\toks27
@@ -468,7 +490,7 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks28
-\minrowclearance=\skip78
+\minrowclearance=\skip86
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
@@ -478,8 +500,8 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box65
 \sift@deathcycles=\count328
-\@vwid@loff=\dimen195
-\@vwid@roff=\dimen196
+\@vwid@loff=\dimen197
+\@vwid@roff=\dimen198
 )
 \c@taburow=\count329
 \tabu@nbcols=\count330
@@ -487,22 +509,22 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@Xcol=\count332
 \tabu@alloc=\count333
 \tabu@nested=\count334
-\tabu@target=\dimen197
-\tabu@spreadtarget=\dimen198
-\tabu@naturalX=\dimen199
-\tabucolX=\dimen256
-\tabu@Xsum=\dimen257
-\extrarowdepth=\dimen258
-\abovetabulinesep=\dimen259
-\belowtabulinesep=\dimen260
-\tabustrutrule=\dimen261
+\tabu@target=\dimen199
+\tabu@spreadtarget=\dimen256
+\tabu@naturalX=\dimen257
+\tabucolX=\dimen258
+\tabu@Xsum=\dimen259
+\extrarowdepth=\dimen260
+\abovetabulinesep=\dimen261
+\belowtabulinesep=\dimen262
+\tabustrutrule=\dimen263
 \tabu@thebody=\toks29
 \tabu@footnotes=\toks30
 \tabu@box=\box66
 \tabu@arstrutbox=\box67
 \tabu@hleads=\box68
 \tabu@vleads=\box69
-\tabu@cellskip=\skip79
+\tabu@cellskip=\skip87
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box70
@@ -513,21 +535,21 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip80
+\TPTL@width=\skip88
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box71
 \UL@hyphenbox=\box72
-\UL@skip=\skip81
+\UL@skip=\skip89
 \UL@hook=\toks31
-\UL@height=\dimen262
+\UL@height=\dimen264
 \UL@pe=\count335
-\UL@pixel=\dimen263
+\UL@pixel=\dimen265
 \ULC@box=\box73
 Package: ulem 2019/11/18
-\ULdepth=\dimen264
+\ULdepth=\dimen266
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen265
+\rotheadsize=\dimen267
 \c@nlinenum=\count336
 \TeXr@lab=\toks32
 ) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -537,9 +559,7 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count337
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
+))
 \c@tabx@nest=\count338
 \c@listtotal=\count339
 \c@listcount=\count340
@@ -582,14 +602,14 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorder@0=\count377
 \blx@entrysetcounter=\count378
 \blx@biblioinstance=\count379
-\labelnumberwidth=\skip82
-\labelalphawidth=\skip83
-\biblabelsep=\skip84
-\bibitemsep=\skip85
-\bibnamesep=\skip86
-\bibinitsep=\skip87
-\bibparsep=\skip88
-\bibhang=\skip89
+\labelnumberwidth=\skip90
+\labelalphawidth=\skip91
+\biblabelsep=\skip92
+\bibitemsep=\skip93
+\bibnamesep=\skip94
+\bibinitsep=\skip95
+\bibparsep=\skip96
+\bibhang=\skip97
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language3
@@ -688,20 +708,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count460
 \c@pageref=\count461
 \c@savedpageref=\count462
-\shorthandwidth=\skip90
-\shortjournalwidth=\skip91
-\shortserieswidth=\skip92
-\shorttitlewidth=\skip93
-\shortauthorwidth=\skip94
-\shorteditorwidth=\skip95
-\locallabelnumberwidth=\skip96
-\locallabelalphawidth=\skip97
-\localshorthandwidth=\skip98
-\localshortjournalwidth=\skip99
-\localshortserieswidth=\skip100
-\localshorttitlewidth=\skip101
-\localshortauthorwidth=\skip102
-\localshorteditorwidth=\skip103
+\shorthandwidth=\skip98
+\shortjournalwidth=\skip99
+\shortserieswidth=\skip100
+\shorttitlewidth=\skip101
+\shortauthorwidth=\skip102
+\shorteditorwidth=\skip103
+\locallabelnumberwidth=\skip104
+\locallabelalphawidth=\skip105
+\localshorthandwidth=\skip106
+\localshortjournalwidth=\skip107
+\localshortserieswidth=\skip108
+\localshorttitlewidth=\skip109
+\localshortauthorwidth=\skip110
+\localshorteditorwidth=\skip111
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -788,48 +808,48 @@ LaTeX Warning: Label `tab:statinst5' multiply defined.
 )
 \openout1 = `thesis_bookdown.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 108.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 108.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 108.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 108.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 108.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 108.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 108.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 111.
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
 
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
 
 
 Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
@@ -840,207 +860,71 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 108.
+LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf(0) on input line 111.
+LaTeX Font Info:    No file T1latinmodern-math.otf(0).fd. on input line 111.
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(0)/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 111.
 
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+Package unicode-math Warning: The first font loaded by unicode-math must be an
+(unicode-math)                OpenType Math font (with script=math). If you
+(unicode-math)                simply want ‘the default’ before loading
+(unicode-math)                supplementary fonts over the top for certain
+(unicode-math)                ranges, use: 
+(unicode-math)                  \setmathfont{latinmodern-math.otf}
 
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
 
 
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9989520677190833.
 
 
 Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=0-},{Size=0-0,Font=latinmodern-math.otf,Style=MathScript},{Size=-0,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <0->s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<0-0>s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-0>s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9989520677190833]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 108.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 108.
+LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf(1) on input line 111.
+LaTeX Font Info:    No file T1latinmodern-math.otf(1).fd. on input line 111.
+
+LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(1)/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 111.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 111.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 108.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 108.
+(Font)                  OT1/lmr/m/n --> T1/latinmodern-math.otf(1)/m/n on input line 111.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 111.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 108.
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 1.000096459334209.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 1.000096459334209.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 1.000096459334209.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 1.000096459334209.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 1.000096459334209.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
-(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
-(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
-(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
-(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
-(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
-(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
-(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
-(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
-(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
-(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
-(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
-(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
-(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
-(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
-(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
-(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
-(fontspec)             \fontdimen 21\font =0pt\relax 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
-(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
-(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
-(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
-(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
-(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
-(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
-(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
-(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
-(fontspec)             \fontdimen 21\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 108.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 108.
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 108.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 108.
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
-(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
-(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
-(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
-(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
-(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
-(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
-(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
-(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 108.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 108.
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 108.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 108.
-Package hyperref Info: Link coloring OFF on input line 108.
+(Font)                  OT1/lmr/bx/n --> T1/latinmodern-math.otf(1)/b/n on input line 111.
+Package hyperref Info: Link coloring OFF on input line 111.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1050,9 +934,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count476
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1139,65 +1023,56 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 108.
-Package biblatex Info: Reference segment=0 on input line 108.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 110.
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 113.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 110.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 110.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 113.
+(c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 113.
+(c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 113.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 113.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 113.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 113.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 113.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-] [2] [3]
-Underfull \hbox (badness 2846) in paragraph at lines 155--156
-[]\TU/lmr/bx/n/10 Rojas-Saunero L.P. []\TU/lmr/m/n/10 In the midst of two realities[]. \TU/lmr/m/it/10 Epidemiology.
+]
+File: eur_line.pdf Graphic file (type pdf)
+<use eur_line.pdf>
+File: eur_logo.pdf Graphic file (type pdf)
+<use eur_logo.pdf>
+[2] [3]
+Underfull \hbox (badness 2837) in paragraph at lines 169--170
+[]\T1/lmr/bx/n/10 Rojas-Saunero L.P. []\T1/lmr/m/n/10 In the midst of two re-al-i-ties[]. \T1/lmr/m/it/10 Epi-demi-ol-ogy.
  []
 
 [4]
-Package biblatex Info: Reference segment=1 on input line 160.
-Package biblatex Info: Setting label 'refsegment:01' on input line 160.
+Package biblatex Info: Reference segment=1 on input line 174.
+Package biblatex Info: Setting label 'refsegment:01' on input line 174.
 (./thesis_bookdown.toc
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 5.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 5.
 [5
 
 ] [6])
@@ -1208,197 +1083,345 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 ]
 Chapter 1.
-Package biblatex Info: Reference segment=2 on input line 163.
-Package biblatex Info: Setting label 'refsegment:02' on input line 163.
+Package biblatex Info: Reference segment=2 on input line 177.
+Package biblatex Info: Setting label 'refsegment:02' on input line 177.
 [9]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 [10] [11] [12] [13] [14] [15] [16]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png>
-[17] [18] [19] [20]
+[17] [18]
+Missing character: There is no – ("2013) in font ec-lmr10!
+[19]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no — ("2014) in font ec-lmr10!
+[20]
 Chapter 2.
-Package biblatex Info: Reference segment=3 on input line 219.
-Package biblatex Info: Setting label 'refsegment:03' on input line 219.
+Package biblatex Info: Reference segment=3 on input line 231.
+Package biblatex Info: Setting label 'refsegment:03' on input line 231.
 [21
 
-] [22] [23] [24]
+]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 22 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[22] [23]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 24 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[25] [26]
-Underfull \hbox (badness 1590) in paragraph at lines 312--312
-[]\TU/lmr/m/n/10 For each outcome we fit a weighted pooled logistic regression model:
+[25]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 26 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
  []
 
+[26]
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no ∗ ("2217) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no ∗ ("2217) in font ecrm1000!
+Missing character: There is no 𝜃 ("1D703) in font ecrm1000!
+Missing character: There is no ′ ("2032) in font ecrm0700!
+
+Underfull \hbox (badness 1584) in paragraph at lines 322--322
+[]\T1/lmr/m/n/10 For each out-come we fit a weighted pooled lo-gis-tic re-gres-sion model:
+ []
+
+Missing character: There is no ∏ ("220F) in font ecrm1000!
+Missing character: There is no │ ("2502) in font ecrm1000!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no ̄ ("304) in font ecrm1000!
+Missing character: There is no − ("2212) in font ecrm0700!
 [27]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
-[28] [29]
-Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
-[30]
-Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
-[31] [32]
-Overfull \hbox (3.22488pt too wide) in paragraph at lines 391--391
-[]|\TU/lmr/m/n/8 Randomized 
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 28 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
  []
 
+[28] [29]
+Missing character: There is no ≥ ("2265) in font ec-lmr10!
+Missing character: There is no ≥ ("2265) in font ec-lmr10!
 
-Overfull \hbox (21.77359pt too wide) in paragraph at lines 381--416
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 30 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[30] [31]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 32 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[32]
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 391.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.5> on input line 391.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.24997> on input line 391.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.75> on input line 391.
+
+Overfull \hbox (21.77359pt too wide) in paragraph at lines 391--426
  [] 
  []
 
 
-Overfull \vbox (48.78673pt too high) has occurred while \output is active []
+Overfull \vbox (15.60489pt too high) has occurred while \output is active []
 
 [33]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf>
+
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 34 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
 [34]
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 448--512
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 458--522
  [] 
  []
 
 
-Overfull \vbox (108.77873pt too high) has occurred while \output is active []
+Overfull \vbox (108.7023pt too high) has occurred while \output is active []
 
 [35]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 523.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 523.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 523.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 533.
 
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 525--525
-[]|\TU/lmr/bx/n/9 Treatment 
+Overfull \hbox (5.96428pt too wide) in paragraph at lines 535--535
+[]|\T1/lmr/bx/n/9 Treatment 
+ []
+
+
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 36 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
  []
 
 [36]
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 552--552
-[]|\TU/lmr/bx/n/9 Treatment 
+Overfull \hbox (5.96428pt too wide) in paragraph at lines 562--562
+[]|\T1/lmr/bx/n/9 Treatment 
  []
 
 
-Overfull \hbox (2.50597pt too wide) in paragraph at lines 552--552
- \TU/lmr/bx/n/9 %(95%CI)*| 
+Overfull \hbox (2.50133pt too wide) in paragraph at lines 562--562
+ \T1/lmr/bx/n/9 %(95%CI)*| 
  []
 
 
-Overfull \hbox (7.83395pt too wide) in paragraph at lines 552--552
- \TU/lmr/bx/n/9 %(95%CI)**| 
+Overfull \hbox (7.82631pt too wide) in paragraph at lines 562--562
+ \T1/lmr/bx/n/9 %(95%CI)**| 
  []
 
-[37] [38]
+[37]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 38 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[38]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf>
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 586.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 596.
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf>
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 599.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 609.
 
-[39] [40]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+[39]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 40 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[40]
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 [41
 
 
-] [42] [43] [44] [45] [46] [47] [48] [49]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 889--889
- []|\TU/lmr/bx/n/8 Initiators| 
+]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 42 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[42] [43]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 44 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[44] [45]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 46 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[46] [47]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 48 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[48] [49]
+Overfull \hbox (5.6197pt too wide) in paragraph at lines 899--899
+ []|\T1/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 889--889
- \TU/lmr/bx/n/8 initiators| 
+Overfull \hbox (4.6697pt too wide) in paragraph at lines 899--899
+ \T1/lmr/bx/n/8 initiators| 
+ []
+
+
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 50 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
  []
 
 [50
 
 ]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 925--925
- []|\TU/lmr/bx/n/8 Initiators| 
+Overfull \hbox (5.6197pt too wide) in paragraph at lines 935--935
+ []|\T1/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 925--925
- \TU/lmr/bx/n/8 initiators| 
+Overfull \hbox (4.6697pt too wide) in paragraph at lines 935--935
+ \T1/lmr/bx/n/8 initiators| 
  []
 
-[51] [52
-
-] [53] [54]
-Underfull \hbox (badness 1147) in paragraph at lines 974--974
-\TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
+[51]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 968.
+(c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 52 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
  []
 
-[55] [56] [57] [58
+[52
+
+] [53]
+Underfull \hbox (badness 1087) in paragraph at lines 984--984
+\T1/lmr/m/it/10 Jour-nal of Neu-rol-ogy, Neu-ro-surgery & Psy-chi-a-try\T1/lmr/m/n/10 , \T1/lmr/m/it/10 80\T1/lmr/m/n/10 (1), 13^^U17.
+ []
+
+
+Overfull \hbox (201.59627pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 54 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[54]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[55]
+Overfull \hbox (201.59627pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 56 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[56] [57]
+Overfull \hbox (201.58199pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 58 \T1/lmr/m/sl/10 CHAPTER 2.  EMULATING A TARGET TRIAL OF STATIN USE AND RISK OF DEMENTIA USING COHORT DATA
+ []
+
+[58
 
 ]
 Chapter 3.
-Package biblatex Info: Reference segment=4 on input line 977.
-Package biblatex Info: Setting label 'refsegment:04' on input line 977.
+Package biblatex Info: Reference segment=4 on input line 987.
+Package biblatex Info: Setting label 'refsegment:04' on input line 987.
 [59]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 60 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 60 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [60] [61]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 62 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 62 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [62] [63]
-Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ≥ ("2265) in font ec-lmr10!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 64 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 64 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [64] [65]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf1_test.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf1_test.pdf>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 66 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 66 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [66] [67]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 68 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 68 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [68]
-Underfull \hbox (badness 6047) in paragraph at lines 1128--1130
-\TU/lmr/m/n/10 GFORMULA macro that is publicly available at []$[][][][] [] [] [] [][][] [] [][][][] []
+Underfull \hbox (badness 6157) in paragraph at lines 1136--1138
+\T1/lmr/m/n/10 GFOR-MULA macro that is pub-licly avail-able at []$http : / / www . hsph .
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1128--1130
-\TU/lmr/m/n/10 call for our primary analysis is available on the following repository
+Underfull \hbox (badness 2065) in paragraph at lines 1136--1138
+\T1/lmr/m/n/10 call for our pri-mary anal-y-sis is avail-able on the fol-low-ing repos-i-tory
  []
 
 [69]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 70 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 70 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [70] [71]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 72 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 72 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [72] [73
 
 ]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 74 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 74 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [74]
@@ -1408,37 +1431,37 @@ File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/stroke_cr.png Graphic
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/dementia_cr.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/dementia_cr.png>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 76 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 76 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [76] [77
 
 ]
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1313--1313
-[]|\TU/lmr/bx/n/9 Sample 
+Overfull \hbox (5.27754pt too wide) in paragraph at lines 1321--1321
+[]|\T1/lmr/bx/n/9 Sample 
  []
 
 
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1341--1341
-[]|\TU/lmr/bx/n/9 Sample 
+Overfull \hbox (5.27754pt too wide) in paragraph at lines 1349--1349
+[]|\T1/lmr/bx/n/9 Sample 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 78 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 78 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [78
 
 ] [79]
-Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ≥ ("2265) in font ec-lmr10!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 80 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 80 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [80
@@ -1450,12 +1473,15 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 82 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 82 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [82] [83]
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 1392--1417
+Missing character: There is no € ("20AC) in font ec-lmr9!
+Missing character: There is no ™ ("2122) in font ec-lmr9!
+
+Overfull \hbox (35.99997pt too wide) in paragraph at lines 1400--1425
  [][] 
  []
 
@@ -1463,152 +1489,170 @@ Overfull \hbox (35.99997pt too wide) in paragraph at lines 1392--1417
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 84 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 84 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [84
 
 ]
-Overfull \vbox (12.61472pt too high) has occurred while \output is active []
+Overfull \vbox (12.45206pt too high) has occurred while \output is active []
 
 [85]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 86 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 86 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [86] [87]
-Overfull \hbox (19.54721pt too wide) in paragraph at lines 1476--1489
+Overfull \hbox (19.54721pt too wide) in paragraph at lines 1484--1497
  [][] 
  []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 88 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 88 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [88]
-Overfull \hbox (47.99997pt too wide) in paragraph at lines 1500--1525
+Missing character: There is no € ("20AC) in font ec-lmr9!
+Missing character: There is no ™ ("2122) in font ec-lmr9!
+
+Overfull \hbox (47.99997pt too wide) in paragraph at lines 1508--1533
  [][] 
  []
 
 
-Overfull \vbox (43.14674pt too high) has occurred while \output is active []
+Overfull \vbox (32.14674pt too high) has occurred while \output is active []
 
 [89]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf4.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf4.png>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 90 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 90 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [90]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf5.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf5.png>
 [91]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 92 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 92 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [92
 
 ] [93]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 94 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 94 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [94] [95]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 96 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 96 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [96] [97]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 98 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (257.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 98 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [98] [99]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 100 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 100 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [100] [101]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 102 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 102 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [102] [103]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 104 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 104 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [104] [105]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 106 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 106 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [106] [107]
-Overfull \hbox (16.50893pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 108 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.29153pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 108 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [108
 
 ] [109]
-Overfull \hbox (16.50893pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 110 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.29153pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 110 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
-[110] [111]
-Underfull \hbox (badness 3240) in paragraph at lines 2059--2059
-[][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
+[110]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[111]
+Underfull \hbox (badness 3229) in paragraph at lines 2067--2067
+[][]\T1/lmr/m/n/10 The SPRINT MIND In-ves-ti-ga-tors for the SPRINT Re-search Group,
  []
 
 
-Overfull \hbox (16.50893pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 112 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.29153pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 112 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [112] [113]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 114 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
+Overfull \hbox (262.28275pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 114 \T1/lmr/m/sl/10 CHAPTER 3.  HYPOTHETICAL BLOOD-PRESSURE-LOWERING INTERVENTIONS AND RISK OF STROKE AND DEMENTIA
  []
 
 [114
 
 ]
 Chapter 4.
-Package biblatex Info: Reference segment=5 on input line 2062.
-Package biblatex Info: Setting label 'refsegment:05' on input line 2062.
+Package biblatex Info: Reference segment=5 on input line 2070.
+Package biblatex Info: Setting label 'refsegment:05' on input line 2070.
 [115]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 116 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 116 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [116]
-Overfull \hbox (258.84485pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 4.2.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA \TU/lmr/m/n/10 117
+Overfull \hbox (258.80638pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 4.2.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA \T1/lmr/m/n/10 117
  []
 
 [117]
 File: 04-cancer_files/figure-latex/cancerf1-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf1-1.pdf>
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 118 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 118 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [118]
 File: 04-cancer_files/figure-latex/cancerf2-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf2-1.pdf>
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
 [119]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 120 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 120 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [120]
@@ -1616,29 +1660,47 @@ File: 04-cancer_files/figure-latex/cancerf3-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf3-1.pdf>
 File: 04-cancer_files/figure-latex/cancerf4-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf4-1.pdf>
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
 [121]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 122 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 122 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [122]
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no ← ("2190) in font ecrm1000!
 File: 04-cancer_files/figure-latex/cancerf5-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf5-1.pdf>
 [123]
 Underfull \vbox (badness 3049) has occurred while \output is active []
 
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 124 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 124 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [124] [125]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 126 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 126 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [126] [127]
-Overfull \hbox (8.2547pt too wide) in paragraph at lines 2261--2279
+Overfull \hbox (8.2583pt too wide) in paragraph at lines 2267--2285
  [] 
  []
 
@@ -1646,292 +1708,391 @@ Overfull \hbox (8.2547pt too wide) in paragraph at lines 2261--2279
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 128 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 128 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [128] [129]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf6.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf6.jpg>
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 130 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 130 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [130] [131
 
 
 ]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 132 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 132 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [132] [133]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 134 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 134 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [134] [135]
-Underfull \hbox (badness 10000) in paragraph at lines 2434--2435
+Underfull \hbox (badness 10000) in paragraph at lines 2440--2441
 
  []
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf7.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf7.jpg>
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 136 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 136 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [136]
-Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
+Underfull \hbox (badness 10000) in paragraph at lines 2456--2457
 
  []
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf8.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf8.jpg>
 [137]
-Overfull \hbox (119.60695pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 138 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.67891pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 138 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [138] [139]
-Underfull \hbox (badness 1163) in paragraph at lines 2465--2465
-[][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
+Missing character: There is no — ("2014) in font ec-lmr10!
+
+Underfull \hbox (badness 1163) in paragraph at lines 2471--2471
+[][]\T1/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Gly-mour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 2465--2465
-\TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
+Underfull \hbox (badness 2302) in paragraph at lines 2471--2471
+\T1/lmr/m/n/10 risk of Alzheimer's dis-ease: Small as-so-ci-a-tion in a na-tion-wide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 2465--2465
-\TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
+Underfull \hbox (badness 1642) in paragraph at lines 2471--2471
+\T1/lmr/m/n/10 co-hort study. \T1/lmr/m/it/10 Alzheimer's & De-men-tia\T1/lmr/m/n/10 , \T1/lmr/m/it/10 16\T1/lmr/m/n/10 (7), 953^^U964. []$https :
  []
 
 
-Overfull \hbox (119.60695pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 140 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.67891pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 140 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [140] [141]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 142 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
+Overfull \hbox (303.66682pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 142 \T1/lmr/m/sl/10 CHAPTER 4.  TOWARDS A CLEARER CAUSAL QUESTION UNDERLYING THE ASSOCIATION BETWEEN CANCER AND DEMENTIA
  []
 
 [142]
 Chapter 5.
-Package biblatex Info: Reference segment=6 on input line 2468.
-Package biblatex Info: Setting label 'refsegment:06' on input line 2468.
+Package biblatex Info: Reference segment=6 on input line 2474.
+Package biblatex Info: Setting label 'refsegment:06' on input line 2474.
 [143
 
-] [144] [145]
+]
+Overfull \hbox (45.3387pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 144 \T1/lmr/m/sl/10 CHAPTER 5.  HOW ARE WE COUNTING THE DEAD IN DEMENTIA STUDIES?
+ []
+
+[144] [145]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/systrevf1.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/systrevf1.png>
+
+Overfull \hbox (45.3387pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 146 \T1/lmr/m/sl/10 CHAPTER 5.  HOW ARE WE COUNTING THE DEAD IN DEMENTIA STUDIES?
+ []
+
 [146]
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.5pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.94997pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.25pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.50078pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.9505pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.25038pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.49908pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.94933pt on input line 2526.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.24954pt on input line 2526.
+Overfull \vbox (88.70224pt too high) has occurred while \output is active []
 
-Overfull \vbox (112.78659pt too high) has occurred while \output is active []
+[147]
+Overfull \hbox (45.3387pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 148 \T1/lmr/m/sl/10 CHAPTER 5.  HOW ARE WE COUNTING THE DEAD IN DEMENTIA STUDIES?
+ []
 
-[147] [148] [149] [150]
+[148] [149]
+Overfull \hbox (45.3387pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 150 \T1/lmr/m/sl/10 CHAPTER 5.  HOW ARE WE COUNTING THE DEAD IN DEMENTIA STUDIES?
+ []
+
+[150]
 Chapter 6.
-Package biblatex Info: Reference segment=7 on input line 2643.
-Package biblatex Info: Setting label 'refsegment:07' on input line 2643.
+Package biblatex Info: Reference segment=7 on input line 2647.
+Package biblatex Info: Setting label 'refsegment:07' on input line 2647.
 [151
 
-] [152] [153] [154]
+]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 152 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[152] [153]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 154 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[154]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png>
 
-Overfull \hbox (350.83159pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 155
+Overfull \hbox (350.74988pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \T1/lmr/m/n/10 155
  []
 
-[155] [156]
-Overfull \hbox (350.83159pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 157
+[155]
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 156 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
  []
 
-[157] [158]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+[156]
+Missing character: There is no ← ("2190) in font ecrm1000!
+Missing character: There is no → ("2192) in font ecrm1000!
+
+Overfull \hbox (350.74988pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \T1/lmr/m/n/10 157
+ []
+
+[157]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 158 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[158]
+Missing character: There is no ε ("3B5) in font ec-lmr10!
 [159]
-Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ε ("3B5) in font ec-lmr10!
+
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 160 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
 [160] [161]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 162 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
 
 [162] [163]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf2.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf2.png>
+
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 164 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
 [164] [165
 
 
-] [166] [167] [168] [169] [170] [171]
-Underfull \hbox (badness 1147) in paragraph at lines 2926--2926
-\TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
+]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 166 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
  []
 
-[172] [173] [174
+[166] [167]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 168 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[168] [169]
+Overfull \hbox (330.48529pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 170 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[170] [171]
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+
+Overfull \hbox (330.48529pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 172 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[172] [173]
+Overfull \hbox (330.4721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 174 \T1/lmr/m/sl/10 CHAPTER 6.  CHOOSING QUESTIONS BEFORE METHODS IN DEMENTIA RESEARCH WITH COMPETING EVENTS AND CAUSAL GOALS
+ []
+
+[174
 
 ]
 Chapter 7.
-Package biblatex Info: Reference segment=8 on input line 2929.
-Package biblatex Info: Setting label 'refsegment:08' on input line 2929.
-[175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+Package biblatex Info: Reference segment=8 on input line 2931.
+Package biblatex Info: Setting label 'refsegment:08' on input line 2931.
+[175] [176] [177] [178] [179]
+Missing character: There is no ∗ ("2217) in font ecrm1000!
+Missing character: There is no ∗ ("2217) in font ecrm1000!
+Missing character: There is no ∗ ("2217) in font ecrm1000!
+[180] [181] [182] [183] [184] [185] [186] [187]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
-[188] [189] [190]
+[188] [189] [190] [191]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
-[191] [192] [193] [194] [195] [196] [197] [198] [199]
-Underfull \hbox (badness 2393) in paragraph at lines 3038--3038
-\TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
+[192] [193] [194]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[195] [196] [197]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[198] [199] [200]
+Missing character: There is no — ("2014) in font ec-lmr10!
+
+Underfull \hbox (badness 2384) in paragraph at lines 3038--3038
+\T1/lmr/m/n/10 ing HIV Pro-gram Ef-fects: A Struc-tural Ap-proach to Con-text
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3038--3038
-\TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
+Underfull \hbox (badness 2689) in paragraph at lines 3038--3038
+\T1/lmr/m/n/10 Us-ing the Trans-porta-bil-ity Frame-work. \T1/lmr/m/it/10 JAIDS Jour-nal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3038--3038
-\TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
+Underfull \hbox (badness 1320) in paragraph at lines 3038--3038
+\T1/lmr/m/it/10 quired Im-mune De-fi-ciency Syn-dromes\T1/lmr/m/n/10 , \T1/lmr/m/it/10 82\T1/lmr/m/n/10 (3), S199^^US205. []$https :
  []
 
-[200]
-Underfull \hbox (badness 1147) in paragraph at lines 3038--3038
-\TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
+[201]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[202]
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no — ("2014) in font ec-lmr10!
+[203]
+Underfull \hbox (badness 3229) in paragraph at lines 3038--3038
+[][]\T1/lmr/m/n/10 The SPRINT MIND In-ves-ti-ga-tors for the SPRINT Re-search Group,
  []
 
-[201] [202]
-Underfull \hbox (badness 3240) in paragraph at lines 3038--3038
-[][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
- []
-
-[203] [204] [205] [206
-
-]
+[204] [205] [206]
 Chapter 8.
 Package biblatex Info: Reference segment=9 on input line 3041.
 Package biblatex Info: Setting label 'refsegment:09' on input line 3041.
-[207] [208]
-Underfull \hbox (badness 2478) in paragraph at lines 3064--3065
-\TU/lmr/m/n/10 Estratégica para el Autocuidado Socio-Comunitario (Strategic Network
+[207
+
+] [208]
+Underfull \hbox (badness 2469) in paragraph at lines 3062--3063
+\T1/lmr/m/n/10 Es-tratég-ica para el Au-tocuidado Socio-Comunitario (Strate-gic Net-work
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 3064--3065
-\TU/lmr/m/n/10 Socio-Comunitario”, []2020[]). We systematize collective experiences and
+Underfull \hbox (badness 1661) in paragraph at lines 3062--3063
+\T1/lmr/m/n/10 Socio-Comunitario'', []2020[]). We sys-tem-atize col-lec-tive ex-pe-ri-ences and
  []
 
 [209] [210]
 Chapter 9.
-Package biblatex Info: Reference segment=10 on input line 3073.
-Package biblatex Info: Setting label 'refsegment:010' on input line 3073.
+Package biblatex Info: Reference segment=10 on input line 3071.
+Package biblatex Info: Setting label 'refsegment:010' on input line 3071.
 [211
 
-] [212] [213]
-
-LaTeX Warning: Reference `hoofdstuk3' on page 214 undefined on input line 3101.
-
-[214]
-
-LaTeX Warning: Reference `hoofdstuk6' on page 215 undefined on input line 3105.
-
-[215] [216
+] [212] [213] [214] [215] [216
 
 ]
 Chapter 10.
-Package biblatex Info: Reference segment=11 on input line 3110.
-Package biblatex Info: Setting label 'refsegment:011' on input line 3110.
-[217] [218] [219]
-Underfull \hbox (badness 1755) in paragraph at lines 3229--3231
-[]\TU/lmr/m/n/10 Heshmatollah A, Mutlu U, \TU/lmr/bx/n/10 Rojas-Saunero LP\TU/lmr/m/n/10 , Portegies MLP,
+Package biblatex Info: Reference segment=11 on input line 3108.
+Package biblatex Info: Setting label 'refsegment:011' on input line 3108.
+[217]
+Missing character: There is no ’ ("2019) in font ec-lmr9!
+[218]
+Missing character: There is no “ ("201C) in font ec-lmr9!
+Missing character: There is no ” ("201D) in font ec-lmr9!
+Missing character: There is no ’ ("2019) in font ec-lmr9!
+[219]
+Underfull \hbox (badness 1748) in paragraph at lines 3227--3229
+[]\T1/lmr/m/n/10 Heshmatollah A, Mutlu U, \T1/lmr/bx/n/10 Rojas-Saunero LP\T1/lmr/m/n/10 , Porte-gies MLP,
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 3235--3237
-[]\TU/lmr/m/n/10 van der Willik KD, \TU/lmr/bx/n/10 Rojas-Saunero LP.\TU/lmr/m/n/10 , Labrecque JA, Ikram
+Underfull \hbox (badness 1735) in paragraph at lines 3233--3235
+[]\T1/lmr/m/n/10 van der Wil-lik KD, \T1/lmr/bx/n/10 Rojas-Saunero LP.\T1/lmr/m/n/10 , Labrecque JA, Ikram
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 3235--3237
-\TU/lmr/m/n/10 non pathology-confirmed cancer diagnoses: incidence, participant
+Underfull \hbox (badness 2547) in paragraph at lines 3233--3235
+\T1/lmr/m/n/10 non pathology-confirmed can-cer di-ag-noses: in-ci-dence, par-tic-i-pant
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 3235--3237
-\TU/lmr/m/n/10 characteristics, and survival[]. \TU/lmr/m/it/10 European Journal of Epidemiology.
+Underfull \hbox (badness 1694) in paragraph at lines 3233--3235
+\T1/lmr/m/n/10 char-ac-ter-is-tics, and sur-vival[]. \T1/lmr/m/it/10 Eu-ro-pean Jour-nal of Epi-demi-ol-ogy.
  []
 
-[220] [221] [222] [223] [224] [225]
-Underfull \hbox (badness 2846) in paragraph at lines 3310--3311
-[]\TU/lmr/bx/n/10 Rojas-Saunero L.P. []\TU/lmr/m/n/10 In the midst of two realities[]. \TU/lmr/m/it/10 Epidemiology.
+[220] [221] [222] [223]
+File: eur_line.pdf Graphic file (type pdf)
+<use eur_line.pdf>
+File: eur_logo.pdf Graphic file (type pdf)
+<use eur_logo.pdf>
+[224] [225]
+Underfull \hbox (badness 2837) in paragraph at lines 3320--3321
+[]\T1/lmr/bx/n/10 Rojas-Saunero L.P. []\T1/lmr/m/n/10 In the midst of two re-al-i-ties[]. \T1/lmr/m/it/10 Epi-demi-ol-ogy.
  []
 
 [226] [227
 
-] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238] [239] [240] [241]
-Underfull \hbox (badness 2393) in paragraph at lines 3315--3315
-\TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
+]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[228] [229] [230] [231] [232] [233]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[234]
+Underfull \hbox (badness 1087) in paragraph at lines 3325--3325
+\T1/lmr/m/it/10 Jour-nal of Neu-rol-ogy, Neu-ro-surgery & Psy-chi-a-try\T1/lmr/m/n/10 , \T1/lmr/m/it/10 80\T1/lmr/m/n/10 (1), 13^^U17.
+ []
+
+[235] [236] [237]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[238] [239] [240]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[241]
+Underfull \hbox (badness 2384) in paragraph at lines 3325--3325
+\T1/lmr/m/n/10 ing HIV Pro-gram Ef-fects: A Struc-tural Ap-proach to Con-text
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3315--3315
-\TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
+Underfull \hbox (badness 2689) in paragraph at lines 3325--3325
+\T1/lmr/m/n/10 Us-ing the Trans-porta-bil-ity Frame-work. \T1/lmr/m/it/10 JAIDS Jour-nal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3315--3315
-\TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
+Underfull \hbox (badness 1320) in paragraph at lines 3325--3325
+\T1/lmr/m/it/10 quired Im-mune De-fi-ciency Syn-dromes\T1/lmr/m/n/10 , \T1/lmr/m/it/10 82\T1/lmr/m/n/10 (3), S199^^US205. []$https :
  []
 
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
 [242]
-Underfull \hbox (badness 1163) in paragraph at lines 3315--3315
-[][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
+Missing character: There is no — ("2014) in font ec-lmr10!
+
+Underfull \hbox (badness 1163) in paragraph at lines 3325--3325
+[][]\T1/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Gly-mour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 3315--3315
-\TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
+Underfull \hbox (badness 2302) in paragraph at lines 3325--3325
+\T1/lmr/m/n/10 risk of Alzheimer's dis-ease: Small as-so-ci-a-tion in a na-tion-wide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 3315--3315
-\TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
+Underfull \hbox (badness 1642) in paragraph at lines 3325--3325
+\T1/lmr/m/n/10 co-hort study. \T1/lmr/m/it/10 Alzheimer's & De-men-tia\T1/lmr/m/n/10 , \T1/lmr/m/it/10 16\T1/lmr/m/n/10 (7), 953^^U964. []$https :
  []
 
 [243]
-Underfull \hbox (badness 1147) in paragraph at lines 3315--3315
-\TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
- []
-
-[244] [245] [246] [247]
-Underfull \hbox (badness 3240) in paragraph at lines 3315--3315
-[][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
+Missing character: There is no — ("2014) in font ec-lmr10!
+[244]
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[245] [246] [247]
+Underfull \hbox (badness 3229) in paragraph at lines 3325--3325
+[][]\T1/lmr/m/n/10 The SPRINT MIND In-ves-ti-ga-tors for the SPRINT Re-search Group,
  []
 
 [248] [249] [250] [251] (./thesis_bookdown.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1941,12 +2102,12 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30112 strings out of 478256
- 587272 string characters out of 5854459
- 2396357 words of memory out of 5000000
- 50219 multiletter control sequences out of 15000+600000
- 413964 words of font info for 120 fonts, out of 8000000 for 9000
+ 30278 strings out of 478256
+ 587115 string characters out of 5854459
+ 2321827 words of memory out of 5000000
+ 50396 multiletter control sequences out of 15000+600000
+ 516224 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,13n,121p,3289b,5414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,13n,120p,3289b,5414s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis_bookdown.pdf (251 pages).

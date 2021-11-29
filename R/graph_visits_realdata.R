@@ -33,16 +33,16 @@ plot <- data %>%
         axis.line = element_line(colour = "black"),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank(),
-        strip.text.x = element_text(size = 10),
+        strip.text.x = element_text(size = 12),
         strip.background = element_rect(fill=NA),
-        axis.text=element_text(size=10),
+        axis.text=element_text(size=12),
         axis.title=element_text(size=1)
         ) +
   scale_x_date(date_breaks = "5 years", date_labels = "%Y") +
   geom_text(aes(label = content),
             family = "serif",
-            size = 3.2,
-            hjust = -0.20)
+            size = 3.5,
+            hjust = -0.08)
 
 plot  
 

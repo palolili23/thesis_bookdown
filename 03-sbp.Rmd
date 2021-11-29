@@ -756,7 +756,7 @@ dementia_freemed %>%
 \newpage
 
 ```{r sbpt24, echo= FALSE, warning = FALSE, results='asis'}
-dementia_freemed %>%
+dementia_nohd %>%
   kable(booktabs = TRUE,
         caption = '(ref:sbpt24)',
                  align = "clcccc") %>%

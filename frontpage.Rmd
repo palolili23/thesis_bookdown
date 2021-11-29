@@ -1,35 +1,34 @@
+```{=latex}
 
-<!-- ```{r align='center', echo=FALSE} -->
-<!-- knitr::include_graphics(here::here("figs", "cover_draft.png")) # show thesis cover -->
-<!-- ``` -->
-\newpage
+\begin{center}
+\vspace{5mm}
+\title{\textbf{\Large Dementia Research \\ Under A Causal Inference Lense}}
 
-<center>
+\textit{\large Onderzoek naar dementie onder een causale inferentielens}
 
-**Dementia research under a causal inference lens**
+\vspace{10mm}
+\textbf{\large{Proefschrift}}\\
+\vspace{10mm}
+ter verkrijging van de graad van doctor aan de\\
+Erasmus Universiteit Rotterdam\\
+op gezag van de\\
+rector magnificus\\
+\vspace{10mm}
+Prof.dr. A.L. Bredenoord\\
+\vspace{10mm}
+en volgens besluit van het College voor Promoties.\\
+De openbare verdediging zal plaatsvinden op\\
+aangekondigd worden\\
+\vspace{10mm}
+door\\
+\vspace{10mm}
+Liliana Paloma Rojas Saunero\\
+geboren te La Paz, Bolivia. 
+\end{center}
 
-_Onderzoek naar dementie onder een causale inferentielens_
-
-
-**Thesis**
-
-
-to obtain the degree of Doctor from the   
-Erasmus University Rotterdam  
-by the command of the   
-Rector Magnificus  
-Prof. Dr. F.A. van der Duijn Schouten  
-and in accordance with the decision of the Doctorate Board 
-
-by  
-Liliana Paloma Rojas Saunero
-born in La Paz, Bolivia
-
-
-<!-- ```{r, echo=FALSE, warning=FALSE, out.width=c('2.25in','2.25in')} -->
-<!-- knitr::include_graphics(c("figs/eur1.png", "figs/eur2.png")) -->
-<!-- ``` -->
-
+\ThisLLCornerWallPaper{0.45}{eur_line.pdf}
+\ThisLRCornerWallPaper{0.4}{eur_logo.pdf}
+```  
 
 \newpage
 ```{=latex}

@@ -57,7 +57,7 @@ table5.1 %>%
     full_width = F,
     position = 'center',
     latex_options = "HOLD_position",
-    font_size = 8.5
+    font_size = 8
       ) %>%
   column_spec(1, width = "9cm") %>% 
     row_spec(0,0, bold = TRUE) %>%

@@ -34,13 +34,16 @@
 
 ## Pendientes de formato
 
-- los chaptermarkers se ven veos, o como hacer en doble linea o sacarlos de una
+- ponerle chaptmarks vacios
 
-- agregar el title page
+- sacarle las hojas que sobran (antes del sup cap 3, reducirle el largo del titulo)
 
-- sacarle las hojas que sobran
+- centrar flowchart chap 3
 
-- Hay simbolos que no estan saliendo bien
+
+- ver si le puedo poner negrillas a las tables
+
+- Hay simbolos que no estan saliendo bien 
 
 - Apoe4
 
