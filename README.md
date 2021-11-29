@@ -1,6 +1,6 @@
 ### Structure
 
-- title page FALTA
+- title page &#10004;&#65039;
 - 2 empty
 - 3 title, rector... logos &#10004;&#65039;
 - 4 doctoral committee and paranymphs &#10004;&#65039; 
@@ -25,7 +25,7 @@
 
 08-epilogue &#10004;&#65039;
 
-09-summary FALTA traduccion en ingles
+09-summary &#10004;&#65039;
 
 10-Appendix 
 - PhD Portfolio &#10004;&#65039;
@@ -36,16 +36,10 @@
 
 - ponerle chaptmarks vacios
 
-- sacarle las hojas que sobran (antes del sup cap 3, reducirle el largo del titulo)
-
 - centrar flowchart chap 3
-
 
 - ver si le puedo poner negrillas a las tables
 
-- Hay simbolos que no estan saliendo bien 
-
-- Apoe4
 
 
 
@@ -59,4 +53,8 @@ Me estan salvando la vida:
 
 - https://bookdown.org/yihui/bookdown/theming.html
 
+- https://es.overleaf.com/learn/latex/Headers_and_footers
+
 - https://stackoverflow.com/questions/40215141/bookdown-how-can-i-change-the-size-of-the-chapter-titles
+
+- https://stackoverflow.com/questions/49416492/latex-formulas-or-symbols-in-table-cells-using-knitr-and-kableextra-in-r-markdow

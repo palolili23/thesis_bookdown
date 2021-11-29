@@ -1,5 +1,5 @@
 # Towards a clearer causal question underlying the association between cancer and dementia {#chapter4}
-\chaptermark{Clearer causal questions for cancer and dementia association}
+\chaptermark{Causal question underlying cancer dementia association}
 
 \vspace*{\fill}
 

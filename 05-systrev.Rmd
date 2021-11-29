@@ -1,6 +1,6 @@
 # How are we counting the dead in dementia studies? {#chapter5}
 
-\chaptermark{Counting the death}
+\chaptermark{Counting the dead}
 
 \vspace*{\fill}
 

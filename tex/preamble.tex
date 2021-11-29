@@ -13,3 +13,14 @@
 \usepackage{wallpaper}
 \usepackage{froufrou}
 \usepackage{alphabeta}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt}
+% center of header
+\fancyhead[LO,RE]{\leftmark}
+% center of footer
+%\fancyfoot[CO,CE]{And this is a fancy footer}
+% page number on the left of even pages and right of odd pages
+\fancyfoot[CE,CO]{\thepage}

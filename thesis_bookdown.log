@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  29 NOV 2021 22:20
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  29 NOV 2021 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,40 +1036,40 @@ LaTeX Warning: Label `tab:statinst5' multiply defined.
 )
 \openout1 = `thesis_bookdown.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 112.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 112.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 112.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 112.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 112.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 112.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 123.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 112.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 123.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1095,7 +1095,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 112.
+(Font)              scaled to size 10.0pt on input line 123.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1127,15 +1127,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 112.
+(Font)              scaled to size 10.0pt on input line 123.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 112.
+(Font)              `operators' in the math version `normal' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 112.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 123.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 112.
+(Font)              `operators' in the math version `bold' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 112.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 123.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1214,13 +1214,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 112.
+(Font)              `symbols' in the math version `normal' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 112.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 123.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 112.
+(Font)              `symbols' in the math version `bold' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 112.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 123.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1281,14 +1281,14 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 112.
+(Font)              `largesymbols' in the math version `normal' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 112.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 123.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 112.
+(Font)              `largesymbols' in the math version `bold' on input line 123.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 112.
-Package hyperref Info: Link coloring OFF on input line 112.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 123.
+Package hyperref Info: Link coloring OFF on input line 123.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1298,9 +1298,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count498
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1394,35 +1394,35 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 112.
-Package biblatex Info: Reference segment=0 on input line 112.
+Package biblatex Info: Reference section=0 on input line 123.
+Package biblatex Info: Reference segment=0 on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
+(Font)              scaled to size 12.0pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 114.
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 114.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 114.
+(Font)              scaled to size 6.0pt on input line 125.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 125.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 114.
+(Font)              scaled to size 12.0011pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 114.
+(Font)              scaled to size 8.00073pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 114.
+(Font)              scaled to size 6.00055pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 114.
+(Font)              scaled to size 11.99872pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 114.
+(Font)              scaled to size 7.99915pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 114.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
+(Font)              scaled to size 5.99936pt on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
 (c:/Users/palol/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1434,13 +1434,13 @@ File: figs/eur_line.pdf Graphic file (type pdf)
 File: figs/eur_logo.pdf Graphic file (type pdf)
 <use figs/eur_logo.pdf>
 [2] [3]
-Underfull \hbox (badness 2846) in paragraph at lines 184--187
+Underfull \hbox (badness 2846) in paragraph at lines 196--199
 []\TU/lmr/bx/n/10 Rojas-Saunero L.P. []\TU/lmr/m/n/10 In the midst of two realities[]. \TU/lmr/m/it/10 Epidemiology.
  []
 
 [4]
-Package biblatex Info: Reference segment=1 on input line 190.
-Package biblatex Info: Setting label 'refsegment:01' on input line 190.
+Package biblatex Info: Reference segment=1 on input line 202.
+Package biblatex Info: Setting label 'refsegment:01' on input line 202.
 (./thesis_bookdown.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 5.
@@ -1468,8 +1468,8 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 ]
 Chapter 1.
-Package biblatex Info: Reference segment=2 on input line 193.
-Package biblatex Info: Setting label 'refsegment:02' on input line 193.
+Package biblatex Info: Reference segment=2 on input line 205.
+Package biblatex Info: Setting label 'refsegment:02' on input line 205.
 [9]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
@@ -1478,15 +1478,15 @@ File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png Graphic file (
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png>
 [17] [18] [19] [20]
 Chapter 2.
-Package biblatex Info: Reference segment=3 on input line 249.
-Package biblatex Info: Setting label 'refsegment:03' on input line 249.
+Package biblatex Info: Reference segment=3 on input line 261.
+Package biblatex Info: Setting label 'refsegment:03' on input line 261.
 [21
 
 ] [22] [23] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [25] [26]
-Underfull \hbox (badness 1590) in paragraph at lines 342--342
+Underfull \hbox (badness 1590) in paragraph at lines 354--354
 []\TU/lmr/m/n/10 For each outcome we fit a weighted pooled logistic regression model:
  []
 
@@ -1495,27 +1495,27 @@ Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=
 [30]
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
 [31] [32]
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 411.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 411.
+(Font)              scaled to size 7.5pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.24997pt on input line 411.
+(Font)              scaled to size 5.24997pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 3.75pt on input line 411.
+(Font)              scaled to size 3.75pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.50069pt on input line 411.
+(Font)              scaled to size 7.50069pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.25044pt on input line 411.
+(Font)              scaled to size 5.25044pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 3.75034pt on input line 411.
+(Font)              scaled to size 3.75034pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.49919pt on input line 411.
+(Font)              scaled to size 7.49919pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.2494pt on input line 411.
+(Font)              scaled to size 5.2494pt on input line 423.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 3.74959pt on input line 411.
+(Font)              scaled to size 3.74959pt on input line 423.
 
-Overfull \hbox (21.77359pt too wide) in paragraph at lines 411--446
+Overfull \hbox (21.77359pt too wide) in paragraph at lines 423--458
  [] 
  []
 
@@ -1526,7 +1526,7 @@ Overfull \vbox (15.68405pt too high) has occurred while \output is active []
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf>
 [34]
-Overfull \hbox (18.92813pt too wide) in paragraph at lines 478--542
+Overfull \hbox (18.92813pt too wide) in paragraph at lines 490--554
  [] 
  []
 
@@ -1535,18 +1535,18 @@ Overfull \vbox (98.77873pt too high) has occurred while \output is active []
 
 [35]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 553.
+(Font)              scaled to size 9.0pt on input line 565.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 553.
+(Font)              scaled to size 9.00082pt on input line 565.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 553.
+(Font)              scaled to size 8.99904pt on input line 565.
 
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 555--555
+Overfull \hbox (5.94788pt too wide) in paragraph at lines 567--567
 []|\TU/lmr/bx/n/9 Treatment 
  []
 
 [36]
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 582--582
+Overfull \hbox (5.94788pt too wide) in paragraph at lines 594--594
 []|\TU/lmr/bx/n/9 Treatment 
  []
 
@@ -1554,42 +1554,42 @@ Overfull \hbox (5.94788pt too wide) in paragraph at lines 582--582
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf>
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 616.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 628.
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf>
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 629.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 641.
 
 [39] [40] [41
 
 
 ] [42] [43] [44] [45] [46] [47] [48] [49]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 919--919
+Overfull \hbox (5.61678pt too wide) in paragraph at lines 931--931
  []|\TU/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 919--919
+Overfull \hbox (4.66478pt too wide) in paragraph at lines 931--931
  \TU/lmr/bx/n/8 initiators| 
  []
 
 [50
 
 ]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 955--955
+Overfull \hbox (5.61678pt too wide) in paragraph at lines 967--967
  []|\TU/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 955--955
+Overfull \hbox (4.66478pt too wide) in paragraph at lines 967--967
  \TU/lmr/bx/n/8 initiators| 
  []
 
 [51] [52
 
 ] [53] [54]
-Underfull \hbox (badness 1147) in paragraph at lines 1004--1004
+Underfull \hbox (badness 1147) in paragraph at lines 1016--1016
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
@@ -1597,85 +1597,179 @@ Underfull \hbox (badness 1147) in paragraph at lines 1004--1004
 
 ]
 Chapter 3.
-Package biblatex Info: Reference segment=4 on input line 1007.
-Package biblatex Info: Setting label 'refsegment:04' on input line 1007.
+Package biblatex Info: Reference segment=4 on input line 1019.
+Package biblatex Info: Setting label 'refsegment:04' on input line 1019.
 [59]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 60 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
 
-[60] [61]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 62 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[62] [63]
+[60]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[61]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[62]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[63]
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 64 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[64] [65]
+[64]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[65]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf1_test.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf1_test.pdf>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 66 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[66] [67]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 68 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+[66]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[67]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [68]
-Underfull \hbox (badness 6047) in paragraph at lines 1160--1162
+Underfull \hbox (badness 6047) in paragraph at lines 1172--1174
 \TU/lmr/m/n/10 GFORMULA macro that is publicly available at []$[][][][] [] [] [] [][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1160--1162
+Underfull \hbox (badness 2065) in paragraph at lines 1172--1174
 \TU/lmr/m/n/10 call for our primary analysis is available on the following repository
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [69]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 70 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
 
-[70] [71]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 72 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[72] [73
+[70]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[71]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[72]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[73
 
 ]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 74 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [74]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/stroke_cr.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/stroke_cr.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [75]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/dementia_cr.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/dementia_cr.png>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 76 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[76] [77
+[76]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[77
 
 ]
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1345--1345
+Overfull \hbox (5.27026pt too wide) in paragraph at lines 1357--1357
 []|\TU/lmr/bx/n/9 Sample 
  []
 
 
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1373--1373
+Overfull \hbox (5.27026pt too wide) in paragraph at lines 1385--1385
 []|\TU/lmr/bx/n/9 Sample 
  []
 
@@ -1683,56 +1777,104 @@ Overfull \hbox (5.27026pt too wide) in paragraph at lines 1373--1373
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 78 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [78
 
-] [79]
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[79]
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 80 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [80
 
 ]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [81]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 82 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[82] [83]
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 1420--1445
+[82]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[83]
+Overfull \hbox (35.99997pt too wide) in paragraph at lines 1432--1457
  [][] 
  []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 84 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [84]
 Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:mapping=tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [85]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 86 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [86]
-Overfull \hbox (19.54721pt too wide) in paragraph at lines 1506--1519
+Overfull \hbox (19.54721pt too wide) in paragraph at lines 1518--1531
  [][] 
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [87]
-Overfull \hbox (47.99997pt too wide) in paragraph at lines 1530--1555
+Overfull \hbox (47.99997pt too wide) in paragraph at lines 1542--1567
  [][] 
  []
 
@@ -1740,137 +1882,330 @@ Overfull \hbox (47.99997pt too wide) in paragraph at lines 1530--1555
 Overfull \vbox (32.14674pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 88 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [88]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf4.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf4.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [89]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf5.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/sbpf5.png>
 
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 90 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[90] [91
+[90]
 
-]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 92 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[92] [93]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 94 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[94] [95]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 96 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[96] [97]
-Overfull \hbox (11.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 98 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[98] [99]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 100 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[100] [101]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 102 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[102] [103]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 104 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[104] [105]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 106 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
-
-[106] [107
+[91
 
 ]
-Overfull \hbox (16.50893pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 108 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
 
-[108] [109]
-Overfull \hbox (16.50893pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 110 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[92]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[93]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[94]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[95]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[96]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[97]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[98]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[99]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[100]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[101]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[102]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[103]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[104]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[105]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[106]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[107
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[108]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[109]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [110]
-Underfull \hbox (badness 3240) in paragraph at lines 2089--2089
+Underfull \hbox (badness 3240) in paragraph at lines 2101--2101
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [111]
-Overfull \hbox (16.28253pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 112 \TU/lmr/m/sl/10 CHAPTER 3.  SYSTOLIC BLOOD PRESSURE, STROKE AND DEMENTIA
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [112]
 Chapter 4.
-Package biblatex Info: Reference segment=5 on input line 2092.
-Package biblatex Info: Setting label 'refsegment:05' on input line 2092.
+Package biblatex Info: Reference segment=5 on input line 2104.
+Package biblatex Info: Setting label 'refsegment:05' on input line 2104.
 [113
 
 ]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 114 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
 
-[114] [115]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[114]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[115]
 File: 04-cancer_files/figure-latex/cancerf1-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf1-1.pdf>
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 116 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [116]
 File: 04-cancer_files/figure-latex/cancerf2-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf2-1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [117]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 118 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [118]
 File: 04-cancer_files/figure-latex/cancerf3-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf3-1.pdf>
 File: 04-cancer_files/figure-latex/cancerf4-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf4-1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [119]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 120 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [120]
 File: 04-cancer_files/figure-latex/cancerf5-1.pdf Graphic file (type pdf)
 <use 04-cancer_files/figure-latex/cancerf5-1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
 [121]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 122 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
 
-[122] [123]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 124 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[124] [125]
-Overfull \hbox (8.2547pt too wide) in paragraph at lines 2293--2311
+[122]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[123]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[124]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[125]
+Overfull \hbox (8.2547pt too wide) in paragraph at lines 2305--2323
  [] 
  []
 
@@ -1878,84 +2213,159 @@ Overfull \hbox (8.2547pt too wide) in paragraph at lines 2293--2311
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 126 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[126] [127]
+[126]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[127]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf6.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf6.jpg>
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 128 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[128] [129
+[128]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[129
 
 
 ]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 130 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
 
-[130] [131]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 132 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[132] [133]
-Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
+[130]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[131]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[132]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[133]
+Underfull \hbox (badness 10000) in paragraph at lines 2480--2481
 
  []
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf7.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf7.jpg>
 
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 134 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [134]
-Underfull \hbox (badness 10000) in paragraph at lines 2484--2485
+Underfull \hbox (badness 10000) in paragraph at lines 2496--2497
 
  []
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf8.jpg Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/cancerf8.jpg>
-[135]
-Overfull \hbox (119.60695pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 136 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
 
-[136] [137]
-Underfull \hbox (badness 1163) in paragraph at lines 2499--2499
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[135]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[136]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[137]
+Underfull \hbox (badness 1163) in paragraph at lines 2511--2511
 [][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 2499--2499
+Underfull \hbox (badness 2310) in paragraph at lines 2511--2511
 \TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 2499--2499
+Underfull \hbox (badness 1642) in paragraph at lines 2511--2511
 \TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
  []
 
 
-Overfull \hbox (119.60695pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 138 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
-[138] [139]
-Overfull \hbox (119.59926pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 140 \TU/lmr/m/sl/10 CHAPTER 4.  CLEARER CAUSAL QUESTIONS FOR CANCER AND DEMENTIA ASSOCIATION
- []
+[138]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[139]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [140]
 Chapter 5.
-Package biblatex Info: Reference segment=6 on input line 2502.
-Package biblatex Info: Setting label 'refsegment:06' on input line 2502.
+Package biblatex Info: Reference segment=6 on input line 2514.
+Package biblatex Info: Setting label 'refsegment:06' on input line 2514.
 [141
 
 ] [142] [143]
@@ -1966,24 +2376,14 @@ Overfull \vbox (88.69873pt too high) has occurred while \output is active []
 
 [145] [146] [147] [148]
 Chapter 6.
-Package biblatex Info: Reference segment=7 on input line 2677.
-Package biblatex Info: Setting label 'refsegment:07' on input line 2677.
+Package biblatex Info: Reference segment=7 on input line 2689.
+Package biblatex Info: Setting label 'refsegment:07' on input line 2689.
 [149
 
 ] [150] [151] [152]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png>
-
-Overfull \hbox (350.83159pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 153
- []
-
-[153] [154]
-Overfull \hbox (350.83159pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.3.  FROM QUESTIONS TO METHODS IN DEMENTIA STUDIES WHERE SOME INDIVIDUALS DIE DURING STUDY: A PEDAGOGIC EXAMPLE \TU/lmr/m/n/10 155
- []
-
-[155] [156] [157] [158] [159]
+[153] [154] [155] [156] [157] [158] [159]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [160] [161]
@@ -1993,7 +2393,7 @@ File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf2.png Graphic file
 
 
 ] [164] [165] [166] [167] [168] [169]
-Underfull \hbox (badness 1147) in paragraph at lines 2960--2960
+Underfull \hbox (badness 1147) in paragraph at lines 2972--2972
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
@@ -2001,8 +2401,8 @@ Underfull \hbox (badness 1147) in paragraph at lines 2960--2960
 
 ]
 Chapter 7.
-Package biblatex Info: Reference segment=8 on input line 2963.
-Package biblatex Info: Setting label 'refsegment:08' on input line 2963.
+Package biblatex Info: Reference segment=8 on input line 2975.
+Package biblatex Info: Setting label 'refsegment:08' on input line 2975.
 [173] [174]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2016,117 +2416,117 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 [190] [191] [192] [193] [194] [195] [196] [197] [198]
-Underfull \hbox (badness 2393) in paragraph at lines 3062--3062
+Underfull \hbox (badness 2393) in paragraph at lines 3074--3074
 \TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3062--3062
+Underfull \hbox (badness 2205) in paragraph at lines 3074--3074
 \TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3062--3062
+Underfull \hbox (badness 1158) in paragraph at lines 3074--3074
 \TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
  []
 
 [199]
-Underfull \hbox (badness 1147) in paragraph at lines 3062--3062
+Underfull \hbox (badness 1147) in paragraph at lines 3074--3074
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
 [200] [201]
-Underfull \hbox (badness 3240) in paragraph at lines 3062--3062
+Underfull \hbox (badness 3240) in paragraph at lines 3074--3074
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
 [202] [203] [204]
 Chapter 8.
-Package biblatex Info: Reference segment=9 on input line 3065.
-Package biblatex Info: Setting label 'refsegment:09' on input line 3065.
+Package biblatex Info: Reference segment=9 on input line 3077.
+Package biblatex Info: Setting label 'refsegment:09' on input line 3077.
 [205
 
 ] [206]
-Underfull \hbox (badness 2478) in paragraph at lines 3088--3089
+Underfull \hbox (badness 2478) in paragraph at lines 3100--3101
 \TU/lmr/m/n/10 Estratégica para el Autocuidado Socio-Comunitario (Strategic Network
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 3088--3089
+Underfull \hbox (badness 1668) in paragraph at lines 3100--3101
 \TU/lmr/m/n/10 Socio-Comunitario”, []2020[]). We systematize collective experiences and
  []
 
 [207] [208]
 Chapter 9.
-Package biblatex Info: Reference segment=10 on input line 3097.
-Package biblatex Info: Setting label 'refsegment:010' on input line 3097.
+Package biblatex Info: Reference segment=10 on input line 3109.
+Package biblatex Info: Setting label 'refsegment:010' on input line 3109.
 [209
 
 ] [210] [211] [212] [213] [214
 
 ]
 Chapter 10.
-Package biblatex Info: Reference segment=11 on input line 3134.
-Package biblatex Info: Setting label 'refsegment:011' on input line 3134.
+Package biblatex Info: Reference segment=11 on input line 3146.
+Package biblatex Info: Setting label 'refsegment:011' on input line 3146.
 [215] [216] [217]
-Underfull \hbox (badness 1755) in paragraph at lines 3253--3255
+Underfull \hbox (badness 1755) in paragraph at lines 3265--3267
 []\TU/lmr/m/n/10 Heshmatollah A, Mutlu U, \TU/lmr/bx/n/10 Rojas-Saunero LP\TU/lmr/m/n/10 , Portegies MLP,
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 3259--3261
+Underfull \hbox (badness 1742) in paragraph at lines 3271--3273
 []\TU/lmr/m/n/10 van der Willik KD, \TU/lmr/bx/n/10 Rojas-Saunero LP.\TU/lmr/m/n/10 , Labrecque JA, Ikram
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 3259--3261
+Underfull \hbox (badness 2556) in paragraph at lines 3271--3273
 \TU/lmr/m/n/10 non pathology-confirmed cancer diagnoses: incidence, participant
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 3259--3261
+Underfull \hbox (badness 1430) in paragraph at lines 3271--3273
 \TU/lmr/m/n/10 characteristics, and survival[]. \TU/lmr/m/it/10 European Journal of Epidemiology.
  []
 
 [218] [219] [220] [221] [222
 
 ] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237]
-Underfull \hbox (badness 2393) in paragraph at lines 3293--3293
+Underfull \hbox (badness 2393) in paragraph at lines 3305--3305
 \TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3293--3293
+Underfull \hbox (badness 2205) in paragraph at lines 3305--3305
 \TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3293--3293
+Underfull \hbox (badness 1158) in paragraph at lines 3305--3305
 \TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
  []
 
 [238]
-Underfull \hbox (badness 1163) in paragraph at lines 3293--3293
+Underfull \hbox (badness 1163) in paragraph at lines 3305--3305
 [][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 3293--3293
+Underfull \hbox (badness 2310) in paragraph at lines 3305--3305
 \TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 3293--3293
+Underfull \hbox (badness 1642) in paragraph at lines 3305--3305
 \TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
  []
 
 [239]
-Underfull \hbox (badness 1147) in paragraph at lines 3293--3293
+Underfull \hbox (badness 1147) in paragraph at lines 3305--3305
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
 [240] [241] [242] [243]
-Underfull \hbox (badness 3240) in paragraph at lines 3293--3293
+Underfull \hbox (badness 3240) in paragraph at lines 3305--3305
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
@@ -2139,11 +2539,11 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41683 strings out of 478256
- 842221 string characters out of 5854459
- 2601701 words of memory out of 5000000
- 61526 multiletter control sequences out of 15000+600000
- 414029 words of font info for 127 fonts, out of 8000000 for 9000
+ 41680 strings out of 478256
+ 842123 string characters out of 5854459
+ 2601659 words of memory out of 5000000
+ 61525 multiletter control sequences out of 15000+600000
+ 414021 words of font info for 126 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,14n,146p,3289b,5414s stack positions out of 5000i,500n,10000p,200000b,80000s
 
