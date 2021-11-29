@@ -92,9 +92,9 @@ Individuals ages 55-70 years who reported smoking (current or former) and who di
 
 ### Methods
 
-To estimate the total effect of smoking cessation on dementia risk, we compared a weighted Aalen-Johannsen estimator in current versus former smokers with weights defined as a product of inverse probability of treatment weights[@whatif2020] to adjust for the following possible confounders: age, sex, APOE ε4 status, and educational attainment. Briefly, the weight for a current smoker is defined as the inverse of the probability of smoking conditional on confounders, and for a former smoker as the inverse of quitting conditional on covariates.  We estimated these probabilities with a logistic regression model for smoking as a function of the above-mentioned covariates.
+To estimate the total effect of smoking cessation on dementia risk, we compared a weighted Aalen-Johannsen estimator in current versus former smokers with weights defined as a product of inverse probability of treatment weights[@whatif2020] to adjust for the following possible confounders: age, sex, APOE $\varepsilon4$ carrier status, and educational attainment. Briefly, the weight for a current smoker is defined as the inverse of the probability of smoking conditional on confounders, and for a former smoker as the inverse of quitting conditional on covariates.  We estimated these probabilities with a logistic regression model for smoking as a function of the above-mentioned covariates.
 
-To estimate the controlled direct effect, we compared the complement of a weighted Kaplan-Meier survival estimator in smokers versus former smokers with time indexed in years. The weights in this case are time-varying by follow-up year, defined as a product of the time-fixed weights above and a year-specific inverse probability of censoring by death weights.  For an individual still alive in year _t_, the time _t_ censoring weight is the product of the inverse probability of surviving in each year prior to _t_, conditional on measured shared causes of death and dementia (that is, variables such as C in Figure \@ref(fig:crf1)). For an individual who has died by time _t_, the year _t_ censoring weight is zero. We estimated survival probabilities using a logistic regression model for death as a function of baseline and time-varying covariates. Baseline covariates included smoking status, age, sex, APOE ε4 status, and educational attainment; time-varying covariates included systolic blood pressure, BMI, and prevalent and incident comorbid heart disease, cancer, stroke, and diabetes. All modeling specifications and weights assessment are presented as Supplementary information.
+To estimate the controlled direct effect, we compared the complement of a weighted Kaplan-Meier survival estimator in smokers versus former smokers with time indexed in years. The weights in this case are time-varying by follow-up year, defined as a product of the time-fixed weights above and a year-specific inverse probability of censoring by death weights.  For an individual still alive in year _t_, the time _t_ censoring weight is the product of the inverse probability of surviving in each year prior to _t_, conditional on measured shared causes of death and dementia (that is, variables such as C in Figure \@ref(fig:crf1)). For an individual who has died by time _t_, the year _t_ censoring weight is zero. We estimated survival probabilities using a logistic regression model for death as a function of baseline and time-varying covariates. Baseline covariates included smoking status, age, sex, APOE $\varepsilon4$ carrier status, and educational attainment; time-varying covariates included systolic blood pressure, BMI, and prevalent and incident comorbid heart disease, cancer, stroke, and diabetes. All modeling specifications and weights assessment are presented as Supplementary information.
 
 We also estimated the total effect of smoking on mortality risk applying the Kaplan-Meier estimator with the weights calculated for handling confounding. We therefore are assuming the same set of measured confounders used to estimate the total effect of smoking on dementia risk are sufficient for addressing confounding of the total effect of smoking on mortality risk. Estimates of the total and controlled direct effect at 20 years of follow-up are presented as risk differences (RD) and risk ratios (RR). All 95% confidence intervals were calculated using percentile-based bootstrapping with 500 bootstrap samples. All analysis were performed using R.
 
@@ -199,7 +199,7 @@ A = smoking (0 = current, 1 = former)
 
 _Where:_
 
-A = smoking (0 = current, 1 = former); L = age at study entry with natural cubic splines, sex (women vs. men), education (five categories), apoe4 (four categories), cohort (two categories), and no product terms between covariates
+A = smoking (0 = current, 1 = former); L = age at study entry with natural cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories), and no product terms between covariates
 
 **Inverse probability of censoring weights for death**: 
 <br>
@@ -213,14 +213,14 @@ $$SW^C = \frac{f(C_{t+1}|C_t, Y_t, A, T)}{f(C_{t+1}|C_t, Y_t, A_t, T, V, L_t)}$$
 
 _Where:_
 
-D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (four categories), cohort (two categories) and no product terms between covariates
+D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories) and no product terms between covariates
 
 - **Denominator:** $Pr[D_{t+1} = 0|D_t = 0, Y_t = 0, A_t, T, V, L_t]$
 <br>
 
 _Where:_
 
-D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), apoe (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
+D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
 
 \newpage
 
