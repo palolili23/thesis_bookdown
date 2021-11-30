@@ -96,11 +96,6 @@ We defined baseline as the date of recruitment in the Rotterdam Study for indivi
 
 \newpage
 
-```{=latex}
-\vspace{30mm}
-
-```
-
 ```{r sbpf1, echo=FALSE, fig.cap = '(ref:sbpf1)', auto_pdf = TRUE, fig.align='center', fig.pos= 'H', out.width = '100%'}
 knitr::include_graphics(here::here("figs", "sbpf1_test.png"))
 ```
