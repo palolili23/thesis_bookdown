@@ -10,6 +10,7 @@
 _This chapter has been submitted as_: Rojas-Saunero L.P., van der Willik K.D., Schagen S.B., Ikram M. A., Swanson S.A. Towards a clearer causal question underlying the association between cancer and dementia.
 \newpage
 \normalsize
+\thispagestyle{empty}
 
 ```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)
@@ -282,7 +283,7 @@ table4.1 %>%
     add_indent(c(4:7, 9:11, 13:15)) %>% 
   footnote(general = legend4.1, threeparttable = TRUE)
 ```
-(ref:cancert1) Characteristics of cohort at baseline (n = 3634)
+(ref:cancert1) Characteristics of cohort at baseline
 
 ```{r cancert2, echo= FALSE, warning = FALSE, results='asis'}
 table4.2 %>%

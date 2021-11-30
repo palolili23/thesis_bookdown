@@ -1,5 +1,7 @@
 # Summary / Samenvatting {#chapter9}
 
+\newpage
+
 ## English Summary
 
 Given the large burden of dementia affecting the population worldwide, major research efforts are taking place to identify ways to prevent and delay the onset of dementia. Several potential targets of intervention have been proposed, mostly based on large observational data, though findings have been sometimes contradictory. The aim of this thesis was to study the effect of different potential targets of intervention related to dementia prevention that have had controversial results in previous studies. To this matter, I overcame previous methodological challenges and frequent sources of bias by implementing causal inference theory and corresponding methods, such as target trial emulation and application of methods that take into account time-varying confounding feedback. To do so, I used data collected for the Rotterdam Study, a population-based cohort with rich longitudinal data assessment for over 20 years.

@@ -11,6 +11,7 @@
 _This chapter has been submitted as_: Rojas-Saunero L.P., Young J.G, Didelez V., Ikram M. A., Swanson S.A. Choosing questions before methods in dementia research with competing events and causal goals.
 \newpage
 \normalsize
+\thispagestyle{empty}
 
 ```{r call_tables_sbp, echo = FALSE, warning=FALSE, message = FALSE}
 library(knitr)
