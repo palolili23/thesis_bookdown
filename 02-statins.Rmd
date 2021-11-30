@@ -189,7 +189,7 @@ Of the 622 initiators, 63 developed dementia and 225 died or developed dementia 
 ```{r statinsf1, echo=FALSE, fig.cap = '(ref:statinsf1)', auto_pdf = TRUE, fig.show='asis', fig.align='center', out.width = "85%"}
 knitr::include_graphics(here::here("figs", "statinsf1_test.png"))
 ```
-(ref:statinsf1) Flowchart of person-trials in the modified intention-to-treat analysis
+(ref:statinsf1) **Flowchart of person-trials in the modified intention-to-treat analysis**
 
 \newpage
 
@@ -399,17 +399,17 @@ table2e2 %>%
 
 #### Distribution of inverse probability weights for estimation of the per-protocol effect of statin use on dementia {-}
 
-                                    100% Max       8.82404E+09
-                                    99%            7.84237E+00
-                                    95%            2.44104E+00
-                                    90%            1.78096E+00
-                                    75% Q3         1.31107E+00
-                                    50% Median     1.10539E+00
-                                    25% Q1         1.02265E+00
-                                    10%            1.00000E+00
-                                    5%             1.00000E+00
-                                    1%             1.00000E+00
-                                    0% Min         1.00000E+00
+    100% Max       8.82404E+09
+    99%            7.84237E+00
+    95%            2.44104E+00
+    90%            1.78096E+00
+    75% Q3         1.31107E+00
+    50% Median     1.10539E+00
+    25% Q1         1.02265E+00
+    10%            1.00000E+00
+    5%             1.00000E+00
+    1%             1.00000E+00
+    0% Min         1.00000E+00
 
 
 \newpage

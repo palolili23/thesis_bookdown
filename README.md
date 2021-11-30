@@ -32,16 +32,6 @@
 - CV &#10004;&#65039;
 - Acknowledgements FALTA
 
-## Pendientes de formato
-
-- ponerle chaptmarks vacios
-
-- centrar flowchart chap 3
-
-- ver si le puedo poner negrillas a las tables
-
-
-
 
 Me estan salvando la vida:
 

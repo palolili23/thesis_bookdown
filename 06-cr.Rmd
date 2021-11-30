@@ -54,7 +54,7 @@ The causal diagram in Figure \@ref(fig:crf1) represents some key features of thi
 ```{r crf1, fig.cap= '(ref:crf1)', echo = FALSE, fig.align = 'center', fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "crf1.png"))
 ```
-(ref:crf1) A causal directed acyclic graph representing some key causal features of the data structure. Smoking represents the exposure status (quit smoking vs. continue smoking), Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia by 20 years of follow-up, respectively. C represents possible shared causes of dementia and death (such as cardiovascular comorbidities, that may or may not be measured). The key relations are: 1) smoking may independently affect both the risk of dementia and death over time through different mechanisms; 2) dying over the first 19 years of follow-up (without prior onset of dementia) determines that the indicator of dementia at 20 years of follow-up is zero (the bold arrow representing this key determinism induced by competing events); and 3) dementia and death can have shared causes.
+(ref:crf1) **Causal directed acyclic graph representing key causal features of the data structure.** Smoking represents the exposure status (quit smoking vs. continue smoking), Death~19~ and Dementia~20~ represent indicators of death by 19 years of follow-up and dementia by 20 years of follow-up, respectively. C represents possible shared causes of dementia and death (such as cardiovascular comorbidities, that may or may not be measured). The key relations are: 1) smoking may independently affect both the risk of dementia and death over time through different mechanisms; 2) dying over the first 19 years of follow-up (without prior onset of dementia) determines that the indicator of dementia at 20 years of follow-up is zero (the bold arrow representing this key determinism induced by competing events); and 3) dementia and death can have shared causes.
 
 ### Choosing a causal question: the total and controlled direct effect
 
@@ -153,7 +153,7 @@ table6.2 %>%
 ```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE, fig.align="center", fig.show = 'asis'}
 knitr::include_graphics(here::here("figs", "crf2.png"))
 ```
-(ref:crf2) Risk of dementia and death by smoking cessation status over 20 years of follow-up. Panel A represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel B represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs. quit smoking. Panel C represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs. quit smoking.
+(ref:crf2) **Risk of dementia and death by smoking cessation status over 20 years of follow-up.** **Panel A** represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs. quit smoking. **Panel B** represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs. quit smoking. **Panel C** represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs. quit smoking.
 
 ```{=latex}
 \elandscape
@@ -220,12 +220,12 @@ _Where:_
 
 D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes); T = year with natural cubic splines; V = age at study entry with cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories) and no product terms between covariates
 
-- **Denominator:** $Pr[D_{t+1} = 0|D_t = 0, Y_t = 0, A_t, T, V, L_t]$
+- **Denominator:** $Pr[C_{t+1} = 0|C_t = 0, Y_t = 0, A_t, T, V, L_t]$
 <br>
 
 _Where:_
 
-D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories); L = prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
+D = death (0 = no, 1 = yes); A = smoking (0 = current, 1 = former); Y = dementia diagnosis (0 = no, 1 = yes);  V = age at study entry with cubic splines, sex (women vs. men), education (five categories), APOE $\varepsilon4$ carrier status (four categories), cohort (two categories), prevalent diabetes (yes, no), baseline blood pressure with cubic splines, baseline BMI with cubic splines, prevalent hypertension (yes, no), L = indicator for incident cancer (yes, no), incident heart disease (yes, no), incident diabetes (yes, no) and incident stroke (yes, no) and no product terms between covariates
 
 \newpage
 

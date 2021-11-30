@@ -211,7 +211,8 @@ table3.4 <- tibble::tribble(
   "1.05 (0.9, 1.16)",
   "0.4 (-0.9, 1.6)")
 
-legend3.4 <- "SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, dementia or cancer."
+legend3.4 <-
+  "SBP: Systolic blood pressure (mmHg). Estimates were based using the parametric g-formula with fixed covariates: age, sex, education, systolic blood pressure, history of diabetes and history of heart disease at baseline; and time-varying covariates: visit process, smoking status, systolic blood pressure, body mass index, hypertension medication, total cholesterol and diagnosis of diabetes, heart disease, Parkinson disease, Parkinsonism, transient ischemic attack, dementia or cancer"
 
 
 ## Supplementary -----------------------------------------------------------

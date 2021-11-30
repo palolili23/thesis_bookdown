@@ -5,7 +5,7 @@
 
 table5.1 <- tibble::tribble(
   ~ Characteristics,
-  ~ `N.(%)`,
+  ~ `N (%)`,
   "Exposure type",
   NA,
   "Time-fixed or time-varying measured at one time point",

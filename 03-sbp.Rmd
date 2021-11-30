@@ -460,7 +460,7 @@ stroke2 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 12.0%.")
 ```
-(ref:sbpt9) **Death as a censored event**
+(ref:sbpt9) Death as a censored event
 
 \newpage
 
@@ -482,7 +482,7 @@ stroke3 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 36.4%.")
 ```
-(ref:sbpt10) **Stroke and death as combined outcome**
+(ref:sbpt10) Stroke and death as combined outcome
 
 \newpage
 
@@ -504,7 +504,7 @@ stroke4 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 6.1%.")
 ```
-(ref:sbpt11) **Under 65 years subgroup**
+(ref:sbpt11) Under 65 years subgroup
 
 \newpage
 
@@ -526,7 +526,7 @@ stroke5 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 14.0%.")
 ```
-(ref:sbpt12) **Above 65 years and below 80 years subgroup**
+(ref:sbpt12) Above 65 years and below 80 years subgroup
 
 \newpage
 
@@ -548,7 +548,7 @@ stroke_women %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 9.2 %")
 ```
-(ref:sbpt13) **Women subgroup**
+(ref:sbpt13) Women subgroup
 
 \newpage
 
@@ -570,7 +570,7 @@ stroke_men %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 11.6 %.")
 ```
-(ref:sbpt14) **Men subgroup**
+(ref:sbpt14) Men subgroup
 
 \newpage
 
@@ -592,7 +592,7 @@ stroke_freemed %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.8 %.")
 ```
-(ref:sbpt15) **Without hypertension medication at baseline subgroup**
+(ref:sbpt15) Without hypertension medication at baseline subgroup
 
 \newpage
 
@@ -614,7 +614,7 @@ stroke_nohd %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 9.9%.")
 ```
-(ref:sbpt16) **No history of heart disease at baseline subgroup**
+(ref:sbpt16) No history of heart disease at baseline subgroup
 
 \newpage
 
@@ -638,7 +638,7 @@ dementia2 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 10.8%.")
 ```
-(ref:sbpt17) **Death as a censored event**  
+(ref:sbpt17) Death as a censored event
 
 \newpage
 
@@ -660,7 +660,7 @@ dementia3 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 36.7%.")
 ```
-(ref:sbpt18) **Dementia and death as combined outcome**
+(ref:sbpt18) Dementia and death as combined outcome
 
 \newpage
 
@@ -682,7 +682,7 @@ dementia4 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 3.2%.")
 ```
-(ref:sbpt19) **Under 65 years subgroup**
+(ref:sbpt19) Under 65 years subgroup
 
 \newpage
 
@@ -704,7 +704,7 @@ dementia5 %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 14.1%.")
 ```
-(ref:sbpt20) **Above 65 years and below 80 years subgroup**
+(ref:sbpt20) Above 65 years and below 80 years subgroup
 
 \newpage
 
@@ -726,7 +726,7 @@ dementia_women %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 10.7%.")
 ```
-(ref:sbpt21) **Women subgroup**
+(ref:sbpt21) Women subgroup
 
 \newpage
 
@@ -748,7 +748,7 @@ dementia_men %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 6.7%.")
 ```
-(ref:sbpt22) **Men subgroup**
+(ref:sbpt22) Men subgroup
 
 \newpage
 
@@ -770,7 +770,7 @@ dementia_freemed %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.6%.")
 ```
-(ref:sbpt23) **Without hypertension medication at baseline subgroup**
+(ref:sbpt23) Without hypertension medication at baseline subgroup
 
 \newpage
 
@@ -792,7 +792,7 @@ dementia_nohd %>%
     row_spec(0,0, bold = TRUE) %>%
   footnote(general = "The observed risk at 15 years is 8.6%.")
 ```
-(ref:sbpt24) **Free of heart disease at baseline subgroup**
+(ref:sbpt24) Free of heart disease at baseline subgroup
 
 \elandscape
 \newpage
