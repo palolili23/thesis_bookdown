@@ -32,6 +32,18 @@
 - CV &#10004;&#65039;
 - Acknowledgements FALTA
 
+<<<<<<< HEAD
+=======
+## Pendientes
+
+- ver si le puedo poner negrillas a las tables (o sacarle a todas)
+
+- revisar comentarios discusion
+
+- agregar una página entre el título y el title page
+
+
+>>>>>>> main
 
 Me estan salvando la vida:
 
