@@ -32,14 +32,13 @@
 - CV &#10004;&#65039;
 - Acknowledgements FALTA
 
-## Pendientes de formato
+## Pendientes
 
-- ponerle chaptmarks vacios
+- ver si le puedo poner negrillas a las tables (o sacarle a todas)
 
-- centrar flowchart chap 3
+- revisar comentarios discusion
 
-- ver si le puedo poner negrillas a las tables
-
+- agregar una página entre el título y el title page
 
 
 
