@@ -150,7 +150,7 @@ table6.2 %>%
 \blandscape
 ```
 
-```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE, fig.align="center", fig.show = 'asis'}
+```{r crf2, fig.cap= '(ref:crf2)', echo = FALSE, fig.align="center", fig.show = 'asis', out.width="100%"}
 knitr::include_graphics(here::here("figs", "crf2.png"))
 ```
 (ref:crf2) **Risk of dementia and death by smoking cessation status over 20 years of follow-up.** **Panel A** represents the cause-specific cumulative incidence or crude risk of dementia over 20 years of follow-up had participants continued smoking vs. quit smoking. **Panel B** represents the marginal cumulative incidence or net risk of dementia (had death was eliminated) over 20 years of follow-up had participants continued smoking vs. quit smoking. **Panel C** represents the risk of all-cause mortality over 20 years of follow-up had participants continued smoking vs. quit smoking.

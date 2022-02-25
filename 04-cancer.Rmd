@@ -306,7 +306,7 @@ table4.2 %>%
 \newpage
 \blandscape
 
-```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)', fig.align = 'center', fig.show = 'asis'}
+```{r cancerf6, echo=FALSE, fig.cap = '(ref:cancerf6)', fig.align = 'center', fig.show = 'asis', out.width="100%"}
 knitr::include_graphics(here::here("figs", "cancerf6.jpg"))
 ```
 (ref:cancerf6) **Risk of dementia under elimination of death over 20 years of follow-up by cancer diagnosis status.** Panel A. represents the scenario where cancer was considered as “ever vs. never”. Panel B. represents the scenario where cancer was considered as a time-varying proxy.
@@ -428,7 +428,7 @@ D = death (0 = no, 1 = yes); Y = dementia diagnosis (0 = no, 1 = yes); ; A = can
 
 \par\vspace{2cm}\
 
-```{r cancerf7, echo=FALSE, fig.cap = '(ref:cancerf7)', fig.align='center'}
+```{r cancerf7, echo=FALSE, fig.cap = '(ref:cancerf7)', fig.align='center', out.width="100%"}
 knitr::include_graphics(here::here("figs", "cancerf7.jpg"))
 ```
 (ref:cancerf7) **Distribution of participants under each health status, by age over follow-up**
@@ -436,7 +436,7 @@ knitr::include_graphics(here::here("figs", "cancerf7.jpg"))
 \newpage
 \par\vspace{2cm}\
 
-```{r cancerf8, echo=FALSE, fig.cap = '(ref:cancerf8)', fig.align='center'}
+```{r cancerf8, echo=FALSE, fig.cap = '(ref:cancerf8)', fig.align='center', out.width="100%"}
 knitr::include_graphics(here::here("figs", "cancerf8.jpg"))
 ```
 (ref:cancerf8) **Causes of death defined by ICD-10 codes for participants who died prior to dementia diagnosis.** Information on vital status and cause – specific mortality is obtained continuously from the municipal authorities in Rotterdam. General practitioners in the research area report incident events by means of a computerized system, covering 78.8 % of the cohort. General practitioners without the computerized system are requested to notify new events annually. Trained research assistants subsequently collect information from medical records of the general practitioners, hospitals, and nursing homes. Two research physicians independently classify the events according to the ICPC and ICD-10 coding systems. Thereafter, a medical expert in the field reviews all coded events.

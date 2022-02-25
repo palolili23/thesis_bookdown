@@ -228,14 +228,14 @@ table3.3 %>%
 
 \newpage
 
-```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf2)', fig.align='center', fig.pos= 'H'}
+```{r sbpf2, echo=FALSE, fig.cap = '(ref:sbpf2)', fig.align='center', fig.pos= 'H', out.width="100%"}
 knitr::include_graphics(here::here("figs", "stroke_cr.png"))
 ```
 (ref:sbpf2) **Panel A.** Risk of stroke under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
 
 \newpage
 
-```{r sbpf3, echo=FALSE, fig.cap = '(ref:sbpf3)', fig.align='center', fig.pos= 'H'}
+```{r sbpf3, echo=FALSE, fig.cap = '(ref:sbpf3)', fig.align='center', fig.pos= 'H', out.width="100%"}
 knitr::include_graphics(here::here("figs", "dementia_cr.png"))
 ```
 (ref:sbpf3) **Panel A.** Risk of dementia under the natural course and under the joint intervention: Reduce SBP by 20% if above 140 mmHg and quit smoking at 15 years of follow-up. **Panel B.** Risk of death as a competing event under the same interventions.
@@ -423,7 +423,7 @@ table3e3b %>%
 
 #### Outcome: Stroke {-}
 
-```{r sbpf4, echo=FALSE, fig.cap = '(ref:sbpf4)', fig.align = 'center', fig.show = 'asis'}
+```{r sbpf4, echo=FALSE, fig.cap = '(ref:sbpf4)', fig.align = 'center', fig.show = 'asis', out.width="100%"}
 knitr::include_graphics(here::here("figs", "sbpf4.png"))
 ```
 (ref:sbpf4) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.
@@ -432,7 +432,7 @@ knitr::include_graphics(here::here("figs", "sbpf4.png"))
 
 #### Outcome: Dementia {-}
 
-```{r sbpf5, echo=FALSE, fig.cap = '(ref:sbpf5)', fig.align = 'center', fig.show = 'asis'}
+```{r sbpf5, echo=FALSE, fig.cap = '(ref:sbpf5)', fig.align = 'center', fig.show = 'asis', out.width="100%"}
 knitr::include_graphics(here::here("figs", "sbpf5.png"))
 ```
 (ref:sbpf5) Time is represented in X axis, the difference between mean predicted values and mean observed values is represented in the Y axis. Each plot represents each co-variate included in the g-formula.

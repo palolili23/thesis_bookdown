@@ -275,7 +275,7 @@ table2.3 %>%
 \newpage
 \blandscape
 
-```{r statinsf2, echo=FALSE, fig.cap = '(ref:statinsf2)', fig.align='center', auto_pdf = TRUE}
+```{r statinsf2, echo=FALSE, fig.cap = '(ref:statinsf2)', out.width="100%", fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf2.png"))
 ```
 
@@ -283,7 +283,7 @@ knitr::include_graphics(here::here("figs", "statinsf2.png"))
 
 \newpage
 
-```{r statinsf3, echo=FALSE, fig.cap = '(ref:statinsf3)', fig.align='center', auto_pdf = TRUE}
+```{r statinsf3, echo=FALSE, fig.cap = '(ref:statinsf3)', out.width="100%", fig.align='center', auto_pdf = TRUE}
 knitr::include_graphics(here::here("figs", "statinsf3.png"))
 ```
 
