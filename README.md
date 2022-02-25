@@ -32,8 +32,7 @@
 - CV &#10004;&#65039;
 - Acknowledgements FALTA
 
-<<<<<<< HEAD
-=======
+
 ## Pendientes
 
 - ver si le puedo poner negrillas a las tables (o sacarle a todas)
@@ -42,8 +41,10 @@
 
 - agregar una página entre el título y el title page
 
+- alinear los nombres del comite
 
->>>>>>> main
+- escribir los agradecimientos
+
 
 Me estan salvando la vida:
 
