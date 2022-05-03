@@ -30,23 +30,10 @@
 10-Appendix 
 - PhD Portfolio &#10004;&#65039;
 - CV &#10004;&#65039;
-- Acknowledgements FALTA
+- Acknowledgements &#10004;&#65039;
 
 
-## Pendientes
-
-- ver si le puedo poner negrillas a las tables (o sacarle a todas)
-
-- revisar comentarios discusion
-
-- agregar una página entre el título y el title page
-
-- alinear los nombres del comite
-
-- escribir los agradecimientos
-
-
-Me estan salvando la vida:
+Resources:
 
 - https://github.com/lcreteig/thesis
 
