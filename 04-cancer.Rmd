@@ -57,10 +57,10 @@ In the observational setting, confounding could explain the observed association
 \begin{tikzpicture}[node distance=2cm]
 \node (p) {$P_t$};
 \node [above of = p, yshift = -0.8cm, xshift = -1cm](l) {$L_1$};
-\node [below of = p, yshift = 1cm] (pstar) {$C_t$};
+\node [gray!30, below of = p, yshift = 1cm] (pstar) {$C_t$};
 \node [gray!30, right of = p] (dp) {$D_{t+1}$};
-\node [right of = dp] (p2) {$P_{t+1}$};
-\node [below of = p2, yshift = 1cm] (pstar2) {$C_{t+1}$};
+\node [gray!30, right of = dp] (p2) {$P_{t+1}$};
+\node [gray!30, below of = p2, yshift = 1cm] (pstar2) {$C_{t+1}$};
 \node [gray!30, right of = p2] (dp2) {$D_{t+k}$};
 \node [right of = dp2] (y) {$Y_{t+k}$};
 \node [gray!30, below of = dp2, yshift = 1cm, xshift = +1cm](cd) {$L_2$};
@@ -73,13 +73,13 @@ In the observational setting, confounding could explain the observed association
 \draw[gray!30, ->] (cd) -- (y);
 \draw[gray!30, ->] (l) to [out=0,in=90, looseness=0.4] (dp2);
 \draw[gray!30, ->] (pstar2) -- (dp2);
-\draw[->] (p) to (pstar);
+\draw[gray!30, ->] (p) to (pstar);
 \draw[->] (l) -- (p);
 \draw[->, semithick] (p) to [out=+45,in=+135, looseness=0.3] (y);
-\draw[->] (p2) to (pstar2);
-\draw[->] (l) -- (p2);
+\draw[gray!30, ->] (p2) to (pstar2);
+\draw[gray!30, ->] (l) -- (p2);
 \draw[->] (l) to [out=0,in=90, looseness=0.4] (y);
-\draw[->, semithick] (p2) to [out=+45,in=+135, looseness=0.3] (y);
+\draw[gray!30, ->, semithick] (p2) to [out=+45,in=+135, looseness=0.3] (y);
 \end{tikzpicture}
 ```
 (ref:cancerf1) **Causal directed acyclic graph highlighting confounding of the potential effect of Pin1 on risk of dementia.** Pin1 at time $t$ is represented as $P_t$; dementia at time $t+k$ is represented as $Y_{t+k}$; $L_1$ represents shared causes of Pin1 and dementia, such as smoking. To isolate the effect of $P_t$ on $Y_{t+k}$ we need to block the backdoor path $Y_{t+k} \leftarrow L_1 \rightarrow P_t$. Gray nodes and arrows are described progressively in Figures \@ref(fig:cancerf1) to \@ref(fig:cancerf5).
