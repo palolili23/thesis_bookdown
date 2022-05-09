@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  4 MAY 2022 08:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  9 MAY 2022 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1494,31 +1494,34 @@ Underfull \hbox (badness 1509) in paragraph at lines 31--31
 Chapter 1.
 Package biblatex Info: Reference segment=2 on input line 241.
 Package biblatex Info: Setting label 'refsegment:02' on input line 241.
-[11] [12] [13] [14] [15] [16] [17]
+[11]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[12] [13] [14] [15] [16] [17]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/rs.png>
 [18]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 294.
+(Font)              scaled to size 7.0pt on input line 293.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 294.
+(Font)              scaled to size 10.00092pt on input line 293.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 294.
+(Font)              scaled to size 7.00064pt on input line 293.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 294.
+(Font)              scaled to size 9.99893pt on input line 293.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 294.
-[19] [20] [21] [22
-
-]
+(Font)              scaled to size 6.99925pt on input line 293.
+[19] [20] [21] [22]
 Chapter 2.
-Package biblatex Info: Reference segment=3 on input line 297.
-Package biblatex Info: Setting label 'refsegment:03' on input line 297.
-[23] [24] [25] [26]
+Package biblatex Info: Reference segment=3 on input line 296.
+Package biblatex Info: Setting label 'refsegment:03' on input line 296.
+[23
+
+] [24] [25] [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [27] [28]
-Underfull \hbox (badness 1590) in paragraph at lines 393--393
+Underfull \hbox (badness 1590) in paragraph at lines 392--392
 []\TU/lmr/m/n/10 For each outcome we fit a weighted pooled logistic regression model:
  []
 
@@ -1527,7 +1530,7 @@ Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=
 [32]
 Missing character: There is no ≥ (U+2265) in font [lmroman10-regular]:mapping=tex-text;!
 [33]
-Overfull \hbox (7.29788pt too wide) in paragraph at lines 483--483
+Overfull \hbox (7.29788pt too wide) in paragraph at lines 482--482
 []|\TU/lmr/m/n/9 Randomized 
  []
 
@@ -1535,37 +1538,37 @@ Overfull \hbox (7.29788pt too wide) in paragraph at lines 483--483
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf1_test.pdf>
 [36]
-Overfull \hbox (1.85631pt too wide) in alignment at lines 534--539
+Overfull \hbox (1.85631pt too wide) in alignment at lines 533--538
  [] [] [] 
  []
 
 
-Overfull \hbox (1.85631pt too wide) in alignment at lines 539--544
+Overfull \hbox (1.85631pt too wide) in alignment at lines 538--543
  [] [] [] 
  []
 
 
-Overfull \hbox (1.85631pt too wide) in alignment at lines 544--546
+Overfull \hbox (1.85631pt too wide) in alignment at lines 543--545
  [] [] [] 
  []
 
 
-Overfull \hbox (1.85631pt too wide) in alignment at lines 546--549
+Overfull \hbox (1.85631pt too wide) in alignment at lines 545--548
  [] [] [] 
  []
 
 
-Overfull \hbox (1.85631pt too wide) in alignment at lines 549--603
+Overfull \hbox (1.85631pt too wide) in alignment at lines 548--602
  [] [] [] 
  []
 
 [37] [38] [39]
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 626--626
+Overfull \hbox (5.94788pt too wide) in paragraph at lines 625--625
 []|\TU/lmr/bx/n/9 Treatment 
  []
 
 [40]
-Overfull \hbox (5.94788pt too wide) in paragraph at lines 653--653
+Overfull \hbox (5.94788pt too wide) in paragraph at lines 652--652
 []|\TU/lmr/bx/n/9 Treatment 
  []
 
@@ -1573,49 +1576,49 @@ Overfull \hbox (5.94788pt too wide) in paragraph at lines 653--653
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf2.pdf>
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 685.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 684.
 
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf Graphic file (type pdf)
 <use C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/statinsf3.pdf>
 
-LaTeX Warning: Float too large for page by 21.37718pt on input line 698.
+LaTeX Warning: Float too large for page by 21.37718pt on input line 697.
 
 [42] [43] [44
 
 
 ] [45] [46] [47] [48] [49] [50] [51] [52]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 988--988
+Overfull \hbox (5.61678pt too wide) in paragraph at lines 987--987
  []|\TU/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 988--988
+Overfull \hbox (4.66478pt too wide) in paragraph at lines 987--987
  \TU/lmr/bx/n/8 initiators| 
  []
 
 [53
 
 ]
-Overfull \hbox (5.61678pt too wide) in paragraph at lines 1024--1024
+Overfull \hbox (5.61678pt too wide) in paragraph at lines 1023--1023
  []|\TU/lmr/bx/n/8 Initiators| 
  []
 
 
-Overfull \hbox (4.66478pt too wide) in paragraph at lines 1024--1024
+Overfull \hbox (4.66478pt too wide) in paragraph at lines 1023--1023
  \TU/lmr/bx/n/8 initiators| 
  []
 
 [54] [55
 
 ] [56] [57]
-Underfull \hbox (badness 1147) in paragraph at lines 1073--1073
+Underfull \hbox (badness 1147) in paragraph at lines 1072--1072
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
 [58] [59] [60]
 Chapter 3.
-Package biblatex Info: Reference segment=4 on input line 1076.
-Package biblatex Info: Setting label 'refsegment:04' on input line 1076.
+Package biblatex Info: Reference segment=4 on input line 1075.
+Package biblatex Info: Setting label 'refsegment:04' on input line 1075.
 [61
 
 ] [62]
@@ -1686,12 +1689,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [70]
-Underfull \hbox (badness 6047) in paragraph at lines 1230--1232
+Underfull \hbox (badness 6047) in paragraph at lines 1229--1231
 \TU/lmr/m/n/10 GFORMULA macro that is publicly available at []$[][][][] [] [] [] [][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1230--1232
+Underfull \hbox (badness 2065) in paragraph at lines 1229--1231
 \TU/lmr/m/n/10 call for our primary analysis is available on the following repository
  []
 
@@ -1775,12 +1778,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [79
 
 ]
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (5.27026pt too wide) in paragraph at lines 1414--1414
 []|\TU/lmr/bx/n/9 Sample 
  []
 
 
-Overfull \hbox (5.27026pt too wide) in paragraph at lines 1443--1443
+Overfull \hbox (5.27026pt too wide) in paragraph at lines 1442--1442
 []|\TU/lmr/bx/n/9 Sample 
  []
 
@@ -1844,7 +1847,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [85]
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 1490--1515
+Overfull \hbox (35.99997pt too wide) in paragraph at lines 1489--1514
  [][] 
  []
 
@@ -1873,32 +1876,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [88]
-Overfull \hbox (19.54721pt too wide) in paragraph at lines 1576--1589
+Overfull \hbox (19.54721pt too wide) in paragraph at lines 1575--1588
  [][] 
  []
 
 
-Overfull \hbox (19.54721pt too wide) in alignment at lines 1595--1600
+Overfull \hbox (19.54721pt too wide) in alignment at lines 1594--1599
  [] [] [] [] 
  []
 
 
-Overfull \hbox (19.54721pt too wide) in alignment at lines 1600--1605
+Overfull \hbox (19.54721pt too wide) in alignment at lines 1599--1604
  [] [] [] [] 
  []
 
 
-Overfull \hbox (19.54721pt too wide) in alignment at lines 1605--1607
+Overfull \hbox (19.54721pt too wide) in alignment at lines 1604--1606
  [] [] [] [] 
  []
 
 
-Overfull \hbox (19.54721pt too wide) in alignment at lines 1607--1609
+Overfull \hbox (19.54721pt too wide) in alignment at lines 1606--1608
  [] [] [] [] 
  []
 
 
-Overfull \hbox (19.54721pt too wide) in alignment at lines 1609--1629
+Overfull \hbox (19.54721pt too wide) in alignment at lines 1608--1628
  [] [] [] [] 
  []
 
@@ -2102,7 +2105,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [112]
-Underfull \hbox (badness 3240) in paragraph at lines 2164--2164
+Underfull \hbox (badness 3240) in paragraph at lines 2163--2163
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
@@ -2123,8 +2126,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [114]
 Chapter 4.
-Package biblatex Info: Reference segment=5 on input line 2167.
-Package biblatex Info: Setting label 'refsegment:05' on input line 2167.
+Package biblatex Info: Reference segment=5 on input line 2166.
+Package biblatex Info: Setting label 'refsegment:05' on input line 2166.
 [115
 
 ] [116]
@@ -2226,7 +2229,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [127]
-Overfull \hbox (8.2547pt too wide) in paragraph at lines 2369--2387
+Overfull \hbox (8.2547pt too wide) in paragraph at lines 2368--2386
  [] 
  []
 
@@ -2302,7 +2305,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [135]
-Underfull \hbox (badness 10000) in paragraph at lines 2544--2545
+Underfull \hbox (badness 10000) in paragraph at lines 2543--2544
 
  []
 
@@ -2316,7 +2319,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [136]
-Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
+Underfull \hbox (badness 10000) in paragraph at lines 2559--2560
 
  []
 
@@ -2346,17 +2349,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
 
 [139]
-Underfull \hbox (badness 1163) in paragraph at lines 2575--2575
+Underfull \hbox (badness 1163) in paragraph at lines 2574--2574
 [][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 2575--2575
+Underfull \hbox (badness 2310) in paragraph at lines 2574--2574
 \TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 2575--2575
+Underfull \hbox (badness 1642) in paragraph at lines 2574--2574
 \TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
  []
 
@@ -2385,8 +2388,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [142]
 Chapter 5.
-Package biblatex Info: Reference segment=6 on input line 2578.
-Package biblatex Info: Setting label 'refsegment:06' on input line 2578.
+Package biblatex Info: Reference segment=6 on input line 2577.
+Package biblatex Info: Setting label 'refsegment:06' on input line 2577.
 [143
 
 ] [144] [145]
@@ -2396,8 +2399,8 @@ File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/systrevf1.png Graphic
 
 ]
 Chapter 6.
-Package biblatex Info: Reference segment=7 on input line 2762.
-Package biblatex Info: Setting label 'refsegment:07' on input line 2762.
+Package biblatex Info: Reference segment=7 on input line 2761.
+Package biblatex Info: Setting label 'refsegment:07' on input line 2761.
 [153] [154] [155] [156]
 File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png Graphic file (type bmp)
 <C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf1.png>
@@ -2411,7 +2414,7 @@ File: C:/Users/palol/OneDrive/Desktop/thesis_bookdown/figs/crf2.png Graphic file
 
 
 ] [168] [169] [170] [171] [172] [173]
-Underfull \hbox (badness 1147) in paragraph at lines 3046--3046
+Underfull \hbox (badness 1147) in paragraph at lines 3045--3045
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
@@ -2419,8 +2422,8 @@ Underfull \hbox (badness 1147) in paragraph at lines 3046--3046
 
 ]
 Chapter 7.
-Package biblatex Info: Reference segment=8 on input line 3049.
-Package biblatex Info: Setting label 'refsegment:08' on input line 3049.
+Package biblatex Info: Reference segment=8 on input line 3048.
+Package biblatex Info: Setting label 'refsegment:08' on input line 3048.
 [177] [178]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2431,117 +2434,117 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 [191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202]
-Underfull \hbox (badness 2393) in paragraph at lines 3148--3148
+Underfull \hbox (badness 2393) in paragraph at lines 3147--3147
 \TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3148--3148
+Underfull \hbox (badness 2205) in paragraph at lines 3147--3147
 \TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3148--3148
+Underfull \hbox (badness 1158) in paragraph at lines 3147--3147
 \TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
  []
 
 [203]
-Underfull \hbox (badness 1147) in paragraph at lines 3148--3148
+Underfull \hbox (badness 1147) in paragraph at lines 3147--3147
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
 [204] [205]
-Underfull \hbox (badness 3240) in paragraph at lines 3148--3148
+Underfull \hbox (badness 3240) in paragraph at lines 3147--3147
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
 [206] [207] [208]
 Chapter 8.
-Package biblatex Info: Reference segment=9 on input line 3151.
-Package biblatex Info: Setting label 'refsegment:09' on input line 3151.
+Package biblatex Info: Reference segment=9 on input line 3150.
+Package biblatex Info: Setting label 'refsegment:09' on input line 3150.
 [209
 
 ] [210]
-Underfull \hbox (badness 2478) in paragraph at lines 3174--3175
+Underfull \hbox (badness 2478) in paragraph at lines 3173--3174
 \TU/lmr/m/n/10 Estratégica para el Autocuidado Socio-Comunitario (Strategic Network
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 3174--3175
+Underfull \hbox (badness 1668) in paragraph at lines 3173--3174
 \TU/lmr/m/n/10 Socio-Comunitario”, []2020[]). We systematize collective experiences and
  []
 
 [211] [212]
 Chapter 9.
-Package biblatex Info: Reference segment=10 on input line 3183.
-Package biblatex Info: Setting label 'refsegment:010' on input line 3183.
+Package biblatex Info: Reference segment=10 on input line 3182.
+Package biblatex Info: Setting label 'refsegment:010' on input line 3182.
 [213
 
 ] [214] [215] [216] [217] [218]
 Chapter 10.
-Package biblatex Info: Reference segment=11 on input line 3222.
-Package biblatex Info: Setting label 'refsegment:011' on input line 3222.
+Package biblatex Info: Reference segment=11 on input line 3221.
+Package biblatex Info: Setting label 'refsegment:011' on input line 3221.
 [219
 
 ] [220] [221]
-Underfull \hbox (badness 1755) in paragraph at lines 3341--3343
+Underfull \hbox (badness 1755) in paragraph at lines 3340--3342
 []\TU/lmr/m/n/10 Heshmatollah A, Mutlu U, \TU/lmr/bx/n/10 Rojas-Saunero LP\TU/lmr/m/n/10 , Portegies MLP,
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 3347--3349
+Underfull \hbox (badness 1742) in paragraph at lines 3346--3348
 []\TU/lmr/m/n/10 van der Willik KD, \TU/lmr/bx/n/10 Rojas-Saunero LP.\TU/lmr/m/n/10 , Labrecque JA, Ikram
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 3347--3349
+Underfull \hbox (badness 2556) in paragraph at lines 3346--3348
 \TU/lmr/m/n/10 non pathology-confirmed cancer diagnoses: incidence, participant
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 3347--3349
+Underfull \hbox (badness 1430) in paragraph at lines 3346--3348
 \TU/lmr/m/n/10 characteristics, and survival[]. \TU/lmr/m/it/10 European Journal of Epidemiology.
  []
 
 [222] [223] [224] [225] [226] [227] [228
 
 ] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238] [239] [240] [241] [242] [243]
-Underfull \hbox (badness 2393) in paragraph at lines 3413--3413
+Underfull \hbox (badness 2393) in paragraph at lines 3412--3412
 \TU/lmr/m/n/10 ing HIV Program Effects: A Structural Approach to Context
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 3413--3413
+Underfull \hbox (badness 2205) in paragraph at lines 3412--3412
 \TU/lmr/m/n/10 Using the Transportability Framework. \TU/lmr/m/it/10 JAIDS Journal of Ac-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 3413--3413
+Underfull \hbox (badness 1158) in paragraph at lines 3412--3412
 \TU/lmr/m/it/10 quired Immune Deficiency Syndromes\TU/lmr/m/n/10 , \TU/lmr/m/it/10 82\TU/lmr/m/n/10 (3), S199–S205. []$[][][][][] []
  []
 
 [244]
-Underfull \hbox (badness 1163) in paragraph at lines 3413--3413
+Underfull \hbox (badness 1163) in paragraph at lines 3412--3412
 [][]\TU/lmr/m/n/10 Ording, A. G., Horváth-Puhó, E., Veres, K., Glymour, M. M., Rørth,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 3413--3413
+Underfull \hbox (badness 2310) in paragraph at lines 3412--3412
 \TU/lmr/m/n/10 risk of Alzheimer’s disease: Small association in a nationwide
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 3413--3413
+Underfull \hbox (badness 1642) in paragraph at lines 3412--3412
 \TU/lmr/m/n/10 cohort study. \TU/lmr/m/it/10 Alzheimer’s & Dementia\TU/lmr/m/n/10 , \TU/lmr/m/it/10 16\TU/lmr/m/n/10 (7), 953–964. []$[][][][][] []
  []
 
 [245]
-Underfull \hbox (badness 1147) in paragraph at lines 3413--3413
+Underfull \hbox (badness 1147) in paragraph at lines 3412--3412
 \TU/lmr/m/n/10 (2015). Statins, cognition, and dementia—systematic review and
  []
 
 [246] [247] [248] [249]
-Underfull \hbox (badness 3240) in paragraph at lines 3413--3413
+Underfull \hbox (badness 3240) in paragraph at lines 3412--3412
 [][]\TU/lmr/m/n/10 The SPRINT MIND Investigators for the SPRINT Research Group,
  []
 
@@ -2554,10 +2557,10 @@ Package logreq Info: Writing requests to 'thesis_bookdown.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41655 strings out of 478256
- 841015 string characters out of 5854459
- 2603090 words of memory out of 5000000
- 61512 multiletter control sequences out of 15000+600000
+ 41670 strings out of 478256
+ 841366 string characters out of 5854459
+ 2605204 words of memory out of 5000000
+ 61527 multiletter control sequences out of 15000+600000
  411092 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,14n,146p,3289b,5414s stack positions out of 5000i,500n,10000p,200000b,80000s
